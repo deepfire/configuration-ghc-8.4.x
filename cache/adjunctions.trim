@@ -1,0 +1,4 @@
+  adjunctions = overrideCabal super.adjunctions (drv: {
+    jailbreak       = true;
+  });
+

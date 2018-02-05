@@ -1,0 +1,5 @@
+  test-framework = overrideCabal super.test-framework (drv: {
+    doCheck         = false;
+    editedCabalFile = null;
+  });
+

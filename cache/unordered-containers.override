@@ -1,0 +1,11 @@
+  unordered-containers = overrideCabal super.unordered-containers (drv: {
+    ## Upstreamed, awaiting a Hackage release
+    ## 
+    src = pkgs.fetchFromGitHub {
+      owner  = "tibbe";
+      repo   = "unordered-containers";
+      rev    = "0a6b84ec103e28b73458f385ef846a7e2d3ea42f";
+      sha256 = "128q8k4py2wr1v0gmyvqvzikk6sksl9aqj0lxzf46763lis8x9my";
+    };
+  });
+

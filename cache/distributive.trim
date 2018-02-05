@@ -1,0 +1,4 @@
+  distributive = overrideCabal super.distributive (drv: {
+    doCheck         = false;
+  });
+

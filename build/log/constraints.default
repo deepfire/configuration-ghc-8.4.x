@@ -1,0 +1,133 @@
+these derivations will be built:
+  /nix/store/9gakpavf9bhd8r6mk32gd9rgc0am1ddj-constraints-0.9.1.drv
+building path(s) ‘/nix/store/hi9p8hd152fny52fzzfahjhyiz6c338z-constraints-0.9.1-doc’, ‘/nix/store/sb1lvzq14252khg2dp05d5mr9mawcxpf-constraints-0.9.1’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/0dwcrapzzbx2am38wj75462r27baqhbv-constraints-0.9.1.tar.gz
+source root is constraints-0.9.1
+setting SOURCE_DATE_EPOCH to timestamp 1489415711 of file constraints-0.9.1/src/Data/Constraint/Unsafe.hs
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-constraints-0.9.1.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-constraints-0.9.1.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/sb1lvzq14252khg2dp05d5mr9mawcxpf-constraints-0.9.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/hi9p8hd152fny52fzzfahjhyiz6c338z-constraints-0.9.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-constraints-0.9.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/sb1lvzq14252khg2dp05d5mr9mawcxpf-constraints-0.9.1/lib/ghc-8.4.20180122/constraints-0.9.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring constraints-0.9.1...
+Dependency base >=4.7 && <5: using base-4.11.0.0
+Dependency binary >=0.7.3 && <0.9: using binary-0.8.5.1
+Dependency deepseq >=1.3 && <1.5: using deepseq-1.4.3.0
+Dependency ghc-prim -any: using ghc-prim-0.5.2.0
+Dependency hashable ==1.2.*: using hashable-1.2.6.1
+Dependency mtl >=2 && <2.3: using mtl-2.2.2
+Dependency transformers >=0.2 && <0.6: using transformers-0.5.4.0
+Dependency transformers-compat >=0.4 && <1: using transformers-compat-0.5.1.4
+Source component graph: component lib
+Configured component graph:
+    component constraints-0.9.1-LAm3FBnaVBE15h1sQT4E0r
+        include base-4.11.0.0
+        include binary-0.8.5.1
+        include deepseq-1.4.3.0
+        include ghc-prim-0.5.2.0
+        include hashable-1.2.6.1-5tDx2TvFXjn5fV7x45JTHo
+        include mtl-2.2.2
+        include transformers-0.5.4.0
+        include transformers-compat-0.5.1.4-61NvmTIjhXiKH1MluR3Fq2
+Linked component graph:
+    unit constraints-0.9.1-LAm3FBnaVBE15h1sQT4E0r
+        include base-4.11.0.0
+        include binary-0.8.5.1
+        include deepseq-1.4.3.0
+        include ghc-prim-0.5.2.0
+        include hashable-1.2.6.1-5tDx2TvFXjn5fV7x45JTHo
+        include mtl-2.2.2
+        include transformers-0.5.4.0
+        include transformers-compat-0.5.1.4-61NvmTIjhXiKH1MluR3Fq2
+        Data.Constraint=constraints-0.9.1-LAm3FBnaVBE15h1sQT4E0r:Data.Constraint,Data.Constraint.Deferrable=constraints-0.9.1-LAm3FBnaVBE15h1sQT4E0r:Data.Constraint.Deferrable,Data.Constraint.Forall=constraints-0.9.1-LAm3FBnaVBE15h1sQT4E0r:Data.Constraint.Forall,Data.Constraint.Lifting=constraints-0.9.1-LAm3FBnaVBE15h1sQT4E0r:Data.Constraint.Lifting,Data.Constraint.Nat=constraints-0.9.1-LAm3FBnaVBE15h1sQT4E0r:Data.Constraint.Nat,Data.Constraint.Symbol=constraints-0.9.1-LAm3FBnaVBE15h1sQT4E0r:Data.Constraint.Symbol,Data.Constraint.Unsafe=constraints-0.9.1-LAm3FBnaVBE15h1sQT4E0r:Data.Constraint.Unsafe
+Ready component graph:
+    definite constraints-0.9.1-LAm3FBnaVBE15h1sQT4E0r
+        depends base-4.11.0.0
+        depends binary-0.8.5.1
+        depends deepseq-1.4.3.0
+        depends ghc-prim-0.5.2.0
+        depends hashable-1.2.6.1-5tDx2TvFXjn5fV7x45JTHo
+        depends mtl-2.2.2
+        depends transformers-0.5.4.0
+        depends transformers-compat-0.5.1.4-61NvmTIjhXiKH1MluR3Fq2
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.20180122
+Using install prefix:
+/nix/store/sb1lvzq14252khg2dp05d5mr9mawcxpf-constraints-0.9.1
+Executables installed in:
+/nix/store/sb1lvzq14252khg2dp05d5mr9mawcxpf-constraints-0.9.1/bin
+Libraries installed in:
+/nix/store/sb1lvzq14252khg2dp05d5mr9mawcxpf-constraints-0.9.1/lib/ghc-8.4.20180122/constraints-0.9.1
+Dynamic Libraries installed in:
+/nix/store/sb1lvzq14252khg2dp05d5mr9mawcxpf-constraints-0.9.1/lib/ghc-8.4.20180122/x86_64-linux-ghc-8.4.20180122
+Private executables installed in:
+/nix/store/sb1lvzq14252khg2dp05d5mr9mawcxpf-constraints-0.9.1/libexec/x86_64-linux-ghc-8.4.20180122/constraints-0.9.1
+Data files installed in:
+/nix/store/sb1lvzq14252khg2dp05d5mr9mawcxpf-constraints-0.9.1/share/x86_64-linux-ghc-8.4.20180122/constraints-0.9.1
+Documentation installed in:
+/nix/store/hi9p8hd152fny52fzzfahjhyiz6c338z-constraints-0.9.1-doc/share/doc
+Configuration files installed in:
+/nix/store/sb1lvzq14252khg2dp05d5mr9mawcxpf-constraints-0.9.1/etc
+No alex found
+Using ar found on system at:
+/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 6.4.0 given by user at:
+/nix/store/vmy9yzr09vmyq9k5nngf8lrhqmycffjy-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc
+Using ghc-pkg version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.18.2 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/w8ldqvmajj0zk2k201za0ng70ha14c8m-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/0m775vcmck56a48r88l1k8a5110khw1j-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/1jn750iav5rfbm05345ysi8dvxcz7j26-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing library for constraints-0.9.1..
+Building library for constraints-0.9.1..
+[1 of 7] Compiling Data.Constraint  ( src/Data/Constraint.hs, dist/build/Data/Constraint.o )
+
+src/Data/Constraint.hs:704:10: error:
+    • Could not deduce (Semigroup (Dict a))
+        arising from the superclasses of an instance declaration
+      from the context: a
+        bound by the instance declaration
+        at src/Data/Constraint.hs:704:10-29
+    • In the instance declaration for ‘Monoid (Dict a)’
+    |
+704 | instance a => Monoid (Dict a) where
+    |          ^^^^^^^^^^^^^^^^^^^^
+builder for ‘/nix/store/9gakpavf9bhd8r6mk32gd9rgc0am1ddj-constraints-0.9.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/9gakpavf9bhd8r6mk32gd9rgc0am1ddj-constraints-0.9.1.drv’ failed

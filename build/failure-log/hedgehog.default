@@ -1,0 +1,4 @@
+Setup: Encountered missing dependencies:
+template-haskell >=2.10 && <2.13
+builder for ‘/nix/store/l9h1y3aybxwf4v36l8ds3vz1sra6jp3r-hedgehog-0.5.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/l9h1y3aybxwf4v36l8ds3vz1sra6jp3r-hedgehog-0.5.1.drv’ failed

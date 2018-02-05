@@ -1,0 +1,4 @@
+  ChasingBottoms = overrideCabal super.ChasingBottoms (drv: {
+    jailbreak       = true;
+  });
+

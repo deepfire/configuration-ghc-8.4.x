@@ -1,0 +1,3 @@
+    • Could not deduce (Apply f)
+        arising from the superclasses of an instance declaration
+      from the context: (Contravariant f, Applicative f)

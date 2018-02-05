@@ -1,0 +1,4 @@
+Setup: Encountered missing dependencies:
+aeson >=0.9 && <0.12, base >=4.8 && <4.10, vector ==0.11.*
+builder for ‘/nix/store/fxy1f33z0c0p90q7dc97q5hxz7i7wp3h-lambdacube-ir-0.3.0.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/fxy1f33z0c0p90q7dc97q5hxz7i7wp3h-lambdacube-ir-0.3.0.1.drv’ failed

@@ -1,0 +1,4 @@
+Setup: Encountered missing dependencies:
+base >=4.5 && <4.11
+builder for ‘/nix/store/1wwqq67pinjj95fgqg13bchh0kbyrb83-these-0.7.4.drv’ failed with exit code 1
+error: build of ‘/nix/store/1wwqq67pinjj95fgqg13bchh0kbyrb83-these-0.7.4.drv’ failed

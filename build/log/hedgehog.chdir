@@ -1,0 +1,15 @@
+these derivations will be built:
+  /nix/store/1ahscdl0yxfshlaxgcmdbch3xi0m1fsn-hedgehog-0.5.1.drv
+building path(s) ‘/nix/store/15mdkpwcxfd8hdhd1hclds7i5wrdfk5b-hedgehog-0.5.1’, ‘/nix/store/sxii156lb3pnxvnzj9ymy221pzkj1saa-hedgehog-0.5.1-doc’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/118qs6jpq02mbzwjcfmbrqjmsf9i7vjc-source
+source root is source
+patching sources
+Run jailbreak-cabal to lift version restrictions on build inputs.
+jailbreak-cabal: dieVerbatim: user error (jailbreak-cabal: Error Parsing: file "hedgehog.cabal" doesn't exist. Cannot
+continue.
+)
+builder for ‘/nix/store/1ahscdl0yxfshlaxgcmdbch3xi0m1fsn-hedgehog-0.5.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/1ahscdl0yxfshlaxgcmdbch3xi0m1fsn-hedgehog-0.5.1.drv’ failed

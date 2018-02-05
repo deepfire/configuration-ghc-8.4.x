@@ -1,0 +1,4 @@
+Setup: Encountered missing dependencies:
+base >=4.5 && <4.11
+builder for ‘/nix/store/r3fx9f7ksp41wfn6cp4id3mzgv04pwij-quickcheck-instances-0.3.16.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/r3fx9f7ksp41wfn6cp4id3mzgv04pwij-quickcheck-instances-0.3.16.1.drv’ failed

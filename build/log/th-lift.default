@@ -1,0 +1,31 @@
+these derivations will be built:
+  /nix/store/sq6cc33h4zk1wns2fsyv8cj6clcf6hwi-th-lift-0.7.7.drv
+building path(s) ‘/nix/store/357v01mc4ach7wsaarzz0ypr1i825m8h-th-lift-0.7.7-doc’, ‘/nix/store/5y37glpn8lkkpvnqnvvfrfgqh370x0i0-th-lift-0.7.7’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/s86i5vidgkgabq3c3l4ggcm9rysb5za8-th-lift-0.7.7.tar.gz
+source root is th-lift-0.7.7
+setting SOURCE_DATE_EPOCH to timestamp 1492629613 of file th-lift-0.7.7/th-lift.cabal
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-th-lift-0.7.7.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-th-lift-0.7.7.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/5y37glpn8lkkpvnqnvvfrfgqh370x0i0-th-lift-0.7.7 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/357v01mc4ach7wsaarzz0ypr1i825m8h-th-lift-0.7.7-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-th-lift-0.7.7.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/5y37glpn8lkkpvnqnvvfrfgqh370x0i0-th-lift-0.7.7/lib/ghc-8.4.20180122/th-lift-0.7.7 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring th-lift-0.7.7...
+CallStack (from HasCallStack):
+  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
+  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
+  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:114:27 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMain, called at Setup.hs:7:8 in main:Main
+Setup: Encountered missing dependencies:
+template-haskell >=2.4 && <2.13
+
+builder for ‘/nix/store/sq6cc33h4zk1wns2fsyv8cj6clcf6hwi-th-lift-0.7.7.drv’ failed with exit code 1
+error: build of ‘/nix/store/sq6cc33h4zk1wns2fsyv8cj6clcf6hwi-th-lift-0.7.7.drv’ failed

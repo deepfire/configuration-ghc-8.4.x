@@ -1,0 +1,30 @@
+these derivations will be built:
+  /nix/store/fvrc4s96ym33i74y794nap7xai9p69fa-lens-4.15.4.drv
+building path(s) ‘/nix/store/wd2v50qjbwn1z3yqgy8lnnpw8lj5ngp9-lens-4.15.4-doc’, ‘/nix/store/z1nfcj5363s64b14z1ly6kfdgnnq0z8n-lens-4.15.4’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/rqjcrlnrw41lli93fmvpayi7lnbr3kpi-source
+source root is source
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-lens-4.15.4.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-lens-4.15.4.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/z1nfcj5363s64b14z1ly6kfdgnnq0z8n-lens-4.15.4 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/wd2v50qjbwn1z3yqgy8lnnpw8lj5ngp9-lens-4.15.4-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-lens-4.15.4.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/z1nfcj5363s64b14z1ly6kfdgnnq0z8n-lens-4.15.4/lib/ghc-8.4.20180122/lens-4.15.4 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --disable-tests --ghc-option=-split-sections -f-test-doctests --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring lens-4.16...
+CallStack (from HasCallStack):
+  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
+  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
+  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:123:42 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainWithHooks, called at Setup.lhs:47:8 in main:Main
+Setup: Encountered missing dependencies:
+template-haskell >=2.4 && <2.13
+
+builder for ‘/nix/store/fvrc4s96ym33i74y794nap7xai9p69fa-lens-4.15.4.drv’ failed with exit code 1
+error: build of ‘/nix/store/fvrc4s96ym33i74y794nap7xai9p69fa-lens-4.15.4.drv’ failed

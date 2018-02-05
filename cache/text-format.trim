@@ -1,0 +1,11 @@
+  text-format = overrideCabal super.text-format (drv: {
+    ## Unmerged.  PR: https://github.com/bos/text-format/pull/21
+    ## 
+    src = pkgs.fetchFromGitHub {
+      owner  = "deepfire";
+      repo   = "text-format";
+      rev    = "a1cda87c222d422816f956c7272e752ea12dbe19";
+      sha256 = "0lyrx4l57v15rvazrmw0nfka9iyxs4wyaasjj9y1525va9s1z4fr";
+    };
+  });
+

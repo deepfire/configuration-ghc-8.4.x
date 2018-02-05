@@ -1,0 +1,186 @@
+these derivations will be built:
+  /nix/store/yc1rri00p74677d1y8q233q14cw7iz8c-th-desugar-1.7.drv
+building path(s) ‘/nix/store/4iwnda4gf49bfip8p2j4gsikzzrza3i3-th-desugar-1.7’, ‘/nix/store/jsdj3wg0jl55s2lp4w28aq11zycjsa7b-th-desugar-1.7-doc’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/dr17m8qx4kd4649ab1v217k5z1jf1aj6-th-desugar-1.7.tar.gz
+source root is th-desugar-1.7
+setting SOURCE_DATE_EPOCH to timestamp 1496337660 of file th-desugar-1.7/th-desugar.cabal
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-th-desugar-1.7.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-th-desugar-1.7.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/4iwnda4gf49bfip8p2j4gsikzzrza3i3-th-desugar-1.7 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/jsdj3wg0jl55s2lp4w28aq11zycjsa7b-th-desugar-1.7-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-th-desugar-1.7.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/4iwnda4gf49bfip8p2j4gsikzzrza3i3-th-desugar-1.7/lib/ghc-8.4.20180122/th-desugar-1.7 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring th-desugar-1.7...
+Dependency HUnit >=1.2: using HUnit-1.6.0.0
+Dependency base ==4.*: using base-4.11.0.0
+Dependency containers >=0.5: using containers-0.5.10.2
+Dependency hspec >=1.3: using hspec-2.4.7
+Dependency mtl >=2.1: using mtl-2.2.2
+Dependency syb >=0.4: using syb-0.7
+Dependency template-haskell -any: using template-haskell-2.13.0.0
+Dependency th-desugar -any: using th-desugar-1.7
+Dependency th-expand-syns >=0.3.0.6: using th-expand-syns-0.4.4.0
+Dependency th-lift >=0.6.1: using th-lift-0.7.8
+Dependency th-orphans >=0.9.1: using th-orphans-0.13.5
+Source component graph:
+    component lib
+    component test:spec dependency lib
+Configured component graph:
+    component th-desugar-1.7-IUrZYhJ30nUBxHEGAfkJmb
+        include base-4.11.0.0
+        include template-haskell-2.13.0.0
+        include containers-0.5.10.2
+        include mtl-2.2.2
+        include syb-0.7-AEIW0vThAk654KOIJp4tDI
+        include th-lift-0.7.8-JJLNb09Wsvt2dciBqMU5yh
+        include th-orphans-0.13.5-4qU6lomhPeVDX7a2k4HRxF
+        include th-expand-syns-0.4.4.0-CiUXrvyh97KBOzQltxtJbB
+    component th-desugar-1.7-1VFzsweQxZ86I31jaxyzBS-spec
+        include base-4.11.0.0
+        include template-haskell-2.13.0.0
+        include containers-0.5.10.2
+        include mtl-2.2.2
+        include syb-0.7-AEIW0vThAk654KOIJp4tDI
+        include HUnit-1.6.0.0-HUOAyhgpffC5a0duv5PHPt
+        include hspec-2.4.7-30mNMa20jAz65rrt9Pleo5
+        include th-desugar-1.7-IUrZYhJ30nUBxHEGAfkJmb
+        include th-lift-0.7.8-JJLNb09Wsvt2dciBqMU5yh
+        include th-orphans-0.13.5-4qU6lomhPeVDX7a2k4HRxF
+        include th-expand-syns-0.4.4.0-CiUXrvyh97KBOzQltxtJbB
+Linked component graph:
+    unit th-desugar-1.7-IUrZYhJ30nUBxHEGAfkJmb
+        include base-4.11.0.0
+        include template-haskell-2.13.0.0
+        include containers-0.5.10.2
+        include mtl-2.2.2
+        include syb-0.7-AEIW0vThAk654KOIJp4tDI
+        include th-lift-0.7.8-JJLNb09Wsvt2dciBqMU5yh
+        include th-orphans-0.13.5-4qU6lomhPeVDX7a2k4HRxF
+        include th-expand-syns-0.4.4.0-CiUXrvyh97KBOzQltxtJbB
+        Language.Haskell.TH.Desugar=th-desugar-1.7-IUrZYhJ30nUBxHEGAfkJmb:Language.Haskell.TH.Desugar,Language.Haskell.TH.Desugar.Expand=th-desugar-1.7-IUrZYhJ30nUBxHEGAfkJmb:Language.Haskell.TH.Desugar.Expand,Language.Haskell.TH.Desugar.Lift=th-desugar-1.7-IUrZYhJ30nUBxHEGAfkJmb:Language.Haskell.TH.Desugar.Lift,Language.Haskell.TH.Desugar.Sweeten=th-desugar-1.7-IUrZYhJ30nUBxHEGAfkJmb:Language.Haskell.TH.Desugar.Sweeten
+    unit th-desugar-1.7-1VFzsweQxZ86I31jaxyzBS-spec
+        include base-4.11.0.0
+        include template-haskell-2.13.0.0
+        include containers-0.5.10.2
+        include mtl-2.2.2
+        include syb-0.7-AEIW0vThAk654KOIJp4tDI
+        include HUnit-1.6.0.0-HUOAyhgpffC5a0duv5PHPt
+        include hspec-2.4.7-30mNMa20jAz65rrt9Pleo5
+        include th-desugar-1.7-IUrZYhJ30nUBxHEGAfkJmb
+        include th-lift-0.7.8-JJLNb09Wsvt2dciBqMU5yh
+        include th-orphans-0.13.5-4qU6lomhPeVDX7a2k4HRxF
+        include th-expand-syns-0.4.4.0-CiUXrvyh97KBOzQltxtJbB
+Ready component graph:
+    definite th-desugar-1.7-IUrZYhJ30nUBxHEGAfkJmb
+        depends base-4.11.0.0
+        depends template-haskell-2.13.0.0
+        depends containers-0.5.10.2
+        depends mtl-2.2.2
+        depends syb-0.7-AEIW0vThAk654KOIJp4tDI
+        depends th-lift-0.7.8-JJLNb09Wsvt2dciBqMU5yh
+        depends th-orphans-0.13.5-4qU6lomhPeVDX7a2k4HRxF
+        depends th-expand-syns-0.4.4.0-CiUXrvyh97KBOzQltxtJbB
+    definite th-desugar-1.7-1VFzsweQxZ86I31jaxyzBS-spec
+        depends base-4.11.0.0
+        depends template-haskell-2.13.0.0
+        depends containers-0.5.10.2
+        depends mtl-2.2.2
+        depends syb-0.7-AEIW0vThAk654KOIJp4tDI
+        depends HUnit-1.6.0.0-HUOAyhgpffC5a0duv5PHPt
+        depends hspec-2.4.7-30mNMa20jAz65rrt9Pleo5
+        depends th-desugar-1.7-IUrZYhJ30nUBxHEGAfkJmb
+        depends th-lift-0.7.8-JJLNb09Wsvt2dciBqMU5yh
+        depends th-orphans-0.13.5-4qU6lomhPeVDX7a2k4HRxF
+        depends th-expand-syns-0.4.4.0-CiUXrvyh97KBOzQltxtJbB
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.20180122
+Using install prefix:
+/nix/store/4iwnda4gf49bfip8p2j4gsikzzrza3i3-th-desugar-1.7
+Executables installed in:
+/nix/store/4iwnda4gf49bfip8p2j4gsikzzrza3i3-th-desugar-1.7/bin
+Libraries installed in:
+/nix/store/4iwnda4gf49bfip8p2j4gsikzzrza3i3-th-desugar-1.7/lib/ghc-8.4.20180122/th-desugar-1.7
+Dynamic Libraries installed in:
+/nix/store/4iwnda4gf49bfip8p2j4gsikzzrza3i3-th-desugar-1.7/lib/ghc-8.4.20180122/x86_64-linux-ghc-8.4.20180122
+Private executables installed in:
+/nix/store/4iwnda4gf49bfip8p2j4gsikzzrza3i3-th-desugar-1.7/libexec/x86_64-linux-ghc-8.4.20180122/th-desugar-1.7
+Data files installed in:
+/nix/store/4iwnda4gf49bfip8p2j4gsikzzrza3i3-th-desugar-1.7/share/x86_64-linux-ghc-8.4.20180122/th-desugar-1.7
+Documentation installed in:
+/nix/store/jsdj3wg0jl55s2lp4w28aq11zycjsa7b-th-desugar-1.7-doc/share/doc
+Configuration files installed in:
+/nix/store/4iwnda4gf49bfip8p2j4gsikzzrza3i3-th-desugar-1.7/etc
+No alex found
+Using ar found on system at:
+/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 6.4.0 given by user at:
+/nix/store/vmy9yzr09vmyq9k5nngf8lrhqmycffjy-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc
+Using ghc-pkg version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.18.2 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/w8ldqvmajj0zk2k201za0ng70ha14c8m-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/0m775vcmck56a48r88l1k8a5110khw1j-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/1jn750iav5rfbm05345ysi8dvxcz7j26-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing library for th-desugar-1.7..
+Building library for th-desugar-1.7..
+[1 of 8] Compiling Language.Haskell.TH.Desugar.Util ( Language/Haskell/TH/Desugar/Util.hs, dist/build/Language/Haskell/TH/Desugar/Util.o )
+
+Language/Haskell/TH/Desugar/Util.hs:37:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+   |
+37 | import Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^
+[2 of 8] Compiling Language.Haskell.TH.Desugar.Reify ( Language/Haskell/TH/Desugar/Reify.hs, dist/build/Language/Haskell/TH/Desugar/Reify.o )
+
+Language/Haskell/TH/Desugar/Reify.hs:166:55: error:
+    • Could not deduce (MonadIO (DsM q))
+        arising from the 'deriving' clause of a data type declaration
+      from the context: Quasi q
+        bound by the deriving clause for ‘Quasi (DsM q)’
+        at Language/Haskell/TH/Desugar/Reify.hs:166:55-59
+      Possible fix:
+        use a standalone 'deriving instance' declaration,
+          so you can specify the instance context yourself
+    • When deriving the instance for (Quasi (DsM q))
+    |
+166 |   deriving ( Functor, Applicative, Monad, MonadTrans, Quasi
+    |                                                       ^^^^^
+builder for ‘/nix/store/yc1rri00p74677d1y8q233q14cw7iz8c-th-desugar-1.7.drv’ failed with exit code 1
+error: build of ‘/nix/store/yc1rri00p74677d1y8q233q14cw7iz8c-th-desugar-1.7.drv’ failed

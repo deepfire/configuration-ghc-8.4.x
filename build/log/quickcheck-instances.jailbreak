@@ -1,0 +1,31 @@
+these derivations will be built:
+  /nix/store/r3fx9f7ksp41wfn6cp4id3mzgv04pwij-quickcheck-instances-0.3.16.1.drv
+building path(s) ‘/nix/store/v94mkcn7fdjx1sslsr4lk4jmp3sjcdy1-quickcheck-instances-0.3.16.1’, ‘/nix/store/wd9sbyp1vsp50l559cf1l74mbf7akcxd-quickcheck-instances-0.3.16.1-doc’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/fvchdh7wfd5d2mmlps85zwm6dmswjmkw-quickcheck-instances-0.3.16.1.tar.gz
+source root is quickcheck-instances-0.3.16.1
+setting SOURCE_DATE_EPOCH to timestamp 1515758236 of file quickcheck-instances-0.3.16.1/test/Tests.hs
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-quickcheck-instances-0.3.16.1.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-quickcheck-instances-0.3.16.1.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/v94mkcn7fdjx1sslsr4lk4jmp3sjcdy1-quickcheck-instances-0.3.16.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/wd9sbyp1vsp50l559cf1l74mbf7akcxd-quickcheck-instances-0.3.16.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-quickcheck-instances-0.3.16.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/v94mkcn7fdjx1sslsr4lk4jmp3sjcdy1-quickcheck-instances-0.3.16.1/lib/ghc-8.4.20180122/quickcheck-instances-0.3.16.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring quickcheck-instances-0.3.16.1...
+CallStack (from HasCallStack):
+  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
+  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
+  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:114:27 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMain, called at Setup.hs:2:8 in main:Main
+Setup: Encountered missing dependencies:
+base >=4.5 && <4.11
+
+builder for ‘/nix/store/r3fx9f7ksp41wfn6cp4id3mzgv04pwij-quickcheck-instances-0.3.16.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/r3fx9f7ksp41wfn6cp4id3mzgv04pwij-quickcheck-instances-0.3.16.1.drv’ failed

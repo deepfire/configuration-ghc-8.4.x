@@ -1,0 +1,4 @@
+Setup: Encountered missing dependencies:
+data-or ==1.0.*
+builder for ‘/nix/store/iw3xsljnygsv9q2jglcv54mqd94fig7n-bytestring-trie-0.2.4.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/iw3xsljnygsv9q2jglcv54mqd94fig7n-bytestring-trie-0.2.4.1.drv’ failed

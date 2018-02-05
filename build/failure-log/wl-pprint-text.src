@@ -1,0 +1,3 @@
+    Ambiguous occurrence ‘<>’
+    It could refer to either ‘PP.<>’,
+                             imported from ‘Prelude.Compat’ at Text/PrettyPrint/Leijen/Text/Monadic.hs:73:1-36

@@ -1,0 +1,11 @@
+  wl-pprint-text = overrideCabal super.wl-pprint-text (drv: {
+    ## Unmerged.  PR: https://github.com/ivan-m/wl-pprint-text/pull/17
+    ## 
+    src = pkgs.fetchFromGitHub {
+      owner  = "deepfire";
+      repo   = "wl-pprint-text";
+      rev    = "615b83d1e5be52d1448aa1ab2517b431a617027b";
+      sha256 = "1p67v9s878br0r152h4n37smqhkg78v8zxhf4qm6d035s4rzj76i";
+    };
+  });
+

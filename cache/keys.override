@@ -1,0 +1,4 @@
+  keys = overrideCabal super.keys (drv: {
+    jailbreak       = true;
+  });
+

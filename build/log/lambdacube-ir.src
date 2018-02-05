@@ -1,0 +1,13 @@
+these derivations will be built:
+  /nix/store/dprgmfh20m9597b3fbhcsickpl7mzil2-lambdacube-ir-0.3.0.1.drv
+building path(s) ‘/nix/store/930kmiva2wx7qkwsvg7w411f2vdaagh7-lambdacube-ir-0.3.0.1’, ‘/nix/store/q974znqg09f3x49jghj7irf74dc4sf1y-lambdacube-ir-0.3.0.1-doc’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/p3gsf2yf94mck3qqhgsjm3k7qiyjscz7-lambdacube-ir-0.3.0.1.tar.gz
+source root is lambdacube-ir-0.3.0.1
+setting SOURCE_DATE_EPOCH to timestamp 1479311401 of file lambdacube-ir-0.3.0.1/src/LambdaCube/PipelineSchemaUtil.hs
+patching sources
+/nix/store/78sxg2kvl2klplqfx22s6b42lds7qq23-stdenv/setup: line 99: cd: lambdacube-ir.haskell: No such file or directory
+builder for ‘/nix/store/dprgmfh20m9597b3fbhcsickpl7mzil2-lambdacube-ir-0.3.0.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/dprgmfh20m9597b3fbhcsickpl7mzil2-lambdacube-ir-0.3.0.1.drv’ failed

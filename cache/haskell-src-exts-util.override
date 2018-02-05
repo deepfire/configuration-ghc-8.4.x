@@ -1,0 +1,4 @@
+  haskell-src-exts-util = overrideCabal super.haskell-src-exts-util (drv: {
+    libraryHaskellDepends = drv.libraryHaskellDepends ++ [ self.semigroups ];
+  });
+

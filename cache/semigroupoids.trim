@@ -1,0 +1,7 @@
+  semigroupoids = overrideCabal super.semigroupoids_5_2_2 (drv: {
+    ## On Hackage, awaiting for import
+    ## 
+    doCheck         = false;
+    editedCabalFile = null;
+  });
+

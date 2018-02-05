@@ -1,0 +1,4 @@
+  tasty-expected-failure = overrideCabal super.tasty-expected-failure (drv: {
+    jailbreak       = true;
+  });
+

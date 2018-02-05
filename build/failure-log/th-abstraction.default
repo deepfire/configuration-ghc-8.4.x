@@ -1,0 +1,4 @@
+Setup: Encountered missing dependencies:
+template-haskell >=2.5 && <2.13
+builder for ‘/nix/store/la3zdphp3nqzl590n25zyrgj62ga8cl6-th-abstraction-0.2.6.0.drv’ failed with exit code 1
+error: build of ‘/nix/store/la3zdphp3nqzl590n25zyrgj62ga8cl6-th-abstraction-0.2.6.0.drv’ failed

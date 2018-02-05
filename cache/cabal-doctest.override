@@ -1,0 +1,4 @@
+  cabal-doctest = overrideCabal super.cabal-doctest (drv: {
+    jailbreak       = true;
+  });
+

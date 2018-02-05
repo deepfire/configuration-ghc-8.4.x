@@ -1,0 +1,6 @@
+Setup: Encountered missing dependencies:
+attoparsec ==0.13.*,
+doctest >=0.8,
+haskell-gi-base ==0.21.*,
+pretty-show -any,
+regex-tdfa >=1.2,

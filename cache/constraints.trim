@@ -1,0 +1,6 @@
+  constraints = overrideCabal super.constraints_0_10 (drv: {
+    ## On Hackage, awaiting for import
+    ## 
+    libraryHaskellDepends = drv.libraryHaskellDepends ++ [ self.semigroups self.hspec ];
+  });
+

@@ -1,0 +1,4 @@
+  blaze-markup = overrideCabal super.blaze-markup (drv: {
+    doCheck         = false;
+  });
+

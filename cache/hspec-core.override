@@ -1,0 +1,7 @@
+  hspec-core = overrideCabal super.hspec-core_2_4_7 (drv: {
+    ## On Hackage, awaiting for import
+    ## 
+    doCheck         = false;
+    editedCabalFile = null;
+  });
+

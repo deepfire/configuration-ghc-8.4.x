@@ -1,0 +1,219 @@
+these derivations will be built:
+  /nix/store/cqwi7jiljygfwiqva7x5yp6lal3kk9ic-language-c-0.7.1.drv
+building path(s) ‘/nix/store/30g0dp08x09msk8ah2262n1nsqzxf9bx-language-c-0.7.1-doc’, ‘/nix/store/5xhzg9xwcvgis193nmmny68pray8c4ij-language-c-0.7.1’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/xpqi69q4mfni76mrrspma0l1xgn8izk6-source
+source root is source
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-language-c-0.7.1.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-language-c-0.7.1.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/5xhzg9xwcvgis193nmmny68pray8c4ij-language-c-0.7.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/30g0dp08x09msk8ah2262n1nsqzxf9bx-language-c-0.7.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-language-c-0.7.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/5xhzg9xwcvgis193nmmny68pray8c4ij-language-c-0.7.1/lib/ghc-8.4.20180122/language-c-0.7.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring language-c-0.7.1...
+Flags chosen: allwarnings=False, separatesyb=True, splitbase=True,
+usebytestrings=True
+Dependency array -any: using array-0.5.2.0
+Dependency base ==4.*: using base-4.11.0.0
+Dependency bytestring >=0.9.0: using bytestring-0.10.8.2
+Dependency containers -any: using containers-0.5.10.2
+Dependency directory -any: using directory-1.3.1.5
+Dependency filepath -any: using filepath-1.4.1.2
+Dependency language-c -any: using language-c-0.7.1
+Dependency pretty -any: using pretty-1.1.3.5
+Dependency process -any: using process-1.6.1.0
+Dependency syb -any: using syb-0.7
+Source component graph:
+    component lib
+    component test:language-c-harness dependency lib
+Configured component graph:
+    component language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD
+        include filepath-1.4.1.2
+        include base-4.11.0.0
+        include process-1.6.1.0
+        include directory-1.3.1.5
+        include array-0.5.2.0
+        include containers-0.5.10.2
+        include pretty-1.1.3.5
+        include base-4.11.0.0
+        include syb-0.7-AEIW0vThAk654KOIJp4tDI
+        include bytestring-0.10.8.2
+    component language-c-0.7.1-4gYkTWDXP17LcHpAeyk2ob-language-c-harness
+        include base-4.11.0.0
+        include language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD
+        include directory-1.3.1.5
+        include process-1.6.1.0
+        include filepath-1.4.1.2
+Linked component graph:
+    unit language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD
+        include filepath-1.4.1.2
+        include base-4.11.0.0
+        include process-1.6.1.0
+        include directory-1.3.1.5
+        include array-0.5.2.0
+        include containers-0.5.10.2
+        include pretty-1.1.3.5
+        include base-4.11.0.0
+        include syb-0.7-AEIW0vThAk654KOIJp4tDI
+        include bytestring-0.10.8.2
+        Language.C=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C,Language.C.Analysis=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Analysis,Language.C.Analysis.AstAnalysis=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Analysis.AstAnalysis,Language.C.Analysis.Builtins=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Analysis.Builtins,Language.C.Analysis.ConstEval=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Analysis.ConstEval,Language.C.Analysis.Debug=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Analysis.Debug,Language.C.Analysis.DeclAnalysis=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Analysis.DeclAnalysis,Language.C.Analysis.DefTable=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Analysis.DefTable,Language.C.Analysis.Export=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Analysis.Export,Language.C.Analysis.NameSpaceMap=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Analysis.NameSpaceMap,Language.C.Analysis.SemError=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Analysis.SemError,Language.C.Analysis.SemRep=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Analysis.SemRep,Language.C.Analysis.TravMonad=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Analysis.TravMonad,Language.C.Analysis.TypeCheck=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Analysis.TypeCheck,Language.C.Analysis.TypeConversions=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Analysis.TypeConversions,Language.C.Analysis.TypeUtils=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Analysis.TypeUtils,Language.C.Data=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Data,Language.C.Data.Error=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Data.Error,Language.C.Data.Ident=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Data.Ident,Language.C.Data.InputStream=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Data.InputStream,Language.C.Data.Name=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Data.Name,Language.C.Data.Node=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Data.Node,Language.C.Data.Position=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Data.Position,Language.C.Parser=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Parser,Language.C.Pretty=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Pretty,Language.C.Syntax=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Syntax,Language.C.Syntax.AST=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Syntax.AST,Language.C.Syntax.Constants=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Syntax.Constants,Language.C.Syntax.Ops=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Syntax.Ops,Language.C.Syntax.Utils=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.Syntax.Utils,Language.C.System.GCC=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.System.GCC,Language.C.System.Preprocess=language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD:Language.C.System.Preprocess
+    unit language-c-0.7.1-4gYkTWDXP17LcHpAeyk2ob-language-c-harness
+        include base-4.11.0.0
+        include language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD
+        include directory-1.3.1.5
+        include process-1.6.1.0
+        include filepath-1.4.1.2
+Ready component graph:
+    definite language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD
+        depends filepath-1.4.1.2
+        depends base-4.11.0.0
+        depends process-1.6.1.0
+        depends directory-1.3.1.5
+        depends array-0.5.2.0
+        depends containers-0.5.10.2
+        depends pretty-1.1.3.5
+        depends syb-0.7-AEIW0vThAk654KOIJp4tDI
+        depends bytestring-0.10.8.2
+    definite language-c-0.7.1-4gYkTWDXP17LcHpAeyk2ob-language-c-harness
+        depends base-4.11.0.0
+        depends language-c-0.7.1-HKy99wW6hsYBUUqlSPHhbD
+        depends directory-1.3.1.5
+        depends process-1.6.1.0
+        depends filepath-1.4.1.2
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.20180122
+Using install prefix:
+/nix/store/5xhzg9xwcvgis193nmmny68pray8c4ij-language-c-0.7.1
+Executables installed in:
+/nix/store/5xhzg9xwcvgis193nmmny68pray8c4ij-language-c-0.7.1/bin
+Libraries installed in:
+/nix/store/5xhzg9xwcvgis193nmmny68pray8c4ij-language-c-0.7.1/lib/ghc-8.4.20180122/language-c-0.7.1
+Dynamic Libraries installed in:
+/nix/store/5xhzg9xwcvgis193nmmny68pray8c4ij-language-c-0.7.1/lib/ghc-8.4.20180122/x86_64-linux-ghc-8.4.20180122
+Private executables installed in:
+/nix/store/5xhzg9xwcvgis193nmmny68pray8c4ij-language-c-0.7.1/libexec/x86_64-linux-ghc-8.4.20180122/language-c-0.7.1
+Data files installed in:
+/nix/store/5xhzg9xwcvgis193nmmny68pray8c4ij-language-c-0.7.1/share/x86_64-linux-ghc-8.4.20180122/language-c-0.7.1
+Documentation installed in:
+/nix/store/30g0dp08x09msk8ah2262n1nsqzxf9bx-language-c-0.7.1-doc/share/doc
+Configuration files installed in:
+/nix/store/5xhzg9xwcvgis193nmmny68pray8c4ij-language-c-0.7.1/etc
+Using alex version 3.2.3 found on system at:
+/nix/store/6c6xswnl8dxnjqrlr1rijd9brjli6mln-alex-3.2.3/bin/alex
+Using ar found on system at:
+/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 6.4.0 given by user at:
+/nix/store/vmy9yzr09vmyq9k5nngf8lrhqmycffjy-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc
+Using ghc-pkg version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.18.2 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/haddock
+Using happy version 1.19.9 found on system at:
+/nix/store/3f1cz274y28n6whr0h1hcxd1iajv581v-happy-1.19.9/bin/happy
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/w8ldqvmajj0zk2k201za0ng70ha14c8m-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/0m775vcmck56a48r88l1k8a5110khw1j-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/1jn750iav5rfbm05345ysi8dvxcz7j26-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing library for language-c-0.7.1..
+Building library for language-c-0.7.1..
+[ 1 of 39] Compiling Language.C.Analysis.NameSpaceMap ( src/Language/C/Analysis/NameSpaceMap.hs, dist/build/Language/C/Analysis/NameSpaceMap.o )
+[ 2 of 39] Compiling Language.C.Data.InputStream ( src/Language/C/Data/InputStream.hs, dist/build/Language/C/Data/InputStream.o )
+[ 3 of 39] Compiling Language.C.Data.Name ( src/Language/C/Data/Name.hs, dist/build/Language/C/Data/Name.o )
+[ 4 of 39] Compiling Language.C.Data.Position ( src/Language/C/Data/Position.hs, dist/build/Language/C/Data/Position.o )
+[ 5 of 39] Compiling Language.C.Data.Node ( src/Language/C/Data/Node.hs, dist/build/Language/C/Data/Node.o )
+[ 6 of 39] Compiling Language.C.Data.Ident ( src/Language/C/Data/Ident.hs, dist/build/Language/C/Data/Ident.o )
+[ 7 of 39] Compiling Language.C.Data.Error ( src/Language/C/Data/Error.hs, dist/build/Language/C/Data/Error.o )
+[ 8 of 39] Compiling Language.C.Data  ( src/Language/C/Data.hs, dist/build/Language/C/Data.o )
+[ 9 of 39] Compiling Language.C.Data.RList ( src/Language/C/Data/RList.hs, dist/build/Language/C/Data/RList.o )
+[10 of 39] Compiling Language.C.Parser.Builtin ( src/Language/C/Parser/Builtin.hs, dist/build/Language/C/Parser/Builtin.o )
+[11 of 39] Compiling Language.C.Syntax.Constants ( src/Language/C/Syntax/Constants.hs, dist/build/Language/C/Syntax/Constants.o )
+[12 of 39] Compiling Language.C.Parser.Tokens ( src/Language/C/Parser/Tokens.hs, dist/build/Language/C/Parser/Tokens.o )
+[13 of 39] Compiling Language.C.Parser.ParserMonad ( src/Language/C/Parser/ParserMonad.hs, dist/build/Language/C/Parser/ParserMonad.o )
+[14 of 39] Compiling Language.C.Parser.Lexer ( dist/build/Language/C/Parser/Lexer.hs, dist/build/Language/C/Parser/Lexer.o )
+[15 of 39] Compiling Language.C.Syntax.Ops ( src/Language/C/Syntax/Ops.hs, dist/build/Language/C/Syntax/Ops.o )
+[16 of 39] Compiling Language.C.Syntax.AST ( src/Language/C/Syntax/AST.hs, dist/build/Language/C/Syntax/AST.o )
+[17 of 39] Compiling Language.C.Syntax ( src/Language/C/Syntax.hs, dist/build/Language/C/Syntax.o )
+[18 of 39] Compiling Language.C.Pretty ( src/Language/C/Pretty.hs, dist/build/Language/C/Pretty.o )
+[19 of 39] Compiling Language.C.Parser.Parser ( dist/build/Language/C/Parser/Parser.hs, dist/build/Language/C/Parser/Parser.o )
+[20 of 39] Compiling Language.C.Parser ( src/Language/C/Parser.hs, dist/build/Language/C/Parser.o )
+[21 of 39] Compiling Language.C.Analysis.SemRep ( src/Language/C/Analysis/SemRep.hs, dist/build/Language/C/Analysis/SemRep.o )
+
+src/Language/C/Analysis/SemRep.hs:139:31: warning: [-Wdeprecations]
+    In the use of ‘foldWithKey’ (imported from Data.Map):
+    Deprecated: "As of version 0.4, replaced by 'foldrWithKey'."
+    |
+139 | splitIdentDecls include_all = Map.foldWithKey (if include_all then deal else deal') (Map.empty,(Map.empty,Map.empty,Map.empty))
+    |                               ^^^^^^^^^^^^^^^
+[22 of 39] Compiling Language.C.Analysis.TypeConversions ( src/Language/C/Analysis/TypeConversions.hs, dist/build/Language/C/Analysis/TypeConversions.o )
+[23 of 39] Compiling Language.C.Analysis.SemError ( src/Language/C/Analysis/SemError.hs, dist/build/Language/C/Analysis/SemError.o )
+[24 of 39] Compiling Language.C.Analysis.DefTable ( src/Language/C/Analysis/DefTable.hs, dist/build/Language/C/Analysis/DefTable.o )
+
+src/Language/C/Analysis/DefTable.hs:109:21: warning: [-Wdeprecations]
+    In the use of ‘foldWithKey’ (imported from Data.Map):
+    Deprecated: "As of version 0.4, replaced by 'foldrWithKey'."
+    |
+109 | globalDefs deftbl = Map.foldWithKey insertDecl (GlobalDecls e gtags e) (globalNames $ identDecls deftbl)
+    |                     ^^^^^^^^^^^^^^^
+[25 of 39] Compiling Language.C.Analysis.TypeUtils ( src/Language/C/Analysis/TypeUtils.hs, dist/build/Language/C/Analysis/TypeUtils.o )
+[26 of 39] Compiling Language.C.Analysis.Builtins ( src/Language/C/Analysis/Builtins.hs, dist/build/Language/C/Analysis/Builtins.o )
+[27 of 39] Compiling Language.C.Analysis.TravMonad ( src/Language/C/Analysis/TravMonad.hs, dist/build/Language/C/Analysis/TravMonad.o )
+[28 of 39] Compiling Language.C.Analysis.Export ( src/Language/C/Analysis/Export.hs, dist/build/Language/C/Analysis/Export.o )
+[29 of 39] Compiling Language.C.Analysis.Debug ( src/Language/C/Analysis/Debug.hs, dist/build/Language/C/Analysis/Debug.o )
+[30 of 39] Compiling Language.C.Analysis.AstAnalysis[boot] ( src/Language/C/Analysis/AstAnalysis.hs-boot, dist/build/Language/C/Analysis/AstAnalysis.o-boot )
+[31 of 39] Compiling Language.C.Analysis.DeclAnalysis ( src/Language/C/Analysis/DeclAnalysis.hs, dist/build/Language/C/Analysis/DeclAnalysis.o )
+[32 of 39] Compiling Language.C.Analysis.ConstEval ( src/Language/C/Analysis/ConstEval.hs, dist/build/Language/C/Analysis/ConstEval.o )
+[33 of 39] Compiling Language.C.Analysis.TypeCheck ( src/Language/C/Analysis/TypeCheck.hs, dist/build/Language/C/Analysis/TypeCheck.o )
+[34 of 39] Compiling Language.C.Syntax.Utils ( src/Language/C/Syntax/Utils.hs, dist/build/Language/C/Syntax/Utils.o )
+[35 of 39] Compiling Language.C.Analysis.AstAnalysis ( src/Language/C/Analysis/AstAnalysis.hs, dist/build/Language/C/Analysis/AstAnalysis.o )
+[36 of 39] Compiling Language.C.Analysis ( src/Language/C/Analysis.hs, dist/build/Language/C/Analysis.o )
+[37 of 39] Compiling Language.C.System.Preprocess ( src/Language/C/System/Preprocess.hs, dist/build/Language/C/System/Preprocess.o )
+[38 of 39] Compiling Language.C.System.GCC ( src/Language/C/System/GCC.hs, dist/build/Language/C/System/GCC.o )
+[39 of 39] Compiling Language.C       ( src/Language/C.hs, dist/build/Language/C.o )
+Preprocessing test suite 'language-c-harness' for language-c-0.7.1..
+Building test suite 'language-c-harness' for language-c-0.7.1..
+[1 of 1] Compiling Main             ( test/harness/run-harness.hs, dist/build/language-c-harness/language-c-harness-tmp/Main.dyn_o )
+Linking dist/build/language-c-harness/language-c-harness ...
+running tests
+Running 1 test suites...
+Test suite language-c-harness: RUNNING...
+Changing to test directory test/harness and compiling
+cd ../.. && cabal build
+/bin/sh: cabal: command not found
+make: *** [Makefile:22: build_lib] Error 127
+language-c-harness: callProcess: make "prepare" (exit 2): failed
+Test suite language-c-harness: FAIL
+Test suite logged to: dist/test/language-c-0.7.1-language-c-harness.log
+0 of 1 test suites (0 of 1 test cases) passed.
+builder for ‘/nix/store/cqwi7jiljygfwiqva7x5yp6lal3kk9ic-language-c-0.7.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/cqwi7jiljygfwiqva7x5yp6lal3kk9ic-language-c-0.7.1.drv’ failed

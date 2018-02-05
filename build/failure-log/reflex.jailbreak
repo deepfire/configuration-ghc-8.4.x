@@ -1,0 +1,4 @@
+Setup: Encountered missing dependencies:
+base >=4.7 && <4.11, bifunctors >=5.2 && <5.5
+builder for ‘/nix/store/93ka24600m4mipsgn2cq8fwk124q97ca-reflex-0.4.0.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/93ka24600m4mipsgn2cq8fwk124q97ca-reflex-0.4.0.1.drv’ failed

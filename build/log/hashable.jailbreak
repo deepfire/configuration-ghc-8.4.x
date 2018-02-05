@@ -1,0 +1,32 @@
+these derivations will be built:
+  /nix/store/4qlxxypfhbwcv227cmsja1asgqnq37gf-hashable-1.2.6.1.drv
+building path(s) ‘/nix/store/d5d1kw7pk7cym63c5105657mmvyrff2x-hashable-1.2.6.1-doc’, ‘/nix/store/wl9k3nkkl8yln0h9l3inwb8cm1l3k4pd-hashable-1.2.6.1’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/dfdwc7mnm85xmv0w2kczcy43swqnsg4g-hashable-1.2.6.1.tar.gz
+source root is hashable-1.2.6.1
+setting SOURCE_DATE_EPOCH to timestamp 1498104424 of file hashable-1.2.6.1/tests/Regress/Mmap.hsc
+patching sources
+Replace Cabal file with edited version from http://hackage.haskell.org/package/hashable-1.2.6.1/revision/2.cabal.
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-hashable-1.2.6.1.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-hashable-1.2.6.1.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/wl9k3nkkl8yln0h9l3inwb8cm1l3k4pd-hashable-1.2.6.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/d5d1kw7pk7cym63c5105657mmvyrff2x-hashable-1.2.6.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-hashable-1.2.6.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/wl9k3nkkl8yln0h9l3inwb8cm1l3k4pd-hashable-1.2.6.1/lib/ghc-8.4.20180122/hashable-1.2.6.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring hashable-1.2.6.1...
+CallStack (from HasCallStack):
+  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
+  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
+  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:114:27 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMain, called at Setup.hs:3:8 in main:Main
+Setup: Encountered missing dependencies:
+base >=4.4 && <4.11
+
+builder for ‘/nix/store/4qlxxypfhbwcv227cmsja1asgqnq37gf-hashable-1.2.6.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/4qlxxypfhbwcv227cmsja1asgqnq37gf-hashable-1.2.6.1.drv’ failed

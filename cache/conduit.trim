@@ -1,0 +1,7 @@
+  conduit = overrideCabal super.conduit (drv: {
+    ## On Hackage, awaiting for import
+    ## 
+    version         = "1.2.13";
+    sha256          = "1b0i6zbmp9j0km150nghmq77rz3iahkib3dd2m9hihabc6n1p793";
+  });
+

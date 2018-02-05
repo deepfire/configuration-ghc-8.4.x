@@ -1,0 +1,4 @@
+Setup: Encountered missing dependencies:
+base >=4.6 && <4.11, template-haskell >=2.8 && <2.13
+builder for ‘/nix/store/s31h1fqi3a4jz4vbn8vpcfjdlkvyk7fd-haskell-src-meta-0.8.0.2.drv’ failed with exit code 1
+error: build of ‘/nix/store/s31h1fqi3a4jz4vbn8vpcfjdlkvyk7fd-haskell-src-meta-0.8.0.2.drv’ failed

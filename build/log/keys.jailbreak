@@ -1,0 +1,32 @@
+these derivations will be built:
+  /nix/store/khkbn7wmjr10nyq0wwkmn888bj1l4fmh-keys-3.11.drv
+building path(s) ‘/nix/store/2b8xfflw46hbxrw35jg1q2zmh4hg46zm-keys-3.11’, ‘/nix/store/2rfh8wbaqs1ayindvi1mnpakda0ybyb5-keys-3.11-doc’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/q1sycx13gk5vlvcjb1nidlggx01jxvgn-keys-3.11.tar.gz
+source root is keys-3.11
+setting SOURCE_DATE_EPOCH to timestamp 1452998054 of file keys-3.11/.travis.yml
+patching sources
+Replace Cabal file with edited version from http://hackage.haskell.org/package/keys-3.11/revision/1.cabal.
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-keys-3.11.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-keys-3.11.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/2b8xfflw46hbxrw35jg1q2zmh4hg46zm-keys-3.11 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/2rfh8wbaqs1ayindvi1mnpakda0ybyb5-keys-3.11-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-keys-3.11.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/2b8xfflw46hbxrw35jg1q2zmh4hg46zm-keys-3.11/lib/ghc-8.4.20180122/keys-3.11 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring keys-3.11...
+CallStack (from HasCallStack):
+  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
+  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
+  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:114:27 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMain, called at Setup.lhs:7:10 in main:Main
+Setup: Encountered missing dependencies:
+free ==4.*
+
+builder for ‘/nix/store/khkbn7wmjr10nyq0wwkmn888bj1l4fmh-keys-3.11.drv’ failed with exit code 1
+error: build of ‘/nix/store/khkbn7wmjr10nyq0wwkmn888bj1l4fmh-keys-3.11.drv’ failed

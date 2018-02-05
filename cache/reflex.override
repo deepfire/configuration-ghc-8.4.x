@@ -1,0 +1,14 @@
+  reflex = overrideCabal super.reflex (drv: {
+    ## Unmerged.  PR: https://github.com/reflex-frp/reflex/pull/158
+    ## 
+    src = pkgs.fetchFromGitHub {
+      owner  = "deepfire";
+      repo   = "reflex";
+      rev    = "4fb50139db45a37493b91973eeaad9885b4c63ca";
+      sha256 = "0i7pp6cw394m2vbwcqv9z5ngdarp01sabqr1jkkgchxdkkii94nx";
+    };
+    doHaddock       = false;
+    jailbreak       = true;
+    libraryHaskellDepends = drv.libraryHaskellDepends ++ [ self.data-default self.haskell-src-exts self.lens self.monad-control self.prim-uniq self.reflection self.split self.template-haskell self.unbounded-delays ];
+  });
+

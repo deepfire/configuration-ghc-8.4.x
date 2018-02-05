@@ -1,0 +1,35 @@
+these derivations will be built:
+  /nix/store/izlfsa1vxpjl2rj3ys94s7g7cvyiwpg5-lambdacube-compiler-0.6.0.1.drv
+building path(s) ‘/nix/store/bj08cnpgwafqd7wh778ah4dqxzva0nfw-lambdacube-compiler-0.6.0.1-data’, ‘/nix/store/cn4rq7b59a7400r43aib4aij93ad0vsw-lambdacube-compiler-0.6.0.1’, ‘/nix/store/pp99ji8haiaaw5rj4di13qvfpdc92g0y-lambdacube-compiler-0.6.0.1-doc’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/w1xr76d09xqpd7y3d26fwdx8d6kn88cg-lambdacube-compiler-0.6.0.1.tar.gz
+source root is lambdacube-compiler-0.6.0.1
+setting SOURCE_DATE_EPOCH to timestamp 1480418521 of file lambdacube-compiler-0.6.0.1/tool/Compiler.hs
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-lambdacube-compiler-0.6.0.1.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-lambdacube-compiler-0.6.0.1.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/cn4rq7b59a7400r43aib4aij93ad0vsw-lambdacube-compiler-0.6.0.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --datadir=/nix/store/bj08cnpgwafqd7wh778ah4dqxzva0nfw-lambdacube-compiler-0.6.0.1-data/share/ghc-8.4.20180122 --docdir=/nix/store/pp99ji8haiaaw5rj4di13qvfpdc92g0y-lambdacube-compiler-0.6.0.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-lambdacube-compiler-0.6.0.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/cn4rq7b59a7400r43aib4aij93ad0vsw-lambdacube-compiler-0.6.0.1/lib/ghc-8.4.20180122/lambdacube-compiler-0.6.0.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring lambdacube-compiler-0.6.0.1...
+CallStack (from HasCallStack):
+  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
+  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
+  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:114:27 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMain, called at Setup.hs:2:8 in main:Main
+Setup: Encountered missing dependencies:
+aeson >=0.9 && <0.12,
+base >=4.7 && <4.10,
+directory ==1.2.*,
+megaparsec ==5.0.*,
+vector ==0.11.*
+
+builder for ‘/nix/store/izlfsa1vxpjl2rj3ys94s7g7cvyiwpg5-lambdacube-compiler-0.6.0.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/izlfsa1vxpjl2rj3ys94s7g7cvyiwpg5-lambdacube-compiler-0.6.0.1.drv’ failed

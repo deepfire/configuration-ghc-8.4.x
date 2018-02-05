@@ -1,0 +1,4 @@
+  quickcheck-instances = overrideCabal super.quickcheck-instances (drv: {
+    jailbreak       = true;
+  });
+

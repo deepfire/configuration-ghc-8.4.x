@@ -1,0 +1,143 @@
+these derivations will be built:
+  /nix/store/gpbil09qlz94g42vinlk08s7n3cy1g59-regex-tdfa-1.2.2.drv
+building path(s) ‘/nix/store/842b69wcnh4qx2mvm3qw0dcrlwjbxghb-regex-tdfa-1.2.2-doc’, ‘/nix/store/xwz227y5sxn3155ff42rd82af3zrm3yw-regex-tdfa-1.2.2’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/zyz6vq8l3cwnkwi1gd6csmfjgwrc69zs-regex-tdfa-1.2.2.tar.gz
+source root is regex-tdfa-1.2.2
+setting SOURCE_DATE_EPOCH to timestamp 1461841458 of file regex-tdfa-1.2.2/Text/Regex/TDFA/TNFA.hs
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-regex-tdfa-1.2.2.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-regex-tdfa-1.2.2.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/xwz227y5sxn3155ff42rd82af3zrm3yw-regex-tdfa-1.2.2 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/842b69wcnh4qx2mvm3qw0dcrlwjbxghb-regex-tdfa-1.2.2-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-regex-tdfa-1.2.2.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/xwz227y5sxn3155ff42rd82af3zrm3yw-regex-tdfa-1.2.2/lib/ghc-8.4.20180122/regex-tdfa-1.2.2 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring regex-tdfa-1.2.2...
+Flags chosen: devel=False
+Dependency array >=0.4: using array-0.5.2.0
+Dependency base ==4.*: using base-4.11.0.0
+Dependency bytestring -any: using bytestring-0.10.8.2
+Dependency containers -any: using containers-0.5.10.2
+Dependency ghc-prim -any: using ghc-prim-0.5.2.0
+Dependency mtl -any: using mtl-2.2.2
+Dependency parsec -any: using parsec-3.1.12
+Dependency regex-base >=0.93.1: using regex-base-0.93.2
+Source component graph: component lib
+Configured component graph:
+    component regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA
+        include array-0.5.2.0
+        include base-4.11.0.0
+        include bytestring-0.10.8.2
+        include containers-0.5.10.2
+        include ghc-prim-0.5.2.0
+        include mtl-2.2.2
+        include parsec-3.1.12
+        include regex-base-0.93.2-4gLivDw9dU72viRyHg1rZg
+Linked component graph:
+    unit regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA
+        include array-0.5.2.0
+        include base-4.11.0.0
+        include bytestring-0.10.8.2
+        include containers-0.5.10.2
+        include ghc-prim-0.5.2.0
+        include mtl-2.2.2
+        include parsec-3.1.12
+        include regex-base-0.93.2-4gLivDw9dU72viRyHg1rZg
+        Data.IntMap.CharMap2=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Data.IntMap.CharMap2,Data.IntMap.EnumMap2=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Data.IntMap.EnumMap2,Data.IntSet.EnumSet2=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Data.IntSet.EnumSet2,Text.Regex.TDFA=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA,Text.Regex.TDFA.ByteString=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.ByteString,Text.Regex.TDFA.ByteString.Lazy=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.ByteString.Lazy,Text.Regex.TDFA.Common=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.Common,Text.Regex.TDFA.CorePattern=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.CorePattern,Text.Regex.TDFA.IntArrTrieSet=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.IntArrTrieSet,Text.Regex.TDFA.NewDFA.Engine=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.NewDFA.Engine,Text.Regex.TDFA.NewDFA.Engine_FA=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.NewDFA.Engine_FA,Text.Regex.TDFA.NewDFA.Engine_NC=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.NewDFA.Engine_NC,Text.Regex.TDFA.NewDFA.Engine_NC_FA=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.NewDFA.Engine_NC_FA,Text.Regex.TDFA.NewDFA.MakeTest=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.NewDFA.MakeTest,Text.Regex.TDFA.NewDFA.Tester=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.NewDFA.Tester,Text.Regex.TDFA.NewDFA.Uncons=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.NewDFA.Uncons,Text.Regex.TDFA.Pattern=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.Pattern,Text.Regex.TDFA.ReadRegex=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.ReadRegex,Text.Regex.TDFA.Sequence=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.Sequence,Text.Regex.TDFA.String=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.String,Text.Regex.TDFA.TDFA=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.TDFA,Text.Regex.TDFA.TNFA=regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA:Text.Regex.TDFA.TNFA
+Ready component graph:
+    definite regex-tdfa-1.2.2-FLWq2BSJ3GBHhkj59nfFEA
+        depends array-0.5.2.0
+        depends base-4.11.0.0
+        depends bytestring-0.10.8.2
+        depends containers-0.5.10.2
+        depends ghc-prim-0.5.2.0
+        depends mtl-2.2.2
+        depends parsec-3.1.12
+        depends regex-base-0.93.2-4gLivDw9dU72viRyHg1rZg
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.20180122
+Using install prefix:
+/nix/store/xwz227y5sxn3155ff42rd82af3zrm3yw-regex-tdfa-1.2.2
+Executables installed in:
+/nix/store/xwz227y5sxn3155ff42rd82af3zrm3yw-regex-tdfa-1.2.2/bin
+Libraries installed in:
+/nix/store/xwz227y5sxn3155ff42rd82af3zrm3yw-regex-tdfa-1.2.2/lib/ghc-8.4.20180122/regex-tdfa-1.2.2
+Dynamic Libraries installed in:
+/nix/store/xwz227y5sxn3155ff42rd82af3zrm3yw-regex-tdfa-1.2.2/lib/ghc-8.4.20180122/x86_64-linux-ghc-8.4.20180122
+Private executables installed in:
+/nix/store/xwz227y5sxn3155ff42rd82af3zrm3yw-regex-tdfa-1.2.2/libexec/x86_64-linux-ghc-8.4.20180122/regex-tdfa-1.2.2
+Data files installed in:
+/nix/store/xwz227y5sxn3155ff42rd82af3zrm3yw-regex-tdfa-1.2.2/share/x86_64-linux-ghc-8.4.20180122/regex-tdfa-1.2.2
+Documentation installed in:
+/nix/store/842b69wcnh4qx2mvm3qw0dcrlwjbxghb-regex-tdfa-1.2.2-doc/share/doc
+Configuration files installed in:
+/nix/store/xwz227y5sxn3155ff42rd82af3zrm3yw-regex-tdfa-1.2.2/etc
+No alex found
+Using ar found on system at:
+/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 6.4.0 given by user at:
+/nix/store/vmy9yzr09vmyq9k5nngf8lrhqmycffjy-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc
+Using ghc-pkg version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.18.2 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/w8ldqvmajj0zk2k201za0ng70ha14c8m-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/0m775vcmck56a48r88l1k8a5110khw1j-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/1jn750iav5rfbm05345ysi8dvxcz7j26-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing library for regex-tdfa-1.2.2..
+Building library for regex-tdfa-1.2.2..
+[ 1 of 23] Compiling Data.IntMap.CharMap2 ( Data/IntMap/CharMap2.hs, dist/build/Data/IntMap/CharMap2.o )
+
+Data/IntMap/CharMap2.hs:21:10: error:
+    • No instance for (Semigroup (CharMap a))
+        arising from the superclasses of an instance declaration
+    • In the instance declaration for ‘Monoid (CharMap a)’
+   |
+21 | instance Monoid (CharMap a) where
+   |          ^^^^^^^^^^^^^^^^^^
+[ 2 of 23] Compiling Data.IntSet.EnumSet2 ( Data/IntSet/EnumSet2.hs, dist/build/Data/IntSet/EnumSet2.o )
+
+Data/IntSet/EnumSet2.hs:10:10: error:
+    • No instance for (Semigroup (EnumSet e))
+        arising from the superclasses of an instance declaration
+    • In the instance declaration for ‘Monoid (EnumSet e)’
+   |
+10 | instance Monoid (EnumSet e) where
+   |          ^^^^^^^^^^^^^^^^^^
+[ 4 of 23] Compiling Paths_regex_tdfa ( dist/build/autogen/Paths_regex_tdfa.hs, dist/build/Paths_regex_tdfa.o )
+[ 5 of 23] Compiling Text.Regex.TDFA.IntArrTrieSet ( Text/Regex/TDFA/IntArrTrieSet.hs, dist/build/Text/Regex/TDFA/IntArrTrieSet.o )
+[ 7 of 23] Compiling Text.Regex.TDFA.NewDFA.Uncons ( Text/Regex/TDFA/NewDFA/Uncons.hs, dist/build/Text/Regex/TDFA/NewDFA/Uncons.o )
+builder for ‘/nix/store/gpbil09qlz94g42vinlk08s7n3cy1g59-regex-tdfa-1.2.2.drv’ failed with exit code 1
+error: build of ‘/nix/store/gpbil09qlz94g42vinlk08s7n3cy1g59-regex-tdfa-1.2.2.drv’ failed

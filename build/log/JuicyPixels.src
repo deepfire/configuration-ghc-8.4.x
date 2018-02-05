@@ -1,0 +1,150 @@
+these derivations will be built:
+  /nix/store/gbzwfziyzr6fgr9vzd7zk22xxpncfbn7-JuicyPixels-3.2.9.3.drv
+building path(s) ‘/nix/store/xbshhxcwcszrwdrmma11vk4lgwlny7vb-JuicyPixels-3.2.9.3’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/wrk4gpw9v4cd2kz384zprsf71hiicfp0-JuicyPixels-3.2.9.3.tar.gz
+source root is JuicyPixels-3.2.9.3
+setting SOURCE_DATE_EPOCH to timestamp 1514828766 of file JuicyPixels-3.2.9.3/src/Codec/Picture/Jpg/Progressive.hs
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-JuicyPixels-3.2.9.3.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-JuicyPixels-3.2.9.3.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/xbshhxcwcszrwdrmma11vk4lgwlny7vb-JuicyPixels-3.2.9.3 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --with-gcc=gcc --package-db=/tmp/nix-build-JuicyPixels-3.2.9.3.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/xbshhxcwcszrwdrmma11vk4lgwlny7vb-JuicyPixels-3.2.9.3/lib/ghc-8.4.20180122/JuicyPixels-3.2.9.3 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --disable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring JuicyPixels-3.2.9.3...
+Flags chosen: mmap=False
+Dependency base >=4.8 && <5: using base-4.11.0.0
+Dependency binary >=0.5 && <0.9: using binary-0.8.5.1
+Dependency bytestring >=0.9 && <0.11: using bytestring-0.10.8.2
+Dependency containers >=0.4.2 && <0.6: using containers-0.5.10.2
+Dependency deepseq >=1.1 && <1.5: using deepseq-1.4.3.0
+Dependency mtl >=1.1 && <2.3: using mtl-2.2.2
+Dependency primitive >=0.4 && <0.7: using primitive-0.6.3.0
+Dependency transformers >=0.2: using transformers-0.5.4.0
+Dependency vector >=0.10 && <0.13: using vector-0.12.0.1
+Dependency zlib >=0.5.3.1 && <0.7: using zlib-0.6.1.2
+Source component graph: component lib
+Configured component graph:
+    component JuicyPixels-3.2.9.3-JMlLm9dmc34HYLX2oQLAv6
+        include base-4.11.0.0
+        include bytestring-0.10.8.2
+        include mtl-2.2.2
+        include binary-0.8.5.1
+        include zlib-0.6.1.2-1SanCK11bqhBIWPew2Zh1e
+        include transformers-0.5.4.0
+        include vector-0.12.0.1-8oEgmYG2PEi3OkdmHi5XNi
+        include primitive-0.6.3.0-Ju8j6AcYLsh6YqSqKoUjwC
+        include deepseq-1.4.3.0
+        include containers-0.5.10.2
+Linked component graph:
+    unit JuicyPixels-3.2.9.3-JMlLm9dmc34HYLX2oQLAv6
+        include base-4.11.0.0
+        include bytestring-0.10.8.2
+        include mtl-2.2.2
+        include binary-0.8.5.1
+        include zlib-0.6.1.2-1SanCK11bqhBIWPew2Zh1e
+        include transformers-0.5.4.0
+        include vector-0.12.0.1-8oEgmYG2PEi3OkdmHi5XNi
+        include primitive-0.6.3.0-Ju8j6AcYLsh6YqSqKoUjwC
+        include deepseq-1.4.3.0
+        include containers-0.5.10.2
+        Codec.Picture=JuicyPixels-3.2.9.3-JMlLm9dmc34HYLX2oQLAv6:Codec.Picture,Codec.Picture.Bitmap=JuicyPixels-3.2.9.3-JMlLm9dmc34HYLX2oQLAv6:Codec.Picture.Bitmap,Codec.Picture.ColorQuant=JuicyPixels-3.2.9.3-JMlLm9dmc34HYLX2oQLAv6:Codec.Picture.ColorQuant,Codec.Picture.Gif=JuicyPixels-3.2.9.3-JMlLm9dmc34HYLX2oQLAv6:Codec.Picture.Gif,Codec.Picture.HDR=JuicyPixels-3.2.9.3-JMlLm9dmc34HYLX2oQLAv6:Codec.Picture.HDR,Codec.Picture.Jpg=JuicyPixels-3.2.9.3-JMlLm9dmc34HYLX2oQLAv6:Codec.Picture.Jpg,Codec.Picture.Metadata=JuicyPixels-3.2.9.3-JMlLm9dmc34HYLX2oQLAv6:Codec.Picture.Metadata,Codec.Picture.Metadata.Exif=JuicyPixels-3.2.9.3-JMlLm9dmc34HYLX2oQLAv6:Codec.Picture.Metadata.Exif,Codec.Picture.Png=JuicyPixels-3.2.9.3-JMlLm9dmc34HYLX2oQLAv6:Codec.Picture.Png,Codec.Picture.Saving=JuicyPixels-3.2.9.3-JMlLm9dmc34HYLX2oQLAv6:Codec.Picture.Saving,Codec.Picture.Tga=JuicyPixels-3.2.9.3-JMlLm9dmc34HYLX2oQLAv6:Codec.Picture.Tga,Codec.Picture.Tiff=JuicyPixels-3.2.9.3-JMlLm9dmc34HYLX2oQLAv6:Codec.Picture.Tiff,Codec.Picture.Types=JuicyPixels-3.2.9.3-JMlLm9dmc34HYLX2oQLAv6:Codec.Picture.Types
+Ready component graph:
+    definite JuicyPixels-3.2.9.3-JMlLm9dmc34HYLX2oQLAv6
+        depends base-4.11.0.0
+        depends bytestring-0.10.8.2
+        depends mtl-2.2.2
+        depends binary-0.8.5.1
+        depends zlib-0.6.1.2-1SanCK11bqhBIWPew2Zh1e
+        depends transformers-0.5.4.0
+        depends vector-0.12.0.1-8oEgmYG2PEi3OkdmHi5XNi
+        depends primitive-0.6.3.0-Ju8j6AcYLsh6YqSqKoUjwC
+        depends deepseq-1.4.3.0
+        depends containers-0.5.10.2
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.20180122
+Using install prefix:
+/nix/store/xbshhxcwcszrwdrmma11vk4lgwlny7vb-JuicyPixels-3.2.9.3
+Executables installed in:
+/nix/store/xbshhxcwcszrwdrmma11vk4lgwlny7vb-JuicyPixels-3.2.9.3/bin
+Libraries installed in:
+/nix/store/xbshhxcwcszrwdrmma11vk4lgwlny7vb-JuicyPixels-3.2.9.3/lib/ghc-8.4.20180122/JuicyPixels-3.2.9.3
+Dynamic Libraries installed in:
+/nix/store/xbshhxcwcszrwdrmma11vk4lgwlny7vb-JuicyPixels-3.2.9.3/lib/ghc-8.4.20180122/x86_64-linux-ghc-8.4.20180122
+Private executables installed in:
+/nix/store/xbshhxcwcszrwdrmma11vk4lgwlny7vb-JuicyPixels-3.2.9.3/libexec/x86_64-linux-ghc-8.4.20180122/JuicyPixels-3.2.9.3
+Data files installed in:
+/nix/store/xbshhxcwcszrwdrmma11vk4lgwlny7vb-JuicyPixels-3.2.9.3/share/x86_64-linux-ghc-8.4.20180122/JuicyPixels-3.2.9.3
+Documentation installed in:
+/nix/store/xbshhxcwcszrwdrmma11vk4lgwlny7vb-JuicyPixels-3.2.9.3/share/doc/x86_64-linux-ghc-8.4.20180122/JuicyPixels-3.2.9.3
+Configuration files installed in:
+/nix/store/xbshhxcwcszrwdrmma11vk4lgwlny7vb-JuicyPixels-3.2.9.3/etc
+No alex found
+Using ar found on system at:
+/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 6.4.0 given by user at:
+/nix/store/vmy9yzr09vmyq9k5nngf8lrhqmycffjy-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc
+Using ghc-pkg version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.18.2 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/w8ldqvmajj0zk2k201za0ng70ha14c8m-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/0m775vcmck56a48r88l1k8a5110khw1j-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/1jn750iav5rfbm05345ysi8dvxcz7j26-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing library for JuicyPixels-3.2.9.3..
+Building library for JuicyPixels-3.2.9.3..
+[ 1 of 30] Compiling Codec.Picture.InternalHelper ( src/Codec/Picture/InternalHelper.hs, dist/build/Codec/Picture/InternalHelper.o )
+[ 2 of 30] Compiling Codec.Picture.Metadata.Exif ( src/Codec/Picture/Metadata/Exif.hs, dist/build/Codec/Picture/Metadata/Exif.o )
+[ 3 of 30] Compiling Codec.Picture.Metadata ( src/Codec/Picture/Metadata.hs, dist/build/Codec/Picture/Metadata.o )
+
+src/Codec/Picture/Metadata.hs:172:10: error:
+    • No instance for (Semigroup Metadatas)
+        arising from the superclasses of an instance declaration
+    • In the instance declaration for ‘Monoid Metadatas’
+    |
+172 | instance Monoid Metadatas where
+    |          ^^^^^^^^^^^^^^^^
+[ 4 of 30] Compiling Codec.Picture.Tiff.Types ( src/Codec/Picture/Tiff/Types.hs, dist/build/Codec/Picture/Tiff/Types.o )
+[ 6 of 30] Compiling Codec.Picture.Types ( src/Codec/Picture/Types.hs, dist/build/Codec/Picture/Types.o )
+[ 7 of 30] Compiling Codec.Picture.Png.Type ( src/Codec/Picture/Png/Type.hs, dist/build/Codec/Picture/Png/Type.o )
+[ 9 of 30] Compiling Codec.Picture.ColorQuant ( src/Codec/Picture/ColorQuant.hs, dist/build/Codec/Picture/ColorQuant.o )
+[10 of 30] Compiling Codec.Picture.VectorByteConversion ( src/Codec/Picture/VectorByteConversion.hs, dist/build/Codec/Picture/VectorByteConversion.o )
+[16 of 30] Compiling Codec.Picture.BitWriter ( src/Codec/Picture/BitWriter.hs, dist/build/Codec/Picture/BitWriter.o )
+[17 of 30] Compiling Codec.Picture.Jpg.DefaultTable ( src/Codec/Picture/Jpg/DefaultTable.hs, dist/build/Codec/Picture/Jpg/DefaultTable.o )
+[25 of 30] Compiling Codec.Picture.Gif.LZWEncoding ( src/Codec/Picture/Gif/LZWEncoding.hs, dist/build/Codec/Picture/Gif/LZWEncoding.o )
+[26 of 30] Compiling Codec.Picture.Gif.LZW ( src/Codec/Picture/Gif/LZW.hs, dist/build/Codec/Picture/Gif/LZW.o )
+builder for ‘/nix/store/gbzwfziyzr6fgr9vzd7zk22xxpncfbn7-JuicyPixels-3.2.9.3.drv’ failed with exit code 1
+error: build of ‘/nix/store/gbzwfziyzr6fgr9vzd7zk22xxpncfbn7-JuicyPixels-3.2.9.3.drv’ failed

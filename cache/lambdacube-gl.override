@@ -1,0 +1,4 @@
+  lambdacube-gl = overrideCabal super.lambdacube-gl (drv: {
+    jailbreak       = true;
+  });
+

@@ -1,0 +1,4 @@
+  parallel = overrideCabal super.parallel (drv: {
+    jailbreak       = true;
+  });
+

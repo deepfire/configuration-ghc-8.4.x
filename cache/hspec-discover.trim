@@ -1,0 +1,7 @@
+  ## On Hackage, awaiting for import
+  ## 
+  ## breaks hspec:
+  ## Setup: Encountered missing dependencies:
+  ## hspec-discover ==2.4.7
+  hspec-discover = super.hspec-discover_2_4_7;
+

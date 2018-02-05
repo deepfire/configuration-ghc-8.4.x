@@ -1,0 +1,31 @@
+these derivations will be built:
+  /nix/store/g5jl22kpq8fnrg8ldphxndri759nxwzf-singletons-2.3.1.drv
+building path(s) ‘/nix/store/8h6zx0vsjb2qhwaaxdyil3lqrk5sgr8m-singletons-2.3.1-doc’, ‘/nix/store/likpnbn73240jd7s3536l5j4z6c0zs5r-singletons-2.3.1’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/fab6mjh7zsp3kiyv76w054kya3x4shq2-singletons-2.3.1.tar.gz
+source root is singletons-2.3.1
+setting SOURCE_DATE_EPOCH to timestamp 1501507622 of file singletons-2.3.1/tests/SingletonsTestSuiteUtils.hs
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-singletons-2.3.1.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-singletons-2.3.1.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/likpnbn73240jd7s3536l5j4z6c0zs5r-singletons-2.3.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/8h6zx0vsjb2qhwaaxdyil3lqrk5sgr8m-singletons-2.3.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-singletons-2.3.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/likpnbn73240jd7s3536l5j4z6c0zs5r-singletons-2.3.1/lib/ghc-8.4.20180122/singletons-2.3.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --disable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring singletons-2.3.1...
+CallStack (from HasCallStack):
+  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
+  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
+  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:114:27 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMain, called at Setup.hs:2:8 in main:Main
+Setup: Encountered missing dependencies:
+th-desugar ==1.7.*
+
+builder for ‘/nix/store/g5jl22kpq8fnrg8ldphxndri759nxwzf-singletons-2.3.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/g5jl22kpq8fnrg8ldphxndri759nxwzf-singletons-2.3.1.drv’ failed

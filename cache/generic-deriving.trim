@@ -1,0 +1,5 @@
+  generic-deriving = overrideCabal super.generic-deriving (drv: {
+    doCheck         = false;
+    jailbreak       = true;
+  });
+

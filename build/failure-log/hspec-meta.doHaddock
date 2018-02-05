@@ -1,0 +1,29 @@
+Linking dist/build/hspec-meta-discover/hspec-meta-discover ...
+running tests
+Package has no test suites.
+haddockPhase
+Running hscolour for hspec-meta-2.4.6...
+Preprocessing library for hspec-meta-2.4.6..
+Preprocessing executable 'hspec-meta-discover' for hspec-meta-2.4.6..
+Preprocessing library for hspec-meta-2.4.6..
+Running Haddock on library for hspec-meta-2.4.6..
+Haddock coverage:
+haddock: panic! (the 'impossible' happened)
+  (GHC version 8.4.20180122 for x86_64-unknown-linux):
+	extractDecl
+Ambiguous decl for Arg in class:
+    class Example e where
+      type Arg e
+      type Arg e = ()
+      evaluateExample ::
+        e
+        -> Params
+           -> (ActionWith (Arg e) -> IO ()) -> ProgressCallback -> IO Result
+      {-# MINIMAL evaluateExample #-}
+Matches:
+    []
+Call stack:
+    CallStack (from HasCallStack):
+      callStackDoc, called at compiler/utils/Outputable.hs:1150:37 in ghc:Outputable
+      pprPanic, called at utils/haddock/haddock-api/src/Haddock/Interface/Create.hs:1013:16 in main:Haddock.Interface.Create
+Please report this as a GHC bug:  http://www.haskell.org/ghc/reportabug

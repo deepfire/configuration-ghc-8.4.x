@@ -1,0 +1,13 @@
+these derivations will be built:
+  /nix/store/jwa9bzpsf0cf4nwknvp90ihfvl7749ng-gtk2hs-buildtools-0.13.3.1.drv
+building path(s) ‘/nix/store/4877iimyqqpij0wj0nm7z16h4nzw6pmw-gtk2hs-buildtools-0.13.3.1’, ‘/nix/store/bnqjf6wlq347bvvik61cc5fmk8cq5hrh-gtk2hs-buildtools-0.13.3.1-doc’, ‘/nix/store/m8qwnbaxajm3d3l4fa9xr3cmi01zl1hf-gtk2hs-buildtools-0.13.3.1-data’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/bysyryhavfnqyfv28y7pzc2w6243fsaq-gtk2hs-buildtools-0.13.3.1.tar.gz
+source root is gtk2hs-buildtools-0.13.3.1
+setting SOURCE_DATE_EPOCH to timestamp 1511654285 of file gtk2hs-buildtools-0.13.3.1/src/Gtk2HsSetup.hs
+patching sources
+/nix/store/78sxg2kvl2klplqfx22s6b42lds7qq23-stdenv/setup: line 99: cd: tools: No such file or directory
+builder for ‘/nix/store/jwa9bzpsf0cf4nwknvp90ihfvl7749ng-gtk2hs-buildtools-0.13.3.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/jwa9bzpsf0cf4nwknvp90ihfvl7749ng-gtk2hs-buildtools-0.13.3.1.drv’ failed

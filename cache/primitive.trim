@@ -1,0 +1,6 @@
+  primitive = overrideCabal super.primitive (drv: {
+    jailbreak       = true;
+    editedCabalFile = null;
+    revision        = null;
+  });
+

@@ -1,0 +1,232 @@
+these derivations will be built:
+  /nix/store/4pafwvw5l8xnwblg963q12hxvzcs3nd3-free-4.12.4.drv
+building path(s) ‘/nix/store/0mdrvq08b274bg7llqlhrd6nc68xmr6h-free-4.12.4-doc’, ‘/nix/store/iih39y8ssihw0jvvkwqw04qzmxfrdq64-free-4.12.4’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/swld605w1ld7zznaypb7ji46wbrpqffs-free-4.12.4.tar.gz
+source root is free-4.12.4
+setting SOURCE_DATE_EPOCH to timestamp 1452996913 of file free-4.12.4/.vim.custom
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-free-4.12.4.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-free-4.12.4.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/iih39y8ssihw0jvvkwqw04qzmxfrdq64-free-4.12.4 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/0mdrvq08b274bg7llqlhrd6nc68xmr6h-free-4.12.4-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-free-4.12.4.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/iih39y8ssihw0jvvkwqw04qzmxfrdq64-free-4.12.4/lib/ghc-8.4.20180122/free-4.12.4 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring free-4.12.4...
+Dependency base ==4.*: using base-4.11.0.0
+Dependency bifunctors >=4 && <6: using bifunctors-5.5
+Dependency comonad >=4 && <6: using comonad-5.0.2
+Dependency containers <0.6: using containers-0.5.10.2
+Dependency distributive >=0.2.1: using distributive-0.5.3
+Dependency exceptions >=0.6 && <0.9: using exceptions-0.8.3
+Dependency mtl >=2.0.1.0 && <2.3: using mtl-2.2.2
+Dependency prelude-extras >=0.4 && <1: using prelude-extras-0.4.0.3
+Dependency profunctors >=4 && <6: using profunctors-5.2.2
+Dependency semigroupoids >=4 && <6: using semigroupoids-5.2.2
+Dependency semigroups >=0.8.3.1 && <1: using semigroups-0.18.3
+Dependency template-haskell >=2.7.0.0 && <3: using template-haskell-2.13.0.0
+Dependency transformers >=0.2.0 && <0.6: using transformers-0.5.4.0
+Dependency transformers-compat >=0.3 && <1: using transformers-compat-0.5.1.4
+Source component graph: component lib
+Configured component graph:
+    component free-4.12.4-DoV1oXlosj794LUJyxT88t
+        include base-4.11.0.0
+        include bifunctors-5.5-FC8KEv5sVIL9S1TaJ3uxVO
+        include comonad-5.0.2-FPOrofE362cG9WYSpo4fPO
+        include distributive-0.5.3-DyvIdaGMdnM23ms6EkCJyo
+        include mtl-2.2.2
+        include prelude-extras-0.4.0.3-AMR8zkBGx5uHvCMmw1KwwD
+        include profunctors-5.2.2-BMkrLJNVA8uI2tufqNFBUt
+        include semigroupoids-5.2.2-7I7r1JbzYxA9gJkYBhw1eq
+        include semigroups-0.18.3-4peSdCyGLLPI4Uqc9pfudV
+        include transformers-0.5.4.0
+        include transformers-compat-0.5.1.4-61NvmTIjhXiKH1MluR3Fq2
+        include template-haskell-2.13.0.0
+        include exceptions-0.8.3-6nWcYoNJ77tAvhvG9GnLPh
+        include containers-0.5.10.2
+Linked component graph:
+    unit free-4.12.4-DoV1oXlosj794LUJyxT88t
+        include base-4.11.0.0
+        include bifunctors-5.5-FC8KEv5sVIL9S1TaJ3uxVO
+        include comonad-5.0.2-FPOrofE362cG9WYSpo4fPO
+        include distributive-0.5.3-DyvIdaGMdnM23ms6EkCJyo
+        include mtl-2.2.2
+        include prelude-extras-0.4.0.3-AMR8zkBGx5uHvCMmw1KwwD
+        include profunctors-5.2.2-BMkrLJNVA8uI2tufqNFBUt
+        include semigroupoids-5.2.2-7I7r1JbzYxA9gJkYBhw1eq
+        include semigroups-0.18.3-4peSdCyGLLPI4Uqc9pfudV
+        include transformers-0.5.4.0
+        include transformers-compat-0.5.1.4-61NvmTIjhXiKH1MluR3Fq2
+        include template-haskell-2.13.0.0
+        include exceptions-0.8.3-6nWcYoNJ77tAvhvG9GnLPh
+        include containers-0.5.10.2
+        Control.Alternative.Free=free-4.12.4-DoV1oXlosj794LUJyxT88t:Control.Alternative.Free,Control.Alternative.Free.Final=free-4.12.4-DoV1oXlosj794LUJyxT88t:Control.Alternative.Free.Final,Control.Applicative.Free=free-4.12.4-DoV1oXlosj794LUJyxT88t:Control.Applicative.Free,Control.Applicative.Free.Final=free-4.12.4-DoV1oXlosj794LUJyxT88t:Control.Applicative.Free.Final,Control.Applicative.Trans.Free=free-4.12.4-DoV1oXlosj794LUJyxT88t:Control.Applicative.Trans.Free,Control.Comonad.Cofree=free-4.12.4-DoV1oXlosj794LUJyxT88t:Control.Comonad.Cofree,Control.Comonad.Cofree.Class=free-4.12.4-DoV1oXlosj794LUJyxT88t:Control.Comonad.Cofree.Class,Control.Comonad.Trans.Cofree=free-4.12.4-DoV1oXlosj794LUJyxT88t:Control.Comonad.Trans.Cofree,Control.Comonad.Trans.Coiter=free-4.12.4-DoV1oXlosj794LUJyxT88t:Control.Comonad.Trans.Coiter,Control.Monad.Free=free-4.12.4-DoV1oXlosj794LUJyxT88t:Control.Monad.Free,Control.Monad.Free.Church=free-4.12.4-DoV1oXlosj794LUJyxT88t:Control.Monad.Free.Church,Control.Monad.Free.Class=free-4.12.4-DoV1oXlosj794LUJyxT88t:Control.Monad.Free.Class,Control.Monad.Free.TH=free-4.12.4-DoV1oXlosj794LUJyxT88t:Control.Monad.Free.TH,Control.Monad.Trans.Free=free-4.12.4-DoV1oXlosj794LUJyxT88t:Control.Monad.Trans.Free,Control.Monad.Trans.Free.Church=free-4.12.4-DoV1oXlosj794LUJyxT88t:Control.Monad.Trans.Free.Church,Control.Monad.Trans.Iter=free-4.12.4-DoV1oXlosj794LUJyxT88t:Control.Monad.Trans.Iter
+Ready component graph:
+    definite free-4.12.4-DoV1oXlosj794LUJyxT88t
+        depends base-4.11.0.0
+        depends bifunctors-5.5-FC8KEv5sVIL9S1TaJ3uxVO
+        depends comonad-5.0.2-FPOrofE362cG9WYSpo4fPO
+        depends distributive-0.5.3-DyvIdaGMdnM23ms6EkCJyo
+        depends mtl-2.2.2
+        depends prelude-extras-0.4.0.3-AMR8zkBGx5uHvCMmw1KwwD
+        depends profunctors-5.2.2-BMkrLJNVA8uI2tufqNFBUt
+        depends semigroupoids-5.2.2-7I7r1JbzYxA9gJkYBhw1eq
+        depends semigroups-0.18.3-4peSdCyGLLPI4Uqc9pfudV
+        depends transformers-0.5.4.0
+        depends transformers-compat-0.5.1.4-61NvmTIjhXiKH1MluR3Fq2
+        depends template-haskell-2.13.0.0
+        depends exceptions-0.8.3-6nWcYoNJ77tAvhvG9GnLPh
+        depends containers-0.5.10.2
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.20180122
+Using install prefix: /nix/store/iih39y8ssihw0jvvkwqw04qzmxfrdq64-free-4.12.4
+Executables installed in:
+/nix/store/iih39y8ssihw0jvvkwqw04qzmxfrdq64-free-4.12.4/bin
+Libraries installed in:
+/nix/store/iih39y8ssihw0jvvkwqw04qzmxfrdq64-free-4.12.4/lib/ghc-8.4.20180122/free-4.12.4
+Dynamic Libraries installed in:
+/nix/store/iih39y8ssihw0jvvkwqw04qzmxfrdq64-free-4.12.4/lib/ghc-8.4.20180122/x86_64-linux-ghc-8.4.20180122
+Private executables installed in:
+/nix/store/iih39y8ssihw0jvvkwqw04qzmxfrdq64-free-4.12.4/libexec/x86_64-linux-ghc-8.4.20180122/free-4.12.4
+Data files installed in:
+/nix/store/iih39y8ssihw0jvvkwqw04qzmxfrdq64-free-4.12.4/share/x86_64-linux-ghc-8.4.20180122/free-4.12.4
+Documentation installed in:
+/nix/store/0mdrvq08b274bg7llqlhrd6nc68xmr6h-free-4.12.4-doc/share/doc
+Configuration files installed in:
+/nix/store/iih39y8ssihw0jvvkwqw04qzmxfrdq64-free-4.12.4/etc
+No alex found
+Using ar found on system at:
+/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 6.4.0 given by user at:
+/nix/store/vmy9yzr09vmyq9k5nngf8lrhqmycffjy-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc
+Using ghc-pkg version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.18.2 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/w8ldqvmajj0zk2k201za0ng70ha14c8m-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/0m775vcmck56a48r88l1k8a5110khw1j-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/1jn750iav5rfbm05345ysi8dvxcz7j26-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing library for free-4.12.4..
+Building library for free-4.12.4..
+[ 1 of 16] Compiling Control.Alternative.Free ( src/Control/Alternative/Free.hs, dist/build/Control/Alternative/Free.o )
+
+src/Control/Alternative/Free.hs:34:1: warning: [-Wunused-imports]
+    The import of ‘Data.Semigroup’ is redundant
+      except perhaps to import instances from ‘Data.Semigroup’
+    To import instances alone, use: import Data.Semigroup()
+   |
+34 | import Data.Semigroup
+   | ^^^^^^^^^^^^^^^^^^^^^
+[ 2 of 16] Compiling Control.Alternative.Free.Final ( src/Control/Alternative/Free/Final.hs, dist/build/Control/Alternative/Free/Final.o )
+
+src/Control/Alternative/Free/Final.hs:25:1: warning: [-Wunused-imports]
+    The import of ‘Data.Semigroup’ is redundant
+      except perhaps to import instances from ‘Data.Semigroup’
+    To import instances alone, use: import Data.Semigroup()
+   |
+25 | import Data.Semigroup
+   | ^^^^^^^^^^^^^^^^^^^^^
+[ 3 of 16] Compiling Control.Applicative.Free ( src/Control/Applicative/Free.hs, dist/build/Control/Applicative/Free.o )
+[ 4 of 16] Compiling Control.Applicative.Free.Final ( src/Control/Applicative/Free/Final.hs, dist/build/Control/Applicative/Free/Final.o )
+[ 5 of 16] Compiling Control.Applicative.Trans.Free ( src/Control/Applicative/Trans/Free.hs, dist/build/Control/Applicative/Trans/Free.o )
+[ 6 of 16] Compiling Control.Comonad.Cofree.Class ( src/Control/Comonad/Cofree/Class.hs, dist/build/Control/Comonad/Cofree/Class.o )
+[ 7 of 16] Compiling Control.Comonad.Cofree ( src/Control/Comonad/Cofree.hs, dist/build/Control/Comonad/Cofree.o )
+[ 8 of 16] Compiling Control.Comonad.Trans.Cofree ( src/Control/Comonad/Trans/Cofree.hs, dist/build/Control/Comonad/Trans/Cofree.o )
+
+src/Control/Comonad/Trans/Cofree.hs:46:1: warning: [-Wunused-imports]
+    The import of ‘Data.Semigroup’ is redundant
+      except perhaps to import instances from ‘Data.Semigroup’
+    To import instances alone, use: import Data.Semigroup()
+   |
+46 | import Data.Semigroup
+   | ^^^^^^^^^^^^^^^^^^^^^
+[ 9 of 16] Compiling Control.Comonad.Trans.Coiter ( src/Control/Comonad/Trans/Coiter.hs, dist/build/Control/Comonad/Trans/Coiter.o )
+[10 of 16] Compiling Control.Monad.Free.Class ( src/Control/Monad/Free/Class.hs, dist/build/Control/Monad/Free/Class.o )
+[11 of 16] Compiling Control.Monad.Free.TH ( src/Control/Monad/Free/TH.hs, dist/build/Control/Monad/Free/TH.o )
+[12 of 16] Compiling Control.Monad.Trans.Free ( src/Control/Monad/Trans/Free.hs, dist/build/Control/Monad/Trans/Free.o )
+
+src/Control/Monad/Trans/Free.hs:72:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+   |
+72 | import Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^
+[13 of 16] Compiling Control.Monad.Free ( src/Control/Monad/Free.hs, dist/build/Control/Monad/Free.o )
+[14 of 16] Compiling Control.Monad.Free.Church ( src/Control/Monad/Free/Church.hs, dist/build/Control/Monad/Free/Church.o )
+[15 of 16] Compiling Control.Monad.Trans.Free.Church ( src/Control/Monad/Trans/Free/Church.hs, dist/build/Control/Monad/Trans/Free/Church.o )
+
+src/Control/Monad/Trans/Free/Church.hs:83:10: warning: [-Wsimplifiable-class-constraints]
+    • The constraint ‘Eq (FreeT f m a)’ matches an instance declaration
+      instance [safe] Eq (m (FreeF f a (FreeT f m a))) =>
+                      Eq (FreeT f m a)
+        -- Defined at src/Control/Monad/Trans/Free.hs:182:1
+      This makes type inference for inner bindings fragile;
+        either use MonoLocalBinds, or simplify it using the instance
+    • In the context: (Functor f, Monad m, Eq (FreeT f m a))
+      While checking an instance declaration
+      In the instance declaration for ‘Eq (FT f m a)’
+   |
+83 | instance (Functor f, Monad m, Eq (FreeT f m a)) => Eq (FT f m a) where
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Control/Monad/Trans/Free/Church.hs:86:10: warning: [-Wsimplifiable-class-constraints]
+    • The constraint ‘Ord (FreeT f m a)’
+        matches an instance declaration
+      instance [safe] Ord (m (FreeF f a (FreeT f m a))) =>
+                      Ord (FreeT f m a)
+        -- Defined at src/Control/Monad/Trans/Free.hs:187:1
+      This makes type inference for inner bindings fragile;
+        either use MonoLocalBinds, or simplify it using the instance
+    • In the context: (Functor f, Monad m, Ord (FreeT f m a))
+      While checking an instance declaration
+      In the instance declaration for ‘Ord (FT f m a)’
+   |
+86 | instance (Functor f, Monad m, Ord (FreeT f m a)) => Ord (FT f m a) where
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[16 of 16] Compiling Control.Monad.Trans.Iter ( src/Control/Monad/Trans/Iter.hs, dist/build/Control/Monad/Trans/Iter.o )
+
+src/Control/Monad/Trans/Iter.hs:391:10: error:
+    • Could not deduce (Semigroup (IterT m a))
+        arising from the superclasses of an instance declaration
+      from the context: (Monad m, Monoid a)
+        bound by the instance declaration
+        at src/Control/Monad/Trans/Iter.hs:391:10-50
+    • In the instance declaration for ‘Monoid (IterT m a)’
+    |
+391 | instance (Monad m, Monoid a) => Monoid (IterT m a) where
+    |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+builder for ‘/nix/store/4pafwvw5l8xnwblg963q12hxvzcs3nd3-free-4.12.4.drv’ failed with exit code 1
+error: build of ‘/nix/store/4pafwvw5l8xnwblg963q12hxvzcs3nd3-free-4.12.4.drv’ failed

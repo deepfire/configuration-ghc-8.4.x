@@ -1,0 +1,4 @@
+  comonad = overrideCabal super.comonad (drv: {
+    doCheck         = false;
+  });
+

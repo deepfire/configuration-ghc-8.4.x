@@ -1,0 +1,111 @@
+these derivations will be built:
+  /nix/store/cjnkxvd3jfh8gd8vxmlg8y1s3axbimqr-MemoTrie-0.6.8.drv
+building path(s) ‘/nix/store/d4l6gy3h6xxp43vpivmwaz6pgb3kg812-MemoTrie-0.6.8’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/kfi1j1hg445735ycrn7hvmv29ch2ah6d-MemoTrie-0.6.8.tar.gz
+source root is MemoTrie-0.6.8
+setting SOURCE_DATE_EPOCH to timestamp 1499384889 of file MemoTrie-0.6.8/src/Data/MemoTrie.hs
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-MemoTrie-0.6.8.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-MemoTrie-0.6.8.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/d4l6gy3h6xxp43vpivmwaz6pgb3kg812-MemoTrie-0.6.8 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --with-gcc=gcc --package-db=/tmp/nix-build-MemoTrie-0.6.8.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/d4l6gy3h6xxp43vpivmwaz6pgb3kg812-MemoTrie-0.6.8/lib/ghc-8.4.20180122/MemoTrie-0.6.8 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --disable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Warning: MemoTrie.cabal:51:3: The field "default-language" is specified more
+than once at positions 51:3, 53:3
+Configuring MemoTrie-0.6.8...
+Flags chosen: examples=False
+Dependency base >=4.8.0.0 && <5: using base-4.11.0.0
+Dependency newtype-generics >=0.4: using newtype-generics-0.5.1
+Source component graph: component lib
+Configured component graph:
+    component MemoTrie-0.6.8-Joqrl8xwXH5yCWYl2BGWL
+        include base-4.11.0.0
+        include newtype-generics-0.5.1-AgfnLA6cNFgCODXY9J6PUV
+Linked component graph:
+    unit MemoTrie-0.6.8-Joqrl8xwXH5yCWYl2BGWL
+        include base-4.11.0.0
+        include newtype-generics-0.5.1-AgfnLA6cNFgCODXY9J6PUV
+        Data.MemoTrie=MemoTrie-0.6.8-Joqrl8xwXH5yCWYl2BGWL:Data.MemoTrie
+Ready component graph:
+    definite MemoTrie-0.6.8-Joqrl8xwXH5yCWYl2BGWL
+        depends base-4.11.0.0
+        depends newtype-generics-0.5.1-AgfnLA6cNFgCODXY9J6PUV
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.20180122
+Using install prefix:
+/nix/store/d4l6gy3h6xxp43vpivmwaz6pgb3kg812-MemoTrie-0.6.8
+Executables installed in:
+/nix/store/d4l6gy3h6xxp43vpivmwaz6pgb3kg812-MemoTrie-0.6.8/bin
+Libraries installed in:
+/nix/store/d4l6gy3h6xxp43vpivmwaz6pgb3kg812-MemoTrie-0.6.8/lib/ghc-8.4.20180122/MemoTrie-0.6.8
+Dynamic Libraries installed in:
+/nix/store/d4l6gy3h6xxp43vpivmwaz6pgb3kg812-MemoTrie-0.6.8/lib/ghc-8.4.20180122/x86_64-linux-ghc-8.4.20180122
+Private executables installed in:
+/nix/store/d4l6gy3h6xxp43vpivmwaz6pgb3kg812-MemoTrie-0.6.8/libexec/x86_64-linux-ghc-8.4.20180122/MemoTrie-0.6.8
+Data files installed in:
+/nix/store/d4l6gy3h6xxp43vpivmwaz6pgb3kg812-MemoTrie-0.6.8/share/x86_64-linux-ghc-8.4.20180122/MemoTrie-0.6.8
+Documentation installed in:
+/nix/store/d4l6gy3h6xxp43vpivmwaz6pgb3kg812-MemoTrie-0.6.8/share/doc/x86_64-linux-ghc-8.4.20180122/MemoTrie-0.6.8
+Configuration files installed in:
+/nix/store/d4l6gy3h6xxp43vpivmwaz6pgb3kg812-MemoTrie-0.6.8/etc
+No alex found
+Using ar found on system at:
+/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 6.4.0 given by user at:
+/nix/store/vmy9yzr09vmyq9k5nngf8lrhqmycffjy-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc
+Using ghc-pkg version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.18.2 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/w8ldqvmajj0zk2k201za0ng70ha14c8m-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/0m775vcmck56a48r88l1k8a5110khw1j-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/1jn750iav5rfbm05345ysi8dvxcz7j26-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing library for MemoTrie-0.6.8..
+Building library for MemoTrie-0.6.8..
+[1 of 1] Compiling Data.MemoTrie    ( src/Data/MemoTrie.hs, dist/build/Data/MemoTrie.o )
+
+src/Data/MemoTrie.hs:588:10: error:
+    • Could not deduce (Semigroup (a :->: b))
+        arising from the superclasses of an instance declaration
+      from the context: (HasTrie a, Monoid b)
+        bound by the instance declaration at src/Data/MemoTrie.hs:588:10-51
+    • In the instance declaration for ‘Monoid (a :->: b)’
+    |
+588 | instance (HasTrie a, Monoid b) => Monoid (a :->: b) where
+    |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+builder for ‘/nix/store/cjnkxvd3jfh8gd8vxmlg8y1s3axbimqr-MemoTrie-0.6.8.drv’ failed with exit code 1
+error: build of ‘/nix/store/cjnkxvd3jfh8gd8vxmlg8y1s3axbimqr-MemoTrie-0.6.8.drv’ failed

@@ -1,0 +1,4 @@
+  hashable = overrideCabal super.hashable (drv: {
+    jailbreak       = true;
+  });
+

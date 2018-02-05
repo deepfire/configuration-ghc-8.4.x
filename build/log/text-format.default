@@ -1,0 +1,146 @@
+these derivations will be built:
+  /nix/store/pkjxdsf8b2ifzxlzp1iqhnm06axzmhap-text-format-0.3.1.1.drv
+building path(s) ‘/nix/store/ays7i8jal2a1an5n73mxv2na8h8k74ga-text-format-0.3.1.1-doc’, ‘/nix/store/s097xbr6px611l0n4k6wd852pxafvk5i-text-format-0.3.1.1’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/4g03vs368jwpdwf7v1b4jh0lpngkd81r-text-format-0.3.1.1.tar.gz
+source root is text-format-0.3.1.1
+setting SOURCE_DATE_EPOCH to timestamp 1394130661 of file text-format-0.3.1.1/text-format.cabal
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-text-format-0.3.1.1.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-text-format-0.3.1.1.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/s097xbr6px611l0n4k6wd852pxafvk5i-text-format-0.3.1.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/ays7i8jal2a1an5n73mxv2na8h8k74ga-text-format-0.3.1.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-text-format-0.3.1.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/s097xbr6px611l0n4k6wd852pxafvk5i-text-format-0.3.1.1/lib/ghc-8.4.20180122/text-format-0.3.1.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring text-format-0.3.1.1...
+Flags chosen: developer=False
+Dependency array -any: using array-0.5.2.0
+Dependency base ==4.*: using base-4.11.0.0
+Dependency double-conversion >=0.2.0.0: using double-conversion-2.0.2.0
+Dependency ghc-prim -any: using ghc-prim-0.5.2.0
+Dependency integer-gmp >=0.2: using integer-gmp-1.0.1.0
+Dependency old-locale -any: using old-locale-1.0.0.7
+Dependency text >=0.11.0.8: using text-1.2.3.0
+Dependency time -any: using time-1.8.0.2
+Dependency transformers -any: using transformers-0.5.4.0
+Source component graph: component lib
+Configured component graph:
+    component text-format-0.3.1.1-8UxfLFVmzCb863XsTptSqW
+        include array-0.5.2.0
+        include base-4.11.0.0
+        include double-conversion-2.0.2.0-CKBz7k2e6XC5YdndObGlRY
+        include ghc-prim-0.5.2.0
+        include old-locale-1.0.0.7-9Gu0UQBmhOPH4QzJ0qqUtk
+        include text-1.2.3.0
+        include time-1.8.0.2
+        include transformers-0.5.4.0
+        include integer-gmp-1.0.1.0
+Linked component graph:
+    unit text-format-0.3.1.1-8UxfLFVmzCb863XsTptSqW
+        include array-0.5.2.0
+        include base-4.11.0.0
+        include double-conversion-2.0.2.0-CKBz7k2e6XC5YdndObGlRY
+        include ghc-prim-0.5.2.0
+        include old-locale-1.0.0.7-9Gu0UQBmhOPH4QzJ0qqUtk
+        include text-1.2.3.0
+        include time-1.8.0.2
+        include transformers-0.5.4.0
+        include integer-gmp-1.0.1.0
+        Data.Text.Buildable=text-format-0.3.1.1-8UxfLFVmzCb863XsTptSqW:Data.Text.Buildable,Data.Text.Format=text-format-0.3.1.1-8UxfLFVmzCb863XsTptSqW:Data.Text.Format,Data.Text.Format.Params=text-format-0.3.1.1-8UxfLFVmzCb863XsTptSqW:Data.Text.Format.Params,Data.Text.Format.Types=text-format-0.3.1.1-8UxfLFVmzCb863XsTptSqW:Data.Text.Format.Types
+Ready component graph:
+    definite text-format-0.3.1.1-8UxfLFVmzCb863XsTptSqW
+        depends array-0.5.2.0
+        depends base-4.11.0.0
+        depends double-conversion-2.0.2.0-CKBz7k2e6XC5YdndObGlRY
+        depends ghc-prim-0.5.2.0
+        depends old-locale-1.0.0.7-9Gu0UQBmhOPH4QzJ0qqUtk
+        depends text-1.2.3.0
+        depends time-1.8.0.2
+        depends transformers-0.5.4.0
+        depends integer-gmp-1.0.1.0
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.20180122
+Using install prefix:
+/nix/store/s097xbr6px611l0n4k6wd852pxafvk5i-text-format-0.3.1.1
+Executables installed in:
+/nix/store/s097xbr6px611l0n4k6wd852pxafvk5i-text-format-0.3.1.1/bin
+Libraries installed in:
+/nix/store/s097xbr6px611l0n4k6wd852pxafvk5i-text-format-0.3.1.1/lib/ghc-8.4.20180122/text-format-0.3.1.1
+Dynamic Libraries installed in:
+/nix/store/s097xbr6px611l0n4k6wd852pxafvk5i-text-format-0.3.1.1/lib/ghc-8.4.20180122/x86_64-linux-ghc-8.4.20180122
+Private executables installed in:
+/nix/store/s097xbr6px611l0n4k6wd852pxafvk5i-text-format-0.3.1.1/libexec/x86_64-linux-ghc-8.4.20180122/text-format-0.3.1.1
+Data files installed in:
+/nix/store/s097xbr6px611l0n4k6wd852pxafvk5i-text-format-0.3.1.1/share/x86_64-linux-ghc-8.4.20180122/text-format-0.3.1.1
+Documentation installed in:
+/nix/store/ays7i8jal2a1an5n73mxv2na8h8k74ga-text-format-0.3.1.1-doc/share/doc
+Configuration files installed in:
+/nix/store/s097xbr6px611l0n4k6wd852pxafvk5i-text-format-0.3.1.1/etc
+No alex found
+Using ar found on system at:
+/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 6.4.0 given by user at:
+/nix/store/vmy9yzr09vmyq9k5nngf8lrhqmycffjy-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc
+Using ghc-pkg version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.18.2 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/w8ldqvmajj0zk2k201za0ng70ha14c8m-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/0m775vcmck56a48r88l1k8a5110khw1j-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.20180122 found on system at:
+/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/1jn750iav5rfbm05345ysi8dvxcz7j26-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing library for text-format-0.3.1.1..
+Building library for text-format-0.3.1.1..
+[1 of 7] Compiling Data.Text.Format.Functions ( Data/Text/Format/Functions.hs, dist/build/Data/Text/Format/Functions.o )
+
+Data/Text/Format/Functions.hs:16:7: error:
+    Ambiguous occurrence ‘<>’
+    It could refer to either ‘GHC.Base.<>’,
+                             imported from ‘GHC.Base’ at Data/Text/Format/Functions.hs:22:1-15
+                          or ‘Data.Text.Format.Functions.<>’,
+                             defined at Data/Text/Format/Functions.hs:32:1
+   |
+16 |       (<>)
+   |       ^^^^
+[3 of 7] Compiling Data.Text.Format.Types.Internal ( Data/Text/Format/Types/Internal.hs, dist/build/Data/Text/Format/Types/Internal.o )
+
+Data/Text/Format/Types/Internal.hs:49:10: error:
+    • No instance for (Semigroup Format)
+        arising from the superclasses of an instance declaration
+    • In the instance declaration for ‘Monoid Format’
+   |
+49 | instance Monoid Format where
+   |          ^^^^^^^^^^^^^
+builder for ‘/nix/store/pkjxdsf8b2ifzxlzp1iqhnm06axzmhap-text-format-0.3.1.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/pkjxdsf8b2ifzxlzp1iqhnm06axzmhap-text-format-0.3.1.1.drv’ failed

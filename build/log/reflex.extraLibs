@@ -1,0 +1,36 @@
+these derivations will be built:
+  /nix/store/rkw2mjjbc128y69vqm8dvy55dgfwfdg0-reflex-0.4.0.1.drv
+building path(s) ‘/nix/store/2kradmm5bq584q819c7vyqknvm0axl4j-reflex-0.4.0.1’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/g79cmfwy8mi8vcvsy267c0cp77n4wfhr-source
+source root is source
+patching sources
+Run jailbreak-cabal to lift version restrictions on build inputs.
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-reflex-0.4.0.1.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-reflex-0.4.0.1.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/2kradmm5bq584q819c7vyqknvm0axl4j-reflex-0.4.0.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --with-gcc=gcc --package-db=/tmp/nix-build-reflex-0.4.0.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/2kradmm5bq584q819c7vyqknvm0axl4j-reflex-0.4.0.1/lib/ghc-8.4.20180122/reflex-0.4.0.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring reflex-0.5...
+CallStack (from HasCallStack):
+  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
+  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
+  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:114:27 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMain, called at Setup.hs:2:8 in main:Main
+Setup: Encountered missing dependencies:
+data-default -any,
+lens -any,
+monad-control -any,
+prim-uniq -any,
+reflection -any,
+unbounded-delays -any
+
+builder for ‘/nix/store/rkw2mjjbc128y69vqm8dvy55dgfwfdg0-reflex-0.4.0.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/rkw2mjjbc128y69vqm8dvy55dgfwfdg0-reflex-0.4.0.1.drv’ failed

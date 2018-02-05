@@ -1,0 +1,4 @@
+  hashable-time = overrideCabal super.hashable-time (drv: {
+    jailbreak       = true;
+  });
+

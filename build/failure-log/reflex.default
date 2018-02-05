@@ -1,0 +1,5 @@
+Setup: Encountered missing dependencies:
+base >=4.7 && <4.10,
+haskell-src-exts >=1.16 && <1.20,
+template-haskell >=2.9 && <2.13
+builder for ‘/nix/store/86c2x1356db34njqk3rkd236sgp9qf68-reflex-0.4.0.1.drv’ failed with exit code 1

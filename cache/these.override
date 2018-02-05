@@ -1,0 +1,4 @@
+  these = overrideCabal super.these (drv: {
+    jailbreak       = true;
+  });
+

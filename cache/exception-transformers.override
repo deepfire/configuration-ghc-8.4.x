@@ -1,0 +1,4 @@
+  exception-transformers = overrideCabal super.exception-transformers (drv: {
+    jailbreak       = true;
+  });
+

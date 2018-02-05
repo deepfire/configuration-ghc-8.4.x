@@ -1,0 +1,11 @@
+  simple-reflect = overrideCabal super.simple-reflect (drv: {
+    ## Upstreamed, awaiting a Hackage release
+    ## 
+    src = pkgs.fetchFromGitHub {
+      owner  = "twanvl";
+      repo   = "simple-reflect";
+      rev    = "c357e55da9a712dc5dbbfe6e36394e4ada2db310";
+      sha256 = "15q41b00l8y51xzhbj5zhddyh3gi7gvml033w8mm2fih458jf6yq";
+    };
+  });
+

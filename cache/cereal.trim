@@ -1,0 +1,7 @@
+  cereal = overrideCabal super.cereal (drv: {
+    ## On Hackage, awaiting for import
+    ## 
+    version         = "0.5.5.0";
+    sha256          = "08k8y6nf3n8h8gzw4a44mssy7rhgpmfj28lhczjz4vgszc7k55qb";
+  });
+

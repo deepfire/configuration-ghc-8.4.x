@@ -1,0 +1,31 @@
+these derivations will be built:
+  /nix/store/kvnlcj6zdqi2d2yq988l784hswjwkk4c-kan-extensions-5.0.2.drv
+building path(s) ‘/nix/store/mvp8apdf26fspvwmrw1kc5j0iq62nnk0-kan-extensions-5.0.2-doc’, ‘/nix/store/v21nmgc9ysw9i1bc5f2fd2nxlmmj03i4-kan-extensions-5.0.2’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/icjcj9c7zvzzgrbyfplxl4a5ffqp8hsf-kan-extensions-5.0.2.tar.gz
+source root is kan-extensions-5.0.2
+setting SOURCE_DATE_EPOCH to timestamp 1494287211 of file kan-extensions-5.0.2/.vim.custom
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-kan-extensions-5.0.2.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-kan-extensions-5.0.2.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/v21nmgc9ysw9i1bc5f2fd2nxlmmj03i4-kan-extensions-5.0.2 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/mvp8apdf26fspvwmrw1kc5j0iq62nnk0-kan-extensions-5.0.2-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-kan-extensions-5.0.2.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/v21nmgc9ysw9i1bc5f2fd2nxlmmj03i4-kan-extensions-5.0.2/lib/ghc-8.4.20180122/kan-extensions-5.0.2 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring kan-extensions-5.0.2...
+CallStack (from HasCallStack):
+  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
+  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
+  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:114:27 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMain, called at Setup.lhs:7:10 in main:Main
+Setup: Encountered missing dependencies:
+free ==4.*
+
+builder for ‘/nix/store/kvnlcj6zdqi2d2yq988l784hswjwkk4c-kan-extensions-5.0.2.drv’ failed with exit code 1
+error: build of ‘/nix/store/kvnlcj6zdqi2d2yq988l784hswjwkk4c-kan-extensions-5.0.2.drv’ failed

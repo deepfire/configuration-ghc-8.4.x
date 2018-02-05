@@ -1,0 +1,4 @@
+Setup: Encountered missing dependencies:
+base >=4.6 && <4.11
+builder for ‘/nix/store/l3rzsjbwys4rjrpv1703iv5zwbd4bwy6-newtype-generics-0.5.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/l3rzsjbwys4rjrpv1703iv5zwbd4bwy6-newtype-generics-0.5.1.drv’ failed

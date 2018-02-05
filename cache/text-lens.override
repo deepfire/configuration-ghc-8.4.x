@@ -1,0 +1,4 @@
+  text-lens = overrideCabal super.text-lens (drv: {
+    jailbreak       = true;
+  });
+

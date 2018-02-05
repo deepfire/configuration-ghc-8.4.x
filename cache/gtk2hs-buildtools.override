@@ -1,0 +1,12 @@
+  gtk2hs-buildtools = overrideCabal super.gtk2hs-buildtools (drv: {
+    ## Unmerged.  PR: https://github.com/gtk2hs/gtk2hs/pull/233
+    ## 
+    src = pkgs.fetchFromGitHub {
+      owner  = "deepfire";
+      repo   = "gtk2hs";
+      rev    = "08c68d5afc22dd5761ec2c92ebf49c6d252e545b";
+      sha256 = "06prn5wqq8x225n9wlbyk60f50jyjj8fm2hf181dyqjpf8wq75xa";
+    };
+    prePatch        = "cd tools; ";
+  });
+

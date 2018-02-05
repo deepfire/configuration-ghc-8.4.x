@@ -1,0 +1,4 @@
+Setup: Encountered missing dependencies:
+free ==4.*
+builder for ‘/nix/store/64pvqslahgby4jlg9rpz29n8w4njb670-adjunctions-4.3.drv’ failed with exit code 1
+error: build of ‘/nix/store/64pvqslahgby4jlg9rpz29n8w4njb670-adjunctions-4.3.drv’ failed

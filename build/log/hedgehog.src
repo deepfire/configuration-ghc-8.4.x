@@ -1,0 +1,13 @@
+these derivations will be built:
+  /nix/store/hmvnj07p9hbjwwfrah24mmx2hvnz508k-hedgehog-0.5.1.drv
+building path(s) ‘/nix/store/6r0agg3njq0jf05pzva41jc8xh24pys2-hedgehog-0.5.1’, ‘/nix/store/pb4qxx6x1dj288qlanphdw6w3y1jp4l2-hedgehog-0.5.1-doc’
+setupCompilerEnvironmentPhase
+Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+unpacking sources
+unpacking source archive /nix/store/ykrhxj9g9zgxajz6sapqh2iglhbpz3kc-hedgehog-0.5.1.tar.gz
+source root is hedgehog-0.5.1
+setting SOURCE_DATE_EPOCH to timestamp 1512533589 of file hedgehog-0.5.1/test/test.hs
+patching sources
+/nix/store/78sxg2kvl2klplqfx22s6b42lds7qq23-stdenv/setup: line 99: cd: hedgehog: No such file or directory
+builder for ‘/nix/store/hmvnj07p9hbjwwfrah24mmx2hvnz508k-hedgehog-0.5.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/hmvnj07p9hbjwwfrah24mmx2hvnz508k-hedgehog-0.5.1.drv’ failed

@@ -1,0 +1,6 @@
+  pointed = overrideCabal super.pointed (drv: {
+    jailbreak       = true;
+    editedCabalFile = null;
+    revision        = null;
+  });
+

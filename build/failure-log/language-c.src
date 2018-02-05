@@ -1,0 +1,3 @@
+    Ambiguous occurrence ‘<>’
+    It could refer to either ‘Prelude.<>’,
+                             imported from ‘Prelude’ at src/Language/C/Pretty.hs:15:8-24

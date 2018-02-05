@@ -1,0 +1,4 @@
+Setup: Encountered missing dependencies:
+base >=4.4 && <4.11
+builder for ‘/nix/store/4qlxxypfhbwcv227cmsja1asgqnq37gf-hashable-1.2.6.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/4qlxxypfhbwcv227cmsja1asgqnq37gf-hashable-1.2.6.1.drv’ failed

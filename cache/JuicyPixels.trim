@@ -1,0 +1,7 @@
+  JuicyPixels = overrideCabal super.JuicyPixels_3_2_9_4 (drv: {
+    ## On Hackage, awaiting for import
+    ## 
+    doCheck         = false;
+    libraryHaskellDepends = drv.libraryHaskellDepends ++ [ self.MonadRandom ];
+  });
+
