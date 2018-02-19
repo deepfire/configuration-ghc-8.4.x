@@ -1,4 +1,2 @@
 Setup: Encountered missing dependencies:
 base >=4.8 && <4.11
-builder for ‘/nix/store/iy6ccxh4dvp6plalx4ww81qrnhxm7jgr-wavefront-0.7.1.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/iy6ccxh4dvp6plalx4ww81qrnhxm7jgr-wavefront-0.7.1.1.drv’ failed

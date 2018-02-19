@@ -1,4 +1,2 @@
 Setup: Encountered missing dependencies:
 base >=4.7 && <4.11
-builder for ‘/nix/store/38dllcgxpmkd2fgvs6wd7ji86py0wbnh-hashable-time-0.2.0.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/38dllcgxpmkd2fgvs6wd7ji86py0wbnh-hashable-time-0.2.0.1.drv’ failed

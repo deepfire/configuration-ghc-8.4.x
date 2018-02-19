@@ -1,4 +1,0 @@
-  unliftio-core = overrideCabal super.unliftio-core (drv: {
-    jailbreak       = true;
-  });
-

@@ -1,4 +1,0 @@
-  bindings-GLFW = overrideCabal super.bindings-GLFW (drv: {
-    jailbreak       = true;
-  });
-

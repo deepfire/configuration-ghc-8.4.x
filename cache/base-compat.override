@@ -1,4 +1,0 @@
-  base-compat = overrideCabal super.base-compat (drv: {
-    doCheck         = true;
-  });
-

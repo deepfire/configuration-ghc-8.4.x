@@ -1,8 +1,8 @@
 these derivations will be built:
-  /nix/store/2xf491hgsmckz2akrn765kvvy2k8crbd-async-2.1.1.1.drv
-building path(s) ‘/nix/store/q6mw96g9ahp727mv5cavfqr43qyf1ais-async-2.1.1.1’, ‘/nix/store/r389jr7vggbw5jzslghyzaafj598772w-async-2.1.1.1-doc’
+  /nix/store/p2pd10vz3zj6k79s0rzd18wfhs6a836p-async-2.1.1.1.drv
+building path(s) ‘/nix/store/mxkz0y83ijhja6bpgrmz0g5k3dlikd2m-async-2.1.1.1-doc’, ‘/nix/store/y23f72wsp964gd14yjg57g2isl251fmw-async-2.1.1.1’
 setupCompilerEnvironmentPhase
-Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
 unpacking source archive /nix/store/vd7zc6r4ica6lxhqyc08z9789a6gxdg2-async-2.1.1.1.tar.gz
 source root is async-2.1.1.1
@@ -13,7 +13,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-async-2.1.1.1.drv-0/package.conf.d
 [1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-async-2.1.1.1.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/q6mw96g9ahp727mv5cavfqr43qyf1ais-async-2.1.1.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/r389jr7vggbw5jzslghyzaafj598772w-async-2.1.1.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-async-2.1.1.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/q6mw96g9ahp727mv5cavfqr43qyf1ais-async-2.1.1.1/lib/ghc-8.4.20180122/async-2.1.1.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/y23f72wsp964gd14yjg57g2isl251fmw-async-2.1.1.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/mxkz0y83ijhja6bpgrmz0g5k3dlikd2m-async-2.1.1.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-async-2.1.1.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/y23f72wsp964gd14yjg57g2isl251fmw-async-2.1.1.1/lib/ghc-8.4.0.20180204/async-2.1.1.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring async-2.1.1.1...
 CallStack (from HasCallStack):
@@ -27,5 +27,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 base >=4.3 && <4.11
 
-builder for ‘/nix/store/2xf491hgsmckz2akrn765kvvy2k8crbd-async-2.1.1.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/2xf491hgsmckz2akrn765kvvy2k8crbd-async-2.1.1.1.drv’ failed
+builder for ‘/nix/store/p2pd10vz3zj6k79s0rzd18wfhs6a836p-async-2.1.1.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/p2pd10vz3zj6k79s0rzd18wfhs6a836p-async-2.1.1.1.drv’ failed

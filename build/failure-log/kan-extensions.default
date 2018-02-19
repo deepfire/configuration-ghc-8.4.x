@@ -1,4 +1,2 @@
 Setup: Encountered missing dependencies:
 free ==4.*
-builder for ‘/nix/store/kvnlcj6zdqi2d2yq988l784hswjwkk4c-kan-extensions-5.0.2.drv’ failed with exit code 1
-error: build of ‘/nix/store/kvnlcj6zdqi2d2yq988l784hswjwkk4c-kan-extensions-5.0.2.drv’ failed

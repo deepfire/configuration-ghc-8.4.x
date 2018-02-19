@@ -1,3 +1,0 @@
-breaks haskell-gi:
-Setup: Encountered missing dependencies:
-haskell-gi-base ==0.21.*

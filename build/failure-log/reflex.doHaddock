@@ -1,30 +1,3 @@
-      mergeIncrementalWithMove ::
-        GCompare k =>
-        Incremental t (PatchDMapWithMove k (Event t))
-        -> Event t (DMap k Identity)
-      currentIncremental ::
-        Patch p => Incremental t p -> Behavior t (PatchTarget p)
-      updatedIncremental :: Patch p => Incremental t p -> Event t p
-      incrementalToDynamic ::
-        Patch p => Incremental t p -> Dynamic t (PatchTarget p)
-      behaviorCoercion ::
-        Coercion a b -> Coercion (Behavior t a) (Behavior t b)
-      eventCoercion :: Coercion a b -> Coercion (Event t a) (Event t b)
-      dynamicCoercion ::
-        Coercion a b -> Coercion (Dynamic t a) (Dynamic t b)
-      mergeIntIncremental ::
-        Incremental t (PatchIntMap (Event t a)) -> Event t (IntMap a)
-      fanInt :: Event t (IntMap a) -> EventSelectorInt t a
-      {-# MINIMAL never, constant, push, pushCheap, pull, merge, fan,
-                  switch, coincidence, current, updated, unsafeBuildDynamic,
-                  unsafeBuildIncremental, mergeIncremental, mergeIncrementalWithMove,
-                  currentIncremental, updatedIncremental, incrementalToDynamic,
-                  behaviorCoercion, eventCoercion, dynamicCoercion,
-                  mergeIntIncremental, fanInt #-}
-Matches:
-    []
-Call stack:
-    CallStack (from HasCallStack):
-      callStackDoc, called at compiler/utils/Outputable.hs:1150:37 in ghc:Outputable
-      pprPanic, called at utils/haddock/haddock-api/src/Haddock/Interface/Create.hs:1013:16 in main:Haddock.Interface.Create
-Please report this as a GHC bug:  http://www.haskell.org/ghc/reportabug
+haddock: internal error: internal: extractDecl (ClsInstD)
+CallStack (from HasCallStack):
+  error, called at utils/haddock/haddock-api/src/Haddock/Interface/Create.hs:1058:16 in main:Haddock.Interface.Create

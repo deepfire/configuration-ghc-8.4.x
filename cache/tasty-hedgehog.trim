@@ -1,5 +1,0 @@
-  tasty-hedgehog = overrideCabal super.tasty-hedgehog (drv: {
-    doCheck         = false;
-    jailbreak       = true;
-  });
-

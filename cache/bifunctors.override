@@ -1,4 +1,0 @@
-  bifunctors = overrideCabal super.bifunctors (drv: {
-    jailbreak       = true;
-  });
-

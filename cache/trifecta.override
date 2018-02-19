@@ -1,4 +1,0 @@
-  trifecta = overrideCabal super.trifecta (drv: {
-    doCheck         = false;
-  });
-

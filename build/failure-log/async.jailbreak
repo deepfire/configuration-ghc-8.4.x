@@ -1,4 +1,2 @@
 Setup: Encountered missing dependencies:
 base >=4.3 && <4.11
-builder for ‘/nix/store/2xf491hgsmckz2akrn765kvvy2k8crbd-async-2.1.1.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/2xf491hgsmckz2akrn765kvvy2k8crbd-async-2.1.1.1.drv’ failed

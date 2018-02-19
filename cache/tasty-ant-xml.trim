@@ -1,8 +1,0 @@
-  tasty-ant-xml = overrideCabal super.tasty-ant-xml (drv: {
-    ## On Hackage, awaiting for import
-    ## 
-    version         = "1.1.2";
-    sha256          = "10k8092iz8klx7wa3ajfny8zvrxv3clz330v3qz3k7dmbj596nhq";
-    jailbreak       = true;
-  });
-

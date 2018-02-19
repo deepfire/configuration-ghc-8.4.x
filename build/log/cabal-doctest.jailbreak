@@ -1,21 +1,21 @@
 these derivations will be built:
-  /nix/store/zy3l0ll0r9dq29lgxajv12rz1jzjdkrn-cabal-doctest-1.0.5.drv
-building path(s) ‘/nix/store/mm7d9387l797klp0nghq9l6p7z8qq9g5-cabal-doctest-1.0.5-doc’, ‘/nix/store/wn73plqp8xg8ff0770da302ikl079bxf-cabal-doctest-1.0.5’
+  /nix/store/b4696l6s6ccbx497rnn66cjihf2lqv4j-cabal-doctest-1.0.6.drv
+building path(s) ‘/nix/store/czs6lv46wixcd95vs8ysvwx162palq8y-cabal-doctest-1.0.6-doc’, ‘/nix/store/jfbbjygb1jaw5r3isz0hh57ysiyrpkr4-cabal-doctest-1.0.6’
 setupCompilerEnvironmentPhase
-Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
-unpacking source archive /nix/store/w5p7r8f022zcyk5ji7mjd0s3w8jx9m0f-cabal-doctest-1.0.5.tar.gz
-source root is cabal-doctest-1.0.5
-setting SOURCE_DATE_EPOCH to timestamp 1516966845 of file cabal-doctest-1.0.5/src/Distribution/Extra/Doctest.hs
+unpacking source archive /nix/store/qm1bpnb4ifv2i39ki44dnk3ivsvq6nmz-cabal-doctest-1.0.6.tar.gz
+source root is cabal-doctest-1.0.6
+setting SOURCE_DATE_EPOCH to timestamp 1517155015 of file cabal-doctest-1.0.6/src/Distribution/Extra/Doctest.hs
 patching sources
 compileBuildDriverPhase
-setupCompileFlags: -package-db=/tmp/nix-build-cabal-doctest-1.0.5.drv-0/package.conf.d -j8 -threaded
-[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-cabal-doctest-1.0.5.drv-0/Main.o )
+setupCompileFlags: -package-db=/tmp/nix-build-cabal-doctest-1.0.6.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-cabal-doctest-1.0.6.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/wn73plqp8xg8ff0770da302ikl079bxf-cabal-doctest-1.0.5 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/mm7d9387l797klp0nghq9l6p7z8qq9g5-cabal-doctest-1.0.5-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-cabal-doctest-1.0.5.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/wn73plqp8xg8ff0770da302ikl079bxf-cabal-doctest-1.0.5/lib/ghc-8.4.20180122/cabal-doctest-1.0.5 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/jfbbjygb1jaw5r3isz0hh57ysiyrpkr4-cabal-doctest-1.0.6 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/czs6lv46wixcd95vs8ysvwx162palq8y-cabal-doctest-1.0.6-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-cabal-doctest-1.0.6.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/jfbbjygb1jaw5r3isz0hh57ysiyrpkr4-cabal-doctest-1.0.6/lib/ghc-8.4.0.20180204/cabal-doctest-1.0.6 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
-Configuring cabal-doctest-1.0.5...
+Configuring cabal-doctest-1.0.6...
 CallStack (from HasCallStack):
   die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
   configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
@@ -27,5 +27,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 Cabal >=1.10 && <2.1, base >=4.3 && <4.11
 
-builder for ‘/nix/store/zy3l0ll0r9dq29lgxajv12rz1jzjdkrn-cabal-doctest-1.0.5.drv’ failed with exit code 1
-error: build of ‘/nix/store/zy3l0ll0r9dq29lgxajv12rz1jzjdkrn-cabal-doctest-1.0.5.drv’ failed
+builder for ‘/nix/store/b4696l6s6ccbx497rnn66cjihf2lqv4j-cabal-doctest-1.0.6.drv’ failed with exit code 1
+error: build of ‘/nix/store/b4696l6s6ccbx497rnn66cjihf2lqv4j-cabal-doctest-1.0.6.drv’ failed

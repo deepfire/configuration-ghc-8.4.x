@@ -1,8 +1,0 @@
-  happy = overrideCabal super.happy (drv: {
-    ## On Hackage, awaiting for import
-    ## 
-    version         = "1.19.9";
-    sha256          = "138xpxdb7x62lpmgmb6b3v3vgdqqvqn4273jaap3mjmc2gla709y";
-    postPatch       = "rm -f src/AttrGrammarParser.ly src/Parser.ly tests/ParGF.yg";
-  });
-

@@ -1,20 +1,21 @@
 these derivations will be built:
-  /nix/store/g5wkb14sydvyv484agvaa7hxl84a0wr9-haskell-src-meta-0.8.0.2.drv
-building path(s) ‘/nix/store/7wv42hdzjgrs9543cwqzdlik2d5rgvyz-haskell-src-meta-0.8.0.2’, ‘/nix/store/w6gbyvcxf2vz4q7bzpbjqr4nb69h0kx9-haskell-src-meta-0.8.0.2-doc’
+  /nix/store/w8cb85299fkrdjmjjqsh6vhaa22ps5lq-haskell-src-meta-0.8.0.2.drv
+building path(s) ‘/nix/store/4aj5f83y63pky8ifjg1xzpv9jfz2s9pm-haskell-src-meta-0.8.0.2-doc’, ‘/nix/store/km52gbnvl5wam430xla74mc5lr9i2vml-haskell-src-meta-0.8.0.2’
 setupCompilerEnvironmentPhase
-Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
-unpacking source archive /nix/store/hbafzzs4fiyrq5wn4l4livwfzlmkq3gb-source
-source root is source
+unpacking source archive /nix/store/d6nin5rffxb63kpp6wy57nblyhszkmsi-haskell-src-meta-0.8.0.2.tar.gz
+source root is haskell-src-meta-0.8.0.2
+setting SOURCE_DATE_EPOCH to timestamp 1515598186 of file haskell-src-meta-0.8.0.2/tests/Main.hs
 patching sources
 compileBuildDriverPhase
 setupCompileFlags: -package-db=/tmp/nix-build-haskell-src-meta-0.8.0.2.drv-0/package.conf.d -j8 -threaded
 [1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-haskell-src-meta-0.8.0.2.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/7wv42hdzjgrs9543cwqzdlik2d5rgvyz-haskell-src-meta-0.8.0.2 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/w6gbyvcxf2vz4q7bzpbjqr4nb69h0kx9-haskell-src-meta-0.8.0.2-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-haskell-src-meta-0.8.0.2.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/7wv42hdzjgrs9543cwqzdlik2d5rgvyz-haskell-src-meta-0.8.0.2/lib/ghc-8.4.20180122/haskell-src-meta-0.8.0.2 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/km52gbnvl5wam430xla74mc5lr9i2vml-haskell-src-meta-0.8.0.2 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/4aj5f83y63pky8ifjg1xzpv9jfz2s9pm-haskell-src-meta-0.8.0.2-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-haskell-src-meta-0.8.0.2.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/km52gbnvl5wam430xla74mc5lr9i2vml-haskell-src-meta-0.8.0.2/lib/ghc-8.4.0.20180204/haskell-src-meta-0.8.0.2 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
-Configuring haskell-src-meta-0.8.0.1...
+Configuring haskell-src-meta-0.8.0.2...
 CallStack (from HasCallStack):
   die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
   configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
@@ -26,5 +27,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 base >=4.6 && <4.11, template-haskell >=2.8 && <2.13
 
-builder for ‘/nix/store/g5wkb14sydvyv484agvaa7hxl84a0wr9-haskell-src-meta-0.8.0.2.drv’ failed with exit code 1
-error: build of ‘/nix/store/g5wkb14sydvyv484agvaa7hxl84a0wr9-haskell-src-meta-0.8.0.2.drv’ failed
+builder for ‘/nix/store/w8cb85299fkrdjmjjqsh6vhaa22ps5lq-haskell-src-meta-0.8.0.2.drv’ failed with exit code 1
+error: build of ‘/nix/store/w8cb85299fkrdjmjjqsh6vhaa22ps5lq-haskell-src-meta-0.8.0.2.drv’ failed

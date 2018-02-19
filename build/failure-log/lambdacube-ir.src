@@ -1,1 +1,2 @@
-/nix/store/78sxg2kvl2klplqfx22s6b42lds7qq23-stdenv/setup: line 99: cd: lambdacube-ir.haskell: No such file or directory
+Setup: Encountered missing dependencies:
+aeson >=0.9 && <0.12, base >=4.8 && <4.10, vector ==0.11.*

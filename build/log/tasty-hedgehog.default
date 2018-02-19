@@ -1,8 +1,8 @@
 these derivations will be built:
-  /nix/store/dfzvn07071133hs3cx649y89sg4b3vl9-tasty-hedgehog-0.1.0.1.drv
-building path(s) ‘/nix/store/ajcmcv79qq8c41pk4xx051g0mfjr6lws-tasty-hedgehog-0.1.0.1-doc’, ‘/nix/store/bpnmjr077790g5l97rsl9rbzw3c07ajj-tasty-hedgehog-0.1.0.1’
+  /nix/store/ykby8scsrds2hd5vyf2cjq3wrcp9qvbl-tasty-hedgehog-0.1.0.1.drv
+building path(s) ‘/nix/store/1biqv407l2v2zz7ly7kwkqbxnxyqfyhw-tasty-hedgehog-0.1.0.1’, ‘/nix/store/4iisiwving47nzqj3bvys9jqlxrlrn31-tasty-hedgehog-0.1.0.1-doc’
 setupCompilerEnvironmentPhase
-Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
 unpacking source archive /nix/store/a8ydnc86sdx1vi20xaf6sx7cqn0gkb4y-tasty-hedgehog-0.1.0.1.tar.gz
 source root is tasty-hedgehog-0.1.0.1
@@ -14,7 +14,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-tasty-hedgehog-0.1.0.1.drv-0/packa
 [1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-tasty-hedgehog-0.1.0.1.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/bpnmjr077790g5l97rsl9rbzw3c07ajj-tasty-hedgehog-0.1.0.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/ajcmcv79qq8c41pk4xx051g0mfjr6lws-tasty-hedgehog-0.1.0.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-tasty-hedgehog-0.1.0.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/bpnmjr077790g5l97rsl9rbzw3c07ajj-tasty-hedgehog-0.1.0.1/lib/ghc-8.4.20180122/tasty-hedgehog-0.1.0.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/1biqv407l2v2zz7ly7kwkqbxnxyqfyhw-tasty-hedgehog-0.1.0.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/4iisiwving47nzqj3bvys9jqlxrlrn31-tasty-hedgehog-0.1.0.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-tasty-hedgehog-0.1.0.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/1biqv407l2v2zz7ly7kwkqbxnxyqfyhw-tasty-hedgehog-0.1.0.1/lib/ghc-8.4.0.20180204/tasty-hedgehog-0.1.0.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring tasty-hedgehog-0.1.0.1...
 CallStack (from HasCallStack):
@@ -28,5 +28,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 base >=4.8 && <4.11, tasty ==0.11.*
 
-builder for ‘/nix/store/dfzvn07071133hs3cx649y89sg4b3vl9-tasty-hedgehog-0.1.0.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/dfzvn07071133hs3cx649y89sg4b3vl9-tasty-hedgehog-0.1.0.1.drv’ failed
+builder for ‘/nix/store/ykby8scsrds2hd5vyf2cjq3wrcp9qvbl-tasty-hedgehog-0.1.0.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/ykby8scsrds2hd5vyf2cjq3wrcp9qvbl-tasty-hedgehog-0.1.0.1.drv’ failed

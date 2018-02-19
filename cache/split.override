@@ -1,4 +1,0 @@
-  split = overrideCabal super.split (drv: {
-    jailbreak       = true;
-  });
-

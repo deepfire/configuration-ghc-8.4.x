@@ -1,4 +1,0 @@
-  integer-logarithms = overrideCabal super.integer-logarithms (drv: {
-    jailbreak       = true;
-  });
-

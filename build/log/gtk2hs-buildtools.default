@@ -1,8 +1,8 @@
 these derivations will be built:
-  /nix/store/l5zxlbbrsck8siizf05lqqh9bn5m7maa-gtk2hs-buildtools-0.13.3.1.drv
-building path(s) ‘/nix/store/da2fcxdc1y4ir3a8kqgdfy5s05lwmgmj-gtk2hs-buildtools-0.13.3.1-data’, ‘/nix/store/q03655y374g2j54yn985f5sgd44pkr7a-gtk2hs-buildtools-0.13.3.1’, ‘/nix/store/vv623rhg187l1gkyq09d4gn1zlvng0ma-gtk2hs-buildtools-0.13.3.1-doc’
+  /nix/store/7y4qnril8nzy2ijix642wd9mvyffhs3y-gtk2hs-buildtools-0.13.3.1.drv
+building path(s) ‘/nix/store/30zjc69192jp3246wsa2zagv50i52497-gtk2hs-buildtools-0.13.3.1-data’, ‘/nix/store/8ndg34k80xq8nb05da358s3di3z1x0ir-gtk2hs-buildtools-0.13.3.1’, ‘/nix/store/rsmllnlxmak67pwv1izwv3skg4s30i9h-gtk2hs-buildtools-0.13.3.1-doc’
 setupCompilerEnvironmentPhase
-Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
 unpacking source archive /nix/store/bysyryhavfnqyfv28y7pzc2w6243fsaq-gtk2hs-buildtools-0.13.3.1.tar.gz
 source root is gtk2hs-buildtools-0.13.3.1
@@ -13,7 +13,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-gtk2hs-buildtools-0.13.3.1.drv-0/p
 [1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-gtk2hs-buildtools-0.13.3.1.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/q03655y374g2j54yn985f5sgd44pkr7a-gtk2hs-buildtools-0.13.3.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --datadir=/nix/store/da2fcxdc1y4ir3a8kqgdfy5s05lwmgmj-gtk2hs-buildtools-0.13.3.1-data/share/ghc-8.4.20180122 --docdir=/nix/store/vv623rhg187l1gkyq09d4gn1zlvng0ma-gtk2hs-buildtools-0.13.3.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-gtk2hs-buildtools-0.13.3.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/q03655y374g2j54yn985f5sgd44pkr7a-gtk2hs-buildtools-0.13.3.1/lib/ghc-8.4.20180122/gtk2hs-buildtools-0.13.3.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/8ndg34k80xq8nb05da358s3di3z1x0ir-gtk2hs-buildtools-0.13.3.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --datadir=/nix/store/30zjc69192jp3246wsa2zagv50i52497-gtk2hs-buildtools-0.13.3.1-data/share/ghc-8.4.0.20180204 --docdir=/nix/store/rsmllnlxmak67pwv1izwv3skg4s30i9h-gtk2hs-buildtools-0.13.3.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-gtk2hs-buildtools-0.13.3.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/8ndg34k80xq8nb05da358s3di3z1x0ir-gtk2hs-buildtools-0.13.3.1/lib/ghc-8.4.0.20180204/gtk2hs-buildtools-0.13.3.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring gtk2hs-buildtools-0.13.3.1...
 CallStack (from HasCallStack):
@@ -27,5 +27,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 Cabal >=1.24.0.0 && <2.1
 
-builder for ‘/nix/store/l5zxlbbrsck8siizf05lqqh9bn5m7maa-gtk2hs-buildtools-0.13.3.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/l5zxlbbrsck8siizf05lqqh9bn5m7maa-gtk2hs-buildtools-0.13.3.1.drv’ failed
+builder for ‘/nix/store/7y4qnril8nzy2ijix642wd9mvyffhs3y-gtk2hs-buildtools-0.13.3.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/7y4qnril8nzy2ijix642wd9mvyffhs3y-gtk2hs-buildtools-0.13.3.1.drv’ failed

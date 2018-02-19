@@ -1,4 +1,0 @@
-  vector-algorithms = overrideCabal super.vector-algorithms (drv: {
-    doCheck         = false;
-  });
-

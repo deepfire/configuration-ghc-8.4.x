@@ -1,4 +1,0 @@
-  th-abstraction = overrideCabal super.th-abstraction (drv: {
-    jailbreak       = true;
-  });
-

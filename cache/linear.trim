@@ -1,4 +1,0 @@
-  linear = overrideCabal super.linear (drv: {
-    doCheck         = false;
-  });
-

@@ -1,4 +1,2 @@
 Setup: Encountered missing dependencies:
 Cabal >=1.24.0.0 && <2.1
-builder for ‘/nix/store/l5zxlbbrsck8siizf05lqqh9bn5m7maa-gtk2hs-buildtools-0.13.3.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/l5zxlbbrsck8siizf05lqqh9bn5m7maa-gtk2hs-buildtools-0.13.3.1.drv’ failed

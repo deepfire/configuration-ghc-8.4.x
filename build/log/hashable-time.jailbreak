@@ -1,8 +1,8 @@
 these derivations will be built:
-  /nix/store/38dllcgxpmkd2fgvs6wd7ji86py0wbnh-hashable-time-0.2.0.1.drv
-building path(s) ‘/nix/store/8x36sk317vngnxi44zslj3dgs5bbakva-hashable-time-0.2.0.1-doc’, ‘/nix/store/bnwzd6r2gbygg0dwxpc3rl5awgs4r3pi-hashable-time-0.2.0.1’
+  /nix/store/lvh5v7mivzr1zysmg3ljdj5p8f6vi9yf-hashable-time-0.2.0.1.drv
+building path(s) ‘/nix/store/7zargi344bmg6l9jn834s09l9df1nvbi-hashable-time-0.2.0.1-doc’, ‘/nix/store/jb9fnywr7vsw19l22awc4r9jam9jld6m-hashable-time-0.2.0.1’
 setupCompilerEnvironmentPhase
-Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
 unpacking source archive /nix/store/6k9p4xrv19cshhr4n9zwzmv2q58vw9hz-hashable-time-0.2.0.1.tar.gz
 source root is hashable-time-0.2.0.1
@@ -13,7 +13,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-hashable-time-0.2.0.1.drv-0/packag
 [1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-hashable-time-0.2.0.1.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/bnwzd6r2gbygg0dwxpc3rl5awgs4r3pi-hashable-time-0.2.0.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/8x36sk317vngnxi44zslj3dgs5bbakva-hashable-time-0.2.0.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-hashable-time-0.2.0.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/bnwzd6r2gbygg0dwxpc3rl5awgs4r3pi-hashable-time-0.2.0.1/lib/ghc-8.4.20180122/hashable-time-0.2.0.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/jb9fnywr7vsw19l22awc4r9jam9jld6m-hashable-time-0.2.0.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/7zargi344bmg6l9jn834s09l9df1nvbi-hashable-time-0.2.0.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-hashable-time-0.2.0.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/jb9fnywr7vsw19l22awc4r9jam9jld6m-hashable-time-0.2.0.1/lib/ghc-8.4.0.20180204/hashable-time-0.2.0.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring hashable-time-0.2.0.1...
 CallStack (from HasCallStack):
@@ -27,5 +27,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 base >=4.7 && <4.11
 
-builder for ‘/nix/store/38dllcgxpmkd2fgvs6wd7ji86py0wbnh-hashable-time-0.2.0.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/38dllcgxpmkd2fgvs6wd7ji86py0wbnh-hashable-time-0.2.0.1.drv’ failed
+builder for ‘/nix/store/lvh5v7mivzr1zysmg3ljdj5p8f6vi9yf-hashable-time-0.2.0.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/lvh5v7mivzr1zysmg3ljdj5p8f6vi9yf-hashable-time-0.2.0.1.drv’ failed

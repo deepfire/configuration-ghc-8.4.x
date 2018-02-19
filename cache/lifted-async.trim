@@ -1,4 +1,0 @@
-  lifted-async = overrideCabal super.lifted-async (drv: {
-    jailbreak       = true;
-  });
-

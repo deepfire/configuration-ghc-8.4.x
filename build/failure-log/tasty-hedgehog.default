@@ -1,4 +1,2 @@
 Setup: Encountered missing dependencies:
 base >=4.8 && <4.11, tasty ==0.11.*
-builder for ‘/nix/store/dfzvn07071133hs3cx649y89sg4b3vl9-tasty-hedgehog-0.1.0.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/dfzvn07071133hs3cx649y89sg4b3vl9-tasty-hedgehog-0.1.0.1.drv’ failed

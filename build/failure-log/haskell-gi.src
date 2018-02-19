@@ -1,4 +1,2 @@
 Setup: Encountered missing dependencies:
 haskell-gi-base ==0.20.*
-builder for ‘/nix/store/q0qkq2gzmdnkvdz6xl7svv5305chbr4b-haskell-gi-0.20.3.drv’ failed with exit code 1
-error: build of ‘/nix/store/q0qkq2gzmdnkvdz6xl7svv5305chbr4b-haskell-gi-0.20.3.drv’ failed

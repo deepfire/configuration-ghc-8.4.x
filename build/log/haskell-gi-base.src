@@ -1,13 +1,32 @@
 these derivations will be built:
-  /nix/store/dqmv7z941qdkmqcw80nrzh2rchxijbm2-haskell-gi-base-0.20.8.drv
-building path(s) ‘/nix/store/fkbxz8x3z4vwd59ps8c80xywh57lixh8-haskell-gi-base-0.20.8’, ‘/nix/store/irj7flpqg0jz5s8bhjja419cp37xjmwi-haskell-gi-base-0.20.8-doc’
+  /nix/store/ras46p2wdqawivvds9x0sy918i264p13-haskell-gi-0.20.3.drv
+  /nix/store/b3d6yr1rzk4hpzg87yk4n5i4321i824f-gi-cairo-1.0.14.drv
+building path(s) ‘/nix/store/4s26la93cfnafsjwy9wasfwb15dnjgg2-haskell-gi-0.20.3’, ‘/nix/store/jqj4nn1c2mydqdlc8fr9wa6kdj50c0ig-haskell-gi-0.20.3-doc’
 setupCompilerEnvironmentPhase
-Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
-unpacking source archive /nix/store/654x8c5bfzphj95rf06hrg8d47kvhngi-haskell-gi-base-0.20.8.tar.gz
-source root is haskell-gi-base-0.20.8
-setting SOURCE_DATE_EPOCH to timestamp 1513505539 of file haskell-gi-base-0.20.8/Setup.hs
+unpacking source archive /nix/store/wbir3pc5k5sjaan5rvcmafzzf9lbzhgy-source
+source root is source
 patching sources
-/nix/store/78sxg2kvl2klplqfx22s6b42lds7qq23-stdenv/setup: line 99: cd: base: No such file or directory
-builder for ‘/nix/store/dqmv7z941qdkmqcw80nrzh2rchxijbm2-haskell-gi-base-0.20.8.drv’ failed with exit code 1
-error: build of ‘/nix/store/dqmv7z941qdkmqcw80nrzh2rchxijbm2-haskell-gi-base-0.20.8.drv’ failed
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-haskell-gi-0.20.3.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-haskell-gi-0.20.3.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/4s26la93cfnafsjwy9wasfwb15dnjgg2-haskell-gi-0.20.3 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/jqj4nn1c2mydqdlc8fr9wa6kdj50c0ig-haskell-gi-0.20.3-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-haskell-gi-0.20.3.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/4s26la93cfnafsjwy9wasfwb15dnjgg2-haskell-gi-0.20.3/lib/ghc-8.4.0.20180204/haskell-gi-0.20.3 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --disable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-include-dirs=/nix/store/kk5qwhpgpk1v7ijrg30j4lj0wavvddq8-glib-2.54.3-dev/include --extra-lib-dirs=/nix/store/kk5qwhpgpk1v7ijrg30j4lj0wavvddq8-glib-2.54.3-dev/lib --extra-include-dirs=/nix/store/0jdmjk7hjnw7l8nj78gsmy3z738pb8yx-zlib-1.2.11-dev/include --extra-lib-dirs=/nix/store/0jdmjk7hjnw7l8nj78gsmy3z738pb8yx-zlib-1.2.11-dev/lib --extra-lib-dirs=/nix/store/immjm31qnaqk0dh7b8zqy9vvd0g6k60c-zlib-1.2.11/lib --extra-include-dirs=/nix/store/vpcd1nj1ms4a1d116kgn30lgd4n0jwlg-libffi-3.2.1-dev/include --extra-lib-dirs=/nix/store/vpcd1nj1ms4a1d116kgn30lgd4n0jwlg-libffi-3.2.1-dev/lib --extra-lib-dirs=/nix/store/gf86jdyphjk4d09labb840hwlcm1dlzd-libffi-3.2.1/lib --extra-include-dirs=/nix/store/01rjq1d5mvvb8xmdp2lfh5nsfq8hijgh-glibc-iconv-2.26-131/include --extra-lib-dirs=/nix/store/nnmharr2m3mivqama04l7rxb7dgln267-glib-2.54.3/lib --extra-include-dirs=/nix/store/j8hrwq73v7b7lv5z0hiyjr82afj90gxz-gobject-introspection-1.54.1-dev/include --extra-lib-dirs=/nix/store/j8hrwq73v7b7lv5z0hiyjr82afj90gxz-gobject-introspection-1.54.1-dev/lib --extra-include-dirs=/nix/store/kk5qwhpgpk1v7ijrg30j4lj0wavvddq8-glib-2.54.3-dev/include --extra-lib-dirs=/nix/store/kk5qwhpgpk1v7ijrg30j4lj0wavvddq8-glib-2.54.3-dev/lib --extra-lib-dirs=/nix/store/vlb8vc3ykjkmq8ggz3kw0lkbdh3zbjag-gobject-introspection-1.54.1/lib
+Using Parsec parser
+Configuring haskell-gi-0.21.0...
+CallStack (from HasCallStack):
+  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
+  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
+  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:114:27 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMain, called at Setup.hs:3:8 in main:Main
+Setup: Encountered missing dependencies:
+haskell-gi-base ==0.21.*
+
+builder for ‘/nix/store/ras46p2wdqawivvds9x0sy918i264p13-haskell-gi-0.20.3.drv’ failed with exit code 1
+cannot build derivation ‘/nix/store/b3d6yr1rzk4hpzg87yk4n5i4321i824f-gi-cairo-1.0.14.drv’: 1 dependencies couldn't be built
+error: build of ‘/nix/store/b3d6yr1rzk4hpzg87yk4n5i4321i824f-gi-cairo-1.0.14.drv’ failed

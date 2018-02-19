@@ -1,4 +1,0 @@
-  ## On Hackage, awaiting for import
-  ## 
-  tasty = super.tasty_1_0_0_1;
-

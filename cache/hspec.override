@@ -1,4 +1,0 @@
-  hspec = overrideCabal super.hspec (drv: {
-    doHaddock       = false;
-  });
-

@@ -1,4 +1,2 @@
 Setup: Encountered missing dependencies:
 th-desugar ==1.7.*
-builder for ‘/nix/store/g5jl22kpq8fnrg8ldphxndri759nxwzf-singletons-2.3.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/g5jl22kpq8fnrg8ldphxndri759nxwzf-singletons-2.3.1.drv’ failed

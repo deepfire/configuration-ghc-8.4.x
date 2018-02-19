@@ -1,4 +1,0 @@
-  newtype-generics = overrideCabal super.newtype-generics (drv: {
-    jailbreak       = true;
-  });
-

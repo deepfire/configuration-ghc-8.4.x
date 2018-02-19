@@ -1,30 +1,336 @@
 these derivations will be built:
-  /nix/store/3yvaqx5qcg1fb3nnyc273fkhgfh73pgv-free-4.12.4.drv
-building path(s) ‘/nix/store/lsng1gp8b72ki9qs37gw1fv0smc6s65v-free-4.12.4’, ‘/nix/store/znx17j5wlmcys0jqqi7n721mx0nmvpsd-free-4.12.4-doc’
+  /nix/store/qay4310b1id228z5hr4c2mwghf5yfram-free-5.drv
+building path(s) ‘/nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5’, ‘/nix/store/r192qjq6nh7dzxlw6q04l2wln8h2k1wp-free-5-doc’
 setupCompilerEnvironmentPhase
-Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
-unpacking source archive /nix/store/9l5p5v072vimmi64y6v2j72ilg8lmz2n-source
-source root is source
+unpacking source archive /nix/store/avaa9qxynnnw7fs4ngmnl95c61hr0ip9-free-5.tar.gz
+source root is free-5
+setting SOURCE_DATE_EPOCH to timestamp 1517149428 of file free-5/.vim.custom
 patching sources
 compileBuildDriverPhase
-setupCompileFlags: -package-db=/tmp/nix-build-free-4.12.4.drv-0/package.conf.d -j8 -threaded
-[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-free-4.12.4.drv-0/Main.o )
+setupCompileFlags: -package-db=/tmp/nix-build-free-5.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-free-5.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/lsng1gp8b72ki9qs37gw1fv0smc6s65v-free-4.12.4 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/znx17j5wlmcys0jqqi7n721mx0nmvpsd-free-4.12.4-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-free-4.12.4.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/lsng1gp8b72ki9qs37gw1fv0smc6s65v-free-4.12.4/lib/ghc-8.4.20180122/free-4.12.4 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/r192qjq6nh7dzxlw6q04l2wln8h2k1wp-free-5-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-free-5.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5/lib/ghc-8.4.0.20180204/free-5 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring free-5...
-CallStack (from HasCallStack):
-  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
-  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
-  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
-  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
-  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
-  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:114:27 in Cabal-2.1.0.0:Distribution.Simple
-  defaultMain, called at Setup.lhs:7:10 in main:Main
-Setup: Encountered missing dependencies:
-transformers-base <0.5
+Dependency base ==4.*: using base-4.11.0.0
+Dependency bifunctors >=4 && <6: using bifunctors-5.5.2
+Dependency comonad >=4 && <6: using comonad-5.0.3
+Dependency containers <0.6: using containers-0.5.11.0
+Dependency distributive >=0.2.1: using distributive-0.5.3
+Dependency exceptions >=0.6 && <0.9: using exceptions-0.8.3
+Dependency mtl >=2.0.1.0 && <2.3: using mtl-2.2.2
+Dependency profunctors >=4 && <6: using profunctors-5.2.2
+Dependency semigroupoids >=4 && <6: using semigroupoids-5.2.2
+Dependency semigroups >=0.8.3.1 && <1: using semigroups-0.18.4
+Dependency template-haskell >=2.7.0.0 && <3: using template-haskell-2.13.0.0
+Dependency transformers >=0.2.0 && <0.6: using transformers-0.5.5.0
+Dependency transformers-base <0.5: using transformers-base-0.4.4
+Dependency transformers-compat >=0.3 && <1: using transformers-compat-0.5.1.4
+Source component graph: component lib
+Configured component graph:
+    component free-5-Fl2XmSbR2HH98YIKL434HX
+        include base-4.11.0.0
+        include bifunctors-5.5.2-BtN7yFyApQHEeMleUpjWWR
+        include comonad-5.0.3-6FDWvsELYyqJigHwMyXlfE
+        include distributive-0.5.3-7eFvZYoayu9Ia4zZ9sB2fh
+        include mtl-2.2.2
+        include profunctors-5.2.2-CMKJjigHdW71As1PZ6q0rP
+        include semigroupoids-5.2.2-KlcVOeYoIKt7HoLCcqzvFS
+        include semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
+        include transformers-0.5.5.0
+        include transformers-base-0.4.4-JjrA1xI8yDSCXXlk06HaMY
+        include transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
+        include template-haskell-2.13.0.0
+        include exceptions-0.8.3-Gxs2NxlXkgKBeHE3uaFVwG
+        include containers-0.5.11.0
+Linked component graph:
+    unit free-5-Fl2XmSbR2HH98YIKL434HX
+        include base-4.11.0.0
+        include bifunctors-5.5.2-BtN7yFyApQHEeMleUpjWWR
+        include comonad-5.0.3-6FDWvsELYyqJigHwMyXlfE
+        include distributive-0.5.3-7eFvZYoayu9Ia4zZ9sB2fh
+        include mtl-2.2.2
+        include profunctors-5.2.2-CMKJjigHdW71As1PZ6q0rP
+        include semigroupoids-5.2.2-KlcVOeYoIKt7HoLCcqzvFS
+        include semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
+        include transformers-0.5.5.0
+        include transformers-base-0.4.4-JjrA1xI8yDSCXXlk06HaMY
+        include transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
+        include template-haskell-2.13.0.0
+        include exceptions-0.8.3-Gxs2NxlXkgKBeHE3uaFVwG
+        include containers-0.5.11.0
+        Control.Alternative.Free=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Alternative.Free,Control.Alternative.Free.Final=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Alternative.Free.Final,Control.Applicative.Free=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Applicative.Free,Control.Applicative.Free.Fast=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Applicative.Free.Fast,Control.Applicative.Free.Final=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Applicative.Free.Final,Control.Applicative.Trans.Free=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Applicative.Trans.Free,Control.Comonad.Cofree=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Comonad.Cofree,Control.Comonad.Cofree.Class=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Comonad.Cofree.Class,Control.Comonad.Trans.Cofree=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Comonad.Trans.Cofree,Control.Comonad.Trans.Coiter=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Comonad.Trans.Coiter,Control.Monad.Free=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Monad.Free,Control.Monad.Free.Ap=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Monad.Free.Ap,Control.Monad.Free.Church=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Monad.Free.Church,Control.Monad.Free.Class=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Monad.Free.Class,Control.Monad.Free.TH=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Monad.Free.TH,Control.Monad.Trans.Free=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Monad.Trans.Free,Control.Monad.Trans.Free.Ap=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Monad.Trans.Free.Ap,Control.Monad.Trans.Free.Church=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Monad.Trans.Free.Church,Control.Monad.Trans.Iter=free-5-Fl2XmSbR2HH98YIKL434HX:Control.Monad.Trans.Iter
+Ready component graph:
+    definite free-5-Fl2XmSbR2HH98YIKL434HX
+        depends base-4.11.0.0
+        depends bifunctors-5.5.2-BtN7yFyApQHEeMleUpjWWR
+        depends comonad-5.0.3-6FDWvsELYyqJigHwMyXlfE
+        depends distributive-0.5.3-7eFvZYoayu9Ia4zZ9sB2fh
+        depends mtl-2.2.2
+        depends profunctors-5.2.2-CMKJjigHdW71As1PZ6q0rP
+        depends semigroupoids-5.2.2-KlcVOeYoIKt7HoLCcqzvFS
+        depends semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
+        depends transformers-0.5.5.0
+        depends transformers-base-0.4.4-JjrA1xI8yDSCXXlk06HaMY
+        depends transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
+        depends template-haskell-2.13.0.0
+        depends exceptions-0.8.3-Gxs2NxlXkgKBeHE3uaFVwG
+        depends containers-0.5.11.0
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.0.20180204
+Using install prefix: /nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5
+Executables installed in:
+/nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5/bin
+Libraries installed in:
+/nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5/lib/ghc-8.4.0.20180204/free-5
+Dynamic Libraries installed in:
+/nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+Private executables installed in:
+/nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5/libexec/x86_64-linux-ghc-8.4.0.20180204/free-5
+Data files installed in:
+/nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5/share/x86_64-linux-ghc-8.4.0.20180204/free-5
+Documentation installed in:
+/nix/store/r192qjq6nh7dzxlw6q04l2wln8h2k1wp-free-5-doc/share/doc
+Configuration files installed in:
+/nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5/etc
+No alex found
+Using ar found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 6.4.0 given by user at:
+/nix/store/nj7mw0lyx80g7lrxcxy5v9vmnpif5950-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc
+Using ghc-pkg version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.19.0 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/626h2ym9fhl5lgnqlqrh5s4b73m5kgy8-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/qhqxgkb2zki59dy4lx6krmgjsnhpjrc9-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/2waj1y5v572sbigjhqbmhx178vfak1l0-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing library for free-5..
+Building library for free-5..
+[ 1 of 20] Compiling Control.Alternative.Free ( src/Control/Alternative/Free.hs, dist/build/Control/Alternative/Free.o )
 
-builder for ‘/nix/store/3yvaqx5qcg1fb3nnyc273fkhgfh73pgv-free-4.12.4.drv’ failed with exit code 1
-error: build of ‘/nix/store/3yvaqx5qcg1fb3nnyc273fkhgfh73pgv-free-4.12.4.drv’ failed
+src/Control/Alternative/Free.hs:36:1: warning: [-Wunused-imports]
+    The import of ‘Data.Semigroup’ is redundant
+      except perhaps to import instances from ‘Data.Semigroup’
+    To import instances alone, use: import Data.Semigroup()
+   |
+36 | import Data.Semigroup
+   | ^^^^^^^^^^^^^^^^^^^^^
+[ 2 of 20] Compiling Control.Alternative.Free.Final ( src/Control/Alternative/Free/Final.hs, dist/build/Control/Alternative/Free/Final.o )
+
+src/Control/Alternative/Free/Final.hs:26:1: warning: [-Wunused-imports]
+    The import of ‘Data.Semigroup’ is redundant
+      except perhaps to import instances from ‘Data.Semigroup’
+    To import instances alone, use: import Data.Semigroup()
+   |
+26 | import Data.Semigroup
+   | ^^^^^^^^^^^^^^^^^^^^^
+[ 3 of 20] Compiling Control.Applicative.Free ( src/Control/Applicative/Free.hs, dist/build/Control/Applicative/Free.o )
+[ 4 of 20] Compiling Control.Applicative.Free.Fast ( src/Control/Applicative/Free/Fast.hs, dist/build/Control/Applicative/Free/Fast.o )
+[ 5 of 20] Compiling Control.Applicative.Free.Final ( src/Control/Applicative/Free/Final.hs, dist/build/Control/Applicative/Free/Final.o )
+[ 6 of 20] Compiling Control.Applicative.Trans.Free ( src/Control/Applicative/Trans/Free.hs, dist/build/Control/Applicative/Trans/Free.o )
+[ 7 of 20] Compiling Control.Comonad.Cofree.Class ( src/Control/Comonad/Cofree/Class.hs, dist/build/Control/Comonad/Cofree/Class.o )
+[ 8 of 20] Compiling Control.Comonad.Trans.Cofree ( src/Control/Comonad/Trans/Cofree.hs, dist/build/Control/Comonad/Trans/Cofree.o )
+
+src/Control/Comonad/Trans/Cofree.hs:45:1: warning: [-Wunused-imports]
+    The import of ‘Data.Semigroup’ is redundant
+      except perhaps to import instances from ‘Data.Semigroup’
+    To import instances alone, use: import Data.Semigroup()
+   |
+45 | import Data.Semigroup
+   | ^^^^^^^^^^^^^^^^^^^^^
+[ 9 of 20] Compiling Control.Monad.Free.Class ( src/Control/Monad/Free/Class.hs, dist/build/Control/Monad/Free/Class.o )
+[10 of 20] Compiling Control.Monad.Free.TH ( src/Control/Monad/Free/TH.hs, dist/build/Control/Monad/Free/TH.o )
+
+src/Control/Monad/Free/TH.hs:249:7: warning: [-Woverlapping-patterns]
+    Pattern match is redundant
+    In a case alternative: _ -> ...
+    |
+249 |       _ -> fail $ "Unsupported constructor type: `" ++ pprint con ++ "'"
+    |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Control/Monad/Free/TH.hs:278:1: warning: [-Woverlapping-patterns]
+    Pattern match is redundant
+    In an equation for ‘constructorNames’: constructorNames con' = ...
+    |
+278 | constructorNames con' = fail $ "Unsupported constructor type: `" ++ pprint con' ++ "'"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[11 of 20] Compiling Data.Functor.Classes.Compat ( src/Data/Functor/Classes/Compat.hs, dist/build/Data/Functor/Classes/Compat.o )
+[12 of 20] Compiling Control.Monad.Trans.Iter ( src/Control/Monad/Trans/Iter.hs, dist/build/Control/Monad/Trans/Iter.o )
+
+src/Control/Monad/Trans/Iter.hs:90:1: warning: [-Wunused-imports]
+    The import of ‘Data.Semigroup’ is redundant
+      except perhaps to import instances from ‘Data.Semigroup’
+    To import instances alone, use: import Data.Semigroup()
+   |
+90 | import Data.Semigroup
+   | ^^^^^^^^^^^^^^^^^^^^^
+[13 of 20] Compiling Control.Monad.Trans.Free.Ap ( src/Control/Monad/Trans/Free/Ap.hs, dist/build/Control/Monad/Trans/Free/Ap.o )
+
+src/Control/Monad/Trans/Free/Ap.hs:59:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+   |
+59 | import Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^
+[14 of 20] Compiling Control.Monad.Trans.Free ( src/Control/Monad/Trans/Free.hs, dist/build/Control/Monad/Trans/Free.o )
+
+src/Control/Monad/Trans/Free.hs:69:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+   |
+69 | import Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^
+[15 of 20] Compiling Control.Monad.Trans.Free.Church ( src/Control/Monad/Trans/Free/Church.hs, dist/build/Control/Monad/Trans/Free/Church.o )
+[16 of 20] Compiling Control.Monad.Free.Ap ( src/Control/Monad/Free/Ap.hs, dist/build/Control/Monad/Free/Ap.o )
+[17 of 20] Compiling Control.Monad.Free ( src/Control/Monad/Free.hs, dist/build/Control/Monad/Free.o )
+[18 of 20] Compiling Control.Monad.Free.Church ( src/Control/Monad/Free/Church.hs, dist/build/Control/Monad/Free/Church.o )
+[19 of 20] Compiling Control.Comonad.Trans.Coiter ( src/Control/Comonad/Trans/Coiter.hs, dist/build/Control/Comonad/Trans/Coiter.o )
+[20 of 20] Compiling Control.Comonad.Cofree ( src/Control/Comonad/Cofree.hs, dist/build/Control/Comonad/Cofree.o )
+running tests
+Package has no test suites.
+haddockPhase
+Running hscolour for free-5...
+Preprocessing library for free-5..
+Preprocessing library for free-5..
+Running Haddock on library for free-5..
+
+src/Control/Alternative/Free.hs:36:1: warning: [-Wunused-imports]
+    The import of ‘Data.Semigroup’ is redundant
+      except perhaps to import instances from ‘Data.Semigroup’
+    To import instances alone, use: import Data.Semigroup()
+   |
+36 | import Data.Semigroup
+   | ^^^^^^^^^^^^^^^^^^^^^
+
+src/Control/Alternative/Free/Final.hs:26:1: warning: [-Wunused-imports]
+    The import of ‘Data.Semigroup’ is redundant
+      except perhaps to import instances from ‘Data.Semigroup’
+    To import instances alone, use: import Data.Semigroup()
+   |
+26 | import Data.Semigroup
+   | ^^^^^^^^^^^^^^^^^^^^^
+
+src/Control/Comonad/Trans/Cofree.hs:45:1: warning: [-Wunused-imports]
+    The import of ‘Data.Semigroup’ is redundant
+      except perhaps to import instances from ‘Data.Semigroup’
+    To import instances alone, use: import Data.Semigroup()
+   |
+45 | import Data.Semigroup
+   | ^^^^^^^^^^^^^^^^^^^^^
+
+src/Control/Monad/Trans/Iter.hs:90:1: warning: [-Wunused-imports]
+    The import of ‘Data.Semigroup’ is redundant
+      except perhaps to import instances from ‘Data.Semigroup’
+    To import instances alone, use: import Data.Semigroup()
+   |
+90 | import Data.Semigroup
+   | ^^^^^^^^^^^^^^^^^^^^^
+
+src/Control/Monad/Trans/Free/Ap.hs:59:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+   |
+59 | import Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^
+
+src/Control/Monad/Trans/Free.hs:69:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+   |
+69 | import Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^
+Haddock coverage:
+  67% (  4 /  6) in 'Control.Alternative.Free'
+  Missing documentation for:
+    Alt (src/Control/Alternative/Free.hs:48)
+    AltF (src/Control/Alternative/Free.hs:41)
+ 100% (  5 /  5) in 'Control.Alternative.Free.Final'
+ 100% ( 11 / 11) in 'Control.Applicative.Free'
+ 100% ( 14 / 14) in 'Control.Applicative.Free.Fast'
+ 100% ( 10 / 10) in 'Control.Applicative.Free.Final'
+ 100% ( 22 / 22) in 'Control.Applicative.Trans.Free'
+ 100% (  2 /  2) in 'Control.Comonad.Cofree.Class'
+ 100% ( 11 / 11) in 'Control.Comonad.Trans.Cofree'
+ 100% (  4 /  4) in 'Control.Monad.Free.Class'
+ 100% ( 10 / 10) in 'Control.Monad.Free.TH'
+ 100% ( 25 / 25) in 'Control.Monad.Trans.Iter'
+ 100% ( 27 / 27) in 'Control.Monad.Trans.Free.Ap'
+ 100% ( 28 / 28) in 'Control.Monad.Trans.Free'
+ 100% ( 28 / 28) in 'Control.Monad.Trans.Free.Church'
+ 100% ( 16 / 16) in 'Control.Monad.Free.Ap'
+ 100% ( 16 / 16) in 'Control.Monad.Free'
+ 100% ( 13 / 13) in 'Control.Monad.Free.Church'
+ 100% ( 14 / 14) in 'Control.Comonad.Trans.Coiter'
+  94% ( 15 / 16) in 'Control.Comonad.Cofree'
+  Missing documentation for:
+    hoistCofree (src/Control/Comonad/Cofree.hs:134)
+Warning: Control.Monad.Free.Class: could not find link destinations for:
+    ~
+Warning: Control.Monad.Trans.Iter: could not find link destinations for:
+    ~
+Warning: Control.Monad.Trans.Free.Ap: could not find link destinations for:
+    ~
+Warning: Control.Monad.Trans.Free: could not find link destinations for:
+    ~
+Warning: Control.Monad.Trans.Free.Church: could not find link destinations for:
+    ~
+Warning: Control.Monad.Free.Ap: could not find link destinations for:
+    ~
+Warning: Control.Monad.Free: could not find link destinations for:
+    ~
+Warning: Control.Monad.Free.Church: could not find link destinations for:
+    ~
+Documentation created: dist/doc/html/free/index.html,
+dist/doc/html/free/free.txt
+installing
+Installing library in /nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5/lib/ghc-8.4.0.20180204/free-5
+post-installation fixup
+shrinking RPATHs of ELF executables and libraries in /nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5
+shrinking /nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204/libHSfree-5-Fl2XmSbR2HH98YIKL434HX-ghc8.4.0.20180204.so
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+stripping (with command strip and flags -S) in /nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5/lib 
+patching script interpreter paths in /nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5
+checking for references to /tmp/nix-build-free-5.drv-0 in /nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5...
+shrinking RPATHs of ELF executables and libraries in /nix/store/r192qjq6nh7dzxlw6q04l2wln8h2k1wp-free-5-doc
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+patching script interpreter paths in /nix/store/r192qjq6nh7dzxlw6q04l2wln8h2k1wp-free-5-doc
+checking for references to /tmp/nix-build-free-5.drv-0 in /nix/store/r192qjq6nh7dzxlw6q04l2wln8h2k1wp-free-5-doc...
+/nix/store/7zllzyykmap48512clsjzxkfy4i5p2zz-free-5

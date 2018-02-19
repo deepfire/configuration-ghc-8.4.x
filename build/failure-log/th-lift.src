@@ -1,4 +1,0 @@
-Setup: Encountered missing dependencies:
-template-haskell >=2.4 && <2.13
-builder for ‘/nix/store/sq6cc33h4zk1wns2fsyv8cj6clcf6hwi-th-lift-0.7.7.drv’ failed with exit code 1
-error: build of ‘/nix/store/sq6cc33h4zk1wns2fsyv8cj6clcf6hwi-th-lift-0.7.7.drv’ failed

@@ -1,8 +1,8 @@
 these derivations will be built:
-  /nix/store/cym6mys0qvp6a8ppbmzd9y9wj7ky3f20-hspec-core-2.4.4.drv
-building path(s) ‘/nix/store/2b88gv5zw405ird7knmpmxvab6c0hpjl-hspec-core-2.4.4’, ‘/nix/store/z0pr0pw25l77ajlnaglwalxf4kmkq4ns-hspec-core-2.4.4-doc’
+  /nix/store/51xsd2yhp0idpw590xzfqpwkpkmxwi7w-hspec-core-2.4.4.drv
+building path(s) ‘/nix/store/89gb2gvahjwqyfhwv9p4kb7piwg8585g-hspec-core-2.4.4-doc’, ‘/nix/store/fbkapmmcl8sm9353w51kwin36b1cfrzh-hspec-core-2.4.4’
 setupCompilerEnvironmentPhase
-Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
 unpacking source archive /nix/store/nr6qfidi82aplhgascp8ncpzzacqc3x9-hspec-core-2.4.4.tar.gz
 source root is hspec-core-2.4.4
@@ -14,7 +14,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-hspec-core-2.4.4.drv-0/package.con
 [1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-hspec-core-2.4.4.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/2b88gv5zw405ird7knmpmxvab6c0hpjl-hspec-core-2.4.4 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/z0pr0pw25l77ajlnaglwalxf4kmkq4ns-hspec-core-2.4.4-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-hspec-core-2.4.4.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/2b88gv5zw405ird7knmpmxvab6c0hpjl-hspec-core-2.4.4/lib/ghc-8.4.20180122/hspec-core-2.4.4 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/fbkapmmcl8sm9353w51kwin36b1cfrzh-hspec-core-2.4.4 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/89gb2gvahjwqyfhwv9p4kb7piwg8585g-hspec-core-2.4.4-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-hspec-core-2.4.4.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/fbkapmmcl8sm9353w51kwin36b1cfrzh-hspec-core-2.4.4/lib/ghc-8.4.0.20180204/hspec-core-2.4.4 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring hspec-core-2.4.4...
 Dependency HUnit >=1.2.5: using HUnit-1.6.0.0
@@ -26,10 +26,10 @@ Dependency base >=4.5.0.0 && <5: using base-4.11.0.0
 Dependency call-stack -any: using call-stack-0.1.0
 Dependency deepseq -any: using deepseq-1.4.3.0
 Dependency directory -any: using directory-1.3.1.5
-Dependency filepath -any: using filepath-1.4.1.2
+Dependency filepath -any: using filepath-1.4.2
 Dependency hspec-expectations ==0.8.2.*: using hspec-expectations-0.8.2
 Dependency hspec-meta >=2.3.2: using hspec-meta-2.4.6
-Dependency process -any: using process-1.6.1.0
+Dependency process -any: using process-1.6.3.0
 Dependency quickcheck-io >=0.2.0: using quickcheck-io-0.2.0
 Dependency random -any: using random-1.1
 Dependency setenv -any: using setenv-0.1.1.3
@@ -37,217 +37,217 @@ Dependency silently >=1.2.4: using silently-1.2.5
 Dependency temporary -any: using temporary-1.2.1.1
 Dependency tf-random -any: using tf-random-0.5
 Dependency time -any: using time-1.8.0.2
-Dependency transformers >=0.2.2.0: using transformers-0.5.4.0
+Dependency transformers >=0.2.2.0: using transformers-0.5.5.0
 Source component graph:
     component test:spec
     component lib
 Configured component graph:
-    component hspec-core-2.4.4-KmQhXBL468H7kUpeb5gf0L-spec
+    component hspec-core-2.4.4-3heL13ftj0kKooLZlCdXOd-spec
         include base-4.11.0.0
         include random-1.1-Bzf9YW9nFUS5UwW0OIfLBC
-        include tf-random-0.5-LKZLFH393YgK63Xbsplbs3
+        include tf-random-0.5-B7zGVOdpiyD1rsha09vD88
         include setenv-0.1.1.3-IPksFZ0IC0wJamvRuEzvc2
         include ansi-terminal-0.7.1.1-Jc2vdYAgTjC7iSi3mDhHll
         include time-1.8.0.2
-        include transformers-0.5.4.0
+        include transformers-0.5.5.0
         include deepseq-1.4.3.0
-        include HUnit-1.6.0.0-HUOAyhgpffC5a0duv5PHPt
-        include QuickCheck-2.10.1-JtCJYsuJkTe4fke65pAbJD
-        include quickcheck-io-0.2.0-I7DxYW0mAVR7Z23OlCM1i7
-        include hspec-expectations-0.8.2-Ko7sQgNxw1NGPbZk9sBBc5
-        include async-2.1.1.1-IXkkEooEflG4Lwmpn78pRt
+        include HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
+        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include quickcheck-io-0.2.0-FOLbUlsuMbmDUPl4COc517
+        include hspec-expectations-0.8.2-1gOLxRiBp1E3au6ADZAjex
+        include async-2.1.1.1-FZdwQ3vY98QDlGjjFEkrnm
         include call-stack-0.1.0-6BCoA8Rca4ecMLowDBWb5
         include directory-1.3.1.5
-        include filepath-1.4.1.2
+        include filepath-1.4.2
         include array-0.5.2.0
-        include hspec-meta-2.4.6-i6MuzK3E89Cz2xPeEkGZJ
+        include hspec-meta-2.4.6-FkIYpDKLbvZFAPV0bmrMTT
         include silently-1.2.5-9VRwYYCMYk8C1UpDgTOlJp
-        include process-1.6.1.0
-        include temporary-1.2.1.1-D43fooWrTXoAr60RzQONJX
-    component hspec-core-2.4.4-5EJ41exC2kI5MWtwbmLH97
+        include process-1.6.3.0
+        include temporary-1.2.1.1-62fXDKz4Yxq88IjmLsmUXn
+    component hspec-core-2.4.4-GiYvRh4nHp5ExReTE6uGqh
         include base-4.11.0.0
         include random-1.1-Bzf9YW9nFUS5UwW0OIfLBC
-        include tf-random-0.5-LKZLFH393YgK63Xbsplbs3
+        include tf-random-0.5-B7zGVOdpiyD1rsha09vD88
         include setenv-0.1.1.3-IPksFZ0IC0wJamvRuEzvc2
         include ansi-terminal-0.7.1.1-Jc2vdYAgTjC7iSi3mDhHll
         include time-1.8.0.2
-        include transformers-0.5.4.0
+        include transformers-0.5.5.0
         include deepseq-1.4.3.0
-        include HUnit-1.6.0.0-HUOAyhgpffC5a0duv5PHPt
-        include QuickCheck-2.10.1-JtCJYsuJkTe4fke65pAbJD
-        include quickcheck-io-0.2.0-I7DxYW0mAVR7Z23OlCM1i7
-        include hspec-expectations-0.8.2-Ko7sQgNxw1NGPbZk9sBBc5
-        include async-2.1.1.1-IXkkEooEflG4Lwmpn78pRt
+        include HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
+        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include quickcheck-io-0.2.0-FOLbUlsuMbmDUPl4COc517
+        include hspec-expectations-0.8.2-1gOLxRiBp1E3au6ADZAjex
+        include async-2.1.1.1-FZdwQ3vY98QDlGjjFEkrnm
         include call-stack-0.1.0-6BCoA8Rca4ecMLowDBWb5
         include directory-1.3.1.5
-        include filepath-1.4.1.2
+        include filepath-1.4.2
         include array-0.5.2.0
 Linked component graph:
-    unit hspec-core-2.4.4-KmQhXBL468H7kUpeb5gf0L-spec
+    unit hspec-core-2.4.4-3heL13ftj0kKooLZlCdXOd-spec
         include base-4.11.0.0
         include random-1.1-Bzf9YW9nFUS5UwW0OIfLBC
-        include tf-random-0.5-LKZLFH393YgK63Xbsplbs3
+        include tf-random-0.5-B7zGVOdpiyD1rsha09vD88
         include setenv-0.1.1.3-IPksFZ0IC0wJamvRuEzvc2
         include ansi-terminal-0.7.1.1-Jc2vdYAgTjC7iSi3mDhHll
         include time-1.8.0.2
-        include transformers-0.5.4.0
+        include transformers-0.5.5.0
         include deepseq-1.4.3.0
-        include HUnit-1.6.0.0-HUOAyhgpffC5a0duv5PHPt
-        include QuickCheck-2.10.1-JtCJYsuJkTe4fke65pAbJD
-        include quickcheck-io-0.2.0-I7DxYW0mAVR7Z23OlCM1i7
-        include hspec-expectations-0.8.2-Ko7sQgNxw1NGPbZk9sBBc5
-        include async-2.1.1.1-IXkkEooEflG4Lwmpn78pRt
+        include HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
+        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include quickcheck-io-0.2.0-FOLbUlsuMbmDUPl4COc517
+        include hspec-expectations-0.8.2-1gOLxRiBp1E3au6ADZAjex
+        include async-2.1.1.1-FZdwQ3vY98QDlGjjFEkrnm
         include call-stack-0.1.0-6BCoA8Rca4ecMLowDBWb5
         include directory-1.3.1.5
-        include filepath-1.4.1.2
+        include filepath-1.4.2
         include array-0.5.2.0
-        include hspec-meta-2.4.6-i6MuzK3E89Cz2xPeEkGZJ
+        include hspec-meta-2.4.6-FkIYpDKLbvZFAPV0bmrMTT
         include silently-1.2.5-9VRwYYCMYk8C1UpDgTOlJp
-        include process-1.6.1.0
-        include temporary-1.2.1.1-D43fooWrTXoAr60RzQONJX
-    unit hspec-core-2.4.4-5EJ41exC2kI5MWtwbmLH97
+        include process-1.6.3.0
+        include temporary-1.2.1.1-62fXDKz4Yxq88IjmLsmUXn
+    unit hspec-core-2.4.4-GiYvRh4nHp5ExReTE6uGqh
         include base-4.11.0.0
         include random-1.1-Bzf9YW9nFUS5UwW0OIfLBC
-        include tf-random-0.5-LKZLFH393YgK63Xbsplbs3
+        include tf-random-0.5-B7zGVOdpiyD1rsha09vD88
         include setenv-0.1.1.3-IPksFZ0IC0wJamvRuEzvc2
         include ansi-terminal-0.7.1.1-Jc2vdYAgTjC7iSi3mDhHll
         include time-1.8.0.2
-        include transformers-0.5.4.0
+        include transformers-0.5.5.0
         include deepseq-1.4.3.0
-        include HUnit-1.6.0.0-HUOAyhgpffC5a0duv5PHPt
-        include QuickCheck-2.10.1-JtCJYsuJkTe4fke65pAbJD
-        include quickcheck-io-0.2.0-I7DxYW0mAVR7Z23OlCM1i7
-        include hspec-expectations-0.8.2-Ko7sQgNxw1NGPbZk9sBBc5
-        include async-2.1.1.1-IXkkEooEflG4Lwmpn78pRt
+        include HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
+        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include quickcheck-io-0.2.0-FOLbUlsuMbmDUPl4COc517
+        include hspec-expectations-0.8.2-1gOLxRiBp1E3au6ADZAjex
+        include async-2.1.1.1-FZdwQ3vY98QDlGjjFEkrnm
         include call-stack-0.1.0-6BCoA8Rca4ecMLowDBWb5
         include directory-1.3.1.5
-        include filepath-1.4.1.2
+        include filepath-1.4.2
         include array-0.5.2.0
-        Test.Hspec.Core.Formatters=hspec-core-2.4.4-5EJ41exC2kI5MWtwbmLH97:Test.Hspec.Core.Formatters,Test.Hspec.Core.Hooks=hspec-core-2.4.4-5EJ41exC2kI5MWtwbmLH97:Test.Hspec.Core.Hooks,Test.Hspec.Core.QuickCheck=hspec-core-2.4.4-5EJ41exC2kI5MWtwbmLH97:Test.Hspec.Core.QuickCheck,Test.Hspec.Core.Runner=hspec-core-2.4.4-5EJ41exC2kI5MWtwbmLH97:Test.Hspec.Core.Runner,Test.Hspec.Core.Spec=hspec-core-2.4.4-5EJ41exC2kI5MWtwbmLH97:Test.Hspec.Core.Spec,Test.Hspec.Core.Util=hspec-core-2.4.4-5EJ41exC2kI5MWtwbmLH97:Test.Hspec.Core.Util
+        Test.Hspec.Core.Formatters=hspec-core-2.4.4-GiYvRh4nHp5ExReTE6uGqh:Test.Hspec.Core.Formatters,Test.Hspec.Core.Hooks=hspec-core-2.4.4-GiYvRh4nHp5ExReTE6uGqh:Test.Hspec.Core.Hooks,Test.Hspec.Core.QuickCheck=hspec-core-2.4.4-GiYvRh4nHp5ExReTE6uGqh:Test.Hspec.Core.QuickCheck,Test.Hspec.Core.Runner=hspec-core-2.4.4-GiYvRh4nHp5ExReTE6uGqh:Test.Hspec.Core.Runner,Test.Hspec.Core.Spec=hspec-core-2.4.4-GiYvRh4nHp5ExReTE6uGqh:Test.Hspec.Core.Spec,Test.Hspec.Core.Util=hspec-core-2.4.4-GiYvRh4nHp5ExReTE6uGqh:Test.Hspec.Core.Util
 Ready component graph:
-    definite hspec-core-2.4.4-KmQhXBL468H7kUpeb5gf0L-spec
+    definite hspec-core-2.4.4-GiYvRh4nHp5ExReTE6uGqh
         depends base-4.11.0.0
         depends random-1.1-Bzf9YW9nFUS5UwW0OIfLBC
-        depends tf-random-0.5-LKZLFH393YgK63Xbsplbs3
+        depends tf-random-0.5-B7zGVOdpiyD1rsha09vD88
         depends setenv-0.1.1.3-IPksFZ0IC0wJamvRuEzvc2
         depends ansi-terminal-0.7.1.1-Jc2vdYAgTjC7iSi3mDhHll
         depends time-1.8.0.2
-        depends transformers-0.5.4.0
+        depends transformers-0.5.5.0
         depends deepseq-1.4.3.0
-        depends HUnit-1.6.0.0-HUOAyhgpffC5a0duv5PHPt
-        depends QuickCheck-2.10.1-JtCJYsuJkTe4fke65pAbJD
-        depends quickcheck-io-0.2.0-I7DxYW0mAVR7Z23OlCM1i7
-        depends hspec-expectations-0.8.2-Ko7sQgNxw1NGPbZk9sBBc5
-        depends async-2.1.1.1-IXkkEooEflG4Lwmpn78pRt
+        depends HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
+        depends QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        depends quickcheck-io-0.2.0-FOLbUlsuMbmDUPl4COc517
+        depends hspec-expectations-0.8.2-1gOLxRiBp1E3au6ADZAjex
+        depends async-2.1.1.1-FZdwQ3vY98QDlGjjFEkrnm
         depends call-stack-0.1.0-6BCoA8Rca4ecMLowDBWb5
         depends directory-1.3.1.5
-        depends filepath-1.4.1.2
+        depends filepath-1.4.2
         depends array-0.5.2.0
-        depends hspec-meta-2.4.6-i6MuzK3E89Cz2xPeEkGZJ
+    definite hspec-core-2.4.4-3heL13ftj0kKooLZlCdXOd-spec
+        depends base-4.11.0.0
+        depends random-1.1-Bzf9YW9nFUS5UwW0OIfLBC
+        depends tf-random-0.5-B7zGVOdpiyD1rsha09vD88
+        depends setenv-0.1.1.3-IPksFZ0IC0wJamvRuEzvc2
+        depends ansi-terminal-0.7.1.1-Jc2vdYAgTjC7iSi3mDhHll
+        depends time-1.8.0.2
+        depends transformers-0.5.5.0
+        depends deepseq-1.4.3.0
+        depends HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
+        depends QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        depends quickcheck-io-0.2.0-FOLbUlsuMbmDUPl4COc517
+        depends hspec-expectations-0.8.2-1gOLxRiBp1E3au6ADZAjex
+        depends async-2.1.1.1-FZdwQ3vY98QDlGjjFEkrnm
+        depends call-stack-0.1.0-6BCoA8Rca4ecMLowDBWb5
+        depends directory-1.3.1.5
+        depends filepath-1.4.2
+        depends array-0.5.2.0
+        depends hspec-meta-2.4.6-FkIYpDKLbvZFAPV0bmrMTT
         depends silently-1.2.5-9VRwYYCMYk8C1UpDgTOlJp
-        depends process-1.6.1.0
-        depends temporary-1.2.1.1-D43fooWrTXoAr60RzQONJX
-    definite hspec-core-2.4.4-5EJ41exC2kI5MWtwbmLH97
-        depends base-4.11.0.0
-        depends random-1.1-Bzf9YW9nFUS5UwW0OIfLBC
-        depends tf-random-0.5-LKZLFH393YgK63Xbsplbs3
-        depends setenv-0.1.1.3-IPksFZ0IC0wJamvRuEzvc2
-        depends ansi-terminal-0.7.1.1-Jc2vdYAgTjC7iSi3mDhHll
-        depends time-1.8.0.2
-        depends transformers-0.5.4.0
-        depends deepseq-1.4.3.0
-        depends HUnit-1.6.0.0-HUOAyhgpffC5a0duv5PHPt
-        depends QuickCheck-2.10.1-JtCJYsuJkTe4fke65pAbJD
-        depends quickcheck-io-0.2.0-I7DxYW0mAVR7Z23OlCM1i7
-        depends hspec-expectations-0.8.2-Ko7sQgNxw1NGPbZk9sBBc5
-        depends async-2.1.1.1-IXkkEooEflG4Lwmpn78pRt
-        depends call-stack-0.1.0-6BCoA8Rca4ecMLowDBWb5
-        depends directory-1.3.1.5
-        depends filepath-1.4.1.2
-        depends array-0.5.2.0
+        depends process-1.6.3.0
+        depends temporary-1.2.1.1-62fXDKz4Yxq88IjmLsmUXn
 Using Cabal-2.1.0.0 compiled by ghc-8.4
-Using compiler: ghc-8.4.20180122
+Using compiler: ghc-8.4.0.20180204
 Using install prefix:
-/nix/store/2b88gv5zw405ird7knmpmxvab6c0hpjl-hspec-core-2.4.4
+/nix/store/fbkapmmcl8sm9353w51kwin36b1cfrzh-hspec-core-2.4.4
 Executables installed in:
-/nix/store/2b88gv5zw405ird7knmpmxvab6c0hpjl-hspec-core-2.4.4/bin
+/nix/store/fbkapmmcl8sm9353w51kwin36b1cfrzh-hspec-core-2.4.4/bin
 Libraries installed in:
-/nix/store/2b88gv5zw405ird7knmpmxvab6c0hpjl-hspec-core-2.4.4/lib/ghc-8.4.20180122/hspec-core-2.4.4
+/nix/store/fbkapmmcl8sm9353w51kwin36b1cfrzh-hspec-core-2.4.4/lib/ghc-8.4.0.20180204/hspec-core-2.4.4
 Dynamic Libraries installed in:
-/nix/store/2b88gv5zw405ird7knmpmxvab6c0hpjl-hspec-core-2.4.4/lib/ghc-8.4.20180122/x86_64-linux-ghc-8.4.20180122
+/nix/store/fbkapmmcl8sm9353w51kwin36b1cfrzh-hspec-core-2.4.4/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
 Private executables installed in:
-/nix/store/2b88gv5zw405ird7knmpmxvab6c0hpjl-hspec-core-2.4.4/libexec/x86_64-linux-ghc-8.4.20180122/hspec-core-2.4.4
+/nix/store/fbkapmmcl8sm9353w51kwin36b1cfrzh-hspec-core-2.4.4/libexec/x86_64-linux-ghc-8.4.0.20180204/hspec-core-2.4.4
 Data files installed in:
-/nix/store/2b88gv5zw405ird7knmpmxvab6c0hpjl-hspec-core-2.4.4/share/x86_64-linux-ghc-8.4.20180122/hspec-core-2.4.4
+/nix/store/fbkapmmcl8sm9353w51kwin36b1cfrzh-hspec-core-2.4.4/share/x86_64-linux-ghc-8.4.0.20180204/hspec-core-2.4.4
 Documentation installed in:
-/nix/store/z0pr0pw25l77ajlnaglwalxf4kmkq4ns-hspec-core-2.4.4-doc/share/doc
+/nix/store/89gb2gvahjwqyfhwv9p4kb7piwg8585g-hspec-core-2.4.4-doc/share/doc
 Configuration files installed in:
-/nix/store/2b88gv5zw405ird7knmpmxvab6c0hpjl-hspec-core-2.4.4/etc
+/nix/store/fbkapmmcl8sm9353w51kwin36b1cfrzh-hspec-core-2.4.4/etc
 No alex found
 Using ar found on system at:
-/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/ar
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
 No c2hs found
 No cpphs found
 No doctest found
 Using gcc version 6.4.0 given by user at:
-/nix/store/vmy9yzr09vmyq9k5nngf8lrhqmycffjy-gcc-wrapper-6.4.0/bin/gcc
-Using ghc version 8.4.20180122 found on system at:
-/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc
-Using ghc-pkg version 8.4.20180122 found on system at:
-/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/ghc-pkg
+/nix/store/nj7mw0lyx80g7lrxcxy5v9vmnpif5950-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc
+Using ghc-pkg version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc-pkg
 No ghcjs found
 No ghcjs-pkg found
 No greencard found
-Using haddock version 2.18.2 found on system at:
-/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/haddock
+Using haddock version 2.19.0 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/haddock
 No happy found
 Using haskell-suite found on system at: haskell-suite-dummy-location
 Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
 No hmake found
 Using hpc version 0.67 found on system at:
-/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hpc
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hpc
 Using hsc2hs version 0.68.3 found on system at:
-/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/hsc2hs
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hsc2hs
 Using hscolour version 1.24 found on system at:
-/nix/store/w8ldqvmajj0zk2k201za0ng70ha14c8m-hscolour-1.24.2/bin/HsColour
+/nix/store/626h2ym9fhl5lgnqlqrh5s4b73m5kgy8-hscolour-1.24.2/bin/HsColour
 No jhc found
 Using ld found on system at:
-/nix/store/0m775vcmck56a48r88l1k8a5110khw1j-binutils-wrapper-2.28.1/bin/ld
+/nix/store/qhqxgkb2zki59dy4lx6krmgjsnhpjrc9-binutils-wrapper-2.28.1/bin/ld
 No lhc found
 No lhc-pkg found
 No pkg-config found
-Using runghc version 8.4.20180122 found on system at:
-/nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122/bin/runghc
+Using runghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/runghc
 Using strip version 2.28 found on system at:
-/nix/store/5qj61lcvzlap87rf6blvf8p577d482bv-binutils-2.28.1/bin/strip
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
 Using tar found on system at:
-/nix/store/1jn750iav5rfbm05345ysi8dvxcz7j26-gnutar-1.30/bin/tar
+/nix/store/2waj1y5v572sbigjhqbmhx178vfak1l0-gnutar-1.30/bin/tar
 No uhc found
 building
-Preprocessing test suite 'spec' for hspec-core-2.4.4..
-Building test suite 'spec' for hspec-core-2.4.4..
-[ 1 of 38] Compiling Data.Algorithm.Diff ( vendor/Data/Algorithm/Diff.hs, dist/build/spec/spec-tmp/Data/Algorithm/Diff.dyn_o )
-[ 2 of 38] Compiling Test.Hspec.Core.Compat ( src/Test/Hspec/Core/Compat.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Compat.dyn_o )
-[ 3 of 38] Compiling Mock             ( test/Mock.hs, dist/build/spec/spec-tmp/Mock.dyn_o )
-[ 4 of 38] Compiling Test.Hspec.Core.Formatters.Diff ( src/Test/Hspec/Core/Formatters/Diff.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Formatters/Diff.dyn_o )
-[ 5 of 38] Compiling Test.Hspec.Core.Formatters.Free ( src/Test/Hspec/Core/Formatters/Free.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Formatters/Free.dyn_o )
-[ 6 of 38] Compiling Test.Hspec.Core.Timer ( src/Test/Hspec/Core/Timer.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Timer.dyn_o )
-[ 7 of 38] Compiling Test.Hspec.Core.Util ( src/Test/Hspec/Core/Util.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Util.dyn_o )
-[ 8 of 38] Compiling Test.Hspec.Core.QuickCheckUtil ( src/Test/Hspec/Core/QuickCheckUtil.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/QuickCheckUtil.dyn_o )
-[ 9 of 38] Compiling Test.Hspec.Core.Example ( src/Test/Hspec/Core/Example.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Example.dyn_o )
-[10 of 38] Compiling Test.Hspec.Core.Tree ( src/Test/Hspec/Core/Tree.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Tree.dyn_o )
-[11 of 38] Compiling Test.Hspec.Core.Spec.Monad ( src/Test/Hspec/Core/Spec/Monad.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Spec/Monad.dyn_o )
-[12 of 38] Compiling Test.Hspec.Core.Hooks ( src/Test/Hspec/Core/Hooks.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Hooks.dyn_o )
-[13 of 38] Compiling Test.Hspec.Core.Spec ( src/Test/Hspec/Core/Spec.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Spec.dyn_o )
-[14 of 38] Compiling Test.Hspec.Core.QuickCheck ( src/Test/Hspec/Core/QuickCheck.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/QuickCheck.dyn_o )
-[15 of 38] Compiling Test.Hspec.Core.Formatters.Monad ( src/Test/Hspec/Core/Formatters/Monad.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Formatters/Monad.dyn_o )
-[16 of 38] Compiling Test.Hspec.Core.Formatters ( src/Test/Hspec/Core/Formatters.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Formatters.dyn_o )
-[17 of 38] Compiling Test.Hspec.Core.Options ( src/Test/Hspec/Core/Options.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Options.dyn_o )
-[18 of 38] Compiling Test.Hspec.Core.FailureReport ( src/Test/Hspec/Core/FailureReport.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/FailureReport.dyn_o )
-[19 of 38] Compiling Test.Hspec.Core.Formatters.Internal ( src/Test/Hspec/Core/Formatters/Internal.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Formatters/Internal.dyn_o )
-[20 of 38] Compiling Test.Hspec.Core.Config ( src/Test/Hspec/Core/Config.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Config.dyn_o )
-[21 of 38] Compiling Test.Hspec.Core.Runner.Eval ( src/Test/Hspec/Core/Runner/Eval.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Runner/Eval.dyn_o )
-[22 of 38] Compiling Test.Hspec.Core.Runner ( src/Test/Hspec/Core/Runner.hs, dist/build/spec/spec-tmp/Test/Hspec/Core/Runner.dyn_o )
+Preprocessing library for hspec-core-2.4.4..
+Building library for hspec-core-2.4.4..
+[ 1 of 22] Compiling Data.Algorithm.Diff ( vendor/Data/Algorithm/Diff.hs, dist/build/Data/Algorithm/Diff.o )
+[ 2 of 22] Compiling Paths_hspec_core ( dist/build/autogen/Paths_hspec_core.hs, dist/build/Paths_hspec_core.o )
+[ 3 of 22] Compiling Test.Hspec.Core.Compat ( src/Test/Hspec/Core/Compat.hs, dist/build/Test/Hspec/Core/Compat.o )
+[ 4 of 22] Compiling Test.Hspec.Core.Formatters.Diff ( src/Test/Hspec/Core/Formatters/Diff.hs, dist/build/Test/Hspec/Core/Formatters/Diff.o )
+[ 5 of 22] Compiling Test.Hspec.Core.Formatters.Free ( src/Test/Hspec/Core/Formatters/Free.hs, dist/build/Test/Hspec/Core/Formatters/Free.o )
+[ 6 of 22] Compiling Test.Hspec.Core.Timer ( src/Test/Hspec/Core/Timer.hs, dist/build/Test/Hspec/Core/Timer.o )
+[ 7 of 22] Compiling Test.Hspec.Core.Util ( src/Test/Hspec/Core/Util.hs, dist/build/Test/Hspec/Core/Util.o )
+[ 8 of 22] Compiling Test.Hspec.Core.QuickCheckUtil ( src/Test/Hspec/Core/QuickCheckUtil.hs, dist/build/Test/Hspec/Core/QuickCheckUtil.o )
+[ 9 of 22] Compiling Test.Hspec.Core.Example ( src/Test/Hspec/Core/Example.hs, dist/build/Test/Hspec/Core/Example.o )
+[10 of 22] Compiling Test.Hspec.Core.Tree ( src/Test/Hspec/Core/Tree.hs, dist/build/Test/Hspec/Core/Tree.o )
+[11 of 22] Compiling Test.Hspec.Core.Spec.Monad ( src/Test/Hspec/Core/Spec/Monad.hs, dist/build/Test/Hspec/Core/Spec/Monad.o )
+[12 of 22] Compiling Test.Hspec.Core.Hooks ( src/Test/Hspec/Core/Hooks.hs, dist/build/Test/Hspec/Core/Hooks.o )
+[13 of 22] Compiling Test.Hspec.Core.Spec ( src/Test/Hspec/Core/Spec.hs, dist/build/Test/Hspec/Core/Spec.o )
+[14 of 22] Compiling Test.Hspec.Core.QuickCheck ( src/Test/Hspec/Core/QuickCheck.hs, dist/build/Test/Hspec/Core/QuickCheck.o )
+[15 of 22] Compiling Test.Hspec.Core.Formatters.Monad ( src/Test/Hspec/Core/Formatters/Monad.hs, dist/build/Test/Hspec/Core/Formatters/Monad.o )
+[16 of 22] Compiling Test.Hspec.Core.Formatters ( src/Test/Hspec/Core/Formatters.hs, dist/build/Test/Hspec/Core/Formatters.o )
+[17 of 22] Compiling Test.Hspec.Core.Options ( src/Test/Hspec/Core/Options.hs, dist/build/Test/Hspec/Core/Options.o )
+[18 of 22] Compiling Test.Hspec.Core.FailureReport ( src/Test/Hspec/Core/FailureReport.hs, dist/build/Test/Hspec/Core/FailureReport.o )
+[19 of 22] Compiling Test.Hspec.Core.Formatters.Internal ( src/Test/Hspec/Core/Formatters/Internal.hs, dist/build/Test/Hspec/Core/Formatters/Internal.o )
+[20 of 22] Compiling Test.Hspec.Core.Config ( src/Test/Hspec/Core/Config.hs, dist/build/Test/Hspec/Core/Config.o )
+[21 of 22] Compiling Test.Hspec.Core.Runner.Eval ( src/Test/Hspec/Core/Runner/Eval.hs, dist/build/Test/Hspec/Core/Runner/Eval.o )
+[22 of 22] Compiling Test.Hspec.Core.Runner ( src/Test/Hspec/Core/Runner.hs, dist/build/Test/Hspec/Core/Runner.o )
 
 src/Test/Hspec/Core/Runner.hs:229:10: error:
     • No instance for (Semigroup Summary)
@@ -256,5 +256,5 @@ src/Test/Hspec/Core/Runner.hs:229:10: error:
     |
 229 | instance Monoid Summary where
     |          ^^^^^^^^^^^^^^
-builder for ‘/nix/store/cym6mys0qvp6a8ppbmzd9y9wj7ky3f20-hspec-core-2.4.4.drv’ failed with exit code 1
-error: build of ‘/nix/store/cym6mys0qvp6a8ppbmzd9y9wj7ky3f20-hspec-core-2.4.4.drv’ failed
+builder for ‘/nix/store/51xsd2yhp0idpw590xzfqpwkpkmxwi7w-hspec-core-2.4.4.drv’ failed with exit code 1
+error: build of ‘/nix/store/51xsd2yhp0idpw590xzfqpwkpkmxwi7w-hspec-core-2.4.4.drv’ failed

@@ -1,4 +1,0 @@
-Setup: Encountered missing dependencies:
-base >=4.3 && <4.11
-builder for ‘/nix/store/c16gcgn7d7gql8bbjqngx7wbw907hnwb-parallel-3.2.1.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/c16gcgn7d7gql8bbjqngx7wbw907hnwb-parallel-3.2.1.1.drv’ failed

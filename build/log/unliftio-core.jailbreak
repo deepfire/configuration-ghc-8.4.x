@@ -1,8 +1,8 @@
 these derivations will be built:
-  /nix/store/bn8w06wlq7zzli0858hfwlai7wbj6dmq-unliftio-core-0.1.1.0.drv
-building path(s) ‘/nix/store/dgvjwyx00nxhlnqvviavmx4gkjx3vqr1-unliftio-core-0.1.1.0-doc’, ‘/nix/store/vmy0i7pniw3dsnvd4jfvc85jn1fh0l0h-unliftio-core-0.1.1.0’
+  /nix/store/n3mg1jwsvsqfj3pbn280spsi5grpnai4-unliftio-core-0.1.1.0.drv
+building path(s) ‘/nix/store/8rakqkfvjckk9jl0v3bhgjb2qw7ml3qn-unliftio-core-0.1.1.0’, ‘/nix/store/rwhpizp9jrvmxgq1acdb8pyn8jnzaj63-unliftio-core-0.1.1.0-doc’
 setupCompilerEnvironmentPhase
-Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
 unpacking source archive /nix/store/ah10qwphmql28wmiywkv82yp20wsn9v1-unliftio-core-0.1.1.0.tar.gz
 source root is unliftio-core-0.1.1.0
@@ -13,7 +13,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-unliftio-core-0.1.1.0.drv-0/packag
 [1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-unliftio-core-0.1.1.0.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/vmy0i7pniw3dsnvd4jfvc85jn1fh0l0h-unliftio-core-0.1.1.0 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/dgvjwyx00nxhlnqvviavmx4gkjx3vqr1-unliftio-core-0.1.1.0-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-unliftio-core-0.1.1.0.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/vmy0i7pniw3dsnvd4jfvc85jn1fh0l0h-unliftio-core-0.1.1.0/lib/ghc-8.4.20180122/unliftio-core-0.1.1.0 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/8rakqkfvjckk9jl0v3bhgjb2qw7ml3qn-unliftio-core-0.1.1.0 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/rwhpizp9jrvmxgq1acdb8pyn8jnzaj63-unliftio-core-0.1.1.0-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-unliftio-core-0.1.1.0.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/8rakqkfvjckk9jl0v3bhgjb2qw7ml3qn-unliftio-core-0.1.1.0/lib/ghc-8.4.0.20180204/unliftio-core-0.1.1.0 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring unliftio-core-0.1.1.0...
 CallStack (from HasCallStack):
@@ -27,5 +27,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 base >=4.5 && <4.11
 
-builder for ‘/nix/store/bn8w06wlq7zzli0858hfwlai7wbj6dmq-unliftio-core-0.1.1.0.drv’ failed with exit code 1
-error: build of ‘/nix/store/bn8w06wlq7zzli0858hfwlai7wbj6dmq-unliftio-core-0.1.1.0.drv’ failed
+builder for ‘/nix/store/n3mg1jwsvsqfj3pbn280spsi5grpnai4-unliftio-core-0.1.1.0.drv’ failed with exit code 1
+error: build of ‘/nix/store/n3mg1jwsvsqfj3pbn280spsi5grpnai4-unliftio-core-0.1.1.0.drv’ failed

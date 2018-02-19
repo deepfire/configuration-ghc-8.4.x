@@ -1,4 +1,2 @@
 Setup: Encountered missing dependencies:
 Cabal >=1.10 && <2.1, base >=4.3 && <4.11
-builder for ‘/nix/store/zy3l0ll0r9dq29lgxajv12rz1jzjdkrn-cabal-doctest-1.0.5.drv’ failed with exit code 1
-error: build of ‘/nix/store/zy3l0ll0r9dq29lgxajv12rz1jzjdkrn-cabal-doctest-1.0.5.drv’ failed

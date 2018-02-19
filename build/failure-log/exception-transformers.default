@@ -1,4 +1,2 @@
 Setup: Encountered missing dependencies:
 HUnit >=1.2 && <1.6
-builder for ‘/nix/store/qs4g7lzq1ixcgg5rw4xb5545g7r34md8-exception-transformers-0.4.0.5.drv’ failed with exit code 1
-error: build of ‘/nix/store/qs4g7lzq1ixcgg5rw4xb5545g7r34md8-exception-transformers-0.4.0.5.drv’ failed

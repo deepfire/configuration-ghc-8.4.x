@@ -1,21 +1,21 @@
 these derivations will be built:
-  /nix/store/dy1hzdy14pz96cvx37yggbv6a88sgxq4-bifunctors-5.5.drv
-building path(s) ‘/nix/store/dzj2gxvvaqy2wbji57afn15mfysjy5yq-bifunctors-5.5-doc’, ‘/nix/store/zj7xz2bsa6kmi8vhdasjwg3zi127lksm-bifunctors-5.5’
+  /nix/store/mi7h0106g3vfvz02406lwgp0j5a8hvs5-bifunctors-5.5.2.drv
+building path(s) ‘/nix/store/qmrprhaw7hph007rnw5lvbkasxaxzwxw-bifunctors-5.5.2-doc’, ‘/nix/store/wdq2xvdls2mh872m8n2n59z9q3llyzs8-bifunctors-5.5.2’
 setupCompilerEnvironmentPhase
-Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
-unpacking source archive /nix/store/i7h3f3dlds2lsvpch4b84di3qk92pvvp-bifunctors-5.5.tar.gz
-source root is bifunctors-5.5
-setting SOURCE_DATE_EPOCH to timestamp 1512654256 of file bifunctors-5.5/.travis.yml
+unpacking source archive /nix/store/1313m0zza6i2ckh8w6rzd221kn498y54-bifunctors-5.5.2.tar.gz
+source root is bifunctors-5.5.2
+setting SOURCE_DATE_EPOCH to timestamp 1517941489 of file bifunctors-5.5.2/.travis.yml
 patching sources
 compileBuildDriverPhase
-setupCompileFlags: -package-db=/tmp/nix-build-bifunctors-5.5.drv-0/package.conf.d -j8 -threaded
-[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-bifunctors-5.5.drv-0/Main.o )
+setupCompileFlags: -package-db=/tmp/nix-build-bifunctors-5.5.2.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-bifunctors-5.5.2.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/zj7xz2bsa6kmi8vhdasjwg3zi127lksm-bifunctors-5.5 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/dzj2gxvvaqy2wbji57afn15mfysjy5yq-bifunctors-5.5-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-bifunctors-5.5.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/zj7xz2bsa6kmi8vhdasjwg3zi127lksm-bifunctors-5.5/lib/ghc-8.4.20180122/bifunctors-5.5 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/wdq2xvdls2mh872m8n2n59z9q3llyzs8-bifunctors-5.5.2 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/qmrprhaw7hph007rnw5lvbkasxaxzwxw-bifunctors-5.5.2-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-bifunctors-5.5.2.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/wdq2xvdls2mh872m8n2n59z9q3llyzs8-bifunctors-5.5.2/lib/ghc-8.4.0.20180204/bifunctors-5.5.2 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
-Configuring bifunctors-5.5...
+Configuring bifunctors-5.5.2...
 CallStack (from HasCallStack):
   die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
   configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
@@ -27,5 +27,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 template-haskell >=2.4 && <2.13
 
-builder for ‘/nix/store/dy1hzdy14pz96cvx37yggbv6a88sgxq4-bifunctors-5.5.drv’ failed with exit code 1
-error: build of ‘/nix/store/dy1hzdy14pz96cvx37yggbv6a88sgxq4-bifunctors-5.5.drv’ failed
+builder for ‘/nix/store/mi7h0106g3vfvz02406lwgp0j5a8hvs5-bifunctors-5.5.2.drv’ failed with exit code 1
+error: build of ‘/nix/store/mi7h0106g3vfvz02406lwgp0j5a8hvs5-bifunctors-5.5.2.drv’ failed

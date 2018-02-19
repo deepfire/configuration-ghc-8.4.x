@@ -1,8 +1,8 @@
 these derivations will be built:
-  /nix/store/ya1xn6lypdbd8xf7zdg855sq029gh72k-bytestring-trie-0.2.4.1.drv
-building path(s) ‘/nix/store/g43npr90nwgvsf35bywhxigxbry8ablw-bytestring-trie-0.2.4.1-doc’, ‘/nix/store/jfjwijpm1jic159xgfan3f2r0m27n3hg-bytestring-trie-0.2.4.1’
+  /nix/store/3gm7xy4by641z1jy06sbb70z3ns1p944-bytestring-trie-0.2.4.1.drv
+building path(s) ‘/nix/store/3f2h8ql5pg5cmnvixwjr29b2mh5dzmkr-bytestring-trie-0.2.4.1’, ‘/nix/store/hqn7h774b1x4g7za5zflsam4gdflwjyd-bytestring-trie-0.2.4.1-doc’
 setupCompilerEnvironmentPhase
-Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
 unpacking source archive /nix/store/k21wwa80lk7x0mm15j7hba684fg00ky5-source
 source root is source
@@ -12,7 +12,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-bytestring-trie-0.2.4.1.drv-0/pack
 [1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-bytestring-trie-0.2.4.1.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/jfjwijpm1jic159xgfan3f2r0m27n3hg-bytestring-trie-0.2.4.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/g43npr90nwgvsf35bywhxigxbry8ablw-bytestring-trie-0.2.4.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-bytestring-trie-0.2.4.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/jfjwijpm1jic159xgfan3f2r0m27n3hg-bytestring-trie-0.2.4.1/lib/ghc-8.4.20180122/bytestring-trie-0.2.4.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/b13jslrp58nx88jzy1yv28ffh2qdnnh0-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/ddg0a5z77y6c98490hpm7jnx04f5h9na-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/3f2h8ql5pg5cmnvixwjr29b2mh5dzmkr-bytestring-trie-0.2.4.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/hqn7h774b1x4g7za5zflsam4gdflwjyd-bytestring-trie-0.2.4.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-bytestring-trie-0.2.4.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/3f2h8ql5pg5cmnvixwjr29b2mh5dzmkr-bytestring-trie-0.2.4.1/lib/ghc-8.4.0.20180204/bytestring-trie-0.2.4.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring bytestring-trie-0.3.0.3...
 CallStack (from HasCallStack):
@@ -29,5 +29,5 @@ QuickCheck >=2.4.1 && <2.11,
 lazysmallcheck ==0.6.*,
 smallcheck >=1.1.1 && <1.2
 
-builder for ‘/nix/store/ya1xn6lypdbd8xf7zdg855sq029gh72k-bytestring-trie-0.2.4.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/ya1xn6lypdbd8xf7zdg855sq029gh72k-bytestring-trie-0.2.4.1.drv’ failed
+builder for ‘/nix/store/3gm7xy4by641z1jy06sbb70z3ns1p944-bytestring-trie-0.2.4.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/3gm7xy4by641z1jy06sbb70z3ns1p944-bytestring-trie-0.2.4.1.drv’ failed

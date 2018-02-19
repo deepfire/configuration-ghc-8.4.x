@@ -1,0 +1,972 @@
+these derivations will be built:
+  /nix/store/0n2sddn5snvvlq4hqkad5h7zhqvc3kws-with-location-0.1.0.drv
+  /nix/store/19v7609b0h63wqw1mflpw8hjcz1y1lf5-logging-facade-0.3.0.drv
+  /nix/store/lc2zd9s5hwrfys70md7qy56jwcf8hhhg-temporary-1.2.1.1.drv
+  /nix/store/i1jfkh45s542f3d1n7di7cw5j84v4d2j-silently-1.2.5.drv
+  /nix/store/zs5q2balgli2963dfksh9rmsn64wpnlc-mockery-0.3.5.drv
+  /nix/store/a79bhc5x4b1y20822kx6yrhb7jlhsblh-doctest-0.13.0.drv
+these paths will be fetched (0.15 MiB download, 0.80 MiB unpacked):
+  /nix/store/149pih5pdd5fllv02imzrpyc81w69ihj-ghc-paths-0.1.0.9-doc
+  /nix/store/cqkv7k74kg642rs7qcpv76ylaq3if4aa-ghc-paths-0.1.0.9
+  /nix/store/dmysk4smscv4lvji6hfj5s1fhbwfc1kz-nanospec-0.2.2-doc
+  /nix/store/ja90mz0wij35j08ck09i7ii0p1nqj33r-code-page-0.1.3
+  /nix/store/rc3164vyv3j8kh6vvm7rhk3wnrw978cs-nanospec-0.2.2
+  /nix/store/zsv4pgb1y9jb81sq7lj7r7q9bjkspm96-code-page-0.1.3-doc
+fetching path ‘/nix/store/zsv4pgb1y9jb81sq7lj7r7q9bjkspm96-code-page-0.1.3-doc’...
+fetching path ‘/nix/store/149pih5pdd5fllv02imzrpyc81w69ihj-ghc-paths-0.1.0.9-doc’...
+building path(s) ‘/nix/store/7f8w2qadj1z6md38swhy9vl4qpmnjw8a-with-location-0.1.0-doc’, ‘/nix/store/vps8v82974fsrblz2cnmj9pnv3p4yrhb-with-location-0.1.0’
+fetching path ‘/nix/store/dmysk4smscv4lvji6hfj5s1fhbwfc1kz-nanospec-0.2.2-doc’...
+building path(s) ‘/nix/store/6854rn6yx7sgrkkdczq0vj8k9kv0dmvr-logging-facade-0.3.0’, ‘/nix/store/8zz96s0pyhyxy1nxv04a9f7camw84ipg-logging-facade-0.3.0-doc’
+building path(s) ‘/nix/store/3m8ybgvv918bxrcwhd9znq8g80vdvw8z-temporary-1.2.1.1-doc’, ‘/nix/store/k4n5k7j770fk3qqk7f6xnbd84wcwxcq0-temporary-1.2.1.1’
+
+*** Downloading ‘http://cache.nixos.org/nar/0gmjgczf6qwv8gf7z0pphrncwq4s59ryf9rrn6cll9nkvimdis36.nar.xz’ (signed by ‘cache.nixos.org-1’) to ‘/nix/store/zsv4pgb1y9jb81sq7lj7r7q9bjkspm96-code-page-0.1.3-doc’...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+*** Downloading ‘http://cache.nixos.org/nar/1sv539pyaf9xd90cx0n5qdisivj6gqhvqy46chfpxmm8pfqwp0s9.nar.xz’ (signed by ‘cache.nixos.org-1’) to ‘/nix/store/149pih5pdd5fllv02imzrpyc81w69ihj-ghc-paths-0.1.0.9-doc’...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+*** Downloading ‘http://cache.nixos.org/nar/1lk7264vcmgg6psb5rhdy0l788gl9x4as26bsnyli1sc8nyd1vb9.nar.xz’ (signed by ‘cache.nixos.org-1’) to ‘/nix/store/dmysk4smscv4lvji6hfj5s1fhbwfc1kz-nanospec-0.2.2-doc’...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 33496  100 33496    0     0   414k      0 --:--:-- --:--:-- --:--:--  414k
+
+fetching path ‘/nix/store/ja90mz0wij35j08ck09i7ii0p1nqj33r-code-page-0.1.3’...
+100 30464  100 30464    0     0   294k      0 --:--:-- --:--:-- --:--:--  294k
+
+fetching path ‘/nix/store/cqkv7k74kg642rs7qcpv76ylaq3if4aa-ghc-paths-0.1.0.9’...
+
+*** Downloading ‘http://cache.nixos.org/nar/1jq01i703js8lypp2d1p199g33pz2gmjcvi14kbr46fyxxrq2sy4.nar.xz’ (signed by ‘cache.nixos.org-1’) to ‘/nix/store/ja90mz0wij35j08ck09i7ii0p1nqj33r-code-page-0.1.3’...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+*** Downloading ‘http://cache.nixos.org/nar/1cm4j6jzg3a6djqdvac1789mwbvx1r0ra0xi3fnqz37ijdh9j9v6.nar.xz’ (signed by ‘cache.nixos.org-1’) to ‘/nix/store/cqkv7k74kg642rs7qcpv76ylaq3if4aa-ghc-paths-0.1.0.9’...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  6104  100  6104    0     0   108k      0 --:--:-- --:--:-- --:--:--  108k
+
+100  8020  100  8020    0     0   135k      0 --:--:-- --:--:-- --:--:--  135k
+
+100 34404  100 34404    0     0  70355      0 --:--:-- --:--:-- --:--:-- 70355
+
+fetching path ‘/nix/store/rc3164vyv3j8kh6vvm7rhk3wnrw978cs-nanospec-0.2.2’...
+
+*** Downloading ‘http://cache.nixos.org/nar/0hdx9l59ax4afdwwk92xfx15yfay37vcskk6f74cnb4d70gisrbd.nar.xz’ (signed by ‘cache.nixos.org-1’) to ‘/nix/store/rc3164vyv3j8kh6vvm7rhk3wnrw978cs-nanospec-0.2.2’...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0setupCompilerEnvironmentPhase
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
+setupCompilerEnvironmentPhase
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
+setupCompilerEnvironmentPhase
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
+unpacking sources
+unpacking source archive /nix/store/ib0qpbi7wqhxqbmnhyqqibfh5n3yx2n3-with-location-0.1.0.tar.gz
+source root is with-location-0.1.0
+setting SOURCE_DATE_EPOCH to timestamp 1458111669 of file with-location-0.1.0/with-location.cabal
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-with-location-0.1.0.drv-0/package.conf.d -j8 -threaded
+unpacking sources
+unpacking source archive /nix/store/la0nvmsnv5l8z4m2yknwsbqfsg8ns1d1-logging-facade-0.3.0.tar.gz
+source root is logging-facade-0.3.0
+setting SOURCE_DATE_EPOCH to timestamp 1496323459 of file logging-facade-0.3.0/test/System/Logging/FacadeSpec.hs
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-logging-facade-0.3.0.drv-0/package.conf.d -j8 -threaded
+unpacking sources
+unpacking source archive /nix/store/ysyilz4vb5iy3s8b6g4q068k69xdjsh3-temporary-1.2.1.1.tar.gz
+source root is temporary-1.2.1.1
+setting SOURCE_DATE_EPOCH to timestamp 1501069737 of file temporary-1.2.1.1/CHANGELOG.md
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-temporary-1.2.1.1.drv-0/package.conf.d -j8 -threaded
+  5 42856    5  2455    0     0   8322      0  0:00:05 --:--:--  0:00:05  8293[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-with-location-0.1.0.drv-0/Main.o )
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-logging-facade-0.3.0.drv-0/Main.o )
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-temporary-1.2.1.1.drv-0/Main.o )
+100 42856  100 42856    0     0  95235      0 --:--:-- --:--:-- --:--:-- 95024
+
+Linking Setup ...
+Linking Setup ...
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/vps8v82974fsrblz2cnmj9pnv3p4yrhb-with-location-0.1.0 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/7f8w2qadj1z6md38swhy9vl4qpmnjw8a-with-location-0.1.0-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-with-location-0.1.0.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/vps8v82974fsrblz2cnmj9pnv3p4yrhb-with-location-0.1.0/lib/ghc-8.4.0.20180204/with-location-0.1.0 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configuring
+configureFlags: --verbose --prefix=/nix/store/6854rn6yx7sgrkkdczq0vj8k9kv0dmvr-logging-facade-0.3.0 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/8zz96s0pyhyxy1nxv04a9f7camw84ipg-logging-facade-0.3.0-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-logging-facade-0.3.0.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/6854rn6yx7sgrkkdczq0vj8k9kv0dmvr-logging-facade-0.3.0/lib/ghc-8.4.0.20180204/logging-facade-0.3.0 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configuring
+configureFlags: --verbose --prefix=/nix/store/k4n5k7j770fk3qqk7f6xnbd84wcwxcq0-temporary-1.2.1.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/3m8ybgvv918bxrcwhd9znq8g80vdvw8z-temporary-1.2.1.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-temporary-1.2.1.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/k4n5k7j770fk3qqk7f6xnbd84wcwxcq0-temporary-1.2.1.1/lib/ghc-8.4.0.20180204/temporary-1.2.1.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring with-location-0.1.0...
+Dependency base ==4.*: using base-4.11.0.0
+Dependency hspec -any: using hspec-2.4.8
+Dependency with-location -any: using with-location-0.1.0
+Using Parsec parser
+Configuring logging-facade-0.3.0...
+Dependency base ==4.*: using base-4.11.0.0
+Dependency call-stack -any: using call-stack-0.1.0
+Dependency hspec ==2.*: using hspec-2.4.8
+Dependency logging-facade -any: using logging-facade-0.3.0
+Dependency transformers -any: using transformers-0.5.5.0
+Using Parsec parser
+Configuring temporary-1.2.1.1...
+Dependency base >=4.3 && <5: using base-4.11.0.0
+Dependency base-compat -any: using base-compat-0.9.3
+Dependency directory >=1.0: using directory-1.3.1.5
+Dependency exceptions >=0.6: using exceptions-0.8.3
+Dependency filepath >=1.1: using filepath-1.4.2
+Dependency tasty -any: using tasty-1.0.0.1
+Dependency tasty-hunit -any: using tasty-hunit-0.9.2
+Dependency temporary -any: using temporary-1.2.1.1
+Dependency transformers >=0.2.0.0: using transformers-0.5.5.0
+Dependency unix >=2.3: using unix-2.7.2.2
+Source component graph:
+    component lib
+    component test:spec dependency lib
+Configured component graph:
+    component with-location-0.1.0-1zThOmUIjVQHCKXKxBgm8T
+        include base-4.11.0.0
+    component with-location-0.1.0-AtNWGU41foK1Ygy2LTUWje-spec
+        include base-4.11.0.0
+        include hspec-2.4.8-FpHQgUomPE1wojQcAhwtf
+        include with-location-0.1.0-1zThOmUIjVQHCKXKxBgm8T
+Linked component graph:
+    unit with-location-0.1.0-1zThOmUIjVQHCKXKxBgm8T
+        include base-4.11.0.0
+        Data.WithLocation=with-location-0.1.0-1zThOmUIjVQHCKXKxBgm8T:Data.WithLocation
+    unit with-location-0.1.0-AtNWGU41foK1Ygy2LTUWje-spec
+        include base-4.11.0.0
+        include hspec-2.4.8-FpHQgUomPE1wojQcAhwtf
+        include with-location-0.1.0-1zThOmUIjVQHCKXKxBgm8T
+Ready component graph:
+    definite with-location-0.1.0-1zThOmUIjVQHCKXKxBgm8T
+        depends base-4.11.0.0
+    definite with-location-0.1.0-AtNWGU41foK1Ygy2LTUWje-spec
+        depends base-4.11.0.0
+        depends hspec-2.4.8-FpHQgUomPE1wojQcAhwtf
+        depends with-location-0.1.0-1zThOmUIjVQHCKXKxBgm8T
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.0.20180204
+Using install prefix:
+/nix/store/vps8v82974fsrblz2cnmj9pnv3p4yrhb-with-location-0.1.0
+Executables installed in:
+/nix/store/vps8v82974fsrblz2cnmj9pnv3p4yrhb-with-location-0.1.0/bin
+Libraries installed in:
+/nix/store/vps8v82974fsrblz2cnmj9pnv3p4yrhb-with-location-0.1.0/lib/ghc-8.4.0.20180204/with-location-0.1.0
+Dynamic Libraries installed in:
+/nix/store/vps8v82974fsrblz2cnmj9pnv3p4yrhb-with-location-0.1.0/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+Private executables installed in:
+/nix/store/vps8v82974fsrblz2cnmj9pnv3p4yrhb-with-location-0.1.0/libexec/x86_64-linux-ghc-8.4.0.20180204/with-location-0.1.0
+Data files installed in:
+/nix/store/vps8v82974fsrblz2cnmj9pnv3p4yrhb-with-location-0.1.0/share/x86_64-linux-ghc-8.4.0.20180204/with-location-0.1.0
+Documentation installed in:
+/nix/store/7f8w2qadj1z6md38swhy9vl4qpmnjw8a-with-location-0.1.0-doc/share/doc
+Configuration files installed in:
+/nix/store/vps8v82974fsrblz2cnmj9pnv3p4yrhb-with-location-0.1.0/etc
+No alex found
+Using ar found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 6.4.0 given by user at:
+/nix/store/nj7mw0lyx80g7lrxcxy5v9vmnpif5950-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc
+Using ghc-pkg version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.19.0 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/626h2ym9fhl5lgnqlqrh5s4b73m5kgy8-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/qhqxgkb2zki59dy4lx6krmgjsnhpjrc9-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/2waj1y5v572sbigjhqbmhx178vfak1l0-gnutar-1.30/bin/tar
+No uhc found
+Source component graph:
+    component lib
+    component test:spec dependency lib
+Configured component graph:
+    component logging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui
+        include base-4.11.0.0
+        include call-stack-0.1.0-6BCoA8Rca4ecMLowDBWb5
+        include transformers-0.5.5.0
+    component logging-facade-0.3.0-5IcWNNAfvk96H5qg1INOj5-spec
+        include base-4.11.0.0
+        include logging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui
+        include hspec-2.4.8-FpHQgUomPE1wojQcAhwtf
+Linked component graph:
+    unit logging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui
+        include base-4.11.0.0
+        include call-stack-0.1.0-6BCoA8Rca4ecMLowDBWb5
+        include transformers-0.5.5.0
+        System.Logging.Facade=logging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui:System.Logging.Facade,System.Logging.Facade.Class=logging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui:System.Logging.Facade.Class,System.Logging.Facade.Sink=logging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui:System.Logging.Facade.Sink,System.Logging.Facade.Types=logging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui:System.Logging.Facade.Types
+    unit logging-facade-0.3.0-5IcWNNAfvk96H5qg1INOj5-spec
+        include base-4.11.0.0
+        include logging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui
+        include hspec-2.4.8-FpHQgUomPE1wojQcAhwtf
+Ready component graph:
+    definite logging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui
+        depends base-4.11.0.0
+        depends call-stack-0.1.0-6BCoA8Rca4ecMLowDBWb5
+        depends transformers-0.5.5.0
+    definite logging-facade-0.3.0-5IcWNNAfvk96H5qg1INOj5-spec
+        depends base-4.11.0.0
+        depends logging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui
+        depends hspec-2.4.8-FpHQgUomPE1wojQcAhwtf
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.0.20180204
+Using install prefix:
+/nix/store/6854rn6yx7sgrkkdczq0vj8k9kv0dmvr-logging-facade-0.3.0
+Executables installed in:
+/nix/store/6854rn6yx7sgrkkdczq0vj8k9kv0dmvr-logging-facade-0.3.0/bin
+Libraries installed in:
+/nix/store/6854rn6yx7sgrkkdczq0vj8k9kv0dmvr-logging-facade-0.3.0/lib/ghc-8.4.0.20180204/logging-facade-0.3.0
+Dynamic Libraries installed in:
+/nix/store/6854rn6yx7sgrkkdczq0vj8k9kv0dmvr-logging-facade-0.3.0/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+Private executables installed in:
+/nix/store/6854rn6yx7sgrkkdczq0vj8k9kv0dmvr-logging-facade-0.3.0/libexec/x86_64-linux-ghc-8.4.0.20180204/logging-facade-0.3.0
+Data files installed in:
+/nix/store/6854rn6yx7sgrkkdczq0vj8k9kv0dmvr-logging-facade-0.3.0/share/x86_64-linux-ghc-8.4.0.20180204/logging-facade-0.3.0
+Documentation installed in:
+/nix/store/8zz96s0pyhyxy1nxv04a9f7camw84ipg-logging-facade-0.3.0-doc/share/doc
+Configuration files installed in:
+/nix/store/6854rn6yx7sgrkkdczq0vj8k9kv0dmvr-logging-facade-0.3.0/etc
+No alex found
+Using ar found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 6.4.0 given by user at:
+/nix/store/nj7mw0lyx80g7lrxcxy5v9vmnpif5950-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc
+Using ghc-pkg version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.19.0 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/626h2ym9fhl5lgnqlqrh5s4b73m5kgy8-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/qhqxgkb2zki59dy4lx6krmgjsnhpjrc9-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/2waj1y5v572sbigjhqbmhx178vfak1l0-gnutar-1.30/bin/tar
+No uhc found
+Source component graph:
+    component lib
+    component test:test dependency lib
+Configured component graph:
+    component temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+        include base-4.11.0.0
+        include filepath-1.4.2
+        include directory-1.3.1.5
+        include transformers-0.5.5.0
+        include exceptions-0.8.3-Gxs2NxlXkgKBeHE3uaFVwG
+        include unix-2.7.2.2
+    component temporary-1.2.1.1-CGLdpt0Q8Z0Ia9SlvfqWyh-test
+        include base-4.11.0.0
+        include directory-1.3.1.5
+        include tasty-1.0.0.1-EzLZA68DFPDDX6aosNk4JX
+        include tasty-hunit-0.9.2-9MQgoO2YAehL9F2CdYABMq
+        include temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+        include filepath-1.4.2
+        include base-compat-0.9.3-GOq8Kr3l4CV6dFXUKddZUW
+        include unix-2.7.2.2
+Linked component graph:
+    unit temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+        include base-4.11.0.0
+        include filepath-1.4.2
+        include directory-1.3.1.5
+        include transformers-0.5.5.0
+        include exceptions-0.8.3-Gxs2NxlXkgKBeHE3uaFVwG
+        include unix-2.7.2.2
+        System.IO.Temp=temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ:System.IO.Temp
+    unit temporary-1.2.1.1-CGLdpt0Q8Z0Ia9SlvfqWyh-test
+        include base-4.11.0.0
+        include directory-1.3.1.5
+        include tasty-1.0.0.1-EzLZA68DFPDDX6aosNk4JX
+        include tasty-hunit-0.9.2-9MQgoO2YAehL9F2CdYABMq
+        include temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+        include filepath-1.4.2
+        include base-compat-0.9.3-GOq8Kr3l4CV6dFXUKddZUW
+        include unix-2.7.2.2
+Ready component graph:
+    definite temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+        depends base-4.11.0.0
+        depends filepath-1.4.2
+        depends directory-1.3.1.5
+        depends transformers-0.5.5.0
+        depends exceptions-0.8.3-Gxs2NxlXkgKBeHE3uaFVwG
+        depends unix-2.7.2.2
+    definite temporary-1.2.1.1-CGLdpt0Q8Z0Ia9SlvfqWyh-test
+        depends base-4.11.0.0
+        depends directory-1.3.1.5
+        depends tasty-1.0.0.1-EzLZA68DFPDDX6aosNk4JX
+        depends tasty-hunit-0.9.2-9MQgoO2YAehL9F2CdYABMq
+        depends temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+        depends filepath-1.4.2
+        depends base-compat-0.9.3-GOq8Kr3l4CV6dFXUKddZUW
+        depends unix-2.7.2.2
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.0.20180204
+Using install prefix:
+/nix/store/k4n5k7j770fk3qqk7f6xnbd84wcwxcq0-temporary-1.2.1.1
+Executables installed in:
+/nix/store/k4n5k7j770fk3qqk7f6xnbd84wcwxcq0-temporary-1.2.1.1/bin
+Libraries installed in:
+/nix/store/k4n5k7j770fk3qqk7f6xnbd84wcwxcq0-temporary-1.2.1.1/lib/ghc-8.4.0.20180204/temporary-1.2.1.1
+Dynamic Libraries installed in:
+/nix/store/k4n5k7j770fk3qqk7f6xnbd84wcwxcq0-temporary-1.2.1.1/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+Private executables installed in:
+/nix/store/k4n5k7j770fk3qqk7f6xnbd84wcwxcq0-temporary-1.2.1.1/libexec/x86_64-linux-ghc-8.4.0.20180204/temporary-1.2.1.1
+Data files installed in:
+/nix/store/k4n5k7j770fk3qqk7f6xnbd84wcwxcq0-temporary-1.2.1.1/share/x86_64-linux-ghc-8.4.0.20180204/temporary-1.2.1.1
+Documentation installed in:
+/nix/store/3m8ybgvv918bxrcwhd9znq8g80vdvw8z-temporary-1.2.1.1-doc/share/doc
+Configuration files installed in:
+/nix/store/k4n5k7j770fk3qqk7f6xnbd84wcwxcq0-temporary-1.2.1.1/etc
+No alex found
+Using ar found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 6.4.0 given by user at:
+/nix/store/nj7mw0lyx80g7lrxcxy5v9vmnpif5950-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc
+Using ghc-pkg version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.19.0 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/626h2ym9fhl5lgnqlqrh5s4b73m5kgy8-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/qhqxgkb2zki59dy4lx6krmgjsnhpjrc9-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/2waj1y5v572sbigjhqbmhx178vfak1l0-gnutar-1.30/bin/tar
+No uhc found
+building
+building
+building
+Preprocessing library for with-location-0.1.0..
+Building library for with-location-0.1.0..
+Preprocessing library for logging-facade-0.3.0..
+Building library for logging-facade-0.3.0..
+Preprocessing library for temporary-1.2.1.1..
+Building library for temporary-1.2.1.1..
+[1 of 1] Compiling Data.WithLocation ( src/Data/WithLocation.hs, dist/build/Data/WithLocation.o )
+[1 of 1] Compiling System.IO.Temp   ( System/IO/Temp.hs, dist/build/System/IO/Temp.o )
+[1 of 5] Compiling Paths_logging_facade ( dist/build/autogen/Paths_logging_facade.hs, dist/build/Paths_logging_facade.o )
+[2 of 5] Compiling System.Logging.Facade.Types ( src/System/Logging/Facade/Types.hs, dist/build/System/Logging/Facade/Types.o )
+Preprocessing test suite 'spec' for with-location-0.1.0..
+Building test suite 'spec' for with-location-0.1.0..
+Preprocessing test suite 'test' for temporary-1.2.1.1..
+Building test suite 'test' for temporary-1.2.1.1..
+[1 of 2] Compiling Data.WithLocationSpec ( test/Data/WithLocationSpec.hs, dist/build/spec/spec-tmp/Data/WithLocationSpec.dyn_o )
+[1 of 1] Compiling Main             ( tests/test.hs, dist/build/test/test-tmp/Main.dyn_o )
+[3 of 5] Compiling System.Logging.Facade.Sink ( src/System/Logging/Facade/Sink.hs, dist/build/System/Logging/Facade/Sink.o )
+[2 of 2] Compiling Main             ( test/Spec.hs, dist/build/spec/spec-tmp/Main.dyn_o )
+[4 of 5] Compiling System.Logging.Facade.Class ( src/System/Logging/Facade/Class.hs, dist/build/System/Logging/Facade/Class.o )
+Linking dist/build/spec/spec ...
+[5 of 5] Compiling System.Logging.Facade ( src/System/Logging/Facade.hs, dist/build/System/Logging/Facade.o )
+running tests
+Running 1 test suites...
+Test suite spec: RUNNING...
+Test suite spec: PASS
+Test suite logged to: dist/test/with-location-0.1.0-spec.log
+1 of 1 test suites (1 of 1 test cases) passed.
+haddockPhase
+Linking dist/build/test/test ...
+Running hscolour for with-location-0.1.0...
+Preprocessing library for with-location-0.1.0..
+Preprocessing test suite 'spec' for with-location-0.1.0..
+Preprocessing library for with-location-0.1.0..
+Running Haddock on library for with-location-0.1.0..
+Preprocessing test suite 'spec' for logging-facade-0.3.0..
+Building test suite 'spec' for logging-facade-0.3.0..
+[1 of 4] Compiling Helper           ( test/Helper.hs, dist/build/spec/spec-tmp/Helper.dyn_o )
+Haddock coverage:
+   0% (  0 /  4) in 'Data.WithLocation'
+  Missing documentation for:
+    Module header
+    WithLocation (src/Data/WithLocation.hs:19)
+    Location (src/Data/WithLocation.hs:24)
+    location (src/Data/WithLocation.hs:32)
+Documentation created: dist/doc/html/with-location/index.html,
+dist/doc/html/with-location/with-location.txt
+Preprocessing test suite 'spec' for with-location-0.1.0..
+running tests
+[2 of 4] Compiling System.Logging.Facade.SinkSpec ( test/System/Logging/Facade/SinkSpec.hs, dist/build/spec/spec-tmp/System/Logging/Facade/SinkSpec.dyn_o )
+installing
+Installing library in /nix/store/vps8v82974fsrblz2cnmj9pnv3p4yrhb-with-location-0.1.0/lib/ghc-8.4.0.20180204/with-location-0.1.0
+Running 1 test suites...
+Test suite test: RUNNING...
+Test suite test: PASS
+Test suite logged to: dist/test/temporary-1.2.1.1-test.log
+1 of 1 test suites (1 of 1 test cases) passed.
+haddockPhase
+post-installation fixup
+shrinking RPATHs of ELF executables and libraries in /nix/store/vps8v82974fsrblz2cnmj9pnv3p4yrhb-with-location-0.1.0
+shrinking /nix/store/vps8v82974fsrblz2cnmj9pnv3p4yrhb-with-location-0.1.0/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204/libHSwith-location-0.1.0-1zThOmUIjVQHCKXKxBgm8T-ghc8.4.0.20180204.so
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+stripping (with command strip and flags -S) in /nix/store/vps8v82974fsrblz2cnmj9pnv3p4yrhb-with-location-0.1.0/lib 
+patching script interpreter paths in /nix/store/vps8v82974fsrblz2cnmj9pnv3p4yrhb-with-location-0.1.0
+Running hscolour for temporary-1.2.1.1...
+Preprocessing library for temporary-1.2.1.1..
+checking for references to /tmp/nix-build-with-location-0.1.0.drv-0 in /nix/store/vps8v82974fsrblz2cnmj9pnv3p4yrhb-with-location-0.1.0...
+shrinking RPATHs of ELF executables and libraries in /nix/store/7f8w2qadj1z6md38swhy9vl4qpmnjw8a-with-location-0.1.0-doc
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+patching script interpreter paths in /nix/store/7f8w2qadj1z6md38swhy9vl4qpmnjw8a-with-location-0.1.0-doc
+checking for references to /tmp/nix-build-with-location-0.1.0.drv-0 in /nix/store/7f8w2qadj1z6md38swhy9vl4qpmnjw8a-with-location-0.1.0-doc...
+Preprocessing test suite 'test' for temporary-1.2.1.1..
+Preprocessing library for temporary-1.2.1.1..
+Running Haddock on library for temporary-1.2.1.1..
+[3 of 4] Compiling System.Logging.FacadeSpec ( test/System/Logging/FacadeSpec.hs, dist/build/spec/spec-tmp/System/Logging/FacadeSpec.dyn_o )
+[4 of 4] Compiling Main             ( test/Spec.hs, dist/build/spec/spec-tmp/Main.dyn_o )
+Linking dist/build/spec/spec ...
+Haddock coverage:
+ 100% ( 16 / 16) in 'System.IO.Temp'
+Documentation created: dist/doc/html/temporary/index.html,
+dist/doc/html/temporary/temporary.txt
+Preprocessing test suite 'test' for temporary-1.2.1.1..
+installing
+Installing library in /nix/store/k4n5k7j770fk3qqk7f6xnbd84wcwxcq0-temporary-1.2.1.1/lib/ghc-8.4.0.20180204/temporary-1.2.1.1
+post-installation fixup
+shrinking RPATHs of ELF executables and libraries in /nix/store/k4n5k7j770fk3qqk7f6xnbd84wcwxcq0-temporary-1.2.1.1
+shrinking /nix/store/k4n5k7j770fk3qqk7f6xnbd84wcwxcq0-temporary-1.2.1.1/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204/libHStemporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ-ghc8.4.0.20180204.so
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+stripping (with command strip and flags -S) in /nix/store/k4n5k7j770fk3qqk7f6xnbd84wcwxcq0-temporary-1.2.1.1/lib 
+patching script interpreter paths in /nix/store/k4n5k7j770fk3qqk7f6xnbd84wcwxcq0-temporary-1.2.1.1
+checking for references to /tmp/nix-build-temporary-1.2.1.1.drv-0 in /nix/store/k4n5k7j770fk3qqk7f6xnbd84wcwxcq0-temporary-1.2.1.1...
+shrinking RPATHs of ELF executables and libraries in /nix/store/3m8ybgvv918bxrcwhd9znq8g80vdvw8z-temporary-1.2.1.1-doc
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+patching script interpreter paths in /nix/store/3m8ybgvv918bxrcwhd9znq8g80vdvw8z-temporary-1.2.1.1-doc
+checking for references to /tmp/nix-build-temporary-1.2.1.1.drv-0 in /nix/store/3m8ybgvv918bxrcwhd9znq8g80vdvw8z-temporary-1.2.1.1-doc...
+building path(s) ‘/nix/store/37mdm1762gyjwdbfgrgxjxk62sya8px9-silently-1.2.5’, ‘/nix/store/in5cjs942977waw4zc48bq61a3b98j3k-silently-1.2.5-doc’
+running tests
+Running 1 test suites...
+Test suite spec: RUNNING...
+Test suite spec: PASS
+Test suite logged to: dist/test/logging-facade-0.3.0-spec.log
+1 of 1 test suites (1 of 1 test cases) passed.
+haddockPhase
+Running hscolour for logging-facade-0.3.0...
+Preprocessing library for logging-facade-0.3.0..
+Preprocessing test suite 'spec' for logging-facade-0.3.0..
+Preprocessing library for logging-facade-0.3.0..
+Running Haddock on library for logging-facade-0.3.0..
+setupCompilerEnvironmentPhase
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
+unpacking sources
+unpacking source archive /nix/store/0dhlg52lbfr17r8vk5vn6y066i6qasaq-silently-1.2.5.tar.gz
+source root is silently-1.2.5
+setting SOURCE_DATE_EPOCH to timestamp 1437450883 of file silently-1.2.5/test/Spec.hs
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-silently-1.2.5.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-silently-1.2.5.drv-0/Main.o )
+Linking Setup ...
+Haddock coverage:
+   0% (  0 /  4) in 'System.Logging.Facade.Types'
+  Missing documentation for:
+    Module header
+    LogLevel (src/System/Logging/Facade/Types.hs:3)
+    Location (src/System/Logging/Facade/Types.hs:6)
+    LogRecord (src/System/Logging/Facade/Types.hs:14)
+  86% (  6 /  7) in 'System.Logging.Facade.Sink'
+  Missing documentation for:
+    Module header
+  50% (  1 /  2) in 'System.Logging.Facade.Class'
+  Missing documentation for:
+    Module header
+  91% ( 10 / 11) in 'System.Logging.Facade'
+  Missing documentation for:
+    LogLevel (src/System/Logging/Facade/Types.hs:3)
+Documentation created: dist/doc/html/logging-facade/index.html,
+dist/doc/html/logging-facade/logging-facade.txt
+Preprocessing test suite 'spec' for logging-facade-0.3.0..
+installing
+Installing library in /nix/store/6854rn6yx7sgrkkdczq0vj8k9kv0dmvr-logging-facade-0.3.0/lib/ghc-8.4.0.20180204/logging-facade-0.3.0
+post-installation fixup
+shrinking RPATHs of ELF executables and libraries in /nix/store/6854rn6yx7sgrkkdczq0vj8k9kv0dmvr-logging-facade-0.3.0
+shrinking /nix/store/6854rn6yx7sgrkkdczq0vj8k9kv0dmvr-logging-facade-0.3.0/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204/libHSlogging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui-ghc8.4.0.20180204.so
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+stripping (with command strip and flags -S) in /nix/store/6854rn6yx7sgrkkdczq0vj8k9kv0dmvr-logging-facade-0.3.0/lib 
+patching script interpreter paths in /nix/store/6854rn6yx7sgrkkdczq0vj8k9kv0dmvr-logging-facade-0.3.0
+checking for references to /tmp/nix-build-logging-facade-0.3.0.drv-0 in /nix/store/6854rn6yx7sgrkkdczq0vj8k9kv0dmvr-logging-facade-0.3.0...
+shrinking RPATHs of ELF executables and libraries in /nix/store/8zz96s0pyhyxy1nxv04a9f7camw84ipg-logging-facade-0.3.0-doc
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+patching script interpreter paths in /nix/store/8zz96s0pyhyxy1nxv04a9f7camw84ipg-logging-facade-0.3.0-doc
+checking for references to /tmp/nix-build-logging-facade-0.3.0.drv-0 in /nix/store/8zz96s0pyhyxy1nxv04a9f7camw84ipg-logging-facade-0.3.0-doc...
+building path(s) ‘/nix/store/ws2kwj6bgll2pqms98wx60pw1h933cvn-mockery-0.3.5’, ‘/nix/store/y5g90j2a06d3y6myq626pa13q9h7nvpi-mockery-0.3.5-doc’
+setupCompilerEnvironmentPhase
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
+unpacking sources
+unpacking source archive /nix/store/2j17zwqki29h364gcnxi17f07sn8n67z-mockery-0.3.5.tar.gz
+source root is mockery-0.3.5
+setting SOURCE_DATE_EPOCH to timestamp 1497365837 of file mockery-0.3.5/test/Test/Mockery/LoggingSpec.hs
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-mockery-0.3.5.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-mockery-0.3.5.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/37mdm1762gyjwdbfgrgxjxk62sya8px9-silently-1.2.5 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/in5cjs942977waw4zc48bq61a3b98j3k-silently-1.2.5-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-silently-1.2.5.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/37mdm1762gyjwdbfgrgxjxk62sya8px9-silently-1.2.5/lib/ghc-8.4.0.20180204/silently-1.2.5 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring silently-1.2.5...
+Dependency base >=4 && <=5: using base-4.11.0.0
+Dependency deepseq -any: using deepseq-1.4.3.0
+Dependency directory -any: using directory-1.3.1.5
+Dependency nanospec -any: using nanospec-0.2.2
+Dependency silently -any: using silently-1.2.5
+Dependency temporary -any: using temporary-1.2.1.1
+Source component graph:
+    component test:spec-generic
+    component lib
+    component test:spec-specific dependency lib
+Configured component graph:
+    component silently-1.2.5-HLdCPbSZP5i4zwUWGKhd0o-spec-generic
+        include base-4.11.0.0
+        include deepseq-1.4.3.0
+        include directory-1.3.1.5
+        include nanospec-0.2.2-HXtkeETTrK12ie1cWpYAWx
+        include temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+    component silently-1.2.5-F7Z6BT0uZqY5ZszG0fYlSB
+        include base-4.11.0.0
+        include directory-1.3.1.5
+        include deepseq-1.4.3.0
+    component silently-1.2.5-8rbNKTsvMWdAV0cMt3ZCQt-spec-specific
+        include base-4.11.0.0
+        include silently-1.2.5-F7Z6BT0uZqY5ZszG0fYlSB
+        include directory-1.3.1.5
+        include nanospec-0.2.2-HXtkeETTrK12ie1cWpYAWx
+        include temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+Linked component graph:
+    unit silently-1.2.5-HLdCPbSZP5i4zwUWGKhd0o-spec-generic
+        include base-4.11.0.0
+        include deepseq-1.4.3.0
+        include directory-1.3.1.5
+        include nanospec-0.2.2-HXtkeETTrK12ie1cWpYAWx
+        include temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+    unit silently-1.2.5-F7Z6BT0uZqY5ZszG0fYlSB
+        include base-4.11.0.0
+        include directory-1.3.1.5
+        include deepseq-1.4.3.0
+        System.IO.Silently=silently-1.2.5-F7Z6BT0uZqY5ZszG0fYlSB:System.IO.Silently
+    unit silently-1.2.5-8rbNKTsvMWdAV0cMt3ZCQt-spec-specific
+        include base-4.11.0.0
+        include silently-1.2.5-F7Z6BT0uZqY5ZszG0fYlSB
+        include directory-1.3.1.5
+        include nanospec-0.2.2-HXtkeETTrK12ie1cWpYAWx
+        include temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+Ready component graph:
+    definite silently-1.2.5-HLdCPbSZP5i4zwUWGKhd0o-spec-generic
+        depends base-4.11.0.0
+        depends deepseq-1.4.3.0
+        depends directory-1.3.1.5
+        depends nanospec-0.2.2-HXtkeETTrK12ie1cWpYAWx
+        depends temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+    definite silently-1.2.5-F7Z6BT0uZqY5ZszG0fYlSB
+        depends base-4.11.0.0
+        depends directory-1.3.1.5
+        depends deepseq-1.4.3.0
+    definite silently-1.2.5-8rbNKTsvMWdAV0cMt3ZCQt-spec-specific
+        depends base-4.11.0.0
+        depends silently-1.2.5-F7Z6BT0uZqY5ZszG0fYlSB
+        depends directory-1.3.1.5
+        depends nanospec-0.2.2-HXtkeETTrK12ie1cWpYAWx
+        depends temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.0.20180204
+Using install prefix:
+/nix/store/37mdm1762gyjwdbfgrgxjxk62sya8px9-silently-1.2.5
+Executables installed in:
+/nix/store/37mdm1762gyjwdbfgrgxjxk62sya8px9-silently-1.2.5/bin
+Libraries installed in:
+/nix/store/37mdm1762gyjwdbfgrgxjxk62sya8px9-silently-1.2.5/lib/ghc-8.4.0.20180204/silently-1.2.5
+Dynamic Libraries installed in:
+/nix/store/37mdm1762gyjwdbfgrgxjxk62sya8px9-silently-1.2.5/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+Private executables installed in:
+/nix/store/37mdm1762gyjwdbfgrgxjxk62sya8px9-silently-1.2.5/libexec/x86_64-linux-ghc-8.4.0.20180204/silently-1.2.5
+Data files installed in:
+/nix/store/37mdm1762gyjwdbfgrgxjxk62sya8px9-silently-1.2.5/share/x86_64-linux-ghc-8.4.0.20180204/silently-1.2.5
+Documentation installed in:
+/nix/store/in5cjs942977waw4zc48bq61a3b98j3k-silently-1.2.5-doc/share/doc
+Configuration files installed in:
+/nix/store/37mdm1762gyjwdbfgrgxjxk62sya8px9-silently-1.2.5/etc
+No alex found
+Using ar found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 6.4.0 given by user at:
+/nix/store/nj7mw0lyx80g7lrxcxy5v9vmnpif5950-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc
+Using ghc-pkg version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.19.0 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/626h2ym9fhl5lgnqlqrh5s4b73m5kgy8-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/qhqxgkb2zki59dy4lx6krmgjsnhpjrc9-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/2waj1y5v572sbigjhqbmhx178vfak1l0-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing test suite 'spec-generic' for silently-1.2.5..
+Building test suite 'spec-generic' for silently-1.2.5..
+
+<no location info>: warning: [-Wmissing-home-modules]
+    These modules are needed for compilation but not listed in your .cabal file's other-modules: System.IO.Silently
+[1 of 2] Compiling System.IO.Silently ( src/System/IO/Silently.hs, dist/build/spec-generic/spec-generic-tmp/System/IO/Silently.dyn_o )
+
+src/System/IO/Silently.hs:107:1: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘goBracket’: Patterns not matched: _ _ []
+    |
+107 | goBracket go tmpHandle (h:hs) = do
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+configuring
+configureFlags: --verbose --prefix=/nix/store/ws2kwj6bgll2pqms98wx60pw1h933cvn-mockery-0.3.5 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/y5g90j2a06d3y6myq626pa13q9h7nvpi-mockery-0.3.5-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-mockery-0.3.5.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/ws2kwj6bgll2pqms98wx60pw1h933cvn-mockery-0.3.5/lib/ghc-8.4.0.20180204/mockery-0.3.5 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+[2 of 2] Compiling Main             ( test/Spec.hs, dist/build/spec-generic/spec-generic-tmp/Main.dyn_o )
+
+<no location info>: warning: [-Wmissing-home-modules]
+    These modules are needed for compilation but not listed in your .cabal file's other-modules: System.IO.Silently
+Linking dist/build/spec-generic/spec-generic ...
+Using Parsec parser
+Configuring mockery-0.3.5...
+Dependency base ==4.*: using base-4.11.0.0
+Dependency base-compat -any: using base-compat-0.9.3
+Dependency bytestring -any: using bytestring-0.10.8.2
+Dependency directory -any: using directory-1.3.1.5
+Dependency filepath -any: using filepath-1.4.2
+Dependency hspec ==2.*: using hspec-2.4.8
+Dependency logging-facade -any: using logging-facade-0.3.0
+Dependency mockery -any: using mockery-0.3.5
+Dependency temporary -any: using temporary-1.2.1.1
+Preprocessing library for silently-1.2.5..
+Building library for silently-1.2.5..
+[1 of 1] Compiling System.IO.Silently ( src/System/IO/Silently.hs, dist/build/System/IO/Silently.o )
+Source component graph:
+    component lib
+    component test:spec dependency lib
+Configured component graph:
+    component mockery-0.3.5-4mGlwrJ7GczHvg7QoYiiPD
+        include base-4.11.0.0
+        include base-compat-0.9.3-GOq8Kr3l4CV6dFXUKddZUW
+        include bytestring-0.10.8.2
+        include temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+        include directory-1.3.1.5
+        include filepath-1.4.2
+        include logging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui
+    component mockery-0.3.5-EDCjtMWTRgSAWZm3wXKmLn-spec
+        include base-4.11.0.0
+        include base-compat-0.9.3-GOq8Kr3l4CV6dFXUKddZUW
+        include bytestring-0.10.8.2
+        include temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+        include directory-1.3.1.5
+        include filepath-1.4.2
+        include logging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui
+        include mockery-0.3.5-4mGlwrJ7GczHvg7QoYiiPD
+        include hspec-2.4.8-FpHQgUomPE1wojQcAhwtf
+Linked component graph:
+    unit mockery-0.3.5-4mGlwrJ7GczHvg7QoYiiPD
+        include base-4.11.0.0
+        include base-compat-0.9.3-GOq8Kr3l4CV6dFXUKddZUW
+        include bytestring-0.10.8.2
+        include temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+        include directory-1.3.1.5
+        include filepath-1.4.2
+        include logging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui
+        Test.Mockery.Directory=mockery-0.3.5-4mGlwrJ7GczHvg7QoYiiPD:Test.Mockery.Directory,Test.Mockery.Environment=mockery-0.3.5-4mGlwrJ7GczHvg7QoYiiPD:Test.Mockery.Environment,Test.Mockery.Logging=mockery-0.3.5-4mGlwrJ7GczHvg7QoYiiPD:Test.Mockery.Logging
+    unit mockery-0.3.5-EDCjtMWTRgSAWZm3wXKmLn-spec
+        include base-4.11.0.0
+        include base-compat-0.9.3-GOq8Kr3l4CV6dFXUKddZUW
+        include bytestring-0.10.8.2
+        include temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+        include directory-1.3.1.5
+        include filepath-1.4.2
+        include logging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui
+        include mockery-0.3.5-4mGlwrJ7GczHvg7QoYiiPD
+        include hspec-2.4.8-FpHQgUomPE1wojQcAhwtf
+Ready component graph:
+    definite mockery-0.3.5-4mGlwrJ7GczHvg7QoYiiPD
+        depends base-4.11.0.0
+        depends base-compat-0.9.3-GOq8Kr3l4CV6dFXUKddZUW
+        depends bytestring-0.10.8.2
+        depends temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+        depends directory-1.3.1.5
+        depends filepath-1.4.2
+        depends logging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui
+    definite mockery-0.3.5-EDCjtMWTRgSAWZm3wXKmLn-spec
+        depends base-4.11.0.0
+        depends base-compat-0.9.3-GOq8Kr3l4CV6dFXUKddZUW
+        depends bytestring-0.10.8.2
+        depends temporary-1.2.1.1-6qPQE8q6DW5FRQR9UkbhRJ
+        depends directory-1.3.1.5
+        depends filepath-1.4.2
+        depends logging-facade-0.3.0-JCwd9PPhxLwLyfwoPDg1Ui
+        depends mockery-0.3.5-4mGlwrJ7GczHvg7QoYiiPD
+        depends hspec-2.4.8-FpHQgUomPE1wojQcAhwtf
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.0.20180204
+Using install prefix:
+/nix/store/ws2kwj6bgll2pqms98wx60pw1h933cvn-mockery-0.3.5
+Executables installed in:
+/nix/store/ws2kwj6bgll2pqms98wx60pw1h933cvn-mockery-0.3.5/bin
+Libraries installed in:
+/nix/store/ws2kwj6bgll2pqms98wx60pw1h933cvn-mockery-0.3.5/lib/ghc-8.4.0.20180204/mockery-0.3.5
+Dynamic Libraries installed in:
+/nix/store/ws2kwj6bgll2pqms98wx60pw1h933cvn-mockery-0.3.5/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+Private executables installed in:
+/nix/store/ws2kwj6bgll2pqms98wx60pw1h933cvn-mockery-0.3.5/libexec/x86_64-linux-ghc-8.4.0.20180204/mockery-0.3.5
+Data files installed in:
+/nix/store/ws2kwj6bgll2pqms98wx60pw1h933cvn-mockery-0.3.5/share/x86_64-linux-ghc-8.4.0.20180204/mockery-0.3.5
+Documentation installed in:
+/nix/store/y5g90j2a06d3y6myq626pa13q9h7nvpi-mockery-0.3.5-doc/share/doc
+Configuration files installed in:
+/nix/store/ws2kwj6bgll2pqms98wx60pw1h933cvn-mockery-0.3.5/etc
+No alex found
+Using ar found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 6.4.0 given by user at:
+/nix/store/nj7mw0lyx80g7lrxcxy5v9vmnpif5950-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc
+Using ghc-pkg version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.19.0 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/626h2ym9fhl5lgnqlqrh5s4b73m5kgy8-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/qhqxgkb2zki59dy4lx6krmgjsnhpjrc9-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/2waj1y5v572sbigjhqbmhx178vfak1l0-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing library for mockery-0.3.5..
+Building library for mockery-0.3.5..
+[1 of 4] Compiling Paths_mockery    ( dist/build/autogen/Paths_mockery.hs, dist/build/Paths_mockery.o )
+[2 of 4] Compiling Test.Mockery.Directory ( src/Test/Mockery/Directory.hs, dist/build/Test/Mockery/Directory.o )
+[3 of 4] Compiling Test.Mockery.Environment ( src/Test/Mockery/Environment.hs, dist/build/Test/Mockery/Environment.o )
+[4 of 4] Compiling Test.Mockery.Logging ( src/Test/Mockery/Logging.hs, dist/build/Test/Mockery/Logging.o )
+Preprocessing test suite 'spec-specific' for silently-1.2.5..
+Building test suite 'spec-specific' for silently-1.2.5..
+[1 of 1] Compiling Main             ( test/Spec.hs, dist/build/spec-specific/spec-specific-tmp/Main.dyn_o )
+Preprocessing test suite 'spec' for mockery-0.3.5..
+Building test suite 'spec' for mockery-0.3.5..
+[1 of 4] Compiling Test.Mockery.DirectorySpec ( test/Test/Mockery/DirectorySpec.hs, dist/build/spec/spec-tmp/Test/Mockery/DirectorySpec.dyn_o )
+Linking dist/build/spec-specific/spec-specific ...
+[2 of 4] Compiling Test.Mockery.EnvironmentSpec ( test/Test/Mockery/EnvironmentSpec.hs, dist/build/spec/spec-tmp/Test/Mockery/EnvironmentSpec.dyn_o )
+[3 of 4] Compiling Test.Mockery.LoggingSpec ( test/Test/Mockery/LoggingSpec.hs, dist/build/spec/spec-tmp/Test/Mockery/LoggingSpec.dyn_o )
+[4 of 4] Compiling Main             ( test/Spec.hs, dist/build/spec/spec-tmp/Main.dyn_o )
+running tests
+Running 2 test suites...
+Test suite spec-generic: RUNNING...
+Linking dist/build/spec/spec ...
+Test suite spec-generic: PASS
+Test suite logged to: dist/test/silently-1.2.5-spec-generic.log
+Test suite spec-specific: RUNNING...
+Test suite spec-specific: PASS
+Test suite logged to: dist/test/silently-1.2.5-spec-specific.log
+2 of 2 test suites (2 of 2 test cases) passed.
+haddockPhase
+Running hscolour for silently-1.2.5...
+Preprocessing test suite 'spec-generic' for silently-1.2.5..
+Preprocessing library for silently-1.2.5..
+Preprocessing test suite 'spec-specific' for silently-1.2.5..
+Preprocessing test suite 'spec-generic' for silently-1.2.5..
+Preprocessing library for silently-1.2.5..
+Running Haddock on library for silently-1.2.5..
+Haddock coverage:
+ 100% (  7 /  7) in 'System.IO.Silently'
+running tests
+Documentation created: dist/doc/html/silently/index.html,
+dist/doc/html/silently/silently.txt
+Preprocessing test suite 'spec-specific' for silently-1.2.5..
+installing
+Installing library in /nix/store/37mdm1762gyjwdbfgrgxjxk62sya8px9-silently-1.2.5/lib/ghc-8.4.0.20180204/silently-1.2.5
+Running 1 test suites...
+Test suite spec: RUNNING...
+post-installation fixup
+shrinking RPATHs of ELF executables and libraries in /nix/store/37mdm1762gyjwdbfgrgxjxk62sya8px9-silently-1.2.5
+shrinking /nix/store/37mdm1762gyjwdbfgrgxjxk62sya8px9-silently-1.2.5/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204/libHSsilently-1.2.5-F7Z6BT0uZqY5ZszG0fYlSB-ghc8.4.0.20180204.so
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+stripping (with command strip and flags -S) in /nix/store/37mdm1762gyjwdbfgrgxjxk62sya8px9-silently-1.2.5/lib 
+patching script interpreter paths in /nix/store/37mdm1762gyjwdbfgrgxjxk62sya8px9-silently-1.2.5
+checking for references to /tmp/nix-build-silently-1.2.5.drv-0 in /nix/store/37mdm1762gyjwdbfgrgxjxk62sya8px9-silently-1.2.5...
+shrinking RPATHs of ELF executables and libraries in /nix/store/in5cjs942977waw4zc48bq61a3b98j3k-silently-1.2.5-doc
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+patching script interpreter paths in /nix/store/in5cjs942977waw4zc48bq61a3b98j3k-silently-1.2.5-doc
+checking for references to /tmp/nix-build-silently-1.2.5.drv-0 in /nix/store/in5cjs942977waw4zc48bq61a3b98j3k-silently-1.2.5-doc...
+Test suite spec: PASS
+Test suite logged to: dist/test/mockery-0.3.5-spec.log
+1 of 1 test suites (1 of 1 test cases) passed.
+haddockPhase
+Running hscolour for mockery-0.3.5...
+Preprocessing library for mockery-0.3.5..
+Preprocessing test suite 'spec' for mockery-0.3.5..
+Preprocessing library for mockery-0.3.5..
+Running Haddock on library for mockery-0.3.5..
+Haddock coverage:
+  80% (  4 /  5) in 'Test.Mockery.Directory'
+  Missing documentation for:
+    Module header
+  67% (  2 /  3) in 'Test.Mockery.Environment'
+  Missing documentation for:
+    Module header
+  50% (  2 /  4) in 'Test.Mockery.Logging'
+  Missing documentation for:
+    Module header
+    LogLevel
+Documentation created: dist/doc/html/mockery/index.html,
+dist/doc/html/mockery/mockery.txt
+Preprocessing test suite 'spec' for mockery-0.3.5..
+installing
+Installing library in /nix/store/ws2kwj6bgll2pqms98wx60pw1h933cvn-mockery-0.3.5/lib/ghc-8.4.0.20180204/mockery-0.3.5
+post-installation fixup
+shrinking RPATHs of ELF executables and libraries in /nix/store/ws2kwj6bgll2pqms98wx60pw1h933cvn-mockery-0.3.5
+shrinking /nix/store/ws2kwj6bgll2pqms98wx60pw1h933cvn-mockery-0.3.5/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204/libHSmockery-0.3.5-4mGlwrJ7GczHvg7QoYiiPD-ghc8.4.0.20180204.so
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+stripping (with command strip and flags -S) in /nix/store/ws2kwj6bgll2pqms98wx60pw1h933cvn-mockery-0.3.5/lib 
+patching script interpreter paths in /nix/store/ws2kwj6bgll2pqms98wx60pw1h933cvn-mockery-0.3.5
+checking for references to /tmp/nix-build-mockery-0.3.5.drv-0 in /nix/store/ws2kwj6bgll2pqms98wx60pw1h933cvn-mockery-0.3.5...
+shrinking RPATHs of ELF executables and libraries in /nix/store/y5g90j2a06d3y6myq626pa13q9h7nvpi-mockery-0.3.5-doc
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+patching script interpreter paths in /nix/store/y5g90j2a06d3y6myq626pa13q9h7nvpi-mockery-0.3.5-doc
+checking for references to /tmp/nix-build-mockery-0.3.5.drv-0 in /nix/store/y5g90j2a06d3y6myq626pa13q9h7nvpi-mockery-0.3.5-doc...
+building path(s) ‘/nix/store/9kb4d9wimm9ha0p0d75wvaqhgi3gikxv-doctest-0.13.0’, ‘/nix/store/s4ndlj7czj9z97zijzbchs12cyz3gqjh-doctest-0.13.0-doc’
+setupCompilerEnvironmentPhase
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
+unpacking sources
+unpacking source archive /nix/store/8gc056xssy5k1q4yxqbjypjbx5dvnikz-doctest-0.13.0.tar.gz
+source root is doctest-0.13.0
+setting SOURCE_DATE_EPOCH to timestamp 1501741454 of file doctest-0.13.0/test/Spec.hs
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-doctest-0.13.0.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-doctest-0.13.0.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/9kb4d9wimm9ha0p0d75wvaqhgi3gikxv-doctest-0.13.0 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/s4ndlj7czj9z97zijzbchs12cyz3gqjh-doctest-0.13.0-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-doctest-0.13.0.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/9kb4d9wimm9ha0p0d75wvaqhgi3gikxv-doctest-0.13.0/lib/ghc-8.4.0.20180204/doctest-0.13.0 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring doctest-0.13.0...
+CallStack (from HasCallStack):
+  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
+  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
+  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:114:27 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMain, called at Setup.lhs:3:10 in main:Main
+Setup: Encountered missing dependencies:
+ghc >=7.0 && <8.4
+
+builder for ‘/nix/store/a79bhc5x4b1y20822kx6yrhb7jlhsblh-doctest-0.13.0.drv’ failed with exit code 1
+error: build of ‘/nix/store/a79bhc5x4b1y20822kx6yrhb7jlhsblh-doctest-0.13.0.drv’ failed
+/run/current-system/sw/bin/nix-shell: failed to build all dependencies

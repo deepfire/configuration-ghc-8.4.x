@@ -1,13 +1,31 @@
 these derivations will be built:
-  /nix/store/jwa9bzpsf0cf4nwknvp90ihfvl7749ng-gtk2hs-buildtools-0.13.3.1.drv
-building path(s) ‘/nix/store/4877iimyqqpij0wj0nm7z16h4nzw6pmw-gtk2hs-buildtools-0.13.3.1’, ‘/nix/store/bnqjf6wlq347bvvik61cc5fmk8cq5hrh-gtk2hs-buildtools-0.13.3.1-doc’, ‘/nix/store/m8qwnbaxajm3d3l4fa9xr3cmi01zl1hf-gtk2hs-buildtools-0.13.3.1-data’
+  /nix/store/7y4qnril8nzy2ijix642wd9mvyffhs3y-gtk2hs-buildtools-0.13.3.1.drv
+building path(s) ‘/nix/store/30zjc69192jp3246wsa2zagv50i52497-gtk2hs-buildtools-0.13.3.1-data’, ‘/nix/store/8ndg34k80xq8nb05da358s3di3z1x0ir-gtk2hs-buildtools-0.13.3.1’, ‘/nix/store/rsmllnlxmak67pwv1izwv3skg4s30i9h-gtk2hs-buildtools-0.13.3.1-doc’
 setupCompilerEnvironmentPhase
-Build with /nix/store/m5jm5s7cpc26kkww21kh7fb51v5p87mz-ghc-8.4.20180122.
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
 unpacking source archive /nix/store/bysyryhavfnqyfv28y7pzc2w6243fsaq-gtk2hs-buildtools-0.13.3.1.tar.gz
 source root is gtk2hs-buildtools-0.13.3.1
 setting SOURCE_DATE_EPOCH to timestamp 1511654285 of file gtk2hs-buildtools-0.13.3.1/src/Gtk2HsSetup.hs
 patching sources
-/nix/store/78sxg2kvl2klplqfx22s6b42lds7qq23-stdenv/setup: line 99: cd: tools: No such file or directory
-builder for ‘/nix/store/jwa9bzpsf0cf4nwknvp90ihfvl7749ng-gtk2hs-buildtools-0.13.3.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/jwa9bzpsf0cf4nwknvp90ihfvl7749ng-gtk2hs-buildtools-0.13.3.1.drv’ failed
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-gtk2hs-buildtools-0.13.3.1.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-gtk2hs-buildtools-0.13.3.1.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/8ndg34k80xq8nb05da358s3di3z1x0ir-gtk2hs-buildtools-0.13.3.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --datadir=/nix/store/30zjc69192jp3246wsa2zagv50i52497-gtk2hs-buildtools-0.13.3.1-data/share/ghc-8.4.0.20180204 --docdir=/nix/store/rsmllnlxmak67pwv1izwv3skg4s30i9h-gtk2hs-buildtools-0.13.3.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-gtk2hs-buildtools-0.13.3.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/8ndg34k80xq8nb05da358s3di3z1x0ir-gtk2hs-buildtools-0.13.3.1/lib/ghc-8.4.0.20180204/gtk2hs-buildtools-0.13.3.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring gtk2hs-buildtools-0.13.3.1...
+CallStack (from HasCallStack):
+  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
+  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
+  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:114:27 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMain, called at Setup.hs:6:8 in main:Main
+Setup: Encountered missing dependencies:
+Cabal >=1.24.0.0 && <2.1
+
+builder for ‘/nix/store/7y4qnril8nzy2ijix642wd9mvyffhs3y-gtk2hs-buildtools-0.13.3.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/7y4qnril8nzy2ijix642wd9mvyffhs3y-gtk2hs-buildtools-0.13.3.1.drv’ failed

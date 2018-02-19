@@ -1,3 +1,0 @@
-    Ambiguous occurrence ‘<>’
-    It could refer to either ‘Prelude.<>’,
-                             imported from ‘Prelude’ at src/PrettyGrammar.hs:1:8-20

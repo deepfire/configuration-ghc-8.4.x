@@ -1,4 +1,0 @@
-  kan-extensions = overrideCabal super.kan-extensions (drv: {
-    jailbreak       = true;
-  });
-

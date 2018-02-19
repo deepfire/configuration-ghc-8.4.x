@@ -1,4 +1,0 @@
-  bytes = overrideCabal super.bytes (drv: {
-    doCheck         = false;
-  });
-

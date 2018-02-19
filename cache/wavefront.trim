@@ -1,4 +1,0 @@
-  wavefront = overrideCabal super.wavefront (drv: {
-    jailbreak       = true;
-  });
-

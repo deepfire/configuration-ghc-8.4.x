@@ -1,0 +1,118 @@
+these derivations will be built:
+  /nix/store/mnbyfn9w4ybwr54skf11d25vayfq37yf-securemem-0.1.9.drv
+building path(s) ‘/nix/store/1ghwdbhsixv7rfcl4s47znr33y4ik7f8-securemem-0.1.9-doc’, ‘/nix/store/zxg94cik800jjlj26k9r5fhxp5qql7za-securemem-0.1.9’
+setupCompilerEnvironmentPhase
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
+unpacking sources
+unpacking source archive /nix/store/2vfs6wmdrhm7vzn6dv0k478mi1ivbqjr-securemem-0.1.9.tar.gz
+source root is securemem-0.1.9
+setting SOURCE_DATE_EPOCH to timestamp 1433252252 of file securemem-0.1.9/Setup.hs
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-securemem-0.1.9.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-securemem-0.1.9.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/zxg94cik800jjlj26k9r5fhxp5qql7za-securemem-0.1.9 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/1ghwdbhsixv7rfcl4s47znr33y4ik7f8-securemem-0.1.9-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-securemem-0.1.9.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/zxg94cik800jjlj26k9r5fhxp5qql7za-securemem-0.1.9/lib/ghc-8.4.0.20180204/securemem-0.1.9 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring securemem-0.1.9...
+Dependency base ==4.*: using base-4.11.0.0
+Dependency byteable >=0.1.1: using byteable-0.1.1
+Dependency bytestring -any: using bytestring-0.10.8.2
+Dependency ghc-prim -any: using ghc-prim-0.5.2.0
+Dependency memory >=0.7: using memory-0.14.11
+Source component graph: component lib
+Configured component graph:
+    component securemem-0.1.9-GSYUdmvbfSBH0wL0D1KQOE
+        include base-4.11.0.0
+        include bytestring-0.10.8.2
+        include byteable-0.1.1-FZ8RLCFj2bwHtMp2zxI4CJ
+        include memory-0.14.11-7s6ypMQnkxb6VBAjmuWeZH
+        include ghc-prim-0.5.2.0
+Linked component graph:
+    unit securemem-0.1.9-GSYUdmvbfSBH0wL0D1KQOE
+        include base-4.11.0.0
+        include bytestring-0.10.8.2
+        include byteable-0.1.1-FZ8RLCFj2bwHtMp2zxI4CJ
+        include memory-0.14.11-7s6ypMQnkxb6VBAjmuWeZH
+        include ghc-prim-0.5.2.0
+        Data.SecureMem=securemem-0.1.9-GSYUdmvbfSBH0wL0D1KQOE:Data.SecureMem
+Ready component graph:
+    definite securemem-0.1.9-GSYUdmvbfSBH0wL0D1KQOE
+        depends base-4.11.0.0
+        depends bytestring-0.10.8.2
+        depends byteable-0.1.1-FZ8RLCFj2bwHtMp2zxI4CJ
+        depends memory-0.14.11-7s6ypMQnkxb6VBAjmuWeZH
+        depends ghc-prim-0.5.2.0
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.0.20180204
+Using install prefix:
+/nix/store/zxg94cik800jjlj26k9r5fhxp5qql7za-securemem-0.1.9
+Executables installed in:
+/nix/store/zxg94cik800jjlj26k9r5fhxp5qql7za-securemem-0.1.9/bin
+Libraries installed in:
+/nix/store/zxg94cik800jjlj26k9r5fhxp5qql7za-securemem-0.1.9/lib/ghc-8.4.0.20180204/securemem-0.1.9
+Dynamic Libraries installed in:
+/nix/store/zxg94cik800jjlj26k9r5fhxp5qql7za-securemem-0.1.9/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+Private executables installed in:
+/nix/store/zxg94cik800jjlj26k9r5fhxp5qql7za-securemem-0.1.9/libexec/x86_64-linux-ghc-8.4.0.20180204/securemem-0.1.9
+Data files installed in:
+/nix/store/zxg94cik800jjlj26k9r5fhxp5qql7za-securemem-0.1.9/share/x86_64-linux-ghc-8.4.0.20180204/securemem-0.1.9
+Documentation installed in:
+/nix/store/1ghwdbhsixv7rfcl4s47znr33y4ik7f8-securemem-0.1.9-doc/share/doc
+Configuration files installed in:
+/nix/store/zxg94cik800jjlj26k9r5fhxp5qql7za-securemem-0.1.9/etc
+No alex found
+Using ar found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 6.4.0 given by user at:
+/nix/store/nj7mw0lyx80g7lrxcxy5v9vmnpif5950-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc
+Using ghc-pkg version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.19.0 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/626h2ym9fhl5lgnqlqrh5s4b73m5kgy8-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/qhqxgkb2zki59dy4lx6krmgjsnhpjrc9-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/2waj1y5v572sbigjhqbmhx178vfak1l0-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing library for securemem-0.1.9..
+Building library for securemem-0.1.9..
+[1 of 1] Compiling Data.SecureMem   ( Data/SecureMem.hs, dist/build/Data/SecureMem.o )
+
+Data/SecureMem.hs:99:10: error:
+    • No instance for (Semigroup SecureMem)
+        arising from the superclasses of an instance declaration
+    • In the instance declaration for ‘Monoid SecureMem’
+   |
+99 | instance Monoid SecureMem where
+   |          ^^^^^^^^^^^^^^^^
+builder for ‘/nix/store/mnbyfn9w4ybwr54skf11d25vayfq37yf-securemem-0.1.9.drv’ failed with exit code 1
+error: build of ‘/nix/store/mnbyfn9w4ybwr54skf11d25vayfq37yf-securemem-0.1.9.drv’ failed

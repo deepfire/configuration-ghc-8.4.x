@@ -1,4 +1,2 @@
 Setup: Encountered missing dependencies:
 base >=4.5 && <4.11
-builder for ‘/nix/store/l3000vil24jyq66a5kfqvxfdmy7agwic-lifted-async-0.9.3.3.drv’ failed with exit code 1
-error: build of ‘/nix/store/l3000vil24jyq66a5kfqvxfdmy7agwic-lifted-async-0.9.3.3.drv’ failed

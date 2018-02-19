@@ -1,4 +1,2 @@
 Setup: Encountered missing dependencies:
 template-haskell >=2.10 && <2.13
-builder for ‘/nix/store/ykc786r2bby5kkbpqjg0y10wb9jhmsa9-bindings-GLFW-3.1.2.3.drv’ failed with exit code 1
-error: build of ‘/nix/store/ykc786r2bby5kkbpqjg0y10wb9jhmsa9-bindings-GLFW-3.1.2.3.drv’ failed

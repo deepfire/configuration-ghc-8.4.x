@@ -1,4 +1,0 @@
-  async = overrideCabal super.async (drv: {
-    jailbreak       = true;
-  });
-

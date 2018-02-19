@@ -1,4 +1,2 @@
 Setup: Encountered missing dependencies:
 base >=4.3 && <4.11
-builder for ‘/nix/store/zdiicv0jmjsw6bprs8wxxaq5m0z0a75f-integer-logarithms-1.0.2.drv’ failed with exit code 1
-error: build of ‘/nix/store/zdiicv0jmjsw6bprs8wxxaq5m0z0a75f-integer-logarithms-1.0.2.drv’ failed

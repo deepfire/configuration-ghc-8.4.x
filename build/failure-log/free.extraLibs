@@ -1,4 +1,0 @@
-Setup: Encountered missing dependencies:
-transformers-base <0.5
-builder for ‘/nix/store/3yvaqx5qcg1fb3nnyc273fkhgfh73pgv-free-4.12.4.drv’ failed with exit code 1
-error: build of ‘/nix/store/3yvaqx5qcg1fb3nnyc273fkhgfh73pgv-free-4.12.4.drv’ failed
