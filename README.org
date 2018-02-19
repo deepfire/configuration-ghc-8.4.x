@@ -1,0 +1,4 @@
+* What
+
+This is a package override database for GHC 8.4, as consumed and maintained by
+https://github.com/deepfire/nh.
