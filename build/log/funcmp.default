@@ -1,5 +1,5 @@
 these derivations will be built:
-  /nix/store/y7lym1px0v122n2chmb0k9b0macanhw2-funcmp-1.8.drv
+  /nix/store/wci7hi4nd5m598slr7jcri97msi1qs42-funcmp-1.8.drv
 building path(s) ‘/nix/store/5ihqvn09ci7ca90amqcli03qvsd3qjs1-funcmp-1.8-doc’, ‘/nix/store/dcfj24r9x7s616qyqvizk6c5jzk2iz4b-funcmp-1.8-data’, ‘/nix/store/k5lf180d9hfjvik1mmj0zxzp3grfs6d2-funcmp-1.8’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
@@ -28,5 +28,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 base >=3 && <4.11
 
-builder for ‘/nix/store/y7lym1px0v122n2chmb0k9b0macanhw2-funcmp-1.8.drv’ failed with exit code 1
-error: build of ‘/nix/store/y7lym1px0v122n2chmb0k9b0macanhw2-funcmp-1.8.drv’ failed
+builder for ‘/nix/store/wci7hi4nd5m598slr7jcri97msi1qs42-funcmp-1.8.drv’ failed with exit code 1
+error: build of ‘/nix/store/wci7hi4nd5m598slr7jcri97msi1qs42-funcmp-1.8.drv’ failed
