@@ -22,17 +22,14 @@ with haskellLib; with self; {
     ## Needs bump to a versioned attribute
     ## 
     ## Needed for (<>) in prelude
-    ## Setup: Encountered missing dependencies:
-    ## base >=3 && <4.11
     jailbreak       = true;
   });
 
   hspec-core = overrideCabal super.hspec-core_2_4_8 (drv: {
     ## Needs bump to a versioned attribute
     ## 
-    ##     • No instance for (Semigroup Summary)
-    ##         arising from the superclasses of an instance declaration
-    ##     • In the instance declaration for ‘Monoid Summary’
+    ## Setup: Encountered missing dependencies:
+    ## QuickCheck >=2.5.1 && <2.11
     ## error: while evaluating the attribute ‘buildInputs’ of the derivation ‘hspec-core-2.4.8’ at /home/deepfire/src/nixpkgs/pkgs/stdenv/generic/make-derivation.nix:148:11:
     ## while evaluating the attribute ‘buildInputs’ of the derivation ‘silently-1.2.5’ at /home/deepfire/src/nixpkgs/pkgs/stdenv/generic/make-derivation.nix:148:11:
     ## while evaluating the attribute ‘buildInputs’ of the derivation ‘temporary-1.2.1.1’ at /home/deepfire/src/nixpkgs/pkgs/stdenv/generic/make-derivation.nix:148:11:
@@ -49,15 +46,20 @@ with haskellLib; with self; {
   ## hspec-discover ==2.4.7
   hspec-discover = super.hspec-discover_2_4_8;
 
+  language-c = overrideCabal super.language-c_0_7_2 (drv: {
+    ## Needs bump to a versioned attribute
+    ## 
+    ##     Ambiguous occurrence ‘<>’
+    ##     It could refer to either ‘Prelude.<>’,
+    ##                              imported from ‘Prelude’ at src/Language/C/Pretty.hs:15:8-24
+    doCheck         = false;
+  });
+
   lens = overrideCabal super.lens_4_16 (drv: {
     ## Needs bump to a versioned attribute
     ## 
-    ##     • Could not deduce (Apply f)
-    ##         arising from the superclasses of an instance declaration
-    ##       from the context: (Contravariant f, Applicative f)
     ## Setup: Encountered missing dependencies:
-    ## ghc >=7.0 && <8.4
-    ## /run/current-system/sw/bin/nix-shell: failed to build all dependencies
+    ## free ==4.*, template-haskell >=2.4 && <2.13
     doCheck         = false;
   });
 
@@ -65,9 +67,6 @@ with haskellLib; with self; {
     ## Needs bump to a versioned attribute
     ## 
     ##     • Variable not in scope: mappend :: Seq a -> Seq a -> Seq a
-    ## Setup: Encountered missing dependencies:
-    ## ghc >=7.0 && <8.4
-    ## /run/current-system/sw/bin/nix-shell: failed to build all dependencies
     doCheck         = false;
   });
 
@@ -112,9 +111,6 @@ with haskellLib; with self; {
       rev    = "30d2e6415c5b57760f8754cd3003eb07483d60e6";
       sha256 = "1l3qm97gcjih695hhj80rbpnd72prnc81lg5y373yj8jk9f6ypbr";
     };
-    ## Setup: Encountered missing dependencies:
-    ## ghc >=7.0 && <8.4
-    ## /run/current-system/sw/bin/nix-shell: failed to build all dependencies
     doCheck         = false;
   });
 
@@ -123,7 +119,7 @@ with haskellLib; with self; {
     ## 
     ## Setup: Encountered missing dependencies:
     ## haskell-gi-base ==0.21.*
-    ## cannot build derivation ‘/nix/store/b3d6yr1rzk4hpzg87yk4n5i4321i824f-gi-cairo-1.0.14.drv’: 1 dependencies couldn't be built
+    ## cannot build derivation ‘/nix/store/dpljlrgk8lsx0xs2azhgjpjif87fz0sl-gi-cairo-1.0.14.drv’: 1 dependencies couldn't be built
     src = pkgs.fetchFromGitHub {
       owner  = "haskell-gi";
       repo   = "haskell-gi";
@@ -301,38 +297,6 @@ with haskellLib; with self; {
     };
   });
 
-  language-c = overrideCabal super.language-c (drv: {
-    ## Unmerged.  PR: https://github.com/visq/language-c/pull/45
-    ## 
-    ##     Ambiguous occurrence ‘<>’
-    ##     It could refer to either ‘Prelude.<>’,
-    ##                              imported from ‘Prelude’ at src/Language/C/Pretty.hs:15:8-24
-    src = pkgs.fetchFromGitHub {
-      owner  = "deepfire";
-      repo   = "language-c";
-      rev    = "03b120c64c12946d134017f4922b55c6ab4f52f8";
-      sha256 = "1mcv46fq37kkd20rhhdbn837han5knjdsgc7ckqp5r2r9m3vy89r";
-    };
-    ## /bin/sh: cabal: command not found
-    doCheck         = false;
-  });
-
-  language-c_0_7_0 = overrideCabal super.language-c_0_7_0 (drv: {
-    ## Unmerged.  PR: https://github.com/visq/language-c/pull/45
-    ## 
-    ##     Ambiguous occurrence ‘<>’
-    ##     It could refer to either ‘Prelude.<>’,
-    ##                              imported from ‘Prelude’ at src/Language/C/Pretty.hs:15:8-24
-    src = pkgs.fetchFromGitHub {
-      owner  = "deepfire";
-      repo   = "language-c";
-      rev    = "03b120c64c12946d134017f4922b55c6ab4f52f8";
-      sha256 = "1mcv46fq37kkd20rhhdbn837han5knjdsgc7ckqp5r2r9m3vy89r";
-    };
-    ## /bin/sh: cabal: command not found
-    doCheck         = false;
-  });
-
   monadplus = overrideCabal super.monadplus (drv: {
     ## Unmerged.  PR: https://github.com/hanshoglund/monadplus/pull/3
     ## 
@@ -459,9 +423,6 @@ with haskellLib; with self; {
   });
 
   bytes = overrideCabal super.bytes (drv: {
-    ## Setup: Encountered missing dependencies:
-    ## ghc >=7.0 && <8.4
-    ## /run/current-system/sw/bin/nix-shell: failed to build all dependencies
     doCheck         = false;
   });
 
@@ -473,14 +434,11 @@ with haskellLib; with self; {
 
   ChasingBottoms = overrideCabal super.ChasingBottoms (drv: {
     ## Setup: Encountered missing dependencies:
-    ## base >=4.2 && <4.11
+    ## QuickCheck >=2.3 && <2.11, base >=4.2 && <4.11
     jailbreak       = true;
   });
 
   comonad = overrideCabal super.comonad (drv: {
-    ## Setup: Encountered missing dependencies:
-    ## ghc >=7.0 && <8.4
-    ## /run/current-system/sw/bin/nix-shell: failed to build all dependencies
     doCheck         = false;
   });
 
@@ -490,9 +448,6 @@ with haskellLib; with self; {
   });
 
   distributive = overrideCabal super.distributive (drv: {
-    ## Setup: Encountered missing dependencies:
-    ## ghc >=7.0 && <8.4
-    ## /run/current-system/sw/bin/nix-shell: failed to build all dependencies
     doCheck         = false;
   });
 
@@ -551,9 +506,12 @@ with haskellLib; with self; {
   });
 
   linear = overrideCabal super.linear (drv: {
+    doCheck         = false;
+  });
+
+  megaparsec = overrideCabal super.megaparsec (drv: {
     ## Setup: Encountered missing dependencies:
-    ## ghc >=7.0 && <8.4
-    ## /run/current-system/sw/bin/nix-shell: failed to build all dependencies
+    ## QuickCheck >=2.7 && <2.11
     doCheck         = false;
   });
 
@@ -573,6 +531,12 @@ with haskellLib; with self; {
     ## Setup: Encountered missing dependencies:
     ## base >=4.8 && <4.11
     jailbreak       = true;
+  });
+
+  scientific = overrideCabal super.scientific (drv: {
+    ## Setup: Encountered missing dependencies:
+    ## QuickCheck >=2.5 && <2.11
+    doCheck         = false;
   });
 
   tasty-expected-failure = overrideCabal super.tasty-expected-failure (drv: {
@@ -609,9 +573,6 @@ with haskellLib; with self; {
   });
 
   trifecta = overrideCabal super.trifecta (drv: {
-    ## Setup: Encountered missing dependencies:
-    ## ghc >=7.0 && <8.4
-    ## /run/current-system/sw/bin/nix-shell: failed to build all dependencies
     doCheck         = false;
   });
 

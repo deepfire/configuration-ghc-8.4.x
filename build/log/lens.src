@@ -1,6 +1,6 @@
 these derivations will be built:
-  /nix/store/f4xn7wpkhcc5gjj9kd655mhgzx6k0ard-lens-4.15.4.drv
-building path(s) ‘/nix/store/7xjwn768a9i9d0nfvpiprh5ympi8g008-lens-4.15.4’, ‘/nix/store/cz82s2a0s7n2hrw7nmx0ayjnqj5c8a5v-lens-4.15.4-doc’
+  /nix/store/idrg8vqfx4rvf6y9mlvhrfdiv9hq9h93-lens-4.15.4.drv
+building path(s) ‘/nix/store/mwyiacmwpqb4kclfzgc49rv9a79gna6j-lens-4.15.4’, ‘/nix/store/ncfcnf461q4x6w6gbwawf9yw1k2jn1s3-lens-4.15.4-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
@@ -8,290 +8,24 @@ unpacking source archive /nix/store/bc56hxw4a0czb0b7w3r1jngs745ifdmb-lens-4.15.4
 source root is lens-4.15.4
 setting SOURCE_DATE_EPOCH to timestamp 1501744085 of file lens-4.15.4/Warning.hs
 patching sources
-Run jailbreak-cabal to lift version restrictions on build inputs.
 compileBuildDriverPhase
 setupCompileFlags: -package-db=/tmp/nix-build-lens-4.15.4.drv-0/package.conf.d -j8 -threaded
 [1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-lens-4.15.4.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/7xjwn768a9i9d0nfvpiprh5ympi8g008-lens-4.15.4 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/cz82s2a0s7n2hrw7nmx0ayjnqj5c8a5v-lens-4.15.4-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-lens-4.15.4.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/7xjwn768a9i9d0nfvpiprh5ympi8g008-lens-4.15.4/lib/ghc-8.4.0.20180204/lens-4.15.4 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --disable-tests --ghc-option=-split-sections -f-test-doctests --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/mwyiacmwpqb4kclfzgc49rv9a79gna6j-lens-4.15.4 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/ncfcnf461q4x6w6gbwawf9yw1k2jn1s3-lens-4.15.4-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-lens-4.15.4.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/mwyiacmwpqb4kclfzgc49rv9a79gna6j-lens-4.15.4/lib/ghc-8.4.0.20180204/lens-4.15.4 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --disable-tests --ghc-option=-split-sections -f-test-doctests --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring lens-4.15.4...
-Flags chosen: benchmark-uniplate=False, dump-splices=False, inlining=True,
-j=False, old-inline-pragmas=False, safe=False, test-doctests=False,
-test-hunit=True, test-properties=True, test-templates=True, trustworthy=True
-Dependency array -any: using array-0.5.2.0
-Dependency base -any: using base-4.11.0.0
-Dependency base-orphans -any: using base-orphans-0.6
-Dependency bifunctors -any: using bifunctors-5.5.2
-Dependency bytestring -any: using bytestring-0.10.8.2
-Dependency call-stack -any: using call-stack-0.1.0
-Dependency comonad -any: using comonad-5.0.3
-Dependency containers -any: using containers-0.5.11.0
-Dependency contravariant -any: using contravariant-1.4.1
-Dependency distributive -any: using distributive-0.5.3
-Dependency exceptions -any: using exceptions-0.8.3
-Dependency filepath -any: using filepath-1.4.2
-Dependency free -any: using free-5
-Dependency ghc-prim -any: using ghc-prim-0.5.2.0
-Dependency hashable -any: using hashable-1.2.6.1
-Dependency kan-extensions -any: using kan-extensions-5.0.2
-Dependency mtl -any: using mtl-2.2.2
-Dependency parallel -any: using parallel-3.2.1.1
-Dependency profunctors -any: using profunctors-5.2.2
-Dependency reflection -any: using reflection-2.1.3
-Dependency semigroupoids -any: using semigroupoids-5.2.2
-Dependency semigroups -any: using semigroups-0.18.4
-Dependency tagged -any: using tagged-0.8.5
-Dependency template-haskell -any: using template-haskell-2.13.0.0
-Dependency text -any: using text-1.2.3.0
-Dependency th-abstraction -any: using th-abstraction-0.2.6.0
-Dependency transformers -any: using transformers-0.5.5.0
-Dependency transformers-compat -any: using transformers-compat-0.5.1.4
-Dependency unordered-containers -any: using unordered-containers-0.2.9.0
-Dependency vector -any: using vector-0.12.0.1
-Dependency void -any: using void-0.7.2
-Source component graph: component lib
-Configured component graph:
-    component lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg
-        include array-0.5.2.0
-        include base-4.11.0.0
-        include base-orphans-0.6-DyOYeE6wgji31lQ7xhGZwd
-        include bifunctors-5.5.2-BtN7yFyApQHEeMleUpjWWR
-        include bytestring-0.10.8.2
-        include call-stack-0.1.0-6BCoA8Rca4ecMLowDBWb5
-        include comonad-5.0.3-6FDWvsELYyqJigHwMyXlfE
-        include contravariant-1.4.1-DWV5xdtLr6t812AdW18VMx
-        include containers-0.5.11.0
-        include distributive-0.5.3-7eFvZYoayu9Ia4zZ9sB2fh
-        include filepath-1.4.2
-        include free-5-Fl2XmSbR2HH98YIKL434HX
-        include ghc-prim-0.5.2.0
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        include kan-extensions-5.0.2-ABfAME6Wmbo632gqzZsdej
-        include exceptions-0.8.3-Gxs2NxlXkgKBeHE3uaFVwG
-        include mtl-2.2.2
-        include parallel-3.2.1.1-92VhYL4ho2hDgC9jrNFqUp
-        include profunctors-5.2.2-CMKJjigHdW71As1PZ6q0rP
-        include reflection-2.1.3-9TcVVentlk8CP2sdqM4bnM
-        include semigroupoids-5.2.2-KlcVOeYoIKt7HoLCcqzvFS
-        include semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
-        include tagged-0.8.5-H1YAr6QWnCT7DbgXfdWaeE
-        include template-haskell-2.13.0.0
-        include th-abstraction-0.2.6.0-AxKETn9xnvy1NIoJGfKwUs
-        include text-1.2.3.0
-        include transformers-0.5.5.0
-        include transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
-        include unordered-containers-0.2.9.0-AiK3CNhpw3s4Tl8U419yn6
-        include vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
-        include void-0.7.2-6nj4zRuM8LB8bsxdyfvxDc
-Linked component graph:
-    unit lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg
-        include array-0.5.2.0
-        include base-4.11.0.0
-        include base-orphans-0.6-DyOYeE6wgji31lQ7xhGZwd
-        include bifunctors-5.5.2-BtN7yFyApQHEeMleUpjWWR
-        include bytestring-0.10.8.2
-        include call-stack-0.1.0-6BCoA8Rca4ecMLowDBWb5
-        include comonad-5.0.3-6FDWvsELYyqJigHwMyXlfE
-        include contravariant-1.4.1-DWV5xdtLr6t812AdW18VMx
-        include containers-0.5.11.0
-        include distributive-0.5.3-7eFvZYoayu9Ia4zZ9sB2fh
-        include filepath-1.4.2
-        include free-5-Fl2XmSbR2HH98YIKL434HX
-        include ghc-prim-0.5.2.0
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        include kan-extensions-5.0.2-ABfAME6Wmbo632gqzZsdej
-        include exceptions-0.8.3-Gxs2NxlXkgKBeHE3uaFVwG
-        include mtl-2.2.2
-        include parallel-3.2.1.1-92VhYL4ho2hDgC9jrNFqUp
-        include profunctors-5.2.2-CMKJjigHdW71As1PZ6q0rP
-        include reflection-2.1.3-9TcVVentlk8CP2sdqM4bnM
-        include semigroupoids-5.2.2-KlcVOeYoIKt7HoLCcqzvFS
-        include semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
-        include tagged-0.8.5-H1YAr6QWnCT7DbgXfdWaeE
-        include template-haskell-2.13.0.0
-        include th-abstraction-0.2.6.0-AxKETn9xnvy1NIoJGfKwUs
-        include text-1.2.3.0
-        include transformers-0.5.5.0
-        include transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
-        include unordered-containers-0.2.9.0-AiK3CNhpw3s4Tl8U419yn6
-        include vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
-        include void-0.7.2-6nj4zRuM8LB8bsxdyfvxDc
-        Control.Exception.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Exception.Lens,Control.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens,Control.Lens.At=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.At,Control.Lens.Combinators=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Combinators,Control.Lens.Cons=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Cons,Control.Lens.Each=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Each,Control.Lens.Empty=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Empty,Control.Lens.Equality=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Equality,Control.Lens.Extras=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Extras,Control.Lens.Fold=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Fold,Control.Lens.Getter=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Getter,Control.Lens.Indexed=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Indexed,Control.Lens.Internal=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal,Control.Lens.Internal.Bazaar=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.Bazaar,Control.Lens.Internal.ByteString=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.ByteString,Control.Lens.Internal.CTypes=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.CTypes,Control.Lens.Internal.Coerce=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.Coerce,Control.Lens.Internal.Context=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.Context,Control.Lens.Internal.Deque=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.Deque,Control.Lens.Internal.Exception=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.Exception,Control.Lens.Internal.FieldTH=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.FieldTH,Control.Lens.Internal.Fold=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.Fold,Control.Lens.Internal.Getter=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.Getter,Control.Lens.Internal.Indexed=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.Indexed,Control.Lens.Internal.Instances=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.Instances,Control.Lens.Internal.Iso=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.Iso,Control.Lens.Internal.Level=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.Level,Control.Lens.Internal.List=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.List,Control.Lens.Internal.Magma=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.Magma,Control.Lens.Internal.Prism=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.Prism,Control.Lens.Internal.PrismTH=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.PrismTH,Control.Lens.Internal.Review=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.Review,Control.Lens.Internal.Setter=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.Setter,Control.Lens.Internal.TH=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.TH,Control.Lens.Internal.Zoom=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Internal.Zoom,Control.Lens.Iso=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Iso,Control.Lens.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Lens,Control.Lens.Level=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Level,Control.Lens.Operators=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Operators,Control.Lens.Plated=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Plated,Control.Lens.Prism=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Prism,Control.Lens.Reified=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Reified,Control.Lens.Review=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Review,Control.Lens.Setter=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Setter,Control.Lens.TH=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.TH,Control.Lens.Traversal=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Traversal,Control.Lens.Tuple=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Tuple,Control.Lens.Type=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Type,Control.Lens.Wrapped=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Wrapped,Control.Lens.Zoom=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Lens.Zoom,Control.Monad.Error.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Monad.Error.Lens,Control.Parallel.Strategies.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Parallel.Strategies.Lens,Control.Seq.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Control.Seq.Lens,Data.Array.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.Array.Lens,Data.Bits.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.Bits.Lens,Data.ByteString.Lazy.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.ByteString.Lazy.Lens,Data.ByteString.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.ByteString.Lens,Data.ByteString.Strict.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.ByteString.Strict.Lens,Data.Complex.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.Complex.Lens,Data.Data.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.Data.Lens,Data.Dynamic.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.Dynamic.Lens,Data.HashSet.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.HashSet.Lens,Data.IntSet.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.IntSet.Lens,Data.List.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.List.Lens,Data.Map.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.Map.Lens,Data.Sequence.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.Sequence.Lens,Data.Set.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.Set.Lens,Data.Text.Lazy.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.Text.Lazy.Lens,Data.Text.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.Text.Lens,Data.Text.Strict.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.Text.Strict.Lens,Data.Tree.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.Tree.Lens,Data.Typeable.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.Typeable.Lens,Data.Vector.Generic.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.Vector.Generic.Lens,Data.Vector.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Data.Vector.Lens,GHC.Generics.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:GHC.Generics.Lens,Language.Haskell.TH.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Language.Haskell.TH.Lens,Numeric.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:Numeric.Lens,System.Exit.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:System.Exit.Lens,System.FilePath.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:System.FilePath.Lens,System.IO.Error.Lens=lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg:System.IO.Error.Lens
-Ready component graph:
-    definite lens-4.15.4-5bCpFTflwOELZ1WzDRSFhg
-        depends array-0.5.2.0
-        depends base-4.11.0.0
-        depends base-orphans-0.6-DyOYeE6wgji31lQ7xhGZwd
-        depends bifunctors-5.5.2-BtN7yFyApQHEeMleUpjWWR
-        depends bytestring-0.10.8.2
-        depends call-stack-0.1.0-6BCoA8Rca4ecMLowDBWb5
-        depends comonad-5.0.3-6FDWvsELYyqJigHwMyXlfE
-        depends contravariant-1.4.1-DWV5xdtLr6t812AdW18VMx
-        depends containers-0.5.11.0
-        depends distributive-0.5.3-7eFvZYoayu9Ia4zZ9sB2fh
-        depends filepath-1.4.2
-        depends free-5-Fl2XmSbR2HH98YIKL434HX
-        depends ghc-prim-0.5.2.0
-        depends hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        depends kan-extensions-5.0.2-ABfAME6Wmbo632gqzZsdej
-        depends exceptions-0.8.3-Gxs2NxlXkgKBeHE3uaFVwG
-        depends mtl-2.2.2
-        depends parallel-3.2.1.1-92VhYL4ho2hDgC9jrNFqUp
-        depends profunctors-5.2.2-CMKJjigHdW71As1PZ6q0rP
-        depends reflection-2.1.3-9TcVVentlk8CP2sdqM4bnM
-        depends semigroupoids-5.2.2-KlcVOeYoIKt7HoLCcqzvFS
-        depends semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
-        depends tagged-0.8.5-H1YAr6QWnCT7DbgXfdWaeE
-        depends template-haskell-2.13.0.0
-        depends th-abstraction-0.2.6.0-AxKETn9xnvy1NIoJGfKwUs
-        depends text-1.2.3.0
-        depends transformers-0.5.5.0
-        depends transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
-        depends unordered-containers-0.2.9.0-AiK3CNhpw3s4Tl8U419yn6
-        depends vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
-        depends void-0.7.2-6nj4zRuM8LB8bsxdyfvxDc
-Using Cabal-2.1.0.0 compiled by ghc-8.4
-Using compiler: ghc-8.4.0.20180204
-Using install prefix: /nix/store/7xjwn768a9i9d0nfvpiprh5ympi8g008-lens-4.15.4
-Executables installed in:
-/nix/store/7xjwn768a9i9d0nfvpiprh5ympi8g008-lens-4.15.4/bin
-Libraries installed in:
-/nix/store/7xjwn768a9i9d0nfvpiprh5ympi8g008-lens-4.15.4/lib/ghc-8.4.0.20180204/lens-4.15.4
-Dynamic Libraries installed in:
-/nix/store/7xjwn768a9i9d0nfvpiprh5ympi8g008-lens-4.15.4/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
-Private executables installed in:
-/nix/store/7xjwn768a9i9d0nfvpiprh5ympi8g008-lens-4.15.4/libexec/x86_64-linux-ghc-8.4.0.20180204/lens-4.15.4
-Data files installed in:
-/nix/store/7xjwn768a9i9d0nfvpiprh5ympi8g008-lens-4.15.4/share/x86_64-linux-ghc-8.4.0.20180204/lens-4.15.4
-Documentation installed in:
-/nix/store/cz82s2a0s7n2hrw7nmx0ayjnqj5c8a5v-lens-4.15.4-doc/share/doc
-Configuration files installed in:
-/nix/store/7xjwn768a9i9d0nfvpiprh5ympi8g008-lens-4.15.4/etc
-No alex found
-Using ar found on system at:
-/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
-No c2hs found
-No cpphs found
-No doctest found
-Using gcc version 6.4.0 given by user at:
-/nix/store/nj7mw0lyx80g7lrxcxy5v9vmnpif5950-gcc-wrapper-6.4.0/bin/gcc
-Using ghc version 8.4.0.20180204 found on system at:
-/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc
-Using ghc-pkg version 8.4.0.20180204 found on system at:
-/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc-pkg
-No ghcjs found
-No ghcjs-pkg found
-No greencard found
-Using haddock version 2.19.0 found on system at:
-/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/haddock
-No happy found
-Using haskell-suite found on system at: haskell-suite-dummy-location
-Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
-No hmake found
-Using hpc version 0.67 found on system at:
-/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hpc
-Using hsc2hs version 0.68.3 found on system at:
-/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hsc2hs
-Using hscolour version 1.24 found on system at:
-/nix/store/626h2ym9fhl5lgnqlqrh5s4b73m5kgy8-hscolour-1.24.2/bin/HsColour
-No jhc found
-Using ld found on system at:
-/nix/store/qhqxgkb2zki59dy4lx6krmgjsnhpjrc9-binutils-wrapper-2.28.1/bin/ld
-No lhc found
-No lhc-pkg found
-No pkg-config found
-Using runghc version 8.4.0.20180204 found on system at:
-/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/runghc
-Using strip version 2.28 found on system at:
-/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
-Using tar found on system at:
-/nix/store/2waj1y5v572sbigjhqbmhx178vfak1l0-gnutar-1.30/bin/tar
-No uhc found
-building
-Preprocessing library for lens-4.15.4..
-Building library for lens-4.15.4..
-[ 1 of 81] Compiling Control.Lens.Internal.CTypes ( src/Control/Lens/Internal/CTypes.hs, dist/build/Control/Lens/Internal/CTypes.o )
-[ 2 of 81] Compiling Control.Lens.Internal.Coerce ( src/Control/Lens/Internal/Coerce.hs, dist/build/Control/Lens/Internal/Coerce.o )
-[ 3 of 81] Compiling Control.Lens.Internal.Getter ( src/Control/Lens/Internal/Getter.hs, dist/build/Control/Lens/Internal/Getter.o )
-[ 4 of 81] Compiling Control.Lens.Internal.Fold ( src/Control/Lens/Internal/Fold.hs, dist/build/Control/Lens/Internal/Fold.o )
+CallStack (from HasCallStack):
+  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
+  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
+  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:123:42 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainWithHooks, called at Setup.lhs:47:8 in main:Main
+Setup: Encountered missing dependencies:
+free ==4.*, template-haskell >=2.4 && <2.13
 
-src/Control/Lens/Internal/Fold.hs:60:10: error:
-    • Could not deduce (Apply f)
-        arising from the superclasses of an instance declaration
-      from the context: (Contravariant f, Applicative f)
-        bound by the instance declaration
-        at src/Control/Lens/Internal/Fold.hs:60:10-65
-      Possible fix:
-        add (Apply f) to the context of the instance declaration
-    • In the instance declaration for ‘Monoid (Folding f a)’
-   |
-60 | instance (Contravariant f, Applicative f) => Monoid (Folding f a) where
-   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-src/Control/Lens/Internal/Fold.hs:79:10: error:
-    • Could not deduce (Apply f)
-        arising from the superclasses of an instance declaration
-      from the context: Applicative f
-        bound by the instance declaration
-        at src/Control/Lens/Internal/Fold.hs:79:10-48
-      Possible fix:
-        add (Apply f) to the context of the instance declaration
-    • In the instance declaration for ‘Monoid (Traversed a f)’
-   |
-79 | instance Applicative f => Monoid (Traversed a f) where
-   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-src/Control/Lens/Internal/Fold.hs:98:10: error:
-    • Could not deduce (Apply m)
-        arising from the superclasses of an instance declaration
-      from the context: Monad m
-        bound by the instance declaration
-        at src/Control/Lens/Internal/Fold.hs:98:10-42
-      Possible fix:
-        add (Apply m) to the context of the instance declaration
-    • In the instance declaration for ‘Monoid (Sequenced a m)’
-   |
-98 | instance Monad m => Monoid (Sequenced a m) where
-   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[ 5 of 81] Compiling Control.Lens.Internal.Instances ( src/Control/Lens/Internal/Instances.hs, dist/build/Control/Lens/Internal/Instances.o )
-[ 6 of 81] Compiling Control.Lens.Internal.Indexed ( src/Control/Lens/Internal/Indexed.hs, dist/build/Control/Lens/Internal/Indexed.o )
-[ 7 of 81] Compiling Control.Lens.Internal.Context ( src/Control/Lens/Internal/Context.hs, dist/build/Control/Lens/Internal/Context.o )
-[ 8 of 81] Compiling Control.Lens.Internal.Bazaar ( src/Control/Lens/Internal/Bazaar.hs, dist/build/Control/Lens/Internal/Bazaar.o )
-[ 9 of 81] Compiling Control.Lens.Internal.Iso ( src/Control/Lens/Internal/Iso.hs, dist/build/Control/Lens/Internal/Iso.o )
-[10 of 81] Compiling Control.Lens.Internal.Level ( src/Control/Lens/Internal/Level.hs, dist/build/Control/Lens/Internal/Level.o )
-[11 of 81] Compiling Control.Lens.Internal.List ( src/Control/Lens/Internal/List.hs, dist/build/Control/Lens/Internal/List.o )
-[12 of 81] Compiling Control.Lens.Internal.Magma ( src/Control/Lens/Internal/Magma.hs, dist/build/Control/Lens/Internal/Magma.o )
-[13 of 81] Compiling Control.Lens.Internal.Prism ( src/Control/Lens/Internal/Prism.hs, dist/build/Control/Lens/Internal/Prism.o )
-[14 of 81] Compiling Control.Lens.Internal.Review ( src/Control/Lens/Internal/Review.hs, dist/build/Control/Lens/Internal/Review.o )
-[15 of 81] Compiling Control.Lens.Internal.Setter ( src/Control/Lens/Internal/Setter.hs, dist/build/Control/Lens/Internal/Setter.o )
-[16 of 81] Compiling Control.Lens.Internal.TH ( src/Control/Lens/Internal/TH.hs, dist/build/Control/Lens/Internal/TH.o )
-[17 of 81] Compiling Control.Lens.Internal.Zoom ( src/Control/Lens/Internal/Zoom.hs, dist/build/Control/Lens/Internal/Zoom.o )
-
-src/Control/Lens/Internal/Zoom.hs:294:10: error:
-    • Could not deduce (Apply m)
-        arising from the superclasses of an instance declaration
-      from the context: (Monad m, Monoid r)
-        bound by the instance declaration
-        at src/Control/Lens/Internal/Zoom.hs:294:10-53
-      Possible fix:
-        add (Apply m) to the context of the instance declaration
-    • In the instance declaration for ‘Monoid (Effect m r a)’
-    |
-294 | instance (Monad m, Monoid r) => Monoid (Effect m r a) where
-    |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[19 of 81] Compiling Control.Lens.Type ( src/Control/Lens/Type.hs, dist/build/Control/Lens/Type.o )
-[20 of 81] Compiling Control.Lens.Setter ( src/Control/Lens/Setter.hs, dist/build/Control/Lens/Setter.o )
-[21 of 81] Compiling Control.Lens.Lens ( src/Control/Lens/Lens.hs, dist/build/Control/Lens/Lens.o )
-[22 of 81] Compiling Control.Lens.Tuple ( src/Control/Lens/Tuple.hs, dist/build/Control/Lens/Tuple.o )
-[23 of 81] Compiling Control.Lens.Getter ( src/Control/Lens/Getter.hs, dist/build/Control/Lens/Getter.o )
-[24 of 81] Compiling Control.Lens.Review ( src/Control/Lens/Review.hs, dist/build/Control/Lens/Review.o )
-[25 of 81] Compiling Control.Lens.Prism ( src/Control/Lens/Prism.hs, dist/build/Control/Lens/Prism.o )
-[33 of 81] Compiling Control.Lens.Equality ( src/Control/Lens/Equality.hs, dist/build/Control/Lens/Equality.o )
-[42 of 81] Compiling Data.HashSet.Lens ( src/Data/HashSet/Lens.hs, dist/build/Data/HashSet/Lens.o )
-[43 of 81] Compiling Data.Map.Lens    ( src/Data/Map/Lens.hs, dist/build/Data/Map/Lens.o )
-[44 of 81] Compiling Data.Set.Lens    ( src/Data/Set/Lens.hs, dist/build/Data/Set/Lens.o )
-[78 of 81] Compiling Paths_lens       ( dist/build/autogen/Paths_lens.hs, dist/build/Paths_lens.o )
-builder for ‘/nix/store/f4xn7wpkhcc5gjj9kd655mhgzx6k0ard-lens-4.15.4.drv’ failed with exit code 1
-error: build of ‘/nix/store/f4xn7wpkhcc5gjj9kd655mhgzx6k0ard-lens-4.15.4.drv’ failed
+builder for ‘/nix/store/idrg8vqfx4rvf6y9mlvhrfdiv9hq9h93-lens-4.15.4.drv’ failed with exit code 1
+error: build of ‘/nix/store/idrg8vqfx4rvf6y9mlvhrfdiv9hq9h93-lens-4.15.4.drv’ failed

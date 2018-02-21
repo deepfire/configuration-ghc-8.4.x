@@ -1,5 +1,5 @@
 these derivations will be built:
-  /nix/store/3gm7xy4by641z1jy06sbb70z3ns1p944-bytestring-trie-0.2.4.1.drv
+  /nix/store/gzfbb09b6qv6mgf3p3h4wsfi74nsk730-bytestring-trie-0.2.4.1.drv
 building path(s) ‘/nix/store/3f2h8ql5pg5cmnvixwjr29b2mh5dzmkr-bytestring-trie-0.2.4.1’, ‘/nix/store/hqn7h774b1x4g7za5zflsam4gdflwjyd-bytestring-trie-0.2.4.1-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
@@ -29,5 +29,5 @@ QuickCheck >=2.4.1 && <2.11,
 lazysmallcheck ==0.6.*,
 smallcheck >=1.1.1 && <1.2
 
-builder for ‘/nix/store/3gm7xy4by641z1jy06sbb70z3ns1p944-bytestring-trie-0.2.4.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/3gm7xy4by641z1jy06sbb70z3ns1p944-bytestring-trie-0.2.4.1.drv’ failed
+builder for ‘/nix/store/gzfbb09b6qv6mgf3p3h4wsfi74nsk730-bytestring-trie-0.2.4.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/gzfbb09b6qv6mgf3p3h4wsfi74nsk730-bytestring-trie-0.2.4.1.drv’ failed

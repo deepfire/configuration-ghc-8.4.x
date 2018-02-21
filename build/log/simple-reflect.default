@@ -1,5 +1,5 @@
 these derivations will be built:
-  /nix/store/wwh13z0fd6pg12r2v64w3izkwp5r9bwa-simple-reflect-0.3.2.drv
+  /nix/store/9giiy3dw053k4n4zpcjn3w6ksf8hb5rn-simple-reflect-0.3.2.drv
 building path(s) ‘/nix/store/kn9xbw4hl6b056j8pxwccwcw2npwjfjp-simple-reflect-0.3.2-doc’, ‘/nix/store/wfl835vrd4496kyiz3sq7hh9cdcsjdnn-simple-reflect-0.3.2’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
@@ -98,5 +98,5 @@ Debug/SimpleReflect/Expr.hs:223:10: error:
     |
 223 | instance Monoid Expr where
     |          ^^^^^^^^^^^
-builder for ‘/nix/store/wwh13z0fd6pg12r2v64w3izkwp5r9bwa-simple-reflect-0.3.2.drv’ failed with exit code 1
-error: build of ‘/nix/store/wwh13z0fd6pg12r2v64w3izkwp5r9bwa-simple-reflect-0.3.2.drv’ failed
+builder for ‘/nix/store/9giiy3dw053k4n4zpcjn3w6ksf8hb5rn-simple-reflect-0.3.2.drv’ failed with exit code 1
+error: build of ‘/nix/store/9giiy3dw053k4n4zpcjn3w6ksf8hb5rn-simple-reflect-0.3.2.drv’ failed

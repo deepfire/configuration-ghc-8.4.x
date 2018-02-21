@@ -1,5 +1,5 @@
 these derivations will be built:
-  /nix/store/mba694bpbd97cwqdnn4hl5bvz1m5awaa-integer-logarithms-1.0.2.drv
+  /nix/store/hhqy564d4qmc1bf4qsv2dibhaqs014ay-integer-logarithms-1.0.2.drv
 building path(s) ‘/nix/store/9gj2qfmlc6x2rljakailczcddlcl9bi3-integer-logarithms-1.0.2’, ‘/nix/store/p3wm9m5xph71h2nrzvq4s7pqjld0glzz-integer-logarithms-1.0.2-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
@@ -28,5 +28,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 base >=4.3 && <4.11
 
-builder for ‘/nix/store/mba694bpbd97cwqdnn4hl5bvz1m5awaa-integer-logarithms-1.0.2.drv’ failed with exit code 1
-error: build of ‘/nix/store/mba694bpbd97cwqdnn4hl5bvz1m5awaa-integer-logarithms-1.0.2.drv’ failed
+builder for ‘/nix/store/hhqy564d4qmc1bf4qsv2dibhaqs014ay-integer-logarithms-1.0.2.drv’ failed with exit code 1
+error: build of ‘/nix/store/hhqy564d4qmc1bf4qsv2dibhaqs014ay-integer-logarithms-1.0.2.drv’ failed

@@ -1,20 +1,21 @@
 these derivations will be built:
-  /nix/store/p4fmld7q1q50241dl4gvxddlszwllx6m-language-c-0.7.1.drv
-building path(s) ‘/nix/store/8bwsdzg0ha48js35v3rxpkl1jyiy5vz7-language-c-0.7.1’, ‘/nix/store/98vx39lhk2bwmq0fp0akwhj5005r7wx0-language-c-0.7.1-doc’
+  /nix/store/a700cmaz711jqk0mxy2028zaxc5c0sm7-language-c-0.7.2.drv
+building path(s) ‘/nix/store/mfqwmdl1zqldriqw7c3dpzxy6kan48bn-language-c-0.7.2-doc’, ‘/nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
-unpacking source archive /nix/store/xpqi69q4mfni76mrrspma0l1xgn8izk6-source
-source root is source
+unpacking source archive /nix/store/ynyq5r8rm54v3ylclf47x1snagcv6kj5-language-c-0.7.2.tar.gz
+source root is language-c-0.7.2
+setting SOURCE_DATE_EPOCH to timestamp 1519109003 of file language-c-0.7.2/src/Language/C/Pretty.hs
 patching sources
 compileBuildDriverPhase
-setupCompileFlags: -package-db=/tmp/nix-build-language-c-0.7.1.drv-0/package.conf.d -j8 -threaded
-[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-language-c-0.7.1.drv-0/Main.o )
+setupCompileFlags: -package-db=/tmp/nix-build-language-c-0.7.2.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-language-c-0.7.2.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/8bwsdzg0ha48js35v3rxpkl1jyiy5vz7-language-c-0.7.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/98vx39lhk2bwmq0fp0akwhj5005r7wx0-language-c-0.7.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-language-c-0.7.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/8bwsdzg0ha48js35v3rxpkl1jyiy5vz7-language-c-0.7.1/lib/ghc-8.4.0.20180204/language-c-0.7.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/mfqwmdl1zqldriqw7c3dpzxy6kan48bn-language-c-0.7.2-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-language-c-0.7.2.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2/lib/ghc-8.4.0.20180204/language-c-0.7.2 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
-Configuring language-c-0.7.1...
+Configuring language-c-0.7.2...
 Flags chosen: allwarnings=False, separatesyb=True, splitbase=True,
 usebytestrings=True
 Dependency array -any: using array-0.5.2.0
@@ -23,15 +24,15 @@ Dependency bytestring >=0.9.0: using bytestring-0.10.8.2
 Dependency containers -any: using containers-0.5.11.0
 Dependency directory -any: using directory-1.3.1.5
 Dependency filepath -any: using filepath-1.4.2
-Dependency language-c -any: using language-c-0.7.1
-Dependency pretty -any: using pretty-1.1.3.6
+Dependency language-c -any: using language-c-0.7.2
+Dependency pretty <1.2.0: using pretty-1.1.3.6
 Dependency process -any: using process-1.6.3.0
 Dependency syb -any: using syb-0.7
 Source component graph:
     component lib
     component test:language-c-harness dependency lib
 Configured component graph:
-    component language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx
+    component language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE
         include filepath-1.4.2
         include base-4.11.0.0
         include process-1.6.3.0
@@ -42,14 +43,14 @@ Configured component graph:
         include base-4.11.0.0
         include syb-0.7-12Yx8C7qfUAKpojD8I0eSI
         include bytestring-0.10.8.2
-    component language-c-0.7.1-GmU1X8lUAPpLDxDvJD109v-language-c-harness
+    component language-c-0.7.2-LeZh2Tke464I1FeNTMVMwL-language-c-harness
         include base-4.11.0.0
-        include language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx
+        include language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE
         include directory-1.3.1.5
         include process-1.6.3.0
         include filepath-1.4.2
 Linked component graph:
-    unit language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx
+    unit language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE
         include filepath-1.4.2
         include base-4.11.0.0
         include process-1.6.3.0
@@ -60,15 +61,15 @@ Linked component graph:
         include base-4.11.0.0
         include syb-0.7-12Yx8C7qfUAKpojD8I0eSI
         include bytestring-0.10.8.2
-        Language.C=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C,Language.C.Analysis=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Analysis,Language.C.Analysis.AstAnalysis=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Analysis.AstAnalysis,Language.C.Analysis.Builtins=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Analysis.Builtins,Language.C.Analysis.ConstEval=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Analysis.ConstEval,Language.C.Analysis.Debug=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Analysis.Debug,Language.C.Analysis.DeclAnalysis=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Analysis.DeclAnalysis,Language.C.Analysis.DefTable=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Analysis.DefTable,Language.C.Analysis.Export=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Analysis.Export,Language.C.Analysis.NameSpaceMap=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Analysis.NameSpaceMap,Language.C.Analysis.SemError=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Analysis.SemError,Language.C.Analysis.SemRep=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Analysis.SemRep,Language.C.Analysis.TravMonad=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Analysis.TravMonad,Language.C.Analysis.TypeCheck=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Analysis.TypeCheck,Language.C.Analysis.TypeConversions=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Analysis.TypeConversions,Language.C.Analysis.TypeUtils=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Analysis.TypeUtils,Language.C.Data=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Data,Language.C.Data.Error=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Data.Error,Language.C.Data.Ident=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Data.Ident,Language.C.Data.InputStream=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Data.InputStream,Language.C.Data.Name=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Data.Name,Language.C.Data.Node=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Data.Node,Language.C.Data.Position=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Data.Position,Language.C.Parser=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Parser,Language.C.Pretty=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Pretty,Language.C.Syntax=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Syntax,Language.C.Syntax.AST=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Syntax.AST,Language.C.Syntax.Constants=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Syntax.Constants,Language.C.Syntax.Ops=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Syntax.Ops,Language.C.Syntax.Utils=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.Syntax.Utils,Language.C.System.GCC=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.System.GCC,Language.C.System.Preprocess=language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx:Language.C.System.Preprocess
-    unit language-c-0.7.1-GmU1X8lUAPpLDxDvJD109v-language-c-harness
+        Language.C=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C,Language.C.Analysis=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Analysis,Language.C.Analysis.AstAnalysis=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Analysis.AstAnalysis,Language.C.Analysis.Builtins=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Analysis.Builtins,Language.C.Analysis.ConstEval=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Analysis.ConstEval,Language.C.Analysis.Debug=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Analysis.Debug,Language.C.Analysis.DeclAnalysis=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Analysis.DeclAnalysis,Language.C.Analysis.DefTable=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Analysis.DefTable,Language.C.Analysis.Export=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Analysis.Export,Language.C.Analysis.NameSpaceMap=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Analysis.NameSpaceMap,Language.C.Analysis.SemError=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Analysis.SemError,Language.C.Analysis.SemRep=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Analysis.SemRep,Language.C.Analysis.TravMonad=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Analysis.TravMonad,Language.C.Analysis.TypeCheck=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Analysis.TypeCheck,Language.C.Analysis.TypeConversions=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Analysis.TypeConversions,Language.C.Analysis.TypeUtils=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Analysis.TypeUtils,Language.C.Data=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Data,Language.C.Data.Error=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Data.Error,Language.C.Data.Ident=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Data.Ident,Language.C.Data.InputStream=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Data.InputStream,Language.C.Data.Name=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Data.Name,Language.C.Data.Node=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Data.Node,Language.C.Data.Position=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Data.Position,Language.C.Parser=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Parser,Language.C.Pretty=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Pretty,Language.C.Syntax=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Syntax,Language.C.Syntax.AST=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Syntax.AST,Language.C.Syntax.Constants=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Syntax.Constants,Language.C.Syntax.Ops=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Syntax.Ops,Language.C.Syntax.Utils=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.Syntax.Utils,Language.C.System.GCC=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.System.GCC,Language.C.System.Preprocess=language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE:Language.C.System.Preprocess
+    unit language-c-0.7.2-LeZh2Tke464I1FeNTMVMwL-language-c-harness
         include base-4.11.0.0
-        include language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx
+        include language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE
         include directory-1.3.1.5
         include process-1.6.3.0
         include filepath-1.4.2
 Ready component graph:
-    definite language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx
+    definite language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE
         depends filepath-1.4.2
         depends base-4.11.0.0
         depends process-1.6.3.0
@@ -78,32 +79,32 @@ Ready component graph:
         depends pretty-1.1.3.6
         depends syb-0.7-12Yx8C7qfUAKpojD8I0eSI
         depends bytestring-0.10.8.2
-    definite language-c-0.7.1-GmU1X8lUAPpLDxDvJD109v-language-c-harness
+    definite language-c-0.7.2-LeZh2Tke464I1FeNTMVMwL-language-c-harness
         depends base-4.11.0.0
-        depends language-c-0.7.1-Fl3iXTriRtI6mdJFDMxRdx
+        depends language-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE
         depends directory-1.3.1.5
         depends process-1.6.3.0
         depends filepath-1.4.2
 Using Cabal-2.1.0.0 compiled by ghc-8.4
 Using compiler: ghc-8.4.0.20180204
 Using install prefix:
-/nix/store/8bwsdzg0ha48js35v3rxpkl1jyiy5vz7-language-c-0.7.1
+/nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2
 Executables installed in:
-/nix/store/8bwsdzg0ha48js35v3rxpkl1jyiy5vz7-language-c-0.7.1/bin
+/nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2/bin
 Libraries installed in:
-/nix/store/8bwsdzg0ha48js35v3rxpkl1jyiy5vz7-language-c-0.7.1/lib/ghc-8.4.0.20180204/language-c-0.7.1
+/nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2/lib/ghc-8.4.0.20180204/language-c-0.7.2
 Dynamic Libraries installed in:
-/nix/store/8bwsdzg0ha48js35v3rxpkl1jyiy5vz7-language-c-0.7.1/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+/nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
 Private executables installed in:
-/nix/store/8bwsdzg0ha48js35v3rxpkl1jyiy5vz7-language-c-0.7.1/libexec/x86_64-linux-ghc-8.4.0.20180204/language-c-0.7.1
+/nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2/libexec/x86_64-linux-ghc-8.4.0.20180204/language-c-0.7.2
 Data files installed in:
-/nix/store/8bwsdzg0ha48js35v3rxpkl1jyiy5vz7-language-c-0.7.1/share/x86_64-linux-ghc-8.4.0.20180204/language-c-0.7.1
+/nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2/share/x86_64-linux-ghc-8.4.0.20180204/language-c-0.7.2
 Documentation installed in:
-/nix/store/98vx39lhk2bwmq0fp0akwhj5005r7wx0-language-c-0.7.1-doc/share/doc
+/nix/store/mfqwmdl1zqldriqw7c3dpzxy6kan48bn-language-c-0.7.2-doc/share/doc
 Configuration files installed in:
-/nix/store/8bwsdzg0ha48js35v3rxpkl1jyiy5vz7-language-c-0.7.1/etc
+/nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2/etc
 Using alex version 3.2.3 found on system at:
-/nix/store/yrvzkbazjjvk2vbawpy74nnvnb2ffrdl-alex-3.2.3/bin/alex
+/nix/store/ch9z8sqypslmbb00bxgim3ypqvdi6khn-alex-3.2.3/bin/alex
 Using ar found on system at:
 /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
 No c2hs found
@@ -145,8 +146,8 @@ Using tar found on system at:
 /nix/store/2waj1y5v572sbigjhqbmhx178vfak1l0-gnutar-1.30/bin/tar
 No uhc found
 building
-Preprocessing library for language-c-0.7.1..
-Building library for language-c-0.7.1..
+Preprocessing library for language-c-0.7.2..
+Building library for language-c-0.7.2..
 [ 1 of 39] Compiling Language.C.Analysis.NameSpaceMap ( src/Language/C/Analysis/NameSpaceMap.hs, dist/build/Language/C/Analysis/NameSpaceMap.o )
 [ 2 of 39] Compiling Language.C.Data.InputStream ( src/Language/C/Data/InputStream.hs, dist/build/Language/C/Data/InputStream.o )
 [ 3 of 39] Compiling Language.C.Data.Name ( src/Language/C/Data/Name.hs, dist/build/Language/C/Data/Name.o )
@@ -200,20 +201,330 @@ src/Language/C/Analysis/DefTable.hs:109:21: warning: [-Wdeprecations]
 [37 of 39] Compiling Language.C.System.Preprocess ( src/Language/C/System/Preprocess.hs, dist/build/Language/C/System/Preprocess.o )
 [38 of 39] Compiling Language.C.System.GCC ( src/Language/C/System/GCC.hs, dist/build/Language/C/System/GCC.o )
 [39 of 39] Compiling Language.C       ( src/Language/C.hs, dist/build/Language/C.o )
-Preprocessing test suite 'language-c-harness' for language-c-0.7.1..
-Building test suite 'language-c-harness' for language-c-0.7.1..
+Preprocessing test suite 'language-c-harness' for language-c-0.7.2..
+Building test suite 'language-c-harness' for language-c-0.7.2..
 [1 of 1] Compiling Main             ( test/harness/run-harness.hs, dist/build/language-c-harness/language-c-harness-tmp/Main.dyn_o )
 Linking dist/build/language-c-harness/language-c-harness ...
 running tests
 Running 1 test suites...
 Test suite language-c-harness: RUNNING...
-Changing to test directory test/harness and compiling
-cd ../.. && cabal build
-/bin/sh: cabal: command not found
-make: *** [Makefile:22: build_lib] Error 127
-language-c-harness: callProcess: make "prepare" (exit 2): failed
-Test suite language-c-harness: FAIL
-Test suite logged to: dist/test/language-c-0.7.1-language-c-harness.log
-0 of 1 test suites (0 of 1 test cases) passed.
-builder for ‘/nix/store/p4fmld7q1q50241dl4gvxddlszwllx6m-language-c-0.7.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/p4fmld7q1q50241dl4gvxddlszwllx6m-language-c-0.7.1.drv’ failed
+Test suite language-c-harness: PASS
+Test suite logged to: dist/test/language-c-0.7.2-language-c-harness.log
+1 of 1 test suites (1 of 1 test cases) passed.
+haddockPhase
+Running hscolour for language-c-0.7.2...
+Preprocessing library for language-c-0.7.2..
+Preprocessing test suite 'language-c-harness' for language-c-0.7.2..
+Preprocessing library for language-c-0.7.2..
+Running Haddock on library for language-c-0.7.2..
+
+<no location info>: warning: [-Wmissing-home-modules]
+    These modules are needed for compilation but not listed in your .cabal file's other-modules: Language.C.Analysis.AstAnalysis
+
+src/Language/C/Analysis/SemRep.hs:139:31: warning: [-Wdeprecations]
+    In the use of ‘foldWithKey’ (imported from Data.Map):
+    Deprecated: "As of version 0.4, replaced by 'foldrWithKey'."
+    |
+139 | splitIdentDecls include_all = Map.foldWithKey (if include_all then deal else deal') (Map.empty,(Map.empty,Map.empty,Map.empty))
+    |                               ^^^^^^^^^^^^^^^
+
+src/Language/C/Analysis/DefTable.hs:109:21: warning: [-Wdeprecations]
+    In the use of ‘foldWithKey’ (imported from Data.Map):
+    Deprecated: "As of version 0.4, replaced by 'foldrWithKey'."
+    |
+109 | globalDefs deftbl = Map.foldWithKey insertDecl (GlobalDecls e gtags e) (globalNames $ identDecls deftbl)
+    |                     ^^^^^^^^^^^^^^^
+Haddock coverage:
+  71% ( 12 / 17) in 'Language.C.Analysis.NameSpaceMap'
+  Missing documentation for:
+    globalNames (src/Language/C/Analysis/NameSpaceMap.hs:66)
+    localNames (src/Language/C/Analysis/NameSpaceMap.hs:70)
+    hasLocalNames (src/Language/C/Analysis/NameSpaceMap.hs:68)
+    lookupGlobal (src/Language/C/Analysis/NameSpaceMap.hs:133)
+    lookupInnermostScope (src/Language/C/Analysis/NameSpaceMap.hs:136)
+  90% (  9 / 10) in 'Language.C.Data.InputStream'
+  Missing documentation for:
+    InputStream (src/Language/C/Data/InputStream.hs:70)
+ 100% (  4 /  4) in 'Language.C.Data.Name'
+  90% ( 19 / 21) in 'Language.C.Data.Position'
+  Missing documentation for:
+    posFile (src/Language/C/Data/Position.hs:50)
+    posParent (src/Language/C/Data/Position.hs:53)
+  75% ( 12 / 16) in 'Language.C.Data.Node'
+  Missing documentation for:
+    internalNode (src/Language/C/Data/Node.hs:93)
+    fileOfNode (src/Language/C/Data/Node.hs:80)
+    posOfNode (src/Language/C/Data/Node.hs:78)
+    nameOfNode (src/Language/C/Data/Node.hs:75)
+ 100% ( 12 / 12) in 'Language.C.Data.Ident'
+  79% ( 19 / 24) in 'Language.C.Data.Error'
+  Missing documentation for:
+    showError (src/Language/C/Data/Error.hs:131)
+    mkErrorInfo (src/Language/C/Data/Error.hs:60)
+    unsupportedFeature (src/Language/C/Data/Error.hs:113)
+    unsupportedFeature_ (src/Language/C/Data/Error.hs:116)
+    userErr (src/Language/C/Data/Error.hs:126)
+  85% ( 34 / 40) in 'Language.C.Data'
+  Missing documentation for:
+    posFile (src/Language/C/Data/Position.hs:50)
+    posParent (src/Language/C/Data/Position.hs:53)
+    fileOfNode (src/Language/C/Data/Node.hs:80)
+    posOfNode (src/Language/C/Data/Node.hs:78)
+    nameOfNode (src/Language/C/Data/Node.hs:75)
+    internalNode (src/Language/C/Data/Node.hs:93)
+  58% ( 23 / 40) in 'Language.C.Syntax.Constants'
+  Missing documentation for:
+    escapeChar (src/Language/C/Syntax/Constants.hs:233)
+    unescapeChar (src/Language/C/Syntax/Constants.hs:246)
+    unescapeString (src/Language/C/Syntax/Constants.hs:273)
+    Flags (src/Language/C/Syntax/Constants.hs:288)
+    noFlags (src/Language/C/Syntax/Constants.hs:289)
+    setFlag (src/Language/C/Syntax/Constants.hs:291)
+    clearFlag (src/Language/C/Syntax/Constants.hs:293)
+    testFlag (src/Language/C/Syntax/Constants.hs:295)
+    CInteger (src/Language/C/Syntax/Constants.hs:100)
+    getCInteger (src/Language/C/Syntax/Constants.hs:134)
+    readCInteger (src/Language/C/Syntax/Constants.hs:114)
+    cFloat (src/Language/C/Syntax/Constants.hs:149)
+    readCFloat (src/Language/C/Syntax/Constants.hs:153)
+    cString (src/Language/C/Syntax/Constants.hs:176)
+    cString_w (src/Language/C/Syntax/Constants.hs:178)
+    getCString (src/Language/C/Syntax/Constants.hs:182)
+    readClangCVersion (src/Language/C/Syntax/Constants.hs:164)
+  54% (  7 / 13) in 'Language.C.Syntax.Ops'
+  Missing documentation for:
+    assignBinop (src/Language/C/Syntax/Ops.hs:43)
+    isCmpOp (src/Language/C/Syntax/Ops.hs:78)
+    isPtrOp (src/Language/C/Syntax/Ops.hs:81)
+    isBitOp (src/Language/C/Syntax/Ops.hs:84)
+    isLogicOp (src/Language/C/Syntax/Ops.hs:87)
+    isEffectfulOp (src/Language/C/Syntax/Ops.hs:104)
+  62% ( 45 / 73) in 'Language.C.Syntax.AST'
+  Missing documentation for:
+    CTranslationUnit (src/Language/C/Syntax/AST.hs:72)
+    CExternalDeclaration (src/Language/C/Syntax/AST.hs:80)
+    CFunctionDef (src/Language/C/Syntax/AST.hs:100)
+    CDeclaration (src/Language/C/Syntax/AST.hs:153)
+    CStructureUnion (src/Language/C/Syntax/AST.hs:504)
+    CEnumeration (src/Language/C/Syntax/AST.hs:533)
+    CFunctionSpecifier (src/Language/C/Syntax/AST.hs:479)
+    CDeclarationSpecifier (src/Language/C/Syntax/AST.hs:386)
+    CStorageSpecifier (src/Language/C/Syntax/AST.hs:413)
+    CTypeSpecifier (src/Language/C/Syntax/AST.hs:430)
+    CAlignmentSpecifier (src/Language/C/Syntax/AST.hs:487)
+    CTypeQualifier (src/Language/C/Syntax/AST.hs:465)
+    CAttribute (src/Language/C/Syntax/AST.hs:613)
+    CDeclarator (src/Language/C/Syntax/AST.hs:219)
+    CDerivedDeclarator (src/Language/C/Syntax/AST.hs:235)
+    CArraySize (src/Language/C/Syntax/AST.hs:256)
+    CInitializer (src/Language/C/Syntax/AST.hs:550)
+    CInitializerList (src/Language/C/Syntax/AST.hs:591)
+    CPartDesignator (src/Language/C/Syntax/AST.hs:598)
+    CStatement (src/Language/C/Syntax/AST.hs:265)
+    CCompoundBlockItem (src/Language/C/Syntax/AST.hs:375)
+    CAssemblyStatement (src/Language/C/Syntax/AST.hs:347)
+    CAssemblyOperand (src/Language/C/Syntax/AST.hs:362)
+    CExpression (src/Language/C/Syntax/AST.hs:625)
+    CBuiltinThing (src/Language/C/Syntax/AST.hs:716)
+    cstringOfLit (src/Language/C/Syntax/AST.hs:740)
+    CConstant (src/Language/C/Syntax/AST.hs:726)
+    CStringLiteral (src/Language/C/Syntax/AST.hs:736)
+ 100% (  5 /  5) in 'Language.C.Syntax'
+ 100% (  5 /  5) in 'Language.C.Pretty'
+  80% ( 12 / 15) in 'Language.C.Parser'
+  Missing documentation for:
+    P (src/Language/C/Parser/ParserMonad.hs:73)
+    builtinTypeNames (src/Language/C/Parser/Builtin.hs:20)
+    ParseError (src/Language/C/Parser/ParserMonad.hs:54)
+  89% ( 70 / 79) in 'Language.C.Analysis.SemRep'
+  Missing documentation for:
+    isExtDecl (src/Language/C/Analysis/SemRep.hs:273)
+    FunctionAttrs (src/Language/C/Analysis/SemRep.hs:292)
+    noFunctionAttrs (src/Language/C/Analysis/SemRep.hs:295)
+    ThreadLocal (src/Language/C/Analysis/SemRep.hs:318)
+    Register (src/Language/C/Analysis/SemRep.hs:319)
+    EnumTypeRef (src/Language/C/Analysis/SemRep.hs:449)
+    identOfVarName (src/Language/C/Analysis/SemRep.hs:538)
+    isNoName (src/Language/C/Analysis/SemRep.hs:542)
+    Attributes (src/Language/C/Analysis/SemRep.hs:573)
+  25% (  1 /  4) in 'Language.C.Analysis.TypeConversions'
+  Missing documentation for:
+    Module header
+    floatConversion (src/Language/C/Analysis/TypeConversions.hs:34)
+    intConversion (src/Language/C/Analysis/TypeConversions.hs:37)
+  36% (  4 / 11) in 'Language.C.Analysis.SemError'
+  Missing documentation for:
+    invalidAST (src/Language/C/Analysis/SemError.hs:57)
+    badSpecifierError (src/Language/C/Analysis/SemError.hs:65)
+    TypeMismatch (src/Language/C/Analysis/SemError.hs:50)
+    typeMismatch (src/Language/C/Analysis/SemError.hs:70)
+    RedefInfo (src/Language/C/Analysis/SemError.hs:47)
+    RedefKind (src/Language/C/Analysis/SemError.hs:48)
+    redefinition (src/Language/C/Analysis/SemError.hs:107)
+  84% ( 27 / 32) in 'Language.C.Analysis.DefTable'
+  Missing documentation for:
+    identOfTyDecl (src/Language/C/Analysis/DefTable.hs:77)
+    TagFwdDecl (src/Language/C/Analysis/DefTable.hs:80)
+    inFileScope (src/Language/C/Analysis/DefTable.hs:116)
+    declStatusDescr (src/Language/C/Analysis/DefTable.hs:171)
+    defineTypeDef (src/Language/C/Analysis/DefTable.hs:219)
+  84% ( 31 / 37) in 'Language.C.Analysis.TypeUtils'
+  Missing documentation for:
+    Module header
+    typeQualsUpd (src/Language/C/Analysis/TypeUtils.hs:165)
+    typeAttrsUpd (src/Language/C/Analysis/TypeUtils.hs:182)
+    canonicalType (src/Language/C/Analysis/TypeUtils.hs:319)
+    getIntType (src/Language/C/Analysis/TypeUtils.hs:331)
+    getFloatType (src/Language/C/Analysis/TypeUtils.hs:339)
+   0% (  0 /  2) in 'Language.C.Analysis.Builtins'
+  Missing documentation for:
+    Module header
+    builtins (src/Language/C/Analysis/Builtins.hs:9)
+  49% ( 28 / 57) in 'Language.C.Analysis.TravMonad'
+  Missing documentation for:
+    MonadName (src/Language/C/Analysis/TravMonad.hs:72)
+    MonadSymtab (src/Language/C/Analysis/TravMonad.hs:76)
+    MonadCError (src/Language/C/Analysis/TravMonad.hs:83)
+    handleEnumeratorDef (src/Language/C/Analysis/TravMonad.hs:133)
+    handleTypeDef (src/Language/C/Analysis/TravMonad.hs:140)
+    handleAsmBlock (src/Language/C/Analysis/TravMonad.hs:154)
+    enterPrototypeScope (src/Language/C/Analysis/TravMonad.hs:283)
+    leavePrototypeScope (src/Language/C/Analysis/TravMonad.hs:286)
+    enterFunctionScope (src/Language/C/Analysis/TravMonad.hs:289)
+    leaveFunctionScope (src/Language/C/Analysis/TravMonad.hs:292)
+    enterBlockScope (src/Language/C/Analysis/TravMonad.hs:295)
+    leaveBlockScope (src/Language/C/Analysis/TravMonad.hs:298)
+    handleTravError (src/Language/C/Analysis/TravMonad.hs:360)
+    warn (src/Language/C/Analysis/TravMonad.hs:376)
+    runTrav (src/Language/C/Analysis/TravMonad.hs:393)
+    runTrav_ (src/Language/C/Analysis/TravMonad.hs:403)
+    TravState (src/Language/C/Analysis/TravMonad.hs:461)
+    initTravState (src/Language/C/Analysis/TravMonad.hs:474)
+    withExtDeclHandler (src/Language/C/Analysis/TravMonad.hs:409)
+    modifyUserState (src/Language/C/Analysis/TravMonad.hs:486)
+    userState (src/Language/C/Analysis/TravMonad.hs:467)
+    getUserState (src/Language/C/Analysis/TravMonad.hs:489)
+    TravOptions (src/Language/C/Analysis/TravMonad.hs:456)
+    modifyOptions (src/Language/C/Analysis/TravMonad.hs:492)
+    travErrors (src/Language/C/Analysis/TravMonad.hs:471)
+    mapMaybeM (src/Language/C/Analysis/TravMonad.hs:503)
+    maybeM (src/Language/C/Analysis/TravMonad.hs:506)
+    mapSndM (src/Language/C/Analysis/TravMonad.hs:509)
+    concatMapM (src/Language/C/Analysis/TravMonad.hs:512)
+  25% (  3 / 12) in 'Language.C.Analysis.Export'
+  Missing documentation for:
+    exportTypeDecl (src/Language/C/Analysis/Export.hs:40)
+    exportTypeSpec (src/Language/C/Analysis/Export.hs:93)
+    exportTypeDef (src/Language/C/Analysis/Export.hs:48)
+    exportCompType (src/Language/C/Analysis/Export.hs:147)
+    exportCompTypeDecl (src/Language/C/Analysis/Export.hs:134)
+    exportCompTypeRef (src/Language/C/Analysis/Export.hs:155)
+    exportEnumType (src/Language/C/Analysis/Export.hs:158)
+    exportEnumTypeDecl (src/Language/C/Analysis/Export.hs:141)
+    exportEnumTypeRef (src/Language/C/Analysis/Export.hs:167)
+  25% (  1 /  4) in 'Language.C.Analysis.Debug'
+  Missing documentation for:
+    globalDeclStats (src/Language/C/Analysis/Debug.hs:61)
+    prettyAssocs (src/Language/C/Analysis/Debug.hs:33)
+    prettyAssocsWith (src/Language/C/Analysis/Debug.hs:35)
+  43% ( 12 / 28) in 'Language.C.Analysis.DeclAnalysis'
+  Missing documentation for:
+    tArraySize (src/Language/C/Analysis/DeclAnalysis.hs:403)
+    tTypeQuals (src/Language/C/Analysis/DeclAnalysis.hs:408)
+    canonicalTypeSpec (src/Language/C/Analysis/DeclAnalysis.hs:435)
+    NumBaseType (src/Language/C/Analysis/DeclAnalysis.hs:425)
+    SignSpec (src/Language/C/Analysis/DeclAnalysis.hs:426)
+    SizeMod (src/Language/C/Analysis/DeclAnalysis.hs:427)
+    NumTypeSpec (src/Language/C/Analysis/DeclAnalysis.hs:428)
+    TypeSpecAnalysis (src/Language/C/Analysis/DeclAnalysis.hs:431)
+    canonicalStorageSpec (src/Language/C/Analysis/DeclAnalysis.hs:478)
+    StorageSpec (src/Language/C/Analysis/DeclAnalysis.hs:126)
+    hasThreadLocalSpec (src/Language/C/Analysis/DeclAnalysis.hs:129)
+    isTypeDef (src/Language/C/Analysis/DeclAnalysis.hs:171)
+    VarDeclInfo (src/Language/C/Analysis/DeclAnalysis.hs:135)
+    getOnlyDeclr (src/Language/C/Analysis/DeclAnalysis.hs:586)
+    nameOfDecl (src/Language/C/Analysis/DeclAnalysis.hs:579)
+    analyseVarDecl' (src/Language/C/Analysis/DeclAnalysis.hs:137)
+   0% (  0 / 12) in 'Language.C.Analysis.ConstEval'
+  Missing documentation for:
+    Module header
+    MachineDesc (src/Language/C/Analysis/ConstEval.hs:21)
+    intExpr (src/Language/C/Analysis/ConstEval.hs:35)
+    sizeofType (src/Language/C/Analysis/ConstEval.hs:40)
+    alignofType (src/Language/C/Analysis/ConstEval.hs:64)
+    compSize (src/Language/C/Analysis/ConstEval.hs:78)
+    intOp (src/Language/C/Analysis/ConstEval.hs:99)
+    intUnOp (src/Language/C/Analysis/ConstEval.hs:121)
+    withWordBytes (src/Language/C/Analysis/ConstEval.hs:128)
+    boolValue (src/Language/C/Analysis/ConstEval.hs:131)
+    intValue (src/Language/C/Analysis/ConstEval.hs:137)
+    constEval (src/Language/C/Analysis/ConstEval.hs:142)
+  26% (  9 / 35) in 'Language.C.Analysis.TypeCheck'
+  Missing documentation for:
+    Module header
+    pType (src/Language/C/Analysis/TypeCheck.hs:32)
+    typeErrorOnLeft (src/Language/C/Analysis/TypeCheck.hs:35)
+    typeError (src/Language/C/Analysis/TypeCheck.hs:40)
+    notFound (src/Language/C/Analysis/TypeCheck.hs:43)
+    checkScalar' (src/Language/C/Analysis/TypeCheck.hs:46)
+    checkIntegral' (src/Language/C/Analysis/TypeCheck.hs:49)
+    assignCompatible' (src/Language/C/Analysis/TypeCheck.hs:52)
+    binopType' (src/Language/C/Analysis/TypeCheck.hs:56)
+    conditionalType' (src/Language/C/Analysis/TypeCheck.hs:60)
+    checkScalar (src/Language/C/Analysis/TypeCheck.hs:63)
+    checkIntegral (src/Language/C/Analysis/TypeCheck.hs:73)
+    compositeSize (src/Language/C/Analysis/TypeCheck.hs:195)
+    sizeEqual (src/Language/C/Analysis/TypeCheck.hs:206)
+    mergeAttrs (src/Language/C/Analysis/TypeCheck.hs:210)
+    compositeParamDecl (src/Language/C/Analysis/TypeCheck.hs:213)
+    compositeParamDecl' (src/Language/C/Analysis/TypeCheck.hs:223)
+    compositeVarDecl (src/Language/C/Analysis/TypeCheck.hs:234)
+    compositeDeclAttrs (src/Language/C/Analysis/TypeCheck.hs:240)
+    castCompatible (src/Language/C/Analysis/TypeCheck.hs:244)
+    derefType (src/Language/C/Analysis/TypeCheck.hs:347)
+    varAddrType (src/Language/C/Analysis/TypeCheck.hs:357)
+    lookupSUE (src/Language/C/Analysis/TypeCheck.hs:404)
+    deepTypeAttrs (src/Language/C/Analysis/TypeCheck.hs:413)
+    typeDefAttrs (src/Language/C/Analysis/TypeCheck.hs:429)
+    sueAttrs (src/Language/C/Analysis/TypeCheck.hs:438)
+  29% (  2 /  7) in 'Language.C.Syntax.Utils'
+  Missing documentation for:
+    Module header
+    getSubStmts (src/Language/C/Syntax/Utils.hs:17)
+    mapSubStmts (src/Language/C/Syntax/Utils.hs:35)
+    mapBlockItemStmts (src/Language/C/Syntax/Utils.hs:60)
+    getLabels (src/Language/C/Syntax/Utils.hs:72)
+  56% (  9 / 16) in 'Language.C.Analysis.AstAnalysis'
+  Missing documentation for:
+    analyseFunctionBody (src/Language/C/Analysis/AstAnalysis.hs:297)
+    defineParams (src/Language/C/Analysis/AstAnalysis.hs:290)
+    tExpr (src/Language/C/Analysis/AstAnalysis.hs:485)
+    ExprSide (src/Language/C/Analysis/AstAnalysis.hs:330)
+    StmtCtx (src/Language/C/Analysis/AstAnalysis.hs:309)
+    tDesignator (src/Language/C/Analysis/AstAnalysis.hs:725)
+    defaultMD (src/Language/C/Analysis/AstAnalysis.hs:426)
+ 100% ( 13 / 13) in 'Language.C.Analysis'
+ 100% ( 10 / 10) in 'Language.C.System.Preprocess'
+ 100% (  3 /  3) in 'Language.C.System.GCC'
+ 100% (  7 /  7) in 'Language.C'
+Warning: Language.C.Data.Name: could not find link destinations for:
+    unsafeIndex unsafeRangeSize
+Warning: Language.C.Data: could not find link destinations for:
+    unsafeIndex unsafeRangeSize
+Documentation created: dist/doc/html/language-c/index.html,
+dist/doc/html/language-c/language-c.txt
+Preprocessing test suite 'language-c-harness' for language-c-0.7.2..
+installing
+Installing library in /nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2/lib/ghc-8.4.0.20180204/language-c-0.7.2
+post-installation fixup
+shrinking RPATHs of ELF executables and libraries in /nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2
+shrinking /nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204/libHSlanguage-c-0.7.2-6jRsvv9rcoE1pzHr9EpmQE-ghc8.4.0.20180204.so
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+stripping (with command strip and flags -S) in /nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2/lib 
+patching script interpreter paths in /nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2
+checking for references to /tmp/nix-build-language-c-0.7.2.drv-0 in /nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2...
+shrinking RPATHs of ELF executables and libraries in /nix/store/mfqwmdl1zqldriqw7c3dpzxy6kan48bn-language-c-0.7.2-doc
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+patching script interpreter paths in /nix/store/mfqwmdl1zqldriqw7c3dpzxy6kan48bn-language-c-0.7.2-doc
+checking for references to /tmp/nix-build-language-c-0.7.2.drv-0 in /nix/store/mfqwmdl1zqldriqw7c3dpzxy6kan48bn-language-c-0.7.2-doc...
+/nix/store/xy8pmqh6armxnbmdc8amiw2x1zsg0f3j-language-c-0.7.2

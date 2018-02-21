@@ -1,5 +1,5 @@
 these derivations will be built:
-  /nix/store/hnhzk86hhnjcl5hld7yr844j5q9nfblg-bytestring-trie-0.2.4.1.drv
+  /nix/store/c7p95jf7lqhgafqyyz4m1j50wsvxy2gy-bytestring-trie-0.2.4.1.drv
 building path(s) ‘/nix/store/7blkxfbsh33zlxkn8xgrzva88685ihcx-bytestring-trie-0.2.4.1’, ‘/nix/store/kzkw7gbny650xmcrv51d8lfpwazg45vs-bytestring-trie-0.2.4.1-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
@@ -130,5 +130,5 @@ src/Data/Trie/Internal.hs:306:10: error:
     |
 306 | instance (Monoid a) => Monoid (Trie a) where
     |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-builder for ‘/nix/store/hnhzk86hhnjcl5hld7yr844j5q9nfblg-bytestring-trie-0.2.4.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/hnhzk86hhnjcl5hld7yr844j5q9nfblg-bytestring-trie-0.2.4.1.drv’ failed
+builder for ‘/nix/store/c7p95jf7lqhgafqyyz4m1j50wsvxy2gy-bytestring-trie-0.2.4.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/c7p95jf7lqhgafqyyz4m1j50wsvxy2gy-bytestring-trie-0.2.4.1.drv’ failed

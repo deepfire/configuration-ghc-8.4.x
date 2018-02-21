@@ -1,3 +1,2 @@
 Setup: Encountered missing dependencies:
-ghc >=7.0 && <8.4
-/run/current-system/sw/bin/nix-shell: failed to build all dependencies
+free ==4.*, template-haskell >=2.4 && <2.13

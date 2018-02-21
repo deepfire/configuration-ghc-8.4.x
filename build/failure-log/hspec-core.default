@@ -1,3 +1,2 @@
-    • No instance for (Semigroup Summary)
-        arising from the superclasses of an instance declaration
-    • In the instance declaration for ‘Monoid Summary’
+Setup: Encountered missing dependencies:
+QuickCheck >=2.5.1 && <2.11

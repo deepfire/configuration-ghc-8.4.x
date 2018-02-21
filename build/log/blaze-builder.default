@@ -1,6 +1,6 @@
 these derivations will be built:
-  /nix/store/2sdjihfdvq9iydc1fm22a0c7j0xcfxb9-blaze-builder-0.4.0.2.drv
-building path(s) ‘/nix/store/5pn98z3p3xqwaf5raaymp8z5msph5jji-blaze-builder-0.4.0.2’, ‘/nix/store/ps5ll41m680bpdcxzaq6n6x710m6ghgp-blaze-builder-0.4.0.2-doc’
+  /nix/store/bf7arnj61n0ykr46z0zms2vwvig5v1if-blaze-builder-0.4.0.2.drv
+building path(s) ‘/nix/store/96ykn00q6d29vxmlhvrmcm1rc0778mlh-blaze-builder-0.4.0.2-doc’, ‘/nix/store/imqniir6r3q30ks74c4wn445zq6isjza-blaze-builder-0.4.0.2’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
@@ -13,11 +13,11 @@ setupCompileFlags: -package-db=/tmp/nix-build-blaze-builder-0.4.0.2.drv-0/packag
 [1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-blaze-builder-0.4.0.2.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/5pn98z3p3xqwaf5raaymp8z5msph5jji-blaze-builder-0.4.0.2 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/ps5ll41m680bpdcxzaq6n6x710m6ghgp-blaze-builder-0.4.0.2-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-blaze-builder-0.4.0.2.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/5pn98z3p3xqwaf5raaymp8z5msph5jji-blaze-builder-0.4.0.2/lib/ghc-8.4.0.20180204/blaze-builder-0.4.0.2 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/imqniir6r3q30ks74c4wn445zq6isjza-blaze-builder-0.4.0.2 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/96ykn00q6d29vxmlhvrmcm1rc0778mlh-blaze-builder-0.4.0.2-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-blaze-builder-0.4.0.2.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/imqniir6r3q30ks74c4wn445zq6isjza-blaze-builder-0.4.0.2/lib/ghc-8.4.0.20180204/blaze-builder-0.4.0.2 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring blaze-builder-0.4.0.2...
 Dependency HUnit -any: using HUnit-1.6.0.0
-Dependency QuickCheck -any: using QuickCheck-2.10.1
+Dependency QuickCheck -any: using QuickCheck-2.11.3
 Dependency base ==4.*: using base-4.11.0.0
 Dependency blaze-builder -any: using blaze-builder-0.4.0.2
 Dependency bytestring >=0.10.4 && <1.0: using bytestring-0.10.8.2
@@ -32,75 +32,75 @@ Source component graph:
     component lib
     component test:test dependency lib
 Configured component graph:
-    component blaze-builder-0.4.0.2-FF5r3LJlZmXC8c5BpLGg4c
+    component blaze-builder-0.4.0.2-AqPjrFkGjWyARWGPhcYRwU
         include base-4.11.0.0
         include deepseq-1.4.3.0
         include text-1.2.3.0
         include bytestring-0.10.8.2
-    component blaze-builder-0.4.0.2-74UibmCg4oIJtZqnS6Nym3-test
+    component blaze-builder-0.4.0.2-FsXH9qWusyZKEfOEI1VFTc-test
         include base-4.11.0.0
-        include blaze-builder-0.4.0.2-FF5r3LJlZmXC8c5BpLGg4c
+        include blaze-builder-0.4.0.2-AqPjrFkGjWyARWGPhcYRwU
         include bytestring-0.10.8.2
         include HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
-        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         include test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
         include test-framework-hunit-0.3.0.2-AwNmJhDVSTyKAo7PIxpJSA
-        include test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
+        include test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
         include text-1.2.3.0
         include utf8-string-1.0.1.1-2cokAEWVuL98LKJDrRjVdP
 Linked component graph:
-    unit blaze-builder-0.4.0.2-FF5r3LJlZmXC8c5BpLGg4c
+    unit blaze-builder-0.4.0.2-AqPjrFkGjWyARWGPhcYRwU
         include base-4.11.0.0
         include deepseq-1.4.3.0
         include text-1.2.3.0
         include bytestring-0.10.8.2
-        Blaze.ByteString.Builder=blaze-builder-0.4.0.2-FF5r3LJlZmXC8c5BpLGg4c:Blaze.ByteString.Builder,Blaze.ByteString.Builder.ByteString=blaze-builder-0.4.0.2-FF5r3LJlZmXC8c5BpLGg4c:Blaze.ByteString.Builder.ByteString,Blaze.ByteString.Builder.Char.Utf8=blaze-builder-0.4.0.2-FF5r3LJlZmXC8c5BpLGg4c:Blaze.ByteString.Builder.Char.Utf8,Blaze.ByteString.Builder.Char8=blaze-builder-0.4.0.2-FF5r3LJlZmXC8c5BpLGg4c:Blaze.ByteString.Builder.Char8,Blaze.ByteString.Builder.Compat.Write=blaze-builder-0.4.0.2-FF5r3LJlZmXC8c5BpLGg4c:Blaze.ByteString.Builder.Compat.Write,Blaze.ByteString.Builder.HTTP=blaze-builder-0.4.0.2-FF5r3LJlZmXC8c5BpLGg4c:Blaze.ByteString.Builder.HTTP,Blaze.ByteString.Builder.Html.Utf8=blaze-builder-0.4.0.2-FF5r3LJlZmXC8c5BpLGg4c:Blaze.ByteString.Builder.Html.Utf8,Blaze.ByteString.Builder.Int=blaze-builder-0.4.0.2-FF5r3LJlZmXC8c5BpLGg4c:Blaze.ByteString.Builder.Int,Blaze.ByteString.Builder.Internal.Write=blaze-builder-0.4.0.2-FF5r3LJlZmXC8c5BpLGg4c:Blaze.ByteString.Builder.Internal.Write,Blaze.ByteString.Builder.Word=blaze-builder-0.4.0.2-FF5r3LJlZmXC8c5BpLGg4c:Blaze.ByteString.Builder.Word
-    unit blaze-builder-0.4.0.2-74UibmCg4oIJtZqnS6Nym3-test
+        Blaze.ByteString.Builder=blaze-builder-0.4.0.2-AqPjrFkGjWyARWGPhcYRwU:Blaze.ByteString.Builder,Blaze.ByteString.Builder.ByteString=blaze-builder-0.4.0.2-AqPjrFkGjWyARWGPhcYRwU:Blaze.ByteString.Builder.ByteString,Blaze.ByteString.Builder.Char.Utf8=blaze-builder-0.4.0.2-AqPjrFkGjWyARWGPhcYRwU:Blaze.ByteString.Builder.Char.Utf8,Blaze.ByteString.Builder.Char8=blaze-builder-0.4.0.2-AqPjrFkGjWyARWGPhcYRwU:Blaze.ByteString.Builder.Char8,Blaze.ByteString.Builder.Compat.Write=blaze-builder-0.4.0.2-AqPjrFkGjWyARWGPhcYRwU:Blaze.ByteString.Builder.Compat.Write,Blaze.ByteString.Builder.HTTP=blaze-builder-0.4.0.2-AqPjrFkGjWyARWGPhcYRwU:Blaze.ByteString.Builder.HTTP,Blaze.ByteString.Builder.Html.Utf8=blaze-builder-0.4.0.2-AqPjrFkGjWyARWGPhcYRwU:Blaze.ByteString.Builder.Html.Utf8,Blaze.ByteString.Builder.Int=blaze-builder-0.4.0.2-AqPjrFkGjWyARWGPhcYRwU:Blaze.ByteString.Builder.Int,Blaze.ByteString.Builder.Internal.Write=blaze-builder-0.4.0.2-AqPjrFkGjWyARWGPhcYRwU:Blaze.ByteString.Builder.Internal.Write,Blaze.ByteString.Builder.Word=blaze-builder-0.4.0.2-AqPjrFkGjWyARWGPhcYRwU:Blaze.ByteString.Builder.Word
+    unit blaze-builder-0.4.0.2-FsXH9qWusyZKEfOEI1VFTc-test
         include base-4.11.0.0
-        include blaze-builder-0.4.0.2-FF5r3LJlZmXC8c5BpLGg4c
+        include blaze-builder-0.4.0.2-AqPjrFkGjWyARWGPhcYRwU
         include bytestring-0.10.8.2
         include HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
-        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         include test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
         include test-framework-hunit-0.3.0.2-AwNmJhDVSTyKAo7PIxpJSA
-        include test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
+        include test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
         include text-1.2.3.0
         include utf8-string-1.0.1.1-2cokAEWVuL98LKJDrRjVdP
 Ready component graph:
-    definite blaze-builder-0.4.0.2-FF5r3LJlZmXC8c5BpLGg4c
+    definite blaze-builder-0.4.0.2-AqPjrFkGjWyARWGPhcYRwU
         depends base-4.11.0.0
         depends deepseq-1.4.3.0
         depends text-1.2.3.0
         depends bytestring-0.10.8.2
-    definite blaze-builder-0.4.0.2-74UibmCg4oIJtZqnS6Nym3-test
+    definite blaze-builder-0.4.0.2-FsXH9qWusyZKEfOEI1VFTc-test
         depends base-4.11.0.0
-        depends blaze-builder-0.4.0.2-FF5r3LJlZmXC8c5BpLGg4c
+        depends blaze-builder-0.4.0.2-AqPjrFkGjWyARWGPhcYRwU
         depends bytestring-0.10.8.2
         depends HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
-        depends QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        depends QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         depends test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
         depends test-framework-hunit-0.3.0.2-AwNmJhDVSTyKAo7PIxpJSA
-        depends test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
+        depends test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
         depends text-1.2.3.0
         depends utf8-string-1.0.1.1-2cokAEWVuL98LKJDrRjVdP
 Using Cabal-2.1.0.0 compiled by ghc-8.4
 Using compiler: ghc-8.4.0.20180204
 Using install prefix:
-/nix/store/5pn98z3p3xqwaf5raaymp8z5msph5jji-blaze-builder-0.4.0.2
+/nix/store/imqniir6r3q30ks74c4wn445zq6isjza-blaze-builder-0.4.0.2
 Executables installed in:
-/nix/store/5pn98z3p3xqwaf5raaymp8z5msph5jji-blaze-builder-0.4.0.2/bin
+/nix/store/imqniir6r3q30ks74c4wn445zq6isjza-blaze-builder-0.4.0.2/bin
 Libraries installed in:
-/nix/store/5pn98z3p3xqwaf5raaymp8z5msph5jji-blaze-builder-0.4.0.2/lib/ghc-8.4.0.20180204/blaze-builder-0.4.0.2
+/nix/store/imqniir6r3q30ks74c4wn445zq6isjza-blaze-builder-0.4.0.2/lib/ghc-8.4.0.20180204/blaze-builder-0.4.0.2
 Dynamic Libraries installed in:
-/nix/store/5pn98z3p3xqwaf5raaymp8z5msph5jji-blaze-builder-0.4.0.2/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+/nix/store/imqniir6r3q30ks74c4wn445zq6isjza-blaze-builder-0.4.0.2/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
 Private executables installed in:
-/nix/store/5pn98z3p3xqwaf5raaymp8z5msph5jji-blaze-builder-0.4.0.2/libexec/x86_64-linux-ghc-8.4.0.20180204/blaze-builder-0.4.0.2
+/nix/store/imqniir6r3q30ks74c4wn445zq6isjza-blaze-builder-0.4.0.2/libexec/x86_64-linux-ghc-8.4.0.20180204/blaze-builder-0.4.0.2
 Data files installed in:
-/nix/store/5pn98z3p3xqwaf5raaymp8z5msph5jji-blaze-builder-0.4.0.2/share/x86_64-linux-ghc-8.4.0.20180204/blaze-builder-0.4.0.2
+/nix/store/imqniir6r3q30ks74c4wn445zq6isjza-blaze-builder-0.4.0.2/share/x86_64-linux-ghc-8.4.0.20180204/blaze-builder-0.4.0.2
 Documentation installed in:
-/nix/store/ps5ll41m680bpdcxzaq6n6x710m6ghgp-blaze-builder-0.4.0.2-doc/share/doc
+/nix/store/96ykn00q6d29vxmlhvrmcm1rc0778mlh-blaze-builder-0.4.0.2-doc/share/doc
 Configuration files installed in:
-/nix/store/5pn98z3p3xqwaf5raaymp8z5msph5jji-blaze-builder-0.4.0.2/etc
+/nix/store/imqniir6r3q30ks74c4wn445zq6isjza-blaze-builder-0.4.0.2/etc
 No alex found
 Using ar found on system at:
 /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
@@ -161,5 +161,5 @@ Blaze/ByteString/Builder/Internal/Write.hs:132:10: error:
     |
 132 | instance Monoid Write where
     |          ^^^^^^^^^^^^
-builder for ‘/nix/store/2sdjihfdvq9iydc1fm22a0c7j0xcfxb9-blaze-builder-0.4.0.2.drv’ failed with exit code 1
-error: build of ‘/nix/store/2sdjihfdvq9iydc1fm22a0c7j0xcfxb9-blaze-builder-0.4.0.2.drv’ failed
+builder for ‘/nix/store/bf7arnj61n0ykr46z0zms2vwvig5v1if-blaze-builder-0.4.0.2.drv’ failed with exit code 1
+error: build of ‘/nix/store/bf7arnj61n0ykr46z0zms2vwvig5v1if-blaze-builder-0.4.0.2.drv’ failed

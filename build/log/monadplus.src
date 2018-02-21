@@ -1,5 +1,5 @@
 these derivations will be built:
-  /nix/store/7wjikkmvch383p3az57jbz8y5shf3hf7-monadplus-1.4.2.drv
+  /nix/store/dkpjmmn4lb3fpkgf82y3jqycxmb543fm-monadplus-1.4.2.drv
 building path(s) ‘/nix/store/1cci0vj5v0sw5dbsahmgf6zmyrw949sy-monadplus-1.4.2’, ‘/nix/store/wsp9zdwkj8gakdqzi85srfi15dx4nd99-monadplus-1.4.2-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
@@ -98,5 +98,5 @@ src/Control/Monad/Plus.hs:256:10: error:
     |
 256 | instance Monoid (Partial a b) where
     |          ^^^^^^^^^^^^^^^^^^^^
-builder for ‘/nix/store/7wjikkmvch383p3az57jbz8y5shf3hf7-monadplus-1.4.2.drv’ failed with exit code 1
-error: build of ‘/nix/store/7wjikkmvch383p3az57jbz8y5shf3hf7-monadplus-1.4.2.drv’ failed
+builder for ‘/nix/store/dkpjmmn4lb3fpkgf82y3jqycxmb543fm-monadplus-1.4.2.drv’ failed with exit code 1
+error: build of ‘/nix/store/dkpjmmn4lb3fpkgf82y3jqycxmb543fm-monadplus-1.4.2.drv’ failed

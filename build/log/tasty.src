@@ -1,6 +1,6 @@
 these derivations will be built:
-  /nix/store/ykvsfnjwlj258sj2y5p9ahz54szkww0v-tasty-0.11.3.drv
-building path(s) ‘/nix/store/7ahw9fgcvn6v02zib9mvb32ajvchinz6-tasty-0.11.3’, ‘/nix/store/841n05bvkdlpsd9y5zjdpjdlpm60ik3q-tasty-0.11.3-doc’
+  /nix/store/xyj8pz37xib2zrw510p5gv6fqdj2ifrz-tasty-0.11.3.drv
+building path(s) ‘/nix/store/2ark26pvmkp7421y41g3cm6a7y4pcdbg-tasty-0.11.3-doc’, ‘/nix/store/4zkn4dy503mla8axnjzdrrypgv5n9jy0-tasty-0.11.3’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
@@ -13,7 +13,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-tasty-0.11.3.drv-0/package.conf.d 
 [1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-tasty-0.11.3.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/7ahw9fgcvn6v02zib9mvb32ajvchinz6-tasty-0.11.3 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/841n05bvkdlpsd9y5zjdpjdlpm60ik3q-tasty-0.11.3-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-tasty-0.11.3.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/7ahw9fgcvn6v02zib9mvb32ajvchinz6-tasty-0.11.3/lib/ghc-8.4.0.20180204/tasty-0.11.3 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/4zkn4dy503mla8axnjzdrrypgv5n9jy0-tasty-0.11.3 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/2ark26pvmkp7421y41g3cm6a7y4pcdbg-tasty-0.11.3-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-tasty-0.11.3.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/4zkn4dy503mla8axnjzdrrypgv5n9jy0-tasty-0.11.3/lib/ghc-8.4.0.20180204/tasty-0.11.3 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring tasty-0.11.3...
 Dependency ansi-terminal >=0.6.2: using ansi-terminal-0.7.1.1
@@ -31,14 +31,14 @@ Dependency unbounded-delays >=0.1: using unbounded-delays-0.1.1.0
 Dependency unix -any: using unix-2.7.2.2
 Source component graph: component lib
 Configured component graph:
-    component tasty-0.11.3-8xf0UjuQlgPGU878kOSjSm
+    component tasty-0.11.3-Fy9IX0N5L206qo4BG4Ty6o
         include base-4.11.0.0
         include stm-2.4.5.0
         include containers-0.5.11.0
         include mtl-2.2.2
         include tagged-0.8.5-H1YAr6QWnCT7DbgXfdWaeE
         include regex-tdfa-1.2.2-B3EERdfsd1k9J9S10BTqXv
-        include optparse-applicative-0.14.0.0-4YTWfiT1ah670OG87dqBxf
+        include optparse-applicative-0.14.0.0-7PaziOPaD8ZA1eh21SLKTP
         include deepseq-1.4.3.0
         include unbounded-delays-0.1.1.0-8kKcZPpsRbdLyD4jwW63xt
         include async-2.1.1.1-FZdwQ3vY98QDlGjjFEkrnm
@@ -46,30 +46,30 @@ Configured component graph:
         include clock-0.7.2-9ojER9UHxUfDzLgWDLbon3
         include unix-2.7.2.2
 Linked component graph:
-    unit tasty-0.11.3-8xf0UjuQlgPGU878kOSjSm
+    unit tasty-0.11.3-Fy9IX0N5L206qo4BG4Ty6o
         include base-4.11.0.0
         include stm-2.4.5.0
         include containers-0.5.11.0
         include mtl-2.2.2
         include tagged-0.8.5-H1YAr6QWnCT7DbgXfdWaeE
         include regex-tdfa-1.2.2-B3EERdfsd1k9J9S10BTqXv
-        include optparse-applicative-0.14.0.0-4YTWfiT1ah670OG87dqBxf
+        include optparse-applicative-0.14.0.0-7PaziOPaD8ZA1eh21SLKTP
         include deepseq-1.4.3.0
         include unbounded-delays-0.1.1.0-8kKcZPpsRbdLyD4jwW63xt
         include async-2.1.1.1-FZdwQ3vY98QDlGjjFEkrnm
         include ansi-terminal-0.7.1.1-Jc2vdYAgTjC7iSi3mDhHll
         include clock-0.7.2-9ojER9UHxUfDzLgWDLbon3
         include unix-2.7.2.2
-        Test.Tasty=tasty-0.11.3-8xf0UjuQlgPGU878kOSjSm:Test.Tasty,Test.Tasty.Ingredients=tasty-0.11.3-8xf0UjuQlgPGU878kOSjSm:Test.Tasty.Ingredients,Test.Tasty.Ingredients.Basic=tasty-0.11.3-8xf0UjuQlgPGU878kOSjSm:Test.Tasty.Ingredients.Basic,Test.Tasty.Ingredients.ConsoleReporter=tasty-0.11.3-8xf0UjuQlgPGU878kOSjSm:Test.Tasty.Ingredients.ConsoleReporter,Test.Tasty.Options=tasty-0.11.3-8xf0UjuQlgPGU878kOSjSm:Test.Tasty.Options,Test.Tasty.Providers=tasty-0.11.3-8xf0UjuQlgPGU878kOSjSm:Test.Tasty.Providers,Test.Tasty.Runners=tasty-0.11.3-8xf0UjuQlgPGU878kOSjSm:Test.Tasty.Runners
+        Test.Tasty=tasty-0.11.3-Fy9IX0N5L206qo4BG4Ty6o:Test.Tasty,Test.Tasty.Ingredients=tasty-0.11.3-Fy9IX0N5L206qo4BG4Ty6o:Test.Tasty.Ingredients,Test.Tasty.Ingredients.Basic=tasty-0.11.3-Fy9IX0N5L206qo4BG4Ty6o:Test.Tasty.Ingredients.Basic,Test.Tasty.Ingredients.ConsoleReporter=tasty-0.11.3-Fy9IX0N5L206qo4BG4Ty6o:Test.Tasty.Ingredients.ConsoleReporter,Test.Tasty.Options=tasty-0.11.3-Fy9IX0N5L206qo4BG4Ty6o:Test.Tasty.Options,Test.Tasty.Providers=tasty-0.11.3-Fy9IX0N5L206qo4BG4Ty6o:Test.Tasty.Providers,Test.Tasty.Runners=tasty-0.11.3-Fy9IX0N5L206qo4BG4Ty6o:Test.Tasty.Runners
 Ready component graph:
-    definite tasty-0.11.3-8xf0UjuQlgPGU878kOSjSm
+    definite tasty-0.11.3-Fy9IX0N5L206qo4BG4Ty6o
         depends base-4.11.0.0
         depends stm-2.4.5.0
         depends containers-0.5.11.0
         depends mtl-2.2.2
         depends tagged-0.8.5-H1YAr6QWnCT7DbgXfdWaeE
         depends regex-tdfa-1.2.2-B3EERdfsd1k9J9S10BTqXv
-        depends optparse-applicative-0.14.0.0-4YTWfiT1ah670OG87dqBxf
+        depends optparse-applicative-0.14.0.0-7PaziOPaD8ZA1eh21SLKTP
         depends deepseq-1.4.3.0
         depends unbounded-delays-0.1.1.0-8kKcZPpsRbdLyD4jwW63xt
         depends async-2.1.1.1-FZdwQ3vY98QDlGjjFEkrnm
@@ -78,21 +78,21 @@ Ready component graph:
         depends unix-2.7.2.2
 Using Cabal-2.1.0.0 compiled by ghc-8.4
 Using compiler: ghc-8.4.0.20180204
-Using install prefix: /nix/store/7ahw9fgcvn6v02zib9mvb32ajvchinz6-tasty-0.11.3
+Using install prefix: /nix/store/4zkn4dy503mla8axnjzdrrypgv5n9jy0-tasty-0.11.3
 Executables installed in:
-/nix/store/7ahw9fgcvn6v02zib9mvb32ajvchinz6-tasty-0.11.3/bin
+/nix/store/4zkn4dy503mla8axnjzdrrypgv5n9jy0-tasty-0.11.3/bin
 Libraries installed in:
-/nix/store/7ahw9fgcvn6v02zib9mvb32ajvchinz6-tasty-0.11.3/lib/ghc-8.4.0.20180204/tasty-0.11.3
+/nix/store/4zkn4dy503mla8axnjzdrrypgv5n9jy0-tasty-0.11.3/lib/ghc-8.4.0.20180204/tasty-0.11.3
 Dynamic Libraries installed in:
-/nix/store/7ahw9fgcvn6v02zib9mvb32ajvchinz6-tasty-0.11.3/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+/nix/store/4zkn4dy503mla8axnjzdrrypgv5n9jy0-tasty-0.11.3/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
 Private executables installed in:
-/nix/store/7ahw9fgcvn6v02zib9mvb32ajvchinz6-tasty-0.11.3/libexec/x86_64-linux-ghc-8.4.0.20180204/tasty-0.11.3
+/nix/store/4zkn4dy503mla8axnjzdrrypgv5n9jy0-tasty-0.11.3/libexec/x86_64-linux-ghc-8.4.0.20180204/tasty-0.11.3
 Data files installed in:
-/nix/store/7ahw9fgcvn6v02zib9mvb32ajvchinz6-tasty-0.11.3/share/x86_64-linux-ghc-8.4.0.20180204/tasty-0.11.3
+/nix/store/4zkn4dy503mla8axnjzdrrypgv5n9jy0-tasty-0.11.3/share/x86_64-linux-ghc-8.4.0.20180204/tasty-0.11.3
 Documentation installed in:
-/nix/store/841n05bvkdlpsd9y5zjdpjdlpm60ik3q-tasty-0.11.3-doc/share/doc
+/nix/store/2ark26pvmkp7421y41g3cm6a7y4pcdbg-tasty-0.11.3-doc/share/doc
 Configuration files installed in:
-/nix/store/7ahw9fgcvn6v02zib9mvb32ajvchinz6-tasty-0.11.3/etc
+/nix/store/4zkn4dy503mla8axnjzdrrypgv5n9jy0-tasty-0.11.3/etc
 No alex found
 Using ar found on system at:
 /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
@@ -176,5 +176,5 @@ Test/Tasty/Runners/Reducers.hs:57:10: error:
 57 | instance (Applicative f, Monoid a) => Monoid (Ap f a) where
    |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [14 of 18] Compiling Test.Tasty.Runners.Utils ( Test/Tasty/Runners/Utils.hs, dist/build/Test/Tasty/Runners/Utils.o )
-builder for ‘/nix/store/ykvsfnjwlj258sj2y5p9ahz54szkww0v-tasty-0.11.3.drv’ failed with exit code 1
-error: build of ‘/nix/store/ykvsfnjwlj258sj2y5p9ahz54szkww0v-tasty-0.11.3.drv’ failed
+builder for ‘/nix/store/xyj8pz37xib2zrw510p5gv6fqdj2ifrz-tasty-0.11.3.drv’ failed with exit code 1
+error: build of ‘/nix/store/xyj8pz37xib2zrw510p5gv6fqdj2ifrz-tasty-0.11.3.drv’ failed

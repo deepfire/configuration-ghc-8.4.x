@@ -1,6 +1,6 @@
 these derivations will be built:
-  /nix/store/w8cb85299fkrdjmjjqsh6vhaa22ps5lq-haskell-src-meta-0.8.0.2.drv
-building path(s) ‘/nix/store/4aj5f83y63pky8ifjg1xzpv9jfz2s9pm-haskell-src-meta-0.8.0.2-doc’, ‘/nix/store/km52gbnvl5wam430xla74mc5lr9i2vml-haskell-src-meta-0.8.0.2’
+  /nix/store/8aj7s3f72fnf8k13h2lxs7n2jxfc2mp1-haskell-src-meta-0.8.0.2.drv
+building path(s) ‘/nix/store/23fv4gpvavssr7sskfhkaaf5cf4iw7nj-haskell-src-meta-0.8.0.2’, ‘/nix/store/w3hpa1345xxcccq5x9vp0bmgai6cyzdz-haskell-src-meta-0.8.0.2-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
@@ -13,7 +13,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-haskell-src-meta-0.8.0.2.drv-0/pac
 [1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-haskell-src-meta-0.8.0.2.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/km52gbnvl5wam430xla74mc5lr9i2vml-haskell-src-meta-0.8.0.2 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/4aj5f83y63pky8ifjg1xzpv9jfz2s9pm-haskell-src-meta-0.8.0.2-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-haskell-src-meta-0.8.0.2.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/km52gbnvl5wam430xla74mc5lr9i2vml-haskell-src-meta-0.8.0.2/lib/ghc-8.4.0.20180204/haskell-src-meta-0.8.0.2 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/23fv4gpvavssr7sskfhkaaf5cf4iw7nj-haskell-src-meta-0.8.0.2 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/w3hpa1345xxcccq5x9vp0bmgai6cyzdz-haskell-src-meta-0.8.0.2-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-haskell-src-meta-0.8.0.2.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/23fv4gpvavssr7sskfhkaaf5cf4iw7nj-haskell-src-meta-0.8.0.2/lib/ghc-8.4.0.20180204/haskell-src-meta-0.8.0.2 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring haskell-src-meta-0.8.0.2...
 CallStack (from HasCallStack):
@@ -27,5 +27,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 base >=4.6 && <4.11, template-haskell >=2.8 && <2.13
 
-builder for ‘/nix/store/w8cb85299fkrdjmjjqsh6vhaa22ps5lq-haskell-src-meta-0.8.0.2.drv’ failed with exit code 1
-error: build of ‘/nix/store/w8cb85299fkrdjmjjqsh6vhaa22ps5lq-haskell-src-meta-0.8.0.2.drv’ failed
+builder for ‘/nix/store/8aj7s3f72fnf8k13h2lxs7n2jxfc2mp1-haskell-src-meta-0.8.0.2.drv’ failed with exit code 1
+error: build of ‘/nix/store/8aj7s3f72fnf8k13h2lxs7n2jxfc2mp1-haskell-src-meta-0.8.0.2.drv’ failed

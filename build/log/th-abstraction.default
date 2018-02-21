@@ -1,5 +1,5 @@
 these derivations will be built:
-  /nix/store/q5jydd3mrhajgz5ya2xdkb5y86l4izkg-th-abstraction-0.2.6.0.drv
+  /nix/store/x2b2nrq82157sqpr8qflfy9kh1bnb4nx-th-abstraction-0.2.6.0.drv
 building path(s) ‘/nix/store/5nd8pl3wfmcwrabxhq1prmvddwjbf5sq-th-abstraction-0.2.6.0’, ‘/nix/store/6vpgzdb7748b3d44dc4593vdy794amj4-th-abstraction-0.2.6.0-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
@@ -27,5 +27,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 template-haskell >=2.5 && <2.13
 
-builder for ‘/nix/store/q5jydd3mrhajgz5ya2xdkb5y86l4izkg-th-abstraction-0.2.6.0.drv’ failed with exit code 1
-error: build of ‘/nix/store/q5jydd3mrhajgz5ya2xdkb5y86l4izkg-th-abstraction-0.2.6.0.drv’ failed
+builder for ‘/nix/store/x2b2nrq82157sqpr8qflfy9kh1bnb4nx-th-abstraction-0.2.6.0.drv’ failed with exit code 1
+error: build of ‘/nix/store/x2b2nrq82157sqpr8qflfy9kh1bnb4nx-th-abstraction-0.2.6.0.drv’ failed

@@ -1,6 +1,6 @@
 these derivations will be built:
-  /nix/store/ybjqn2qszcmpzyh59c39m2z3qllghc27-rapid-0.1.4.drv
-building path(s) ‘/nix/store/7lcwhd7gkr0yhsqm8y7agpifc7ygbmiy-rapid-0.1.4-doc’, ‘/nix/store/mqr1lw31bgrhblyw9dbklnh0j5cxga5s-rapid-0.1.4’
+  /nix/store/hklrcqnrrqm1gddlya4jd0kcm22lmcd7-rapid-0.1.4.drv
+building path(s) ‘/nix/store/98gwddj27xmnhbjcjgsdnzl90d9vkj8l-rapid-0.1.4-doc’, ‘/nix/store/x0yn39ngvkpjc6f1zr6556f8asrdfm7l-rapid-0.1.4’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
@@ -13,7 +13,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-rapid-0.1.4.drv-0/package.conf.d -
 [1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-rapid-0.1.4.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/mqr1lw31bgrhblyw9dbklnh0j5cxga5s-rapid-0.1.4 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/7lcwhd7gkr0yhsqm8y7agpifc7ygbmiy-rapid-0.1.4-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-rapid-0.1.4.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/mqr1lw31bgrhblyw9dbklnh0j5cxga5s-rapid-0.1.4/lib/ghc-8.4.0.20180204/rapid-0.1.4 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/x0yn39ngvkpjc6f1zr6556f8asrdfm7l-rapid-0.1.4 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/98gwddj27xmnhbjcjgsdnzl90d9vkj8l-rapid-0.1.4-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-rapid-0.1.4.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/x0yn39ngvkpjc6f1zr6556f8asrdfm7l-rapid-0.1.4/lib/ghc-8.4.0.20180204/rapid-0.1.4 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring rapid-0.1.4...
 CallStack (from HasCallStack):
@@ -27,5 +27,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 base >=4.8 && <4.11
 
-builder for ‘/nix/store/ybjqn2qszcmpzyh59c39m2z3qllghc27-rapid-0.1.4.drv’ failed with exit code 1
-error: build of ‘/nix/store/ybjqn2qszcmpzyh59c39m2z3qllghc27-rapid-0.1.4.drv’ failed
+builder for ‘/nix/store/hklrcqnrrqm1gddlya4jd0kcm22lmcd7-rapid-0.1.4.drv’ failed with exit code 1
+error: build of ‘/nix/store/hklrcqnrrqm1gddlya4jd0kcm22lmcd7-rapid-0.1.4.drv’ failed

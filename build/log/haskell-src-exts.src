@@ -1,5 +1,5 @@
 these derivations will be built:
-  /nix/store/y5jmsp9apky4kg752mkrb7vbm6qsghsz-haskell-src-exts-1.19.1.drv
+  /nix/store/05aqlblcbkmh78jnxa978gnj2phg27mk-haskell-src-exts-1.19.1.drv
 building path(s) ‘/nix/store/a5xh0zkxx3wj4xldim3vvhrrkl36hvrs-haskell-src-exts-1.19.1’, ‘/nix/store/v5n8402sj6n3vgxbk05n5c83igxvzdm4-haskell-src-exts-1.19.1-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
@@ -1141,5 +1141,5 @@ src/Language/Haskell/Exts/ParseMonad.hs:101:10: error:
     |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [15 of 17] Compiling Language.Haskell.Exts.ExactPrint ( src/Language/Haskell/Exts/ExactPrint.hs, dist/build/Language/Haskell/Exts/ExactPrint.o )
 [16 of 17] Compiling Language.Haskell.Exts.Build ( src/Language/Haskell/Exts/Build.hs, dist/build/Language/Haskell/Exts/Build.o )
-builder for ‘/nix/store/y5jmsp9apky4kg752mkrb7vbm6qsghsz-haskell-src-exts-1.19.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/y5jmsp9apky4kg752mkrb7vbm6qsghsz-haskell-src-exts-1.19.1.drv’ failed
+builder for ‘/nix/store/05aqlblcbkmh78jnxa978gnj2phg27mk-haskell-src-exts-1.19.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/05aqlblcbkmh78jnxa978gnj2phg27mk-haskell-src-exts-1.19.1.drv’ failed

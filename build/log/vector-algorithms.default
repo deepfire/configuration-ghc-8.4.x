@@ -1,6 +1,6 @@
 these derivations will be built:
-  /nix/store/5lmmrxnfzph53qalwh2hvfx9gfaw7b2x-vector-algorithms-0.7.0.1.drv
-building path(s) ‘/nix/store/8z4rwlmzns8l5hwfw6x1c5v5lh7bbpz9-vector-algorithms-0.7.0.1-doc’, ‘/nix/store/v7zsxll3igcrqwhz9n6sx67mmqlpp39c-vector-algorithms-0.7.0.1’
+  /nix/store/ncwzm5fxg83say3ry24ry5sqamaib4hh-vector-algorithms-0.7.0.1.drv
+building path(s) ‘/nix/store/6skddgv4fms8dk91dyf8fm34dgy8y69l-vector-algorithms-0.7.0.1-doc’, ‘/nix/store/jdh8nygryahzs6lsv9pvw5v883f39gy7-vector-algorithms-0.7.0.1’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
@@ -14,12 +14,12 @@ setupCompileFlags: -package-db=/tmp/nix-build-vector-algorithms-0.7.0.1.drv-0/pa
 [1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-vector-algorithms-0.7.0.1.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/v7zsxll3igcrqwhz9n6sx67mmqlpp39c-vector-algorithms-0.7.0.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/8z4rwlmzns8l5hwfw6x1c5v5lh7bbpz9-vector-algorithms-0.7.0.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-vector-algorithms-0.7.0.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/v7zsxll3igcrqwhz9n6sx67mmqlpp39c-vector-algorithms-0.7.0.1/lib/ghc-8.4.0.20180204/vector-algorithms-0.7.0.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/jdh8nygryahzs6lsv9pvw5v883f39gy7-vector-algorithms-0.7.0.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/6skddgv4fms8dk91dyf8fm34dgy8y69l-vector-algorithms-0.7.0.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-vector-algorithms-0.7.0.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/jdh8nygryahzs6lsv9pvw5v883f39gy7-vector-algorithms-0.7.0.1/lib/ghc-8.4.0.20180204/vector-algorithms-0.7.0.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring vector-algorithms-0.7.0.1...
 Flags chosen: bench=False, boundschecks=True, internalchecks=False,
 properties=True, unsafechecks=False
-Dependency QuickCheck >=2: using QuickCheck-2.10.1
+Dependency QuickCheck >=2: using QuickCheck-2.11.3
 Dependency base >=4.5 && <5: using base-4.11.0.0
 Dependency bytestring >=0.9 && <1.0: using bytestring-0.10.8.2
 Dependency containers -any: using containers-0.5.11.0
@@ -30,63 +30,63 @@ Source component graph:
     component lib
     component test:properties dependency lib
 Configured component graph:
-    component vector-algorithms-0.7.0.1-9hnJNHuLRFJ9hByh5nTzqH
+    component vector-algorithms-0.7.0.1-FlRSzN9h5WKLaoLK75ELXt
         include base-4.11.0.0
         include vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
         include primitive-0.6.3.0-CjyqfzwbTeFC8kYPPNlX3M
         include bytestring-0.10.8.2
-    component vector-algorithms-0.7.0.1-DI2gxPYGXphCBizjo0loTK-properties
+    component vector-algorithms-0.7.0.1-LC2AU5s5CrsJCcoddxS9rE-properties
         include base-4.11.0.0
         include bytestring-0.10.8.2
         include containers-0.5.11.0
-        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         include vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
-        include vector-algorithms-0.7.0.1-9hnJNHuLRFJ9hByh5nTzqH
+        include vector-algorithms-0.7.0.1-FlRSzN9h5WKLaoLK75ELXt
 Linked component graph:
-    unit vector-algorithms-0.7.0.1-9hnJNHuLRFJ9hByh5nTzqH
+    unit vector-algorithms-0.7.0.1-FlRSzN9h5WKLaoLK75ELXt
         include base-4.11.0.0
         include vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
         include primitive-0.6.3.0-CjyqfzwbTeFC8kYPPNlX3M
         include bytestring-0.10.8.2
-        Data.Vector.Algorithms.AmericanFlag=vector-algorithms-0.7.0.1-9hnJNHuLRFJ9hByh5nTzqH:Data.Vector.Algorithms.AmericanFlag,Data.Vector.Algorithms.Heap=vector-algorithms-0.7.0.1-9hnJNHuLRFJ9hByh5nTzqH:Data.Vector.Algorithms.Heap,Data.Vector.Algorithms.Insertion=vector-algorithms-0.7.0.1-9hnJNHuLRFJ9hByh5nTzqH:Data.Vector.Algorithms.Insertion,Data.Vector.Algorithms.Intro=vector-algorithms-0.7.0.1-9hnJNHuLRFJ9hByh5nTzqH:Data.Vector.Algorithms.Intro,Data.Vector.Algorithms.Merge=vector-algorithms-0.7.0.1-9hnJNHuLRFJ9hByh5nTzqH:Data.Vector.Algorithms.Merge,Data.Vector.Algorithms.Optimal=vector-algorithms-0.7.0.1-9hnJNHuLRFJ9hByh5nTzqH:Data.Vector.Algorithms.Optimal,Data.Vector.Algorithms.Radix=vector-algorithms-0.7.0.1-9hnJNHuLRFJ9hByh5nTzqH:Data.Vector.Algorithms.Radix,Data.Vector.Algorithms.Search=vector-algorithms-0.7.0.1-9hnJNHuLRFJ9hByh5nTzqH:Data.Vector.Algorithms.Search,Data.Vector.Algorithms.Tim=vector-algorithms-0.7.0.1-9hnJNHuLRFJ9hByh5nTzqH:Data.Vector.Algorithms.Tim
-    unit vector-algorithms-0.7.0.1-DI2gxPYGXphCBizjo0loTK-properties
+        Data.Vector.Algorithms.AmericanFlag=vector-algorithms-0.7.0.1-FlRSzN9h5WKLaoLK75ELXt:Data.Vector.Algorithms.AmericanFlag,Data.Vector.Algorithms.Heap=vector-algorithms-0.7.0.1-FlRSzN9h5WKLaoLK75ELXt:Data.Vector.Algorithms.Heap,Data.Vector.Algorithms.Insertion=vector-algorithms-0.7.0.1-FlRSzN9h5WKLaoLK75ELXt:Data.Vector.Algorithms.Insertion,Data.Vector.Algorithms.Intro=vector-algorithms-0.7.0.1-FlRSzN9h5WKLaoLK75ELXt:Data.Vector.Algorithms.Intro,Data.Vector.Algorithms.Merge=vector-algorithms-0.7.0.1-FlRSzN9h5WKLaoLK75ELXt:Data.Vector.Algorithms.Merge,Data.Vector.Algorithms.Optimal=vector-algorithms-0.7.0.1-FlRSzN9h5WKLaoLK75ELXt:Data.Vector.Algorithms.Optimal,Data.Vector.Algorithms.Radix=vector-algorithms-0.7.0.1-FlRSzN9h5WKLaoLK75ELXt:Data.Vector.Algorithms.Radix,Data.Vector.Algorithms.Search=vector-algorithms-0.7.0.1-FlRSzN9h5WKLaoLK75ELXt:Data.Vector.Algorithms.Search,Data.Vector.Algorithms.Tim=vector-algorithms-0.7.0.1-FlRSzN9h5WKLaoLK75ELXt:Data.Vector.Algorithms.Tim
+    unit vector-algorithms-0.7.0.1-LC2AU5s5CrsJCcoddxS9rE-properties
         include base-4.11.0.0
         include bytestring-0.10.8.2
         include containers-0.5.11.0
-        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         include vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
-        include vector-algorithms-0.7.0.1-9hnJNHuLRFJ9hByh5nTzqH
+        include vector-algorithms-0.7.0.1-FlRSzN9h5WKLaoLK75ELXt
 Ready component graph:
-    definite vector-algorithms-0.7.0.1-9hnJNHuLRFJ9hByh5nTzqH
+    definite vector-algorithms-0.7.0.1-FlRSzN9h5WKLaoLK75ELXt
         depends base-4.11.0.0
         depends vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
         depends primitive-0.6.3.0-CjyqfzwbTeFC8kYPPNlX3M
         depends bytestring-0.10.8.2
-    definite vector-algorithms-0.7.0.1-DI2gxPYGXphCBizjo0loTK-properties
+    definite vector-algorithms-0.7.0.1-LC2AU5s5CrsJCcoddxS9rE-properties
         depends base-4.11.0.0
         depends bytestring-0.10.8.2
         depends containers-0.5.11.0
-        depends QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        depends QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         depends vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
-        depends vector-algorithms-0.7.0.1-9hnJNHuLRFJ9hByh5nTzqH
+        depends vector-algorithms-0.7.0.1-FlRSzN9h5WKLaoLK75ELXt
 Using Cabal-2.1.0.0 compiled by ghc-8.4
 Using compiler: ghc-8.4.0.20180204
 Using install prefix:
-/nix/store/v7zsxll3igcrqwhz9n6sx67mmqlpp39c-vector-algorithms-0.7.0.1
+/nix/store/jdh8nygryahzs6lsv9pvw5v883f39gy7-vector-algorithms-0.7.0.1
 Executables installed in:
-/nix/store/v7zsxll3igcrqwhz9n6sx67mmqlpp39c-vector-algorithms-0.7.0.1/bin
+/nix/store/jdh8nygryahzs6lsv9pvw5v883f39gy7-vector-algorithms-0.7.0.1/bin
 Libraries installed in:
-/nix/store/v7zsxll3igcrqwhz9n6sx67mmqlpp39c-vector-algorithms-0.7.0.1/lib/ghc-8.4.0.20180204/vector-algorithms-0.7.0.1
+/nix/store/jdh8nygryahzs6lsv9pvw5v883f39gy7-vector-algorithms-0.7.0.1/lib/ghc-8.4.0.20180204/vector-algorithms-0.7.0.1
 Dynamic Libraries installed in:
-/nix/store/v7zsxll3igcrqwhz9n6sx67mmqlpp39c-vector-algorithms-0.7.0.1/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+/nix/store/jdh8nygryahzs6lsv9pvw5v883f39gy7-vector-algorithms-0.7.0.1/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
 Private executables installed in:
-/nix/store/v7zsxll3igcrqwhz9n6sx67mmqlpp39c-vector-algorithms-0.7.0.1/libexec/x86_64-linux-ghc-8.4.0.20180204/vector-algorithms-0.7.0.1
+/nix/store/jdh8nygryahzs6lsv9pvw5v883f39gy7-vector-algorithms-0.7.0.1/libexec/x86_64-linux-ghc-8.4.0.20180204/vector-algorithms-0.7.0.1
 Data files installed in:
-/nix/store/v7zsxll3igcrqwhz9n6sx67mmqlpp39c-vector-algorithms-0.7.0.1/share/x86_64-linux-ghc-8.4.0.20180204/vector-algorithms-0.7.0.1
+/nix/store/jdh8nygryahzs6lsv9pvw5v883f39gy7-vector-algorithms-0.7.0.1/share/x86_64-linux-ghc-8.4.0.20180204/vector-algorithms-0.7.0.1
 Documentation installed in:
-/nix/store/8z4rwlmzns8l5hwfw6x1c5v5lh7bbpz9-vector-algorithms-0.7.0.1-doc/share/doc
+/nix/store/6skddgv4fms8dk91dyf8fm34dgy8y69l-vector-algorithms-0.7.0.1-doc/share/doc
 Configuration files installed in:
-/nix/store/v7zsxll3igcrqwhz9n6sx67mmqlpp39c-vector-algorithms-0.7.0.1/etc
+/nix/store/jdh8nygryahzs6lsv9pvw5v883f39gy7-vector-algorithms-0.7.0.1/etc
 No alex found
 Using ar found on system at:
 /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
@@ -318,5 +318,5 @@ tests/properties/Tests.hs:127:51: error:
     |
 127 |   qc $ label "heapselect"   . prop_sized (const . prop_permutation)
     |                                                   ^^^^^^^^^^^^^^^^
-builder for ‘/nix/store/5lmmrxnfzph53qalwh2hvfx9gfaw7b2x-vector-algorithms-0.7.0.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/5lmmrxnfzph53qalwh2hvfx9gfaw7b2x-vector-algorithms-0.7.0.1.drv’ failed
+builder for ‘/nix/store/ncwzm5fxg83say3ry24ry5sqamaib4hh-vector-algorithms-0.7.0.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/ncwzm5fxg83say3ry24ry5sqamaib4hh-vector-algorithms-0.7.0.1.drv’ failed

@@ -1,5 +1,5 @@
 these derivations will be built:
-  /nix/store/n3mg1jwsvsqfj3pbn280spsi5grpnai4-unliftio-core-0.1.1.0.drv
+  /nix/store/sj00mvhvngwxk85v7iav76095xyqdmgf-unliftio-core-0.1.1.0.drv
 building path(s) ‘/nix/store/8rakqkfvjckk9jl0v3bhgjb2qw7ml3qn-unliftio-core-0.1.1.0’, ‘/nix/store/rwhpizp9jrvmxgq1acdb8pyn8jnzaj63-unliftio-core-0.1.1.0-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
@@ -27,5 +27,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 base >=4.5 && <4.11
 
-builder for ‘/nix/store/n3mg1jwsvsqfj3pbn280spsi5grpnai4-unliftio-core-0.1.1.0.drv’ failed with exit code 1
-error: build of ‘/nix/store/n3mg1jwsvsqfj3pbn280spsi5grpnai4-unliftio-core-0.1.1.0.drv’ failed
+builder for ‘/nix/store/sj00mvhvngwxk85v7iav76095xyqdmgf-unliftio-core-0.1.1.0.drv’ failed with exit code 1
+error: build of ‘/nix/store/sj00mvhvngwxk85v7iav76095xyqdmgf-unliftio-core-0.1.1.0.drv’ failed

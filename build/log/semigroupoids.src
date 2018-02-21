@@ -1,6 +1,6 @@
 these derivations will be built:
-  /nix/store/f1lxrc3ibd9nd2yg94j2p2chlc66h53h-semigroupoids-5.2.1.drv
-building path(s) ‘/nix/store/h44hiv14xp37pn23lrias8m3pji9rb05-semigroupoids-5.2.1-doc’, ‘/nix/store/v7zdv8phc4734pikv5yi1hm0yqwcf9rn-semigroupoids-5.2.1’
+  /nix/store/xkmbd9di7vylvwy07afl9bf8dnmm4fpw-semigroupoids-5.2.1.drv
+building path(s) ‘/nix/store/i4yazlw6ba7digz10na51k1ksihlpnng-semigroupoids-5.2.1’, ‘/nix/store/xrrvgv6a0b0kwaxmg0jjh441gzvmcr5w-semigroupoids-5.2.1-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
@@ -14,7 +14,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-semigroupoids-5.2.1.drv-0/package.
 [1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-semigroupoids-5.2.1.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/v7zdv8phc4734pikv5yi1hm0yqwcf9rn-semigroupoids-5.2.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/h44hiv14xp37pn23lrias8m3pji9rb05-semigroupoids-5.2.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-semigroupoids-5.2.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/v7zdv8phc4734pikv5yi1hm0yqwcf9rn-semigroupoids-5.2.1/lib/ghc-8.4.0.20180204/semigroupoids-5.2.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --disable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/i4yazlw6ba7digz10na51k1ksihlpnng-semigroupoids-5.2.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/xrrvgv6a0b0kwaxmg0jjh441gzvmcr5w-semigroupoids-5.2.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-semigroupoids-5.2.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/i4yazlw6ba7digz10na51k1ksihlpnng-semigroupoids-5.2.1/lib/ghc-8.4.0.20180204/semigroupoids-5.2.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --disable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring semigroupoids-5.2.1...
 Flags chosen: comonad=True, containers=True, contravariant=True,
@@ -34,69 +34,69 @@ Dependency transformers-compat ==0.5.*: using transformers-compat-0.5.1.4
 Dependency unordered-containers ==0.2.*: using unordered-containers-0.2.9.0
 Source component graph: component lib
 Configured component graph:
-    component semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj
+    component semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm
         include base-4.11.0.0
-        include base-orphans-0.6-DyOYeE6wgji31lQ7xhGZwd
-        include bifunctors-5.5.2-BtN7yFyApQHEeMleUpjWWR
+        include base-orphans-0.6-BFFScXfKnJEKHhXndhlOdO
+        include bifunctors-5.5.2-JmVwqHZaUG9BxzkzTlCaly
         include semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
         include transformers-0.5.5.0
         include transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
         include containers-0.5.11.0
         include contravariant-1.4.1-DWV5xdtLr6t812AdW18VMx
-        include distributive-0.5.3-7eFvZYoayu9Ia4zZ9sB2fh
-        include comonad-5.0.3-6FDWvsELYyqJigHwMyXlfE
+        include distributive-0.5.3-CpG8oAA5FNTIGevMWcmgEn
+        include comonad-5.0.3-ExNKBl5TkJNAu3dJXaqq6A
         include tagged-0.8.5-H1YAr6QWnCT7DbgXfdWaeE
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        include unordered-containers-0.2.9.0-AiK3CNhpw3s4Tl8U419yn6
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        include unordered-containers-0.2.9.0-FyfETF6kkcWDBCY6EzUP7S
 Linked component graph:
-    unit semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj
+    unit semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm
         include base-4.11.0.0
-        include base-orphans-0.6-DyOYeE6wgji31lQ7xhGZwd
-        include bifunctors-5.5.2-BtN7yFyApQHEeMleUpjWWR
+        include base-orphans-0.6-BFFScXfKnJEKHhXndhlOdO
+        include bifunctors-5.5.2-JmVwqHZaUG9BxzkzTlCaly
         include semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
         include transformers-0.5.5.0
         include transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
         include containers-0.5.11.0
         include contravariant-1.4.1-DWV5xdtLr6t812AdW18VMx
-        include distributive-0.5.3-7eFvZYoayu9Ia4zZ9sB2fh
-        include comonad-5.0.3-6FDWvsELYyqJigHwMyXlfE
+        include distributive-0.5.3-CpG8oAA5FNTIGevMWcmgEn
+        include comonad-5.0.3-ExNKBl5TkJNAu3dJXaqq6A
         include tagged-0.8.5-H1YAr6QWnCT7DbgXfdWaeE
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        include unordered-containers-0.2.9.0-AiK3CNhpw3s4Tl8U419yn6
-        Data.Bifunctor.Apply=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Bifunctor.Apply,Data.Functor.Alt=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Functor.Alt,Data.Functor.Apply=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Functor.Apply,Data.Functor.Bind=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Functor.Bind,Data.Functor.Bind.Class=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Functor.Bind.Class,Data.Functor.Bind.Trans=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Functor.Bind.Trans,Data.Functor.Extend=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Functor.Extend,Data.Functor.Plus=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Functor.Plus,Data.Groupoid=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Groupoid,Data.Isomorphism=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Isomorphism,Data.Semigroup.Bifoldable=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Semigroup.Bifoldable,Data.Semigroup.Bitraversable=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Semigroup.Bitraversable,Data.Semigroup.Foldable=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Semigroup.Foldable,Data.Semigroup.Foldable.Class=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Semigroup.Foldable.Class,Data.Semigroup.Traversable=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Semigroup.Traversable,Data.Semigroup.Traversable.Class=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Semigroup.Traversable.Class,Data.Semigroupoid=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Semigroupoid,Data.Semigroupoid.Dual=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Semigroupoid.Dual,Data.Semigroupoid.Ob=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Semigroupoid.Ob,Data.Semigroupoid.Static=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Semigroupoid.Static,Data.Traversable.Instances=semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj:Data.Traversable.Instances
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        include unordered-containers-0.2.9.0-FyfETF6kkcWDBCY6EzUP7S
+        Data.Bifunctor.Apply=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Bifunctor.Apply,Data.Functor.Alt=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Functor.Alt,Data.Functor.Apply=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Functor.Apply,Data.Functor.Bind=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Functor.Bind,Data.Functor.Bind.Class=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Functor.Bind.Class,Data.Functor.Bind.Trans=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Functor.Bind.Trans,Data.Functor.Extend=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Functor.Extend,Data.Functor.Plus=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Functor.Plus,Data.Groupoid=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Groupoid,Data.Isomorphism=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Isomorphism,Data.Semigroup.Bifoldable=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Semigroup.Bifoldable,Data.Semigroup.Bitraversable=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Semigroup.Bitraversable,Data.Semigroup.Foldable=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Semigroup.Foldable,Data.Semigroup.Foldable.Class=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Semigroup.Foldable.Class,Data.Semigroup.Traversable=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Semigroup.Traversable,Data.Semigroup.Traversable.Class=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Semigroup.Traversable.Class,Data.Semigroupoid=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Semigroupoid,Data.Semigroupoid.Dual=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Semigroupoid.Dual,Data.Semigroupoid.Ob=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Semigroupoid.Ob,Data.Semigroupoid.Static=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Semigroupoid.Static,Data.Traversable.Instances=semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm:Data.Traversable.Instances
 Ready component graph:
-    definite semigroupoids-5.2.1-GdkLE9uNhx7IGCFPcni8lj
+    definite semigroupoids-5.2.1-7IF5mqDaAmK9FnB9cW6lVm
         depends base-4.11.0.0
-        depends base-orphans-0.6-DyOYeE6wgji31lQ7xhGZwd
-        depends bifunctors-5.5.2-BtN7yFyApQHEeMleUpjWWR
+        depends base-orphans-0.6-BFFScXfKnJEKHhXndhlOdO
+        depends bifunctors-5.5.2-JmVwqHZaUG9BxzkzTlCaly
         depends semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
         depends transformers-0.5.5.0
         depends transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
         depends containers-0.5.11.0
         depends contravariant-1.4.1-DWV5xdtLr6t812AdW18VMx
-        depends distributive-0.5.3-7eFvZYoayu9Ia4zZ9sB2fh
-        depends comonad-5.0.3-6FDWvsELYyqJigHwMyXlfE
+        depends distributive-0.5.3-CpG8oAA5FNTIGevMWcmgEn
+        depends comonad-5.0.3-ExNKBl5TkJNAu3dJXaqq6A
         depends tagged-0.8.5-H1YAr6QWnCT7DbgXfdWaeE
-        depends hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        depends unordered-containers-0.2.9.0-AiK3CNhpw3s4Tl8U419yn6
+        depends hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        depends unordered-containers-0.2.9.0-FyfETF6kkcWDBCY6EzUP7S
 Using Cabal-2.1.0.0 compiled by ghc-8.4
 Using compiler: ghc-8.4.0.20180204
 Using install prefix:
-/nix/store/v7zdv8phc4734pikv5yi1hm0yqwcf9rn-semigroupoids-5.2.1
+/nix/store/i4yazlw6ba7digz10na51k1ksihlpnng-semigroupoids-5.2.1
 Executables installed in:
-/nix/store/v7zdv8phc4734pikv5yi1hm0yqwcf9rn-semigroupoids-5.2.1/bin
+/nix/store/i4yazlw6ba7digz10na51k1ksihlpnng-semigroupoids-5.2.1/bin
 Libraries installed in:
-/nix/store/v7zdv8phc4734pikv5yi1hm0yqwcf9rn-semigroupoids-5.2.1/lib/ghc-8.4.0.20180204/semigroupoids-5.2.1
+/nix/store/i4yazlw6ba7digz10na51k1ksihlpnng-semigroupoids-5.2.1/lib/ghc-8.4.0.20180204/semigroupoids-5.2.1
 Dynamic Libraries installed in:
-/nix/store/v7zdv8phc4734pikv5yi1hm0yqwcf9rn-semigroupoids-5.2.1/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+/nix/store/i4yazlw6ba7digz10na51k1ksihlpnng-semigroupoids-5.2.1/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
 Private executables installed in:
-/nix/store/v7zdv8phc4734pikv5yi1hm0yqwcf9rn-semigroupoids-5.2.1/libexec/x86_64-linux-ghc-8.4.0.20180204/semigroupoids-5.2.1
+/nix/store/i4yazlw6ba7digz10na51k1ksihlpnng-semigroupoids-5.2.1/libexec/x86_64-linux-ghc-8.4.0.20180204/semigroupoids-5.2.1
 Data files installed in:
-/nix/store/v7zdv8phc4734pikv5yi1hm0yqwcf9rn-semigroupoids-5.2.1/share/x86_64-linux-ghc-8.4.0.20180204/semigroupoids-5.2.1
+/nix/store/i4yazlw6ba7digz10na51k1ksihlpnng-semigroupoids-5.2.1/share/x86_64-linux-ghc-8.4.0.20180204/semigroupoids-5.2.1
 Documentation installed in:
-/nix/store/h44hiv14xp37pn23lrias8m3pji9rb05-semigroupoids-5.2.1-doc/share/doc
+/nix/store/xrrvgv6a0b0kwaxmg0jjh441gzvmcr5w-semigroupoids-5.2.1-doc/share/doc
 Configuration files installed in:
-/nix/store/v7zdv8phc4734pikv5yi1hm0yqwcf9rn-semigroupoids-5.2.1/etc
+/nix/store/i4yazlw6ba7digz10na51k1ksihlpnng-semigroupoids-5.2.1/etc
 No alex found
 Using ar found on system at:
 /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
@@ -171,5 +171,5 @@ src/Data/Functor/Alt.hs:187:11: error:
 [15 of 21] Compiling Data.Traversable.Instances ( src/Data/Traversable/Instances.hs, dist/build/Data/Traversable/Instances.o )
 [16 of 21] Compiling Data.Semigroup.Foldable.Class ( src/Data/Semigroup/Foldable/Class.hs, dist/build/Data/Semigroup/Foldable/Class.o )
 [17 of 21] Compiling Data.Semigroup.Bifoldable ( src/Data/Semigroup/Bifoldable.hs, dist/build/Data/Semigroup/Bifoldable.o )
-builder for ‘/nix/store/f1lxrc3ibd9nd2yg94j2p2chlc66h53h-semigroupoids-5.2.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/f1lxrc3ibd9nd2yg94j2p2chlc66h53h-semigroupoids-5.2.1.drv’ failed
+builder for ‘/nix/store/xkmbd9di7vylvwy07afl9bf8dnmm4fpw-semigroupoids-5.2.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/xkmbd9di7vylvwy07afl9bf8dnmm4fpw-semigroupoids-5.2.1.drv’ failed

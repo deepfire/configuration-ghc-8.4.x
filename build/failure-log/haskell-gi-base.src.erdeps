@@ -1,3 +1,0 @@
-Setup: Encountered missing dependencies:
-haskell-gi-base ==0.21.*
-cannot build derivation ‘/nix/store/b3d6yr1rzk4hpzg87yk4n5i4321i824f-gi-cairo-1.0.14.drv’: 1 dependencies couldn't be built

@@ -1,6 +1,6 @@
 these derivations will be built:
-  /nix/store/fy1338j90363hn7pf5bsdg4dwha4g5jn-unordered-containers-0.2.8.0.drv
-building path(s) ‘/nix/store/pjig9i91n7m3zv17qd4rq1vbyq2q93hj-unordered-containers-0.2.8.0-doc’, ‘/nix/store/z13lv2328587gq318yc7fh7agjzdng8m-unordered-containers-0.2.8.0’
+  /nix/store/iw6ddab84fdsjxnrr8ixm26m6286wi3k-unordered-containers-0.2.8.0.drv
+building path(s) ‘/nix/store/56chi5fddlqmbpk4pfqahqvr3k78krfn-unordered-containers-0.2.8.0’, ‘/nix/store/97g8gq88s89l9rxx8c33l1f9j864vx6m-unordered-containers-0.2.8.0-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
@@ -13,13 +13,13 @@ setupCompileFlags: -package-db=/tmp/nix-build-unordered-containers-0.2.8.0.drv-0
 [1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-unordered-containers-0.2.8.0.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/z13lv2328587gq318yc7fh7agjzdng8m-unordered-containers-0.2.8.0 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/pjig9i91n7m3zv17qd4rq1vbyq2q93hj-unordered-containers-0.2.8.0-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-unordered-containers-0.2.8.0.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/z13lv2328587gq318yc7fh7agjzdng8m-unordered-containers-0.2.8.0/lib/ghc-8.4.0.20180204/unordered-containers-0.2.8.0 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/56chi5fddlqmbpk4pfqahqvr3k78krfn-unordered-containers-0.2.8.0 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/97g8gq88s89l9rxx8c33l1f9j864vx6m-unordered-containers-0.2.8.0-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-unordered-containers-0.2.8.0.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/56chi5fddlqmbpk4pfqahqvr3k78krfn-unordered-containers-0.2.8.0/lib/ghc-8.4.0.20180204/unordered-containers-0.2.8.0 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring unordered-containers-0.2.8.0...
 Flags chosen: debug=False
 Dependency ChasingBottoms -any: using ChasingBottoms-1.3.1.3
 Dependency HUnit -any: using HUnit-1.6.0.0
-Dependency QuickCheck >=2.4.0.1: using QuickCheck-2.10.1
+Dependency QuickCheck >=2.4.0.1: using QuickCheck-2.11.3
 Dependency base ==4.*: using base-4.11.0.0
 Dependency containers >=0.4.2: using containers-0.5.11.0
 Dependency deepseq >=1.1: using deepseq-1.4.3.0
@@ -37,165 +37,165 @@ Source component graph:
     component test:regressions dependency lib
     component test:strictness-properties dependency lib
 Configured component graph:
-    component unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
+    component unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
         include base-4.11.0.0
         include deepseq-1.4.3.0
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-    component unordered-containers-0.2.8.0-CkV443m6tyu5D1GSSLioGT-hashmap-lazy-properties
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+    component unordered-containers-0.2.8.0-1HSLKcYAeAFQ1DH7bEyJr-hashmap-lazy-properties
         include base-4.11.0.0
         include containers-0.5.11.0
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         include test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
-        include test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
-        include unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
-    component unordered-containers-0.2.8.0-BHuiIcevsNsCNE1DIHH7r5-hashmap-strict-properties
+        include test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        include unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
+    component unordered-containers-0.2.8.0-yj47BabngGrP4drnDVEW-hashmap-strict-properties
         include base-4.11.0.0
         include containers-0.5.11.0
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         include test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
-        include test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
-        include unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
-    component unordered-containers-0.2.8.0-vNpSxBetbS3zIPsX9Bcxr-hashset-properties
+        include test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        include unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
+    component unordered-containers-0.2.8.0-Eb8iDj3212wJSzM1ZS3fiB-hashset-properties
         include base-4.11.0.0
         include containers-0.5.11.0
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         include test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
-        include test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
-        include unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
-    component unordered-containers-0.2.8.0-Sb0siW6mr28VlAFxJLP15-regressions
+        include test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        include unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
+    component unordered-containers-0.2.8.0-7gKM08qnZ4mCBM401YBzJh-regressions
         include base-4.11.0.0
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
         include HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
-        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         include test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
         include test-framework-hunit-0.3.0.2-AwNmJhDVSTyKAo7PIxpJSA
-        include test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
-        include unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
-    component unordered-containers-0.2.8.0-FvE21XKc9PkAkEZDvHqnE0-strictness-properties
+        include test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        include unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
+    component unordered-containers-0.2.8.0-1mV8A4e8RyJFZ4qNOOovMZ-strictness-properties
         include base-4.11.0.0
-        include ChasingBottoms-1.3.1.3-2pcBjLfIP6q1d5bDBib9UV
+        include ChasingBottoms-1.3.1.3-8y8F1gu8gAA4kh8XcxAryi
         include containers-0.5.11.0
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         include test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
-        include test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
-        include unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
+        include test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        include unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
 Linked component graph:
-    unit unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
+    unit unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
         include base-4.11.0.0
         include deepseq-1.4.3.0
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        Data.HashMap.Lazy=unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi:Data.HashMap.Lazy,Data.HashMap.Strict=unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi:Data.HashMap.Strict,Data.HashSet=unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi:Data.HashSet
-    unit unordered-containers-0.2.8.0-CkV443m6tyu5D1GSSLioGT-hashmap-lazy-properties
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        Data.HashMap.Lazy=unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ:Data.HashMap.Lazy,Data.HashMap.Strict=unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ:Data.HashMap.Strict,Data.HashSet=unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ:Data.HashSet
+    unit unordered-containers-0.2.8.0-1HSLKcYAeAFQ1DH7bEyJr-hashmap-lazy-properties
         include base-4.11.0.0
         include containers-0.5.11.0
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         include test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
-        include test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
-        include unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
-    unit unordered-containers-0.2.8.0-BHuiIcevsNsCNE1DIHH7r5-hashmap-strict-properties
+        include test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        include unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
+    unit unordered-containers-0.2.8.0-yj47BabngGrP4drnDVEW-hashmap-strict-properties
         include base-4.11.0.0
         include containers-0.5.11.0
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         include test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
-        include test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
-        include unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
-    unit unordered-containers-0.2.8.0-vNpSxBetbS3zIPsX9Bcxr-hashset-properties
+        include test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        include unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
+    unit unordered-containers-0.2.8.0-Eb8iDj3212wJSzM1ZS3fiB-hashset-properties
         include base-4.11.0.0
         include containers-0.5.11.0
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         include test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
-        include test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
-        include unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
-    unit unordered-containers-0.2.8.0-Sb0siW6mr28VlAFxJLP15-regressions
+        include test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        include unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
+    unit unordered-containers-0.2.8.0-7gKM08qnZ4mCBM401YBzJh-regressions
         include base-4.11.0.0
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
         include HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
-        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         include test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
         include test-framework-hunit-0.3.0.2-AwNmJhDVSTyKAo7PIxpJSA
-        include test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
-        include unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
-    unit unordered-containers-0.2.8.0-FvE21XKc9PkAkEZDvHqnE0-strictness-properties
+        include test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        include unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
+    unit unordered-containers-0.2.8.0-1mV8A4e8RyJFZ4qNOOovMZ-strictness-properties
         include base-4.11.0.0
-        include ChasingBottoms-1.3.1.3-2pcBjLfIP6q1d5bDBib9UV
+        include ChasingBottoms-1.3.1.3-8y8F1gu8gAA4kh8XcxAryi
         include containers-0.5.11.0
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        include QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         include test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
-        include test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
-        include unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
+        include test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        include unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
 Ready component graph:
-    definite unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
+    definite unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
         depends base-4.11.0.0
         depends deepseq-1.4.3.0
-        depends hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-    definite unordered-containers-0.2.8.0-BHuiIcevsNsCNE1DIHH7r5-hashmap-strict-properties
+        depends hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+    definite unordered-containers-0.2.8.0-Eb8iDj3212wJSzM1ZS3fiB-hashset-properties
         depends base-4.11.0.0
         depends containers-0.5.11.0
-        depends hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        depends QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        depends hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        depends QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         depends test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
-        depends test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
-        depends unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
-    definite unordered-containers-0.2.8.0-CkV443m6tyu5D1GSSLioGT-hashmap-lazy-properties
+        depends test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        depends unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
+    definite unordered-containers-0.2.8.0-yj47BabngGrP4drnDVEW-hashmap-strict-properties
         depends base-4.11.0.0
         depends containers-0.5.11.0
-        depends hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        depends QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        depends hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        depends QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         depends test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
-        depends test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
-        depends unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
-    definite unordered-containers-0.2.8.0-FvE21XKc9PkAkEZDvHqnE0-strictness-properties
+        depends test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        depends unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
+    definite unordered-containers-0.2.8.0-7gKM08qnZ4mCBM401YBzJh-regressions
         depends base-4.11.0.0
-        depends ChasingBottoms-1.3.1.3-2pcBjLfIP6q1d5bDBib9UV
-        depends containers-0.5.11.0
-        depends hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        depends QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
-        depends test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
-        depends test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
-        depends unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
-    definite unordered-containers-0.2.8.0-Sb0siW6mr28VlAFxJLP15-regressions
-        depends base-4.11.0.0
-        depends hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
+        depends hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
         depends HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
-        depends QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        depends QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         depends test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
         depends test-framework-hunit-0.3.0.2-AwNmJhDVSTyKAo7PIxpJSA
-        depends test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
-        depends unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
-    definite unordered-containers-0.2.8.0-vNpSxBetbS3zIPsX9Bcxr-hashset-properties
+        depends test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        depends unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
+    definite unordered-containers-0.2.8.0-1mV8A4e8RyJFZ4qNOOovMZ-strictness-properties
+        depends base-4.11.0.0
+        depends ChasingBottoms-1.3.1.3-8y8F1gu8gAA4kh8XcxAryi
+        depends containers-0.5.11.0
+        depends hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        depends QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
+        depends test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
+        depends test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        depends unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
+    definite unordered-containers-0.2.8.0-1HSLKcYAeAFQ1DH7bEyJr-hashmap-lazy-properties
         depends base-4.11.0.0
         depends containers-0.5.11.0
-        depends hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
-        depends QuickCheck-2.10.1-CbgtHLlDxiaFiLP2gWIbBW
+        depends hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        depends QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
         depends test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
-        depends test-framework-quickcheck2-0.3.0.4-5oezYVjxPADEJFNdE1bKyC
-        depends unordered-containers-0.2.8.0-2nT54tXbNvOJayRxtbhpEi
+        depends test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        depends unordered-containers-0.2.8.0-7qkpmgNyU9WJMuZl02eylZ
 Using Cabal-2.1.0.0 compiled by ghc-8.4
 Using compiler: ghc-8.4.0.20180204
 Using install prefix:
-/nix/store/z13lv2328587gq318yc7fh7agjzdng8m-unordered-containers-0.2.8.0
+/nix/store/56chi5fddlqmbpk4pfqahqvr3k78krfn-unordered-containers-0.2.8.0
 Executables installed in:
-/nix/store/z13lv2328587gq318yc7fh7agjzdng8m-unordered-containers-0.2.8.0/bin
+/nix/store/56chi5fddlqmbpk4pfqahqvr3k78krfn-unordered-containers-0.2.8.0/bin
 Libraries installed in:
-/nix/store/z13lv2328587gq318yc7fh7agjzdng8m-unordered-containers-0.2.8.0/lib/ghc-8.4.0.20180204/unordered-containers-0.2.8.0
+/nix/store/56chi5fddlqmbpk4pfqahqvr3k78krfn-unordered-containers-0.2.8.0/lib/ghc-8.4.0.20180204/unordered-containers-0.2.8.0
 Dynamic Libraries installed in:
-/nix/store/z13lv2328587gq318yc7fh7agjzdng8m-unordered-containers-0.2.8.0/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+/nix/store/56chi5fddlqmbpk4pfqahqvr3k78krfn-unordered-containers-0.2.8.0/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
 Private executables installed in:
-/nix/store/z13lv2328587gq318yc7fh7agjzdng8m-unordered-containers-0.2.8.0/libexec/x86_64-linux-ghc-8.4.0.20180204/unordered-containers-0.2.8.0
+/nix/store/56chi5fddlqmbpk4pfqahqvr3k78krfn-unordered-containers-0.2.8.0/libexec/x86_64-linux-ghc-8.4.0.20180204/unordered-containers-0.2.8.0
 Data files installed in:
-/nix/store/z13lv2328587gq318yc7fh7agjzdng8m-unordered-containers-0.2.8.0/share/x86_64-linux-ghc-8.4.0.20180204/unordered-containers-0.2.8.0
+/nix/store/56chi5fddlqmbpk4pfqahqvr3k78krfn-unordered-containers-0.2.8.0/share/x86_64-linux-ghc-8.4.0.20180204/unordered-containers-0.2.8.0
 Documentation installed in:
-/nix/store/pjig9i91n7m3zv17qd4rq1vbyq2q93hj-unordered-containers-0.2.8.0-doc/share/doc
+/nix/store/97g8gq88s89l9rxx8c33l1f9j864vx6m-unordered-containers-0.2.8.0-doc/share/doc
 Configuration files installed in:
-/nix/store/z13lv2328587gq318yc7fh7agjzdng8m-unordered-containers-0.2.8.0/etc
+/nix/store/56chi5fddlqmbpk4pfqahqvr3k78krfn-unordered-containers-0.2.8.0/etc
 No alex found
 Using ar found on system at:
 /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
@@ -253,5 +253,5 @@ Data/HashSet.hs:80:39: error:
    |
 80 | import Data.Semigroup (Semigroup(..), Monoid(..))
    |                                       ^^^^^^^^^^
-builder for ‘/nix/store/fy1338j90363hn7pf5bsdg4dwha4g5jn-unordered-containers-0.2.8.0.drv’ failed with exit code 1
-error: build of ‘/nix/store/fy1338j90363hn7pf5bsdg4dwha4g5jn-unordered-containers-0.2.8.0.drv’ failed
+builder for ‘/nix/store/iw6ddab84fdsjxnrr8ixm26m6286wi3k-unordered-containers-0.2.8.0.drv’ failed with exit code 1
+error: build of ‘/nix/store/iw6ddab84fdsjxnrr8ixm26m6286wi3k-unordered-containers-0.2.8.0.drv’ failed

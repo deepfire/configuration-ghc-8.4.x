@@ -1,5 +1,5 @@
 these derivations will be built:
-  /nix/store/gn5wp3dplgg107ijqsfy471i9ap4qh34-bytestring-trie-0.2.4.1.drv
+  /nix/store/9iszixm5xvmpwdidvl5984dpjjl6hkhs-bytestring-trie-0.2.4.1.drv
 building path(s) ‘/nix/store/lsp52wz8yflbq46fanaa15vqf2kkg3bm-bytestring-trie-0.2.4.1’, ‘/nix/store/q936c8x2d74q165blbavshf2rbpy59px-bytestring-trie-0.2.4.1-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
@@ -26,5 +26,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 data-or ==1.0.*
 
-builder for ‘/nix/store/gn5wp3dplgg107ijqsfy471i9ap4qh34-bytestring-trie-0.2.4.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/gn5wp3dplgg107ijqsfy471i9ap4qh34-bytestring-trie-0.2.4.1.drv’ failed
+builder for ‘/nix/store/9iszixm5xvmpwdidvl5984dpjjl6hkhs-bytestring-trie-0.2.4.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/9iszixm5xvmpwdidvl5984dpjjl6hkhs-bytestring-trie-0.2.4.1.drv’ failed

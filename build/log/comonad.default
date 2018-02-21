@@ -1,32 +1,261 @@
 these derivations will be built:
-  /nix/store/a79bhc5x4b1y20822kx6yrhb7jlhsblh-doctest-0.13.0.drv
-building path(s) ‘/nix/store/9kb4d9wimm9ha0p0d75wvaqhgi3gikxv-doctest-0.13.0’, ‘/nix/store/s4ndlj7czj9z97zijzbchs12cyz3gqjh-doctest-0.13.0-doc’
+  /nix/store/2ifq3v99zfj9sha20s0krhdkxhb0mycq-comonad-5.0.3.drv
+building path(s) ‘/nix/store/0kdivpzid1nm1h54ck0q118yzy71j9zw-comonad-5.0.3-doc’, ‘/nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
-unpacking source archive /nix/store/8gc056xssy5k1q4yxqbjypjbx5dvnikz-doctest-0.13.0.tar.gz
-source root is doctest-0.13.0
-setting SOURCE_DATE_EPOCH to timestamp 1501741454 of file doctest-0.13.0/test/Spec.hs
+unpacking source archive /nix/store/5m2p8ahda3xrwp1visb1v78galkdnlh4-comonad-5.0.3.tar.gz
+source root is comonad-5.0.3
+setting SOURCE_DATE_EPOCH to timestamp 1517940757 of file comonad-5.0.3/Warning.hs
 patching sources
+Replace Cabal file with edited version from http://hackage.haskell.org/package/comonad-5.0.3/revision/1.cabal.
 compileBuildDriverPhase
-setupCompileFlags: -package-db=/tmp/nix-build-doctest-0.13.0.drv-0/package.conf.d -j8 -threaded
-[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-doctest-0.13.0.drv-0/Main.o )
+setupCompileFlags: -package-db=/tmp/nix-build-comonad-5.0.3.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-comonad-5.0.3.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/9kb4d9wimm9ha0p0d75wvaqhgi3gikxv-doctest-0.13.0 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/s4ndlj7czj9z97zijzbchs12cyz3gqjh-doctest-0.13.0-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-doctest-0.13.0.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/9kb4d9wimm9ha0p0d75wvaqhgi3gikxv-doctest-0.13.0/lib/ghc-8.4.0.20180204/doctest-0.13.0 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/0kdivpzid1nm1h54ck0q118yzy71j9zw-comonad-5.0.3-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-comonad-5.0.3.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3/lib/ghc-8.4.0.20180204/comonad-5.0.3 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
-Configuring doctest-0.13.0...
-CallStack (from HasCallStack):
-  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
-  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
-  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
-  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
-  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
-  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:114:27 in Cabal-2.1.0.0:Distribution.Simple
-  defaultMain, called at Setup.lhs:3:10 in main:Main
-Setup: Encountered missing dependencies:
-ghc >=7.0 && <8.4
-
-builder for ‘/nix/store/a79bhc5x4b1y20822kx6yrhb7jlhsblh-doctest-0.13.0.drv’ failed with exit code 1
-error: build of ‘/nix/store/a79bhc5x4b1y20822kx6yrhb7jlhsblh-doctest-0.13.0.drv’ failed
-/run/current-system/sw/bin/nix-shell: failed to build all dependencies
+Configuring comonad-5.0.3...
+Flags chosen: containers=True, contravariant=True, distributive=True,
+test-doctests=True
+Dependency base ==4.*: using base-4.11.0.0
+Dependency comonad -any: using comonad-5.0.3
+Dependency containers >=0.3 && <0.6: using containers-0.5.11.0
+Dependency contravariant >=0.2.0.1 && <2: using contravariant-1.4.1
+Dependency distributive >=0.2.2 && <1: using distributive-0.5.3
+Dependency doctest >=0.11.1 && <0.15: using doctest-0.14.0
+Dependency semigroups >=0.8.3.1 && <1: using semigroups-0.18.4
+Dependency tagged >=0.7 && <1: using tagged-0.8.5
+Dependency transformers >=0.2 && <0.6: using transformers-0.5.5.0
+Dependency transformers-compat >=0.3 && <1: using transformers-compat-0.5.1.4
+Source component graph:
+    component lib
+    component test:doctests dependency lib
+Configured component graph:
+    component comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik
+        include base-4.11.0.0
+        include semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
+        include tagged-0.8.5-H1YAr6QWnCT7DbgXfdWaeE
+        include transformers-0.5.5.0
+        include transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
+        include containers-0.5.11.0
+        include contravariant-1.4.1-DWV5xdtLr6t812AdW18VMx
+        include distributive-0.5.3-CpG8oAA5FNTIGevMWcmgEn
+    component comonad-5.0.3-6m6vHpYv2zc8cEaw5EXWGW-doctests
+        include base-4.11.0.0
+        include comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik
+        include doctest-0.14.0-BRwXWiEtLpEE8emrLBWSRd
+Linked component graph:
+    unit comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik
+        include base-4.11.0.0
+        include semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
+        include tagged-0.8.5-H1YAr6QWnCT7DbgXfdWaeE
+        include transformers-0.5.5.0
+        include transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
+        include containers-0.5.11.0
+        include contravariant-1.4.1-DWV5xdtLr6t812AdW18VMx
+        include distributive-0.5.3-CpG8oAA5FNTIGevMWcmgEn
+        Control.Comonad=comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik:Control.Comonad,Control.Comonad.Env=comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik:Control.Comonad.Env,Control.Comonad.Env.Class=comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik:Control.Comonad.Env.Class,Control.Comonad.Hoist.Class=comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik:Control.Comonad.Hoist.Class,Control.Comonad.Identity=comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik:Control.Comonad.Identity,Control.Comonad.Store=comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik:Control.Comonad.Store,Control.Comonad.Store.Class=comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik:Control.Comonad.Store.Class,Control.Comonad.Traced=comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik:Control.Comonad.Traced,Control.Comonad.Traced.Class=comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik:Control.Comonad.Traced.Class,Control.Comonad.Trans.Class=comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik:Control.Comonad.Trans.Class,Control.Comonad.Trans.Env=comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik:Control.Comonad.Trans.Env,Control.Comonad.Trans.Identity=comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik:Control.Comonad.Trans.Identity,Control.Comonad.Trans.Store=comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik:Control.Comonad.Trans.Store,Control.Comonad.Trans.Traced=comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik:Control.Comonad.Trans.Traced,Data.Functor.Composition=comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik:Data.Functor.Composition
+    unit comonad-5.0.3-6m6vHpYv2zc8cEaw5EXWGW-doctests
+        include base-4.11.0.0
+        include comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik
+        include doctest-0.14.0-BRwXWiEtLpEE8emrLBWSRd
+Ready component graph:
+    definite comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik
+        depends base-4.11.0.0
+        depends semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
+        depends tagged-0.8.5-H1YAr6QWnCT7DbgXfdWaeE
+        depends transformers-0.5.5.0
+        depends transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
+        depends containers-0.5.11.0
+        depends contravariant-1.4.1-DWV5xdtLr6t812AdW18VMx
+        depends distributive-0.5.3-CpG8oAA5FNTIGevMWcmgEn
+    definite comonad-5.0.3-6m6vHpYv2zc8cEaw5EXWGW-doctests
+        depends base-4.11.0.0
+        depends comonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik
+        depends doctest-0.14.0-BRwXWiEtLpEE8emrLBWSRd
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.0.20180204
+Using install prefix:
+/nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3
+Executables installed in:
+/nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3/bin
+Libraries installed in:
+/nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3/lib/ghc-8.4.0.20180204/comonad-5.0.3
+Dynamic Libraries installed in:
+/nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+Private executables installed in:
+/nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3/libexec/x86_64-linux-ghc-8.4.0.20180204/comonad-5.0.3
+Data files installed in:
+/nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3/share/x86_64-linux-ghc-8.4.0.20180204/comonad-5.0.3
+Documentation installed in:
+/nix/store/0kdivpzid1nm1h54ck0q118yzy71j9zw-comonad-5.0.3-doc/share/doc
+Configuration files installed in:
+/nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3/etc
+No alex found
+Using ar found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+Using doctest version 0.14.0 found on system at:
+/nix/store/brymg0c8qdgdlyip8gbp2xbz5frjm65s-doctest-0.14.0/bin/doctest
+Using gcc version 6.4.0 given by user at:
+/nix/store/nj7mw0lyx80g7lrxcxy5v9vmnpif5950-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc
+Using ghc-pkg version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.19.0 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/626h2ym9fhl5lgnqlqrh5s4b73m5kgy8-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/qhqxgkb2zki59dy4lx6krmgjsnhpjrc9-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/2waj1y5v572sbigjhqbmhx178vfak1l0-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing library for comonad-5.0.3..
+Building library for comonad-5.0.3..
+[ 1 of 15] Compiling Control.Comonad  ( src/Control/Comonad.hs, dist/build/Control/Comonad.o )
+[ 2 of 15] Compiling Control.Comonad.Hoist.Class ( src/Control/Comonad/Hoist/Class.hs, dist/build/Control/Comonad/Hoist/Class.o )
+[ 3 of 15] Compiling Control.Comonad.Trans.Class ( src/Control/Comonad/Trans/Class.hs, dist/build/Control/Comonad/Trans/Class.o )
+[ 4 of 15] Compiling Control.Comonad.Trans.Env ( src/Control/Comonad/Trans/Env.hs, dist/build/Control/Comonad/Trans/Env.o )
+[ 5 of 15] Compiling Control.Comonad.Trans.Identity ( src/Control/Comonad/Trans/Identity.hs, dist/build/Control/Comonad/Trans/Identity.o )
+[ 6 of 15] Compiling Control.Comonad.Identity ( src/Control/Comonad/Identity.hs, dist/build/Control/Comonad/Identity.o )
+[ 7 of 15] Compiling Control.Comonad.Trans.Store ( src/Control/Comonad/Trans/Store.hs, dist/build/Control/Comonad/Trans/Store.o )
+[ 8 of 15] Compiling Control.Comonad.Trans.Traced ( src/Control/Comonad/Trans/Traced.hs, dist/build/Control/Comonad/Trans/Traced.o )
+[ 9 of 15] Compiling Control.Comonad.Traced.Class ( src/Control/Comonad/Traced/Class.hs, dist/build/Control/Comonad/Traced/Class.o )
+[10 of 15] Compiling Control.Comonad.Traced ( src/Control/Comonad/Traced.hs, dist/build/Control/Comonad/Traced.o )
+[11 of 15] Compiling Control.Comonad.Store.Class ( src/Control/Comonad/Store/Class.hs, dist/build/Control/Comonad/Store/Class.o )
+[12 of 15] Compiling Control.Comonad.Store ( src/Control/Comonad/Store.hs, dist/build/Control/Comonad/Store.o )
+[13 of 15] Compiling Control.Comonad.Env.Class ( src/Control/Comonad/Env/Class.hs, dist/build/Control/Comonad/Env/Class.o )
+[14 of 15] Compiling Control.Comonad.Env ( src/Control/Comonad/Env.hs, dist/build/Control/Comonad/Env.o )
+[15 of 15] Compiling Data.Functor.Composition ( src/Data/Functor/Composition.hs, dist/build/Data/Functor/Composition.o )
+Preprocessing test suite 'doctests' for comonad-5.0.3..
+Building test suite 'doctests' for comonad-5.0.3..
+[1 of 2] Compiling Build_doctests   ( dist/build/doctests/autogen/Build_doctests.hs, dist/build/doctests/doctests-tmp/Build_doctests.dyn_o )
+[2 of 2] Compiling Main             ( tests/doctests.hs, dist/build/doctests/doctests-tmp/Main.dyn_o )
+Linking dist/build/doctests/doctests ...
+running tests
+Running 1 test suites...
+Test suite doctests: RUNNING...
+Test suite doctests: PASS
+Test suite logged to: dist/test/comonad-5.0.3-doctests.log
+1 of 1 test suites (1 of 1 test cases) passed.
+haddockPhase
+Running hscolour for comonad-5.0.3...
+Preprocessing library for comonad-5.0.3..
+Preprocessing test suite 'doctests' for comonad-5.0.3..
+Preprocessing library for comonad-5.0.3..
+Running Haddock on library for comonad-5.0.3..
+Haddock coverage:
+ 100% ( 22 / 22) in 'Control.Comonad'
+  50% (  1 /  2) in 'Control.Comonad.Hoist.Class'
+  Missing documentation for:
+    ComonadHoist (src/Control/Comonad/Hoist/Class.hs:19)
+  50% (  1 /  2) in 'Control.Comonad.Trans.Class'
+  Missing documentation for:
+    ComonadTrans (src/Control/Comonad/Trans/Class.hs:23)
+  69% (  9 / 13) in 'Control.Comonad.Trans.Env'
+  Missing documentation for:
+    Env (src/Control/Comonad/Trans/Env.hs:135)
+    runEnv (src/Control/Comonad/Trans/Env.hs:142)
+    EnvT (src/Control/Comonad/Trans/Env.hs:136)
+    runEnvT (src/Control/Comonad/Trans/Env.hs:145)
+ 100% (  2 /  2) in 'Control.Comonad.Trans.Identity'
+ 100% (  4 /  4) in 'Control.Comonad.Identity'
+  73% ( 11 / 15) in 'Control.Comonad.Trans.Store'
+  Missing documentation for:
+    Store (src/Control/Comonad/Trans/Store.hs:120)
+    runStore (src/Control/Comonad/Trans/Store.hs:126)
+    StoreT (src/Control/Comonad/Trans/Store.hs:129)
+    runStoreT (src/Control/Comonad/Trans/Store.hs:131)
+  33% (  4 / 12) in 'Control.Comonad.Trans.Traced'
+  Missing documentation for:
+    Traced (src/Control/Comonad/Trans/Traced.hs:65)
+    traced (src/Control/Comonad/Trans/Traced.hs:67)
+    runTraced (src/Control/Comonad/Trans/Traced.hs:70)
+    TracedT (src/Control/Comonad/Trans/Traced.hs:73)
+    trace (src/Control/Comonad/Trans/Traced.hs:100)
+    listen (src/Control/Comonad/Trans/Traced.hs:103)
+    listens (src/Control/Comonad/Trans/Traced.hs:106)
+    censor (src/Control/Comonad/Trans/Traced.hs:109)
+  33% (  1 /  3) in 'Control.Comonad.Traced.Class'
+  Missing documentation for:
+    ComonadTraced (src/Control/Comonad/Traced/Class.hs:36)
+    traces (src/Control/Comonad/Traced/Class.hs:39)
+  57% (  8 / 14) in 'Control.Comonad.Traced'
+  Missing documentation for:
+    ComonadTraced (src/Control/Comonad/Traced/Class.hs:36)
+    traces (src/Control/Comonad/Traced/Class.hs:39)
+    Traced (src/Control/Comonad/Trans/Traced.hs:65)
+    traced (src/Control/Comonad/Trans/Traced.hs:67)
+    runTraced (src/Control/Comonad/Trans/Traced.hs:70)
+    TracedT (src/Control/Comonad/Trans/Traced.hs:73)
+  25% (  1 /  4) in 'Control.Comonad.Store.Class'
+  Missing documentation for:
+    ComonadStore (src/Control/Comonad/Store/Class.hs:37)
+    lowerPos (src/Control/Comonad/Store/Class.hs:61)
+    lowerPeek (src/Control/Comonad/Store/Class.hs:65)
+  62% (  8 / 13) in 'Control.Comonad.Store'
+  Missing documentation for:
+    ComonadStore (src/Control/Comonad/Store/Class.hs:37)
+    Store (src/Control/Comonad/Trans/Store.hs:120)
+    runStore (src/Control/Comonad/Trans/Store.hs:126)
+    StoreT (src/Control/Comonad/Trans/Store.hs:129)
+    runStoreT (src/Control/Comonad/Trans/Store.hs:131)
+  33% (  1 /  3) in 'Control.Comonad.Env.Class'
+  Missing documentation for:
+    ComonadEnv (src/Control/Comonad/Env/Class.hs:34)
+    asks (src/Control/Comonad/Env/Class.hs:37)
+  60% (  9 / 15) in 'Control.Comonad.Env'
+  Missing documentation for:
+    ComonadEnv (src/Control/Comonad/Env/Class.hs:34)
+    asks (src/Control/Comonad/Env/Class.hs:37)
+    Env (src/Control/Comonad/Trans/Env.hs:135)
+    runEnv (src/Control/Comonad/Trans/Env.hs:142)
+    EnvT (src/Control/Comonad/Trans/Env.hs:136)
+    runEnvT (src/Control/Comonad/Trans/Env.hs:145)
+  50% (  1 /  2) in 'Data.Functor.Composition'
+  Missing documentation for:
+    Module header
+Warning: Control.Comonad: could not find link destinations for:
+    P
+Documentation created: dist/doc/html/comonad/index.html,
+dist/doc/html/comonad/comonad.txt
+Preprocessing test suite 'doctests' for comonad-5.0.3..
+installing
+Installing library in /nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3/lib/ghc-8.4.0.20180204/comonad-5.0.3
+post-installation fixup
+shrinking RPATHs of ELF executables and libraries in /nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3
+shrinking /nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204/libHScomonad-5.0.3-HLmoKyzwNHH1MFKiMXEpik-ghc8.4.0.20180204.so
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+stripping (with command strip and flags -S) in /nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3/lib 
+patching script interpreter paths in /nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3
+checking for references to /tmp/nix-build-comonad-5.0.3.drv-0 in /nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3...
+shrinking RPATHs of ELF executables and libraries in /nix/store/0kdivpzid1nm1h54ck0q118yzy71j9zw-comonad-5.0.3-doc
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+patching script interpreter paths in /nix/store/0kdivpzid1nm1h54ck0q118yzy71j9zw-comonad-5.0.3-doc
+checking for references to /tmp/nix-build-comonad-5.0.3.drv-0 in /nix/store/0kdivpzid1nm1h54ck0q118yzy71j9zw-comonad-5.0.3-doc...
+/nix/store/6jyvab949rx3jr148y7k0v3bqc7ik7n6-comonad-5.0.3

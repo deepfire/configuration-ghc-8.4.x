@@ -1,6 +1,6 @@
 these derivations will be built:
-  /nix/store/jnbz65s4q5vihb5msvkbjcvm56bh8i74-hashtables-1.2.2.1.drv
-building path(s) ‘/nix/store/3mcn98dql8bhwrhjm6racz96slp64syh-hashtables-1.2.2.1-doc’, ‘/nix/store/wcb5yr5x5gz4vy58gyi8yl6b444gi7sq-hashtables-1.2.2.1’
+  /nix/store/y3x7bxli958cb78kx1kl75m7pds7f9kh-hashtables-1.2.2.1.drv
+building path(s) ‘/nix/store/fffsxxc7cdxyzjw15hnjd81anqpl45xg-hashtables-1.2.2.1’, ‘/nix/store/n66abwizahh6rn6gxbysq40i6bw6mbz0-hashtables-1.2.2.1-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
@@ -14,7 +14,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-hashtables-1.2.2.1.drv-0/package.c
 [1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-hashtables-1.2.2.1.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/wcb5yr5x5gz4vy58gyi8yl6b444gi7sq-hashtables-1.2.2.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/3mcn98dql8bhwrhjm6racz96slp64syh-hashtables-1.2.2.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-hashtables-1.2.2.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/wcb5yr5x5gz4vy58gyi8yl6b444gi7sq-hashtables-1.2.2.1/lib/ghc-8.4.0.20180204/hashtables-1.2.2.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/fffsxxc7cdxyzjw15hnjd81anqpl45xg-hashtables-1.2.2.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/n66abwizahh6rn6gxbysq40i6bw6mbz0-hashtables-1.2.2.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-hashtables-1.2.2.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/fffsxxc7cdxyzjw15hnjd81anqpl45xg-hashtables-1.2.2.1/lib/ghc-8.4.0.20180204/hashtables-1.2.2.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring hashtables-1.2.2.1...
 Flags chosen: bounds-checking=False, debug=False, portable=False, sse42=False,
@@ -26,45 +26,45 @@ Dependency primitive -any: using primitive-0.6.3.0
 Dependency vector >=0.7 && <0.13: using vector-0.12.0.1
 Source component graph: component lib
 Configured component graph:
-    component hashtables-1.2.2.1-GBz8M9lNiO5JsYD7ipbN49
+    component hashtables-1.2.2.1-9Hboug7xfXpJ6fgmd6EaoJ
         include base-4.11.0.0
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
         include primitive-0.6.3.0-CjyqfzwbTeFC8kYPPNlX3M
         include vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
         include ghc-prim-0.5.2.0
 Linked component graph:
-    unit hashtables-1.2.2.1-GBz8M9lNiO5JsYD7ipbN49
+    unit hashtables-1.2.2.1-9Hboug7xfXpJ6fgmd6EaoJ
         include base-4.11.0.0
-        include hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
         include primitive-0.6.3.0-CjyqfzwbTeFC8kYPPNlX3M
         include vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
         include ghc-prim-0.5.2.0
-        Data.HashTable.Class=hashtables-1.2.2.1-GBz8M9lNiO5JsYD7ipbN49:Data.HashTable.Class,Data.HashTable.IO=hashtables-1.2.2.1-GBz8M9lNiO5JsYD7ipbN49:Data.HashTable.IO,Data.HashTable.ST.Basic=hashtables-1.2.2.1-GBz8M9lNiO5JsYD7ipbN49:Data.HashTable.ST.Basic,Data.HashTable.ST.Cuckoo=hashtables-1.2.2.1-GBz8M9lNiO5JsYD7ipbN49:Data.HashTable.ST.Cuckoo,Data.HashTable.ST.Linear=hashtables-1.2.2.1-GBz8M9lNiO5JsYD7ipbN49:Data.HashTable.ST.Linear
+        Data.HashTable.Class=hashtables-1.2.2.1-9Hboug7xfXpJ6fgmd6EaoJ:Data.HashTable.Class,Data.HashTable.IO=hashtables-1.2.2.1-9Hboug7xfXpJ6fgmd6EaoJ:Data.HashTable.IO,Data.HashTable.ST.Basic=hashtables-1.2.2.1-9Hboug7xfXpJ6fgmd6EaoJ:Data.HashTable.ST.Basic,Data.HashTable.ST.Cuckoo=hashtables-1.2.2.1-9Hboug7xfXpJ6fgmd6EaoJ:Data.HashTable.ST.Cuckoo,Data.HashTable.ST.Linear=hashtables-1.2.2.1-9Hboug7xfXpJ6fgmd6EaoJ:Data.HashTable.ST.Linear
 Ready component graph:
-    definite hashtables-1.2.2.1-GBz8M9lNiO5JsYD7ipbN49
+    definite hashtables-1.2.2.1-9Hboug7xfXpJ6fgmd6EaoJ
         depends base-4.11.0.0
-        depends hashable-1.2.6.1-1aVi16vB8aCFIB7TK5lx2H
+        depends hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
         depends primitive-0.6.3.0-CjyqfzwbTeFC8kYPPNlX3M
         depends vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
         depends ghc-prim-0.5.2.0
 Using Cabal-2.1.0.0 compiled by ghc-8.4
 Using compiler: ghc-8.4.0.20180204
 Using install prefix:
-/nix/store/wcb5yr5x5gz4vy58gyi8yl6b444gi7sq-hashtables-1.2.2.1
+/nix/store/fffsxxc7cdxyzjw15hnjd81anqpl45xg-hashtables-1.2.2.1
 Executables installed in:
-/nix/store/wcb5yr5x5gz4vy58gyi8yl6b444gi7sq-hashtables-1.2.2.1/bin
+/nix/store/fffsxxc7cdxyzjw15hnjd81anqpl45xg-hashtables-1.2.2.1/bin
 Libraries installed in:
-/nix/store/wcb5yr5x5gz4vy58gyi8yl6b444gi7sq-hashtables-1.2.2.1/lib/ghc-8.4.0.20180204/hashtables-1.2.2.1
+/nix/store/fffsxxc7cdxyzjw15hnjd81anqpl45xg-hashtables-1.2.2.1/lib/ghc-8.4.0.20180204/hashtables-1.2.2.1
 Dynamic Libraries installed in:
-/nix/store/wcb5yr5x5gz4vy58gyi8yl6b444gi7sq-hashtables-1.2.2.1/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+/nix/store/fffsxxc7cdxyzjw15hnjd81anqpl45xg-hashtables-1.2.2.1/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
 Private executables installed in:
-/nix/store/wcb5yr5x5gz4vy58gyi8yl6b444gi7sq-hashtables-1.2.2.1/libexec/x86_64-linux-ghc-8.4.0.20180204/hashtables-1.2.2.1
+/nix/store/fffsxxc7cdxyzjw15hnjd81anqpl45xg-hashtables-1.2.2.1/libexec/x86_64-linux-ghc-8.4.0.20180204/hashtables-1.2.2.1
 Data files installed in:
-/nix/store/wcb5yr5x5gz4vy58gyi8yl6b444gi7sq-hashtables-1.2.2.1/share/x86_64-linux-ghc-8.4.0.20180204/hashtables-1.2.2.1
+/nix/store/fffsxxc7cdxyzjw15hnjd81anqpl45xg-hashtables-1.2.2.1/share/x86_64-linux-ghc-8.4.0.20180204/hashtables-1.2.2.1
 Documentation installed in:
-/nix/store/3mcn98dql8bhwrhjm6racz96slp64syh-hashtables-1.2.2.1-doc/share/doc
+/nix/store/n66abwizahh6rn6gxbysq40i6bw6mbz0-hashtables-1.2.2.1-doc/share/doc
 Configuration files installed in:
-/nix/store/wcb5yr5x5gz4vy58gyi8yl6b444gi7sq-hashtables-1.2.2.1/etc
+/nix/store/fffsxxc7cdxyzjw15hnjd81anqpl45xg-hashtables-1.2.2.1/etc
 No alex found
 Using ar found on system at:
 /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
@@ -187,5 +187,5 @@ src/Data/HashTable/ST/Cuckoo.hs:500:16: warning: [-Wunused-matches]
 500 | insertIntoSlot ht@(HashTable _ _ hashes keys values _) idx he k v = do
     |                ^^
 [11 of 12] Compiling Data.HashTable.ST.Linear ( src/Data/HashTable/ST/Linear.hs, dist/build/Data/HashTable/ST/Linear.o )
-builder for ‘/nix/store/jnbz65s4q5vihb5msvkbjcvm56bh8i74-hashtables-1.2.2.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/jnbz65s4q5vihb5msvkbjcvm56bh8i74-hashtables-1.2.2.1.drv’ failed
+builder for ‘/nix/store/y3x7bxli958cb78kx1kl75m7pds7f9kh-hashtables-1.2.2.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/y3x7bxli958cb78kx1kl75m7pds7f9kh-hashtables-1.2.2.1.drv’ failed

@@ -1,6 +1,6 @@
 these derivations will be built:
-  /nix/store/c7kdwyza57m63f54wyph55s5i1s6zrpc-language-c-0.7.1.drv
-building path(s) ‘/nix/store/0mfzd8d5c5sszklcnj4w2yz3yz514b6n-language-c-0.7.1’, ‘/nix/store/gnsfzrxpz3s3xjf1pibb58hnydpq0jnd-language-c-0.7.1-doc’
+  /nix/store/0pp64rs6xyd571sfbd44n0inhw4wh2v8-language-c-0.7.1.drv
+building path(s) ‘/nix/store/bipik6935144i3rpxc0fcy056914wf4m-language-c-0.7.1-doc’, ‘/nix/store/w42wa45g6v927a9r4dc97bqm3hb88c60-language-c-0.7.1’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
@@ -13,7 +13,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-language-c-0.7.1.drv-0/package.con
 [1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-language-c-0.7.1.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/0mfzd8d5c5sszklcnj4w2yz3yz514b6n-language-c-0.7.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/gnsfzrxpz3s3xjf1pibb58hnydpq0jnd-language-c-0.7.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-language-c-0.7.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/0mfzd8d5c5sszklcnj4w2yz3yz514b6n-language-c-0.7.1/lib/ghc-8.4.0.20180204/language-c-0.7.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --disable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/w42wa45g6v927a9r4dc97bqm3hb88c60-language-c-0.7.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/bipik6935144i3rpxc0fcy056914wf4m-language-c-0.7.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-language-c-0.7.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/w42wa45g6v927a9r4dc97bqm3hb88c60-language-c-0.7.1/lib/ghc-8.4.0.20180204/language-c-0.7.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --disable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring language-c-0.7.1...
 Flags chosen: allwarnings=False, separatesyb=True, splitbase=True,
@@ -67,23 +67,23 @@ Ready component graph:
 Using Cabal-2.1.0.0 compiled by ghc-8.4
 Using compiler: ghc-8.4.0.20180204
 Using install prefix:
-/nix/store/0mfzd8d5c5sszklcnj4w2yz3yz514b6n-language-c-0.7.1
+/nix/store/w42wa45g6v927a9r4dc97bqm3hb88c60-language-c-0.7.1
 Executables installed in:
-/nix/store/0mfzd8d5c5sszklcnj4w2yz3yz514b6n-language-c-0.7.1/bin
+/nix/store/w42wa45g6v927a9r4dc97bqm3hb88c60-language-c-0.7.1/bin
 Libraries installed in:
-/nix/store/0mfzd8d5c5sszklcnj4w2yz3yz514b6n-language-c-0.7.1/lib/ghc-8.4.0.20180204/language-c-0.7.1
+/nix/store/w42wa45g6v927a9r4dc97bqm3hb88c60-language-c-0.7.1/lib/ghc-8.4.0.20180204/language-c-0.7.1
 Dynamic Libraries installed in:
-/nix/store/0mfzd8d5c5sszklcnj4w2yz3yz514b6n-language-c-0.7.1/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+/nix/store/w42wa45g6v927a9r4dc97bqm3hb88c60-language-c-0.7.1/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
 Private executables installed in:
-/nix/store/0mfzd8d5c5sszklcnj4w2yz3yz514b6n-language-c-0.7.1/libexec/x86_64-linux-ghc-8.4.0.20180204/language-c-0.7.1
+/nix/store/w42wa45g6v927a9r4dc97bqm3hb88c60-language-c-0.7.1/libexec/x86_64-linux-ghc-8.4.0.20180204/language-c-0.7.1
 Data files installed in:
-/nix/store/0mfzd8d5c5sszklcnj4w2yz3yz514b6n-language-c-0.7.1/share/x86_64-linux-ghc-8.4.0.20180204/language-c-0.7.1
+/nix/store/w42wa45g6v927a9r4dc97bqm3hb88c60-language-c-0.7.1/share/x86_64-linux-ghc-8.4.0.20180204/language-c-0.7.1
 Documentation installed in:
-/nix/store/gnsfzrxpz3s3xjf1pibb58hnydpq0jnd-language-c-0.7.1-doc/share/doc
+/nix/store/bipik6935144i3rpxc0fcy056914wf4m-language-c-0.7.1-doc/share/doc
 Configuration files installed in:
-/nix/store/0mfzd8d5c5sszklcnj4w2yz3yz514b6n-language-c-0.7.1/etc
+/nix/store/w42wa45g6v927a9r4dc97bqm3hb88c60-language-c-0.7.1/etc
 Using alex version 3.2.3 found on system at:
-/nix/store/yrvzkbazjjvk2vbawpy74nnvnb2ffrdl-alex-3.2.3/bin/alex
+/nix/store/ch9z8sqypslmbb00bxgim3ypqvdi6khn-alex-3.2.3/bin/alex
 Using ar found on system at:
 /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
 No c2hs found
@@ -1155,5 +1155,5 @@ src/Language/C/Analysis/DefTable.hs:109:21: warning: [-Wdeprecations]
 [34 of 39] Compiling Language.C.Syntax.Utils ( src/Language/C/Syntax/Utils.hs, dist/build/Language/C/Syntax/Utils.o )
 [37 of 39] Compiling Language.C.System.Preprocess ( src/Language/C/System/Preprocess.hs, dist/build/Language/C/System/Preprocess.o )
 [38 of 39] Compiling Language.C.System.GCC ( src/Language/C/System/GCC.hs, dist/build/Language/C/System/GCC.o )
-builder for ‘/nix/store/c7kdwyza57m63f54wyph55s5i1s6zrpc-language-c-0.7.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/c7kdwyza57m63f54wyph55s5i1s6zrpc-language-c-0.7.1.drv’ failed
+builder for ‘/nix/store/0pp64rs6xyd571sfbd44n0inhw4wh2v8-language-c-0.7.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/0pp64rs6xyd571sfbd44n0inhw4wh2v8-language-c-0.7.1.drv’ failed

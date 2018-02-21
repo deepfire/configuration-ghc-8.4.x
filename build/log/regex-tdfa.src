@@ -1,5 +1,5 @@
 these derivations will be built:
-  /nix/store/1rdf8g744ilsf7a0x8jd4v2hv5ljk3ja-regex-tdfa-1.2.2.drv
+  /nix/store/a2k4ss5nf5l9nxc07hb31shcz27lvs9f-regex-tdfa-1.2.2.drv
 building path(s) ‘/nix/store/w293bndynhxaiy80k4s6g73dyj5g6mqw-regex-tdfa-1.2.2-doc’, ‘/nix/store/x721hj62i9b6wrwfrj3d2x8x3vyp521z-regex-tdfa-1.2.2’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
@@ -139,5 +139,5 @@ Data/IntSet/EnumSet2.hs:10:10: error:
 [ 4 of 23] Compiling Paths_regex_tdfa ( dist/build/autogen/Paths_regex_tdfa.hs, dist/build/Paths_regex_tdfa.o )
 [ 5 of 23] Compiling Text.Regex.TDFA.IntArrTrieSet ( Text/Regex/TDFA/IntArrTrieSet.hs, dist/build/Text/Regex/TDFA/IntArrTrieSet.o )
 [ 7 of 23] Compiling Text.Regex.TDFA.NewDFA.Uncons ( Text/Regex/TDFA/NewDFA/Uncons.hs, dist/build/Text/Regex/TDFA/NewDFA/Uncons.o )
-builder for ‘/nix/store/1rdf8g744ilsf7a0x8jd4v2hv5ljk3ja-regex-tdfa-1.2.2.drv’ failed with exit code 1
-error: build of ‘/nix/store/1rdf8g744ilsf7a0x8jd4v2hv5ljk3ja-regex-tdfa-1.2.2.drv’ failed
+builder for ‘/nix/store/a2k4ss5nf5l9nxc07hb31shcz27lvs9f-regex-tdfa-1.2.2.drv’ failed with exit code 1
+error: build of ‘/nix/store/a2k4ss5nf5l9nxc07hb31shcz27lvs9f-regex-tdfa-1.2.2.drv’ failed

@@ -1,6 +1,6 @@
 these derivations will be built:
-  /nix/store/iwifa916qq3ngs3iyy9c5k673dmymxaf-keys-3.11.drv
-building path(s) ‘/nix/store/3asi4i031x0xhwrjabljgdj31wllhvqv-keys-3.11’, ‘/nix/store/vsgvsghc0v0m5vcdydj0sy4fhvgrcczj-keys-3.11-doc’
+  /nix/store/wwvbazxn5qmdhh1a7i0dzm0fg083bxqf-keys-3.11.drv
+building path(s) ‘/nix/store/1x8fzy29rirxy16kf9pi8kjdpfjgr0s5-keys-3.11’, ‘/nix/store/sllvy8fldn8a975jyhg890acrcgdg4gz-keys-3.11-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
@@ -14,7 +14,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-keys-3.11.drv-0/package.conf.d -j8
 [1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-keys-3.11.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/3asi4i031x0xhwrjabljgdj31wllhvqv-keys-3.11 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/vsgvsghc0v0m5vcdydj0sy4fhvgrcczj-keys-3.11-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-keys-3.11.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/3asi4i031x0xhwrjabljgdj31wllhvqv-keys-3.11/lib/ghc-8.4.0.20180204/keys-3.11 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/1x8fzy29rirxy16kf9pi8kjdpfjgr0s5-keys-3.11 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/sllvy8fldn8a975jyhg890acrcgdg4gz-keys-3.11-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-keys-3.11.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/1x8fzy29rirxy16kf9pi8kjdpfjgr0s5-keys-3.11/lib/ghc-8.4.0.20180204/keys-3.11 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring keys-3.11...
 CallStack (from HasCallStack):
@@ -28,5 +28,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 free ==4.*
 
-builder for ‘/nix/store/iwifa916qq3ngs3iyy9c5k673dmymxaf-keys-3.11.drv’ failed with exit code 1
-error: build of ‘/nix/store/iwifa916qq3ngs3iyy9c5k673dmymxaf-keys-3.11.drv’ failed
+builder for ‘/nix/store/wwvbazxn5qmdhh1a7i0dzm0fg083bxqf-keys-3.11.drv’ failed with exit code 1
+error: build of ‘/nix/store/wwvbazxn5qmdhh1a7i0dzm0fg083bxqf-keys-3.11.drv’ failed

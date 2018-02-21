@@ -8,11 +8,9 @@ with haskellLib; with self; {
   ## 
   constraints = super.constraints_0_10;
 
-  free = overrideCabal super.free_5 (drv: {
-    ## Needs bump to a versioned attribute
-    ## 
-    libraryHaskellDepends = drv.libraryHaskellDepends ++ [ self.transformers-base ];
-  });
+  ## Needs bump to a versioned attribute
+  ## 
+  free = super.free_5;
 
   funcmp = overrideCabal super.funcmp_1_9 (drv: {
     ## Needs bump to a versioned attribute
@@ -21,25 +19,10 @@ with haskellLib; with self; {
     jailbreak       = true;
   });
 
-  haskell-gi = overrideCabal super.haskell-gi_0_21_0 (drv: {
-    ## Needs bump to a versioned attribute
-    ## 
-    doCheck         = false;
-  });
-
-  ## Needs bump to a versioned attribute
-  ## 
-  ## breaks haskell-gi:
-  ## Setup: Encountered missing dependencies:
-  ## haskell-gi-base ==0.21.*
-  haskell-gi-base = super.haskell-gi-base_0_21_0;
-
   hspec-core = overrideCabal super.hspec-core_2_4_8 (drv: {
     ## Needs bump to a versioned attribute
     ## 
     doCheck         = false;
-    editedCabalFile = null;
-    revision        = null;
   });
 
   ## Needs bump to a versioned attribute
@@ -49,11 +32,16 @@ with haskellLib; with self; {
   ## hspec-discover ==2.4.7
   hspec-discover = super.hspec-discover_2_4_8;
 
+  language-c = overrideCabal super.language-c_0_7_2 (drv: {
+    ## Needs bump to a versioned attribute
+    ## 
+    doCheck         = false;
+  });
+
   lens = overrideCabal super.lens_4_16 (drv: {
     ## Needs bump to a versioned attribute
     ## 
     doCheck         = false;
-    jailbreak       = true;
   });
 
   semigroupoids = overrideCabal super.semigroupoids_5_2_2 (drv: {
@@ -82,6 +70,30 @@ with haskellLib; with self; {
 
 
   ## Upstreamed
+
+  haskell-gi = overrideCabal super.haskell-gi (drv: {
+    ## Upstreamed, awaiting a Hackage release
+    ## 
+    src = pkgs.fetchFromGitHub {
+      owner  = "haskell-gi";
+      repo   = "haskell-gi";
+      rev    = "30d2e6415c5b57760f8754cd3003eb07483d60e6";
+      sha256 = "1l3qm97gcjih695hhj80rbpnd72prnc81lg5y373yj8jk9f6ypbr";
+    };
+    doCheck         = false;
+  });
+
+  haskell-gi-base = overrideCabal super.haskell-gi-base (drv: {
+    ## Upstreamed, awaiting a Hackage release
+    ## 
+    src = pkgs.fetchFromGitHub {
+      owner  = "haskell-gi";
+      repo   = "haskell-gi";
+      rev    = "30d2e6415c5b57760f8754cd3003eb07483d60e6";
+      sha256 = "1l3qm97gcjih695hhj80rbpnd72prnc81lg5y373yj8jk9f6ypbr";
+    };
+    prePatch        = "cd base; ";
+  });
 
   haskell-src-exts = overrideCabal super.haskell-src-exts (drv: {
     ## Upstreamed, awaiting a Hackage release
@@ -209,30 +221,6 @@ with haskellLib; with self; {
       rev    = "b9eb4b10a50bd6250330422afecc065339a32412";
       sha256 = "0l4nplpvnzzf397zyh7j2k6yiqb46k6bdy00m4zzvhlfp7p1xkaw";
     };
-  });
-
-  language-c = overrideCabal super.language-c (drv: {
-    ## Unmerged.  PR: https://github.com/visq/language-c/pull/45
-    ## 
-    src = pkgs.fetchFromGitHub {
-      owner  = "deepfire";
-      repo   = "language-c";
-      rev    = "03b120c64c12946d134017f4922b55c6ab4f52f8";
-      sha256 = "1mcv46fq37kkd20rhhdbn837han5knjdsgc7ckqp5r2r9m3vy89r";
-    };
-    doCheck         = false;
-  });
-
-  language-c_0_7_0 = overrideCabal super.language-c_0_7_0 (drv: {
-    ## Unmerged.  PR: https://github.com/visq/language-c/pull/45
-    ## 
-    src = pkgs.fetchFromGitHub {
-      owner  = "deepfire";
-      repo   = "language-c";
-      rev    = "03b120c64c12946d134017f4922b55c6ab4f52f8";
-      sha256 = "1mcv46fq37kkd20rhhdbn837han5knjdsgc7ckqp5r2r9m3vy89r";
-    };
-    doCheck         = false;
   });
 
   monadplus = overrideCabal super.monadplus (drv: {
@@ -390,11 +378,11 @@ with haskellLib; with self; {
     doCheck         = false;
   });
 
-  newtype-generics = overrideCabal super.newtype-generics (drv: {
-    jailbreak       = true;
+  megaparsec = overrideCabal super.megaparsec (drv: {
+    doCheck         = false;
   });
 
-  parallel = overrideCabal super.parallel (drv: {
+  newtype-generics = overrideCabal super.newtype-generics (drv: {
     jailbreak       = true;
   });
 
@@ -402,8 +390,12 @@ with haskellLib; with self; {
     jailbreak       = true;
   });
 
-  tasty-ant-xml = overrideCabal super.tasty-ant-xml (drv: {
+  rapid = overrideCabal super.rapid (drv: {
     jailbreak       = true;
+  });
+
+  scientific = overrideCabal super.scientific (drv: {
+    doCheck         = false;
   });
 
   tasty-expected-failure = overrideCabal super.tasty-expected-failure (drv: {

@@ -1,6 +1,6 @@
 these derivations will be built:
-  /nix/store/db6pqaq5bhhpvz89chhp5qgbn5m9l3qp-lambdacube-ir-0.3.0.1.drv
-building path(s) ‘/nix/store/79df9flnnwl2mis1q7jzxl3dicnlkwwy-lambdacube-ir-0.3.0.1’, ‘/nix/store/qapfi9rzg5c2r2yarh16hyr3si0aj2ic-lambdacube-ir-0.3.0.1-doc’
+  /nix/store/7m8jwwdbc375i3kjvjchysxwwv3lc9sv-lambdacube-ir-0.3.0.1.drv
+building path(s) ‘/nix/store/07vf8pfhic6s3nyzjyf16j3k2zzjlh1l-lambdacube-ir-0.3.0.1’, ‘/nix/store/iwax9ra4xlsh5z6gfqmasmnm6rjv2snl-lambdacube-ir-0.3.0.1-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
@@ -13,7 +13,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-lambdacube-ir-0.3.0.1.drv-0/packag
 [1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-lambdacube-ir-0.3.0.1.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/79df9flnnwl2mis1q7jzxl3dicnlkwwy-lambdacube-ir-0.3.0.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/qapfi9rzg5c2r2yarh16hyr3si0aj2ic-lambdacube-ir-0.3.0.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-lambdacube-ir-0.3.0.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/79df9flnnwl2mis1q7jzxl3dicnlkwwy-lambdacube-ir-0.3.0.1/lib/ghc-8.4.0.20180204/lambdacube-ir-0.3.0.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/07vf8pfhic6s3nyzjyf16j3k2zzjlh1l-lambdacube-ir-0.3.0.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/iwax9ra4xlsh5z6gfqmasmnm6rjv2snl-lambdacube-ir-0.3.0.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-lambdacube-ir-0.3.0.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/07vf8pfhic6s3nyzjyf16j3k2zzjlh1l-lambdacube-ir-0.3.0.1/lib/ghc-8.4.0.20180204/lambdacube-ir-0.3.0.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring lambdacube-ir-0.3.0.1...
 CallStack (from HasCallStack):
@@ -27,5 +27,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 aeson >=0.9 && <0.12, base >=4.8 && <4.10, vector ==0.11.*
 
-builder for ‘/nix/store/db6pqaq5bhhpvz89chhp5qgbn5m9l3qp-lambdacube-ir-0.3.0.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/db6pqaq5bhhpvz89chhp5qgbn5m9l3qp-lambdacube-ir-0.3.0.1.drv’ failed
+builder for ‘/nix/store/7m8jwwdbc375i3kjvjchysxwwv3lc9sv-lambdacube-ir-0.3.0.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/7m8jwwdbc375i3kjvjchysxwwv3lc9sv-lambdacube-ir-0.3.0.1.drv’ failed

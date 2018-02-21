@@ -1,162 +1,316 @@
 these derivations will be built:
-  /nix/store/7aqgx6b4jarsnflzjhzqfvixd2hiyb6x-nats-1.1.2.drv
-  /nix/store/84106gr9zii5pgrgzaj212r5p1bp2vlr-language-haskell-extract-0.2.4.drv
-  /nix/store/a79bhc5x4b1y20822kx6yrhb7jlhsblh-doctest-0.13.0.drv
-  /nix/store/yhljjjl65ysaasf0xbmdqww9shb2kmb9-test-framework-th-0.2.4.drv
-building path(s) ‘/nix/store/9kb4d9wimm9ha0p0d75wvaqhgi3gikxv-doctest-0.13.0’, ‘/nix/store/s4ndlj7czj9z97zijzbchs12cyz3gqjh-doctest-0.13.0-doc’
-building path(s) ‘/nix/store/5v9i2ncj5vhqypyffg95f4mq33pbp3an-nats-1.1.2’
-building path(s) ‘/nix/store/51535rb3bx3ibigp9vw3axw6082jlbkl-language-haskell-extract-0.2.4’, ‘/nix/store/ygnpsisf2mmq55hdw1ijpvqri01fircw-language-haskell-extract-0.2.4-doc’
-setupCompilerEnvironmentPhase
-Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
+  /nix/store/y83nap24hn2v1ifx6hf8sj9d6ckvhbfv-lens-4.16.drv
+building path(s) ‘/nix/store/8rgqjaf8977c983nqnams2as6y69j0lc-lens-4.16-doc’, ‘/nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
-unpacking source archive /nix/store/73qqhj2zca8ql87x4v4qjxbpc6rjc3y3-nats-1.1.2.tar.gz
-source root is nats-1.1.2
-setting SOURCE_DATE_EPOCH to timestamp 1517938490 of file nats-1.1.2/.vim.custom
+unpacking source archive /nix/store/vih54rdi564z4mdxb0npb7dqf987dsv7-lens-4.16.tar.gz
+source root is lens-4.16
+setting SOURCE_DATE_EPOCH to timestamp 1517158181 of file lens-4.16/Warning.hs
 patching sources
+Replace Cabal file with edited version from http://hackage.haskell.org/package/lens-4.16/revision/2.cabal.
 compileBuildDriverPhase
-setupCompileFlags: -package-db=/tmp/nix-build-nats-1.1.2.drv-0/package.conf.d -j8 -threaded
-unpacking sources
-unpacking source archive /nix/store/xxwcl13sib66v7bf96gn94qp61jbvn7p-language-haskell-extract-0.2.4.tar.gz
-source root is language-haskell-extract-0.2.4
-setting SOURCE_DATE_EPOCH to timestamp 1359190809 of file language-haskell-extract-0.2.4/src/Language/Haskell/Extract.hs
-patching sources
-compileBuildDriverPhase
-setupCompileFlags: -package-db=/tmp/nix-build-language-haskell-extract-0.2.4.drv-0/package.conf.d -j8 -threaded
-[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-nats-1.1.2.drv-0/Main.o )
-[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-language-haskell-extract-0.2.4.drv-0/Main.o )
-Linking Setup ...
-Linking Setup ...
-setupCompilerEnvironmentPhase
-Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
-unpacking sources
-unpacking source archive /nix/store/8gc056xssy5k1q4yxqbjypjbx5dvnikz-doctest-0.13.0.tar.gz
-source root is doctest-0.13.0
-setting SOURCE_DATE_EPOCH to timestamp 1501741454 of file doctest-0.13.0/test/Spec.hs
-patching sources
-compileBuildDriverPhase
-setupCompileFlags: -package-db=/tmp/nix-build-doctest-0.13.0.drv-0/package.conf.d -j8 -threaded
-[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-doctest-0.13.0.drv-0/Main.o )
+setupCompileFlags: -package-db=/tmp/nix-build-lens-4.16.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-lens-4.16.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/5v9i2ncj5vhqypyffg95f4mq33pbp3an-nats-1.1.2 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --with-gcc=gcc --package-db=/tmp/nix-build-nats-1.1.2.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/5v9i2ncj5vhqypyffg95f4mq33pbp3an-nats-1.1.2/lib/ghc-8.4.0.20180204/nats-1.1.2 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
-configuring
-configureFlags: --verbose --prefix=/nix/store/51535rb3bx3ibigp9vw3axw6082jlbkl-language-haskell-extract-0.2.4 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/ygnpsisf2mmq55hdw1ijpvqri01fircw-language-haskell-extract-0.2.4-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-language-haskell-extract-0.2.4.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/51535rb3bx3ibigp9vw3axw6082jlbkl-language-haskell-extract-0.2.4/lib/ghc-8.4.0.20180204/language-haskell-extract-0.2.4 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/8rgqjaf8977c983nqnams2as6y69j0lc-lens-4.16-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-lens-4.16.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16/lib/ghc-8.4.0.20180204/lens-4.16 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
-Configuring nats-1.1.2...
-Flags chosen: binary=True, hashable=True, template-haskell=True
-Using Parsec parser
-Configuring language-haskell-extract-0.2.4...
-Dependency base ==4.*: using base-4.11.0.0
-Dependency regex-posix -any: using regex-posix-0.95.2
-Dependency template-haskell -any: using template-haskell-2.13.0.0
-configuring
-configureFlags: --verbose --prefix=/nix/store/9kb4d9wimm9ha0p0d75wvaqhgi3gikxv-doctest-0.13.0 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/s4ndlj7czj9z97zijzbchs12cyz3gqjh-doctest-0.13.0-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-doctest-0.13.0.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/9kb4d9wimm9ha0p0d75wvaqhgi3gikxv-doctest-0.13.0/lib/ghc-8.4.0.20180204/doctest-0.13.0 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
-Source component graph: component lib
+Configuring lens-4.16...
+Flags chosen: benchmark-uniplate=False, dump-splices=False, inlining=True,
+j=False, old-inline-pragmas=False, safe=False, test-doctests=True,
+test-hunit=True, test-properties=True, test-templates=True, trustworthy=True
+Dependency HUnit >=1.2: using HUnit-1.6.0.0
+Dependency QuickCheck >=2.4: using QuickCheck-2.11.3
+Dependency array >=0.3.0.2 && <0.6: using array-0.5.2.0
+Dependency base >=4.5 && <5: using base-4.11.0.0
+Dependency base-orphans >=0.5.2 && <1: using base-orphans-0.6
+Dependency bifunctors >=5.1 && <6: using bifunctors-5.5.2
+Dependency bytestring >=0.9.1.10 && <0.11: using bytestring-0.10.8.2
+Dependency call-stack ==0.1.*: using call-stack-0.1.0
+Dependency comonad >=4 && <6: using comonad-5.0.3
+Dependency containers >=0.4.0 && <0.6: using containers-0.5.11.0
+Dependency contravariant >=1.3 && <2: using contravariant-1.4.1
+Dependency deepseq -any: using deepseq-1.4.3.0
+Dependency directory >=1.0: using directory-1.3.1.5
+Dependency distributive >=0.3 && <1: using distributive-0.5.3
+Dependency doctest >=0.11.4 && <0.12 || >=0.13 && <0.15: using doctest-0.14.0
+Dependency exceptions >=0.1.1 && <1: using exceptions-0.8.3
+Dependency filepath >=1.2.0.0 && <1.5: using filepath-1.4.2
+Dependency free >=4 && <6: using free-5
+Dependency generic-deriving -any: using generic-deriving-1.12.1
+Dependency ghc-prim -any: using ghc-prim-0.5.2.0
+Dependency hashable >=1.1.2.3 && <1.3: using hashable-1.2.6.1
+Dependency kan-extensions ==5.*: using kan-extensions-5.0.2
+Dependency lens -any: using lens-4.16
+Dependency mtl >=2.0.1 && <2.3: using mtl-2.2.2
+Dependency nats -any: using nats-1.1.2
+Dependency parallel >=3.1.0.1 && <3.3: using parallel-3.2.1.1
+Dependency profunctors >=5.2.1 && <6: using profunctors-5.2.2
+Dependency reflection >=2.1 && <3: using reflection-2.1.3
+Dependency semigroupoids ==5.*: using semigroupoids-5.2.2
+Dependency semigroups >=0.9 && <1: using semigroups-0.18.4
+Dependency simple-reflect >=0.3.1: using simple-reflect-0.3.2
+Dependency tagged >=0.4.4 && <1: using tagged-0.8.5
+Dependency template-haskell >=2.4 && <2.14: using template-haskell-2.13.0.0
+Dependency test-framework >=0.6: using test-framework-0.8.2.0
+Dependency test-framework-hunit >=0.2: using test-framework-hunit-0.3.0.2
+Dependency test-framework-quickcheck2 >=0.2: using
+test-framework-quickcheck2-0.3.0.4
+Dependency test-framework-th >=0.2: using test-framework-th-0.2.4
+Dependency text >=0.11 && <1.3: using text-1.2.3.0
+Dependency th-abstraction >=0.2.1 && <0.3: using th-abstraction-0.2.6.0
+Dependency transformers >=0.2 && <0.6: using transformers-0.5.5.0
+Dependency transformers-compat >=0.4 && <1: using transformers-compat-0.5.1.4
+Dependency unordered-containers >=0.2.4 && <0.3: using
+unordered-containers-0.2.9.0
+Dependency vector >=0.9 && <0.13: using vector-0.12.0.1
+Dependency void >=0.5 && <1: using void-0.7.2
+Source component graph:
+    component lib
+    component test:doctests dependency lib
+    component test:hunit dependency lib
+    component test:properties dependency lib
+    component test:templates dependency lib
 Configured component graph:
-    component nats-1.1.2-1IJUekZt6ps5IWVCKMBPeK
-Linked component graph: unit nats-1.1.2-1IJUekZt6ps5IWVCKMBPeK
-Ready component graph: definite nats-1.1.2-1IJUekZt6ps5IWVCKMBPeK
-Using Cabal-2.1.0.0 compiled by ghc-8.4
-Using compiler: ghc-8.4.0.20180204
-Using install prefix: /nix/store/5v9i2ncj5vhqypyffg95f4mq33pbp3an-nats-1.1.2
-Executables installed in:
-/nix/store/5v9i2ncj5vhqypyffg95f4mq33pbp3an-nats-1.1.2/bin
-Libraries installed in:
-/nix/store/5v9i2ncj5vhqypyffg95f4mq33pbp3an-nats-1.1.2/lib/ghc-8.4.0.20180204/nats-1.1.2
-Dynamic Libraries installed in:
-/nix/store/5v9i2ncj5vhqypyffg95f4mq33pbp3an-nats-1.1.2/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
-Private executables installed in:
-/nix/store/5v9i2ncj5vhqypyffg95f4mq33pbp3an-nats-1.1.2/libexec/x86_64-linux-ghc-8.4.0.20180204/nats-1.1.2
-Data files installed in:
-/nix/store/5v9i2ncj5vhqypyffg95f4mq33pbp3an-nats-1.1.2/share/x86_64-linux-ghc-8.4.0.20180204/nats-1.1.2
-Documentation installed in:
-/nix/store/5v9i2ncj5vhqypyffg95f4mq33pbp3an-nats-1.1.2/share/doc/x86_64-linux-ghc-8.4.0.20180204/nats-1.1.2
-Configuration files installed in:
-/nix/store/5v9i2ncj5vhqypyffg95f4mq33pbp3an-nats-1.1.2/etc
-No alex found
-Using ar found on system at:
-/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
-No c2hs found
-No cpphs found
-No doctest found
-Using gcc version 6.4.0 given by user at:
-/nix/store/nj7mw0lyx80g7lrxcxy5v9vmnpif5950-gcc-wrapper-6.4.0/bin/gcc
-Using ghc version 8.4.0.20180204 found on system at:
-/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc
-Using ghc-pkg version 8.4.0.20180204 found on system at:
-/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc-pkg
-No ghcjs found
-No ghcjs-pkg found
-No greencard found
-Using haddock version 2.19.0 found on system at:
-/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/haddock
-No happy found
-Using haskell-suite found on system at: haskell-suite-dummy-location
-Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
-No hmake found
-Using hpc version 0.67 found on system at:
-/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hpc
-Using hsc2hs version 0.68.3 found on system at:
-/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hsc2hs
-Using hscolour version 1.24 found on system at:
-/nix/store/626h2ym9fhl5lgnqlqrh5s4b73m5kgy8-hscolour-1.24.2/bin/HsColour
-No jhc found
-Using ld found on system at:
-/nix/store/qhqxgkb2zki59dy4lx6krmgjsnhpjrc9-binutils-wrapper-2.28.1/bin/ld
-No lhc found
-No lhc-pkg found
-No pkg-config found
-Using runghc version 8.4.0.20180204 found on system at:
-/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/runghc
-Using strip version 2.28 found on system at:
-/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
-Using tar found on system at:
-/nix/store/2waj1y5v572sbigjhqbmhx178vfak1l0-gnutar-1.30/bin/tar
-No uhc found
-building
-Source component graph: component lib
-Configured component graph:
-    component language-haskell-extract-0.2.4-FOfem4YgIZJArYwtjp3jqs
+    component lens-4.16-2YvRxcKFNN0998Yf4TxD1j
+        include array-0.5.2.0
         include base-4.11.0.0
-        include regex-posix-0.95.2-8kF81fZFygS8YDAHvZi707
+        include base-orphans-0.6-BFFScXfKnJEKHhXndhlOdO
+        include bifunctors-5.5.2-JmVwqHZaUG9BxzkzTlCaly
+        include bytestring-0.10.8.2
+        include call-stack-0.1.0-6BCoA8Rca4ecMLowDBWb5
+        include comonad-5.0.3-ExNKBl5TkJNAu3dJXaqq6A
+        include contravariant-1.4.1-DWV5xdtLr6t812AdW18VMx
+        include containers-0.5.11.0
+        include distributive-0.5.3-CpG8oAA5FNTIGevMWcmgEn
+        include filepath-1.4.2
+        include free-5-LWgh8YGfwG07Cf9P3AgkXc
+        include ghc-prim-0.5.2.0
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        include kan-extensions-5.0.2-HEE4qir9QKkJSeKdBmCTcx
+        include exceptions-0.8.3-GJwWKvOYkLfcc0DtYIOoR
+        include mtl-2.2.2
+        include parallel-3.2.1.1-92VhYL4ho2hDgC9jrNFqUp
+        include profunctors-5.2.2-GC4MnSx56G1Eusf4XqzYEr
+        include reflection-2.1.3-9TcVVentlk8CP2sdqM4bnM
+        include semigroupoids-5.2.2-K4ADSgqeCXh17JuWVZKLCd
+        include semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
+        include tagged-0.8.5-H1YAr6QWnCT7DbgXfdWaeE
         include template-haskell-2.13.0.0
+        include th-abstraction-0.2.6.0-AxKETn9xnvy1NIoJGfKwUs
+        include text-1.2.3.0
+        include transformers-0.5.5.0
+        include transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
+        include unordered-containers-0.2.9.0-FyfETF6kkcWDBCY6EzUP7S
+        include vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
+        include void-0.7.2-6nj4zRuM8LB8bsxdyfvxDc
+    component lens-4.16-2BLvWlWnu9EBqXuwrRiG8-doctests
+        include base-4.11.0.0
+        include bytestring-0.10.8.2
+        include containers-0.5.11.0
+        include directory-1.3.1.5
+        include deepseq-1.4.3.0
+        include doctest-0.14.0-BRwXWiEtLpEE8emrLBWSRd
+        include filepath-1.4.2
+        include generic-deriving-1.12.1-DzrKHZq405VCT6BXu3rvHR
+        include lens-4.16-2YvRxcKFNN0998Yf4TxD1j
+        include mtl-2.2.2
+        include nats-1.1.2-1IJUekZt6ps5IWVCKMBPeK
+        include parallel-3.2.1.1-92VhYL4ho2hDgC9jrNFqUp
+        include semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
+        include simple-reflect-0.3.2-FBPOi0OZJKTIvkbuPzNDpK
+        include text-1.2.3.0
+        include unordered-containers-0.2.9.0-FyfETF6kkcWDBCY6EzUP7S
+        include vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
+    component lens-4.16-LwL0FKLqlFVJsompeWEfJF-hunit
+        include base-4.11.0.0
+        include containers-0.5.11.0
+        include HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
+        include lens-4.16-2YvRxcKFNN0998Yf4TxD1j
+        include mtl-2.2.2
+        include test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
+        include test-framework-hunit-0.3.0.2-AwNmJhDVSTyKAo7PIxpJSA
+        include test-framework-th-0.2.4-8l8S7SpGfRdLAvIfduDZo1
+    component lens-4.16-LAWBGjTWTdD5I6tSHMuA2Z-properties
+        include base-4.11.0.0
+        include lens-4.16-2YvRxcKFNN0998Yf4TxD1j
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
+        include test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
+        include test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        include test-framework-th-0.2.4-8l8S7SpGfRdLAvIfduDZo1
+        include transformers-0.5.5.0
+    component lens-4.16-GONSHumrR1Z166YZNEj7OH-templates
+        include base-4.11.0.0
+        include lens-4.16-2YvRxcKFNN0998Yf4TxD1j
 Linked component graph:
-    unit language-haskell-extract-0.2.4-FOfem4YgIZJArYwtjp3jqs
+    unit lens-4.16-2YvRxcKFNN0998Yf4TxD1j
+        include array-0.5.2.0
         include base-4.11.0.0
-        include regex-posix-0.95.2-8kF81fZFygS8YDAHvZi707
+        include base-orphans-0.6-BFFScXfKnJEKHhXndhlOdO
+        include bifunctors-5.5.2-JmVwqHZaUG9BxzkzTlCaly
+        include bytestring-0.10.8.2
+        include call-stack-0.1.0-6BCoA8Rca4ecMLowDBWb5
+        include comonad-5.0.3-ExNKBl5TkJNAu3dJXaqq6A
+        include contravariant-1.4.1-DWV5xdtLr6t812AdW18VMx
+        include containers-0.5.11.0
+        include distributive-0.5.3-CpG8oAA5FNTIGevMWcmgEn
+        include filepath-1.4.2
+        include free-5-LWgh8YGfwG07Cf9P3AgkXc
+        include ghc-prim-0.5.2.0
+        include hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        include kan-extensions-5.0.2-HEE4qir9QKkJSeKdBmCTcx
+        include exceptions-0.8.3-GJwWKvOYkLfcc0DtYIOoR
+        include mtl-2.2.2
+        include parallel-3.2.1.1-92VhYL4ho2hDgC9jrNFqUp
+        include profunctors-5.2.2-GC4MnSx56G1Eusf4XqzYEr
+        include reflection-2.1.3-9TcVVentlk8CP2sdqM4bnM
+        include semigroupoids-5.2.2-K4ADSgqeCXh17JuWVZKLCd
+        include semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
+        include tagged-0.8.5-H1YAr6QWnCT7DbgXfdWaeE
         include template-haskell-2.13.0.0
-        Language.Haskell.Extract=language-haskell-extract-0.2.4-FOfem4YgIZJArYwtjp3jqs:Language.Haskell.Extract
+        include th-abstraction-0.2.6.0-AxKETn9xnvy1NIoJGfKwUs
+        include text-1.2.3.0
+        include transformers-0.5.5.0
+        include transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
+        include unordered-containers-0.2.9.0-FyfETF6kkcWDBCY6EzUP7S
+        include vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
+        include void-0.7.2-6nj4zRuM8LB8bsxdyfvxDc
+        Control.Exception.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Exception.Lens,Control.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens,Control.Lens.At=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.At,Control.Lens.Combinators=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Combinators,Control.Lens.Cons=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Cons,Control.Lens.Each=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Each,Control.Lens.Empty=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Empty,Control.Lens.Equality=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Equality,Control.Lens.Extras=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Extras,Control.Lens.Fold=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Fold,Control.Lens.Getter=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Getter,Control.Lens.Indexed=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Indexed,Control.Lens.Internal=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal,Control.Lens.Internal.Bazaar=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.Bazaar,Control.Lens.Internal.ByteString=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.ByteString,Control.Lens.Internal.CTypes=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.CTypes,Control.Lens.Internal.Coerce=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.Coerce,Control.Lens.Internal.Context=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.Context,Control.Lens.Internal.Deque=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.Deque,Control.Lens.Internal.Exception=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.Exception,Control.Lens.Internal.FieldTH=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.FieldTH,Control.Lens.Internal.Fold=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.Fold,Control.Lens.Internal.Getter=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.Getter,Control.Lens.Internal.Indexed=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.Indexed,Control.Lens.Internal.Instances=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.Instances,Control.Lens.Internal.Iso=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.Iso,Control.Lens.Internal.Level=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.Level,Control.Lens.Internal.List=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.List,Control.Lens.Internal.Magma=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.Magma,Control.Lens.Internal.Prism=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.Prism,Control.Lens.Internal.PrismTH=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.PrismTH,Control.Lens.Internal.Review=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.Review,Control.Lens.Internal.Setter=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.Setter,Control.Lens.Internal.TH=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.TH,Control.Lens.Internal.Zoom=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Internal.Zoom,Control.Lens.Iso=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Iso,Control.Lens.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Lens,Control.Lens.Level=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Level,Control.Lens.Operators=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Operators,Control.Lens.Plated=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Plated,Control.Lens.Prism=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Prism,Control.Lens.Reified=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Reified,Control.Lens.Review=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Review,Control.Lens.Setter=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Setter,Control.Lens.TH=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.TH,Control.Lens.Traversal=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Traversal,Control.Lens.Tuple=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Tuple,Control.Lens.Type=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Type,Control.Lens.Unsound=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Unsound,Control.Lens.Wrapped=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Wrapped,Control.Lens.Zoom=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Lens.Zoom,Control.Monad.Error.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Monad.Error.Lens,Control.Parallel.Strategies.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Parallel.Strategies.Lens,Control.Seq.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Control.Seq.Lens,Data.Array.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.Array.Lens,Data.Bits.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.Bits.Lens,Data.ByteString.Lazy.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.ByteString.Lazy.Lens,Data.ByteString.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.ByteString.Lens,Data.ByteString.Strict.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.ByteString.Strict.Lens,Data.Complex.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.Complex.Lens,Data.Data.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.Data.Lens,Data.Dynamic.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.Dynamic.Lens,Data.HashSet.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.HashSet.Lens,Data.IntSet.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.IntSet.Lens,Data.List.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.List.Lens,Data.Map.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.Map.Lens,Data.Sequence.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.Sequence.Lens,Data.Set.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.Set.Lens,Data.Text.Lazy.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.Text.Lazy.Lens,Data.Text.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.Text.Lens,Data.Text.Strict.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.Text.Strict.Lens,Data.Tree.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.Tree.Lens,Data.Typeable.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.Typeable.Lens,Data.Vector.Generic.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.Vector.Generic.Lens,Data.Vector.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Data.Vector.Lens,GHC.Generics.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:GHC.Generics.Lens,Language.Haskell.TH.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Language.Haskell.TH.Lens,Numeric.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Numeric.Lens,Numeric.Natural.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:Numeric.Natural.Lens,System.Exit.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:System.Exit.Lens,System.FilePath.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:System.FilePath.Lens,System.IO.Error.Lens=lens-4.16-2YvRxcKFNN0998Yf4TxD1j:System.IO.Error.Lens
+    unit lens-4.16-2BLvWlWnu9EBqXuwrRiG8-doctests
+        include base-4.11.0.0
+        include bytestring-0.10.8.2
+        include containers-0.5.11.0
+        include directory-1.3.1.5
+        include deepseq-1.4.3.0
+        include doctest-0.14.0-BRwXWiEtLpEE8emrLBWSRd
+        include filepath-1.4.2
+        include generic-deriving-1.12.1-DzrKHZq405VCT6BXu3rvHR
+        include lens-4.16-2YvRxcKFNN0998Yf4TxD1j
+        include mtl-2.2.2
+        include nats-1.1.2-1IJUekZt6ps5IWVCKMBPeK
+        include parallel-3.2.1.1-92VhYL4ho2hDgC9jrNFqUp
+        include semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
+        include simple-reflect-0.3.2-FBPOi0OZJKTIvkbuPzNDpK
+        include text-1.2.3.0
+        include unordered-containers-0.2.9.0-FyfETF6kkcWDBCY6EzUP7S
+        include vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
+    unit lens-4.16-LwL0FKLqlFVJsompeWEfJF-hunit
+        include base-4.11.0.0
+        include containers-0.5.11.0
+        include HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
+        include lens-4.16-2YvRxcKFNN0998Yf4TxD1j
+        include mtl-2.2.2
+        include test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
+        include test-framework-hunit-0.3.0.2-AwNmJhDVSTyKAo7PIxpJSA
+        include test-framework-th-0.2.4-8l8S7SpGfRdLAvIfduDZo1
+    unit lens-4.16-LAWBGjTWTdD5I6tSHMuA2Z-properties
+        include base-4.11.0.0
+        include lens-4.16-2YvRxcKFNN0998Yf4TxD1j
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
+        include test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
+        include test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        include test-framework-th-0.2.4-8l8S7SpGfRdLAvIfduDZo1
+        include transformers-0.5.5.0
+    unit lens-4.16-GONSHumrR1Z166YZNEj7OH-templates
+        include base-4.11.0.0
+        include lens-4.16-2YvRxcKFNN0998Yf4TxD1j
 Ready component graph:
-    definite language-haskell-extract-0.2.4-FOfem4YgIZJArYwtjp3jqs
+    definite lens-4.16-2YvRxcKFNN0998Yf4TxD1j
+        depends array-0.5.2.0
         depends base-4.11.0.0
-        depends regex-posix-0.95.2-8kF81fZFygS8YDAHvZi707
+        depends base-orphans-0.6-BFFScXfKnJEKHhXndhlOdO
+        depends bifunctors-5.5.2-JmVwqHZaUG9BxzkzTlCaly
+        depends bytestring-0.10.8.2
+        depends call-stack-0.1.0-6BCoA8Rca4ecMLowDBWb5
+        depends comonad-5.0.3-ExNKBl5TkJNAu3dJXaqq6A
+        depends contravariant-1.4.1-DWV5xdtLr6t812AdW18VMx
+        depends containers-0.5.11.0
+        depends distributive-0.5.3-CpG8oAA5FNTIGevMWcmgEn
+        depends filepath-1.4.2
+        depends free-5-LWgh8YGfwG07Cf9P3AgkXc
+        depends ghc-prim-0.5.2.0
+        depends hashable-1.2.6.1-IYJVL7dAbqQ5z55MIDD1x6
+        depends kan-extensions-5.0.2-HEE4qir9QKkJSeKdBmCTcx
+        depends exceptions-0.8.3-GJwWKvOYkLfcc0DtYIOoR
+        depends mtl-2.2.2
+        depends parallel-3.2.1.1-92VhYL4ho2hDgC9jrNFqUp
+        depends profunctors-5.2.2-GC4MnSx56G1Eusf4XqzYEr
+        depends reflection-2.1.3-9TcVVentlk8CP2sdqM4bnM
+        depends semigroupoids-5.2.2-K4ADSgqeCXh17JuWVZKLCd
+        depends semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
+        depends tagged-0.8.5-H1YAr6QWnCT7DbgXfdWaeE
         depends template-haskell-2.13.0.0
+        depends th-abstraction-0.2.6.0-AxKETn9xnvy1NIoJGfKwUs
+        depends text-1.2.3.0
+        depends transformers-0.5.5.0
+        depends transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
+        depends unordered-containers-0.2.9.0-FyfETF6kkcWDBCY6EzUP7S
+        depends vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
+        depends void-0.7.2-6nj4zRuM8LB8bsxdyfvxDc
+    definite lens-4.16-GONSHumrR1Z166YZNEj7OH-templates
+        depends base-4.11.0.0
+        depends lens-4.16-2YvRxcKFNN0998Yf4TxD1j
+    definite lens-4.16-LAWBGjTWTdD5I6tSHMuA2Z-properties
+        depends base-4.11.0.0
+        depends lens-4.16-2YvRxcKFNN0998Yf4TxD1j
+        depends QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
+        depends test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
+        depends test-framework-quickcheck2-0.3.0.4-2Jd1cGBg7BwJhuOMv2XXx2
+        depends test-framework-th-0.2.4-8l8S7SpGfRdLAvIfduDZo1
+        depends transformers-0.5.5.0
+    definite lens-4.16-LwL0FKLqlFVJsompeWEfJF-hunit
+        depends base-4.11.0.0
+        depends containers-0.5.11.0
+        depends HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
+        depends lens-4.16-2YvRxcKFNN0998Yf4TxD1j
+        depends mtl-2.2.2
+        depends test-framework-0.8.2.0-4d90kZk489r9kWv9Pbyu7O
+        depends test-framework-hunit-0.3.0.2-AwNmJhDVSTyKAo7PIxpJSA
+        depends test-framework-th-0.2.4-8l8S7SpGfRdLAvIfduDZo1
+    definite lens-4.16-2BLvWlWnu9EBqXuwrRiG8-doctests
+        depends base-4.11.0.0
+        depends bytestring-0.10.8.2
+        depends containers-0.5.11.0
+        depends directory-1.3.1.5
+        depends deepseq-1.4.3.0
+        depends doctest-0.14.0-BRwXWiEtLpEE8emrLBWSRd
+        depends filepath-1.4.2
+        depends generic-deriving-1.12.1-DzrKHZq405VCT6BXu3rvHR
+        depends lens-4.16-2YvRxcKFNN0998Yf4TxD1j
+        depends mtl-2.2.2
+        depends nats-1.1.2-1IJUekZt6ps5IWVCKMBPeK
+        depends parallel-3.2.1.1-92VhYL4ho2hDgC9jrNFqUp
+        depends semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
+        depends simple-reflect-0.3.2-FBPOi0OZJKTIvkbuPzNDpK
+        depends text-1.2.3.0
+        depends unordered-containers-0.2.9.0-FyfETF6kkcWDBCY6EzUP7S
+        depends vector-0.12.0.1-ANruhCPvY6kWtnXdtpuVt
 Using Cabal-2.1.0.0 compiled by ghc-8.4
 Using compiler: ghc-8.4.0.20180204
-Using install prefix:
-/nix/store/51535rb3bx3ibigp9vw3axw6082jlbkl-language-haskell-extract-0.2.4
+Using install prefix: /nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16
 Executables installed in:
-/nix/store/51535rb3bx3ibigp9vw3axw6082jlbkl-language-haskell-extract-0.2.4/bin
+/nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16/bin
 Libraries installed in:
-/nix/store/51535rb3bx3ibigp9vw3axw6082jlbkl-language-haskell-extract-0.2.4/lib/ghc-8.4.0.20180204/language-haskell-extract-0.2.4
+/nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16/lib/ghc-8.4.0.20180204/lens-4.16
 Dynamic Libraries installed in:
-/nix/store/51535rb3bx3ibigp9vw3axw6082jlbkl-language-haskell-extract-0.2.4/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+/nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
 Private executables installed in:
-/nix/store/51535rb3bx3ibigp9vw3axw6082jlbkl-language-haskell-extract-0.2.4/libexec/x86_64-linux-ghc-8.4.0.20180204/language-haskell-extract-0.2.4
+/nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16/libexec/x86_64-linux-ghc-8.4.0.20180204/lens-4.16
 Data files installed in:
-/nix/store/51535rb3bx3ibigp9vw3axw6082jlbkl-language-haskell-extract-0.2.4/share/x86_64-linux-ghc-8.4.0.20180204/language-haskell-extract-0.2.4
+/nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16/share/x86_64-linux-ghc-8.4.0.20180204/lens-4.16
 Documentation installed in:
-/nix/store/ygnpsisf2mmq55hdw1ijpvqri01fircw-language-haskell-extract-0.2.4-doc/share/doc
+/nix/store/8rgqjaf8977c983nqnams2as6y69j0lc-lens-4.16-doc/share/doc
 Configuration files installed in:
-/nix/store/51535rb3bx3ibigp9vw3axw6082jlbkl-language-haskell-extract-0.2.4/etc
+/nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16/etc
 No alex found
 Using ar found on system at:
 /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
 No c2hs found
-No cpphs found
-No doctest found
+Using cpphs version 1.20.8 found on system at:
+/nix/store/f94m5jq72vmyipmilkww2l1hdw4cg1lg-cpphs-1.20.8/bin/cpphs
+Using doctest version 0.14.0 found on system at:
+/nix/store/brymg0c8qdgdlyip8gbp2xbz5frjm65s-doctest-0.14.0/bin/doctest
 Using gcc version 6.4.0 given by user at:
 /nix/store/nj7mw0lyx80g7lrxcxy5v9vmnpif5950-gcc-wrapper-6.4.0/bin/gcc
 Using ghc version 8.4.0.20180204 found on system at:
@@ -191,36 +345,753 @@ Using strip version 2.28 found on system at:
 Using tar found on system at:
 /nix/store/2waj1y5v572sbigjhqbmhx178vfak1l0-gnutar-1.30/bin/tar
 No uhc found
-Preprocessing library for nats-1.1.2..
-Building library for nats-1.1.2..
 building
-Preprocessing library for language-haskell-extract-0.2.4..
-Building library for language-haskell-extract-0.2.4..
-running tests
-Package has no test suites.
-haddockPhase
-installing
-Installing library in /nix/store/5v9i2ncj5vhqypyffg95f4mq33pbp3an-nats-1.1.2/lib/ghc-8.4.0.20180204/nats-1.1.2
-[1 of 1] Compiling Language.Haskell.Extract ( src/Language/Haskell/Extract.hs, dist/build/Language/Haskell/Extract.o )
-post-installation fixup
-shrinking RPATHs of ELF executables and libraries in /nix/store/5v9i2ncj5vhqypyffg95f4mq33pbp3an-nats-1.1.2
-strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
-stripping (with command strip and flags -S) in /nix/store/5v9i2ncj5vhqypyffg95f4mq33pbp3an-nats-1.1.2/lib 
-patching script interpreter paths in /nix/store/5v9i2ncj5vhqypyffg95f4mq33pbp3an-nats-1.1.2
-checking for references to /tmp/nix-build-nats-1.1.2.drv-0 in /nix/store/5v9i2ncj5vhqypyffg95f4mq33pbp3an-nats-1.1.2...
-Using Parsec parser
-Configuring doctest-0.13.0...
-CallStack (from HasCallStack):
-  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
-  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
-  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
-  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
-  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
-  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:114:27 in Cabal-2.1.0.0:Distribution.Simple
-  defaultMain, called at Setup.lhs:3:10 in main:Main
-Setup: Encountered missing dependencies:
-ghc >=7.0 && <8.4
+Preprocessing library for lens-4.16..
+Building library for lens-4.16..
+[ 1 of 83] Compiling Control.Lens.Internal.CTypes ( src/Control/Lens/Internal/CTypes.hs, dist/build/Control/Lens/Internal/CTypes.o )
+[ 2 of 83] Compiling Control.Lens.Internal.Coerce ( src/Control/Lens/Internal/Coerce.hs, dist/build/Control/Lens/Internal/Coerce.o )
+[ 3 of 83] Compiling Control.Lens.Internal.Getter ( src/Control/Lens/Internal/Getter.hs, dist/build/Control/Lens/Internal/Getter.o )
+[ 4 of 83] Compiling Control.Lens.Internal.Fold ( src/Control/Lens/Internal/Fold.hs, dist/build/Control/Lens/Internal/Fold.o )
+[ 5 of 83] Compiling Control.Lens.Internal.Instances ( src/Control/Lens/Internal/Instances.hs, dist/build/Control/Lens/Internal/Instances.o )
+[ 6 of 83] Compiling Control.Lens.Internal.Indexed ( src/Control/Lens/Internal/Indexed.hs, dist/build/Control/Lens/Internal/Indexed.o )
+[ 7 of 83] Compiling Control.Lens.Internal.Context ( src/Control/Lens/Internal/Context.hs, dist/build/Control/Lens/Internal/Context.o )
+[ 8 of 83] Compiling Control.Lens.Internal.Bazaar ( src/Control/Lens/Internal/Bazaar.hs, dist/build/Control/Lens/Internal/Bazaar.o )
+[ 9 of 83] Compiling Control.Lens.Internal.Iso ( src/Control/Lens/Internal/Iso.hs, dist/build/Control/Lens/Internal/Iso.o )
+[10 of 83] Compiling Control.Lens.Internal.Level ( src/Control/Lens/Internal/Level.hs, dist/build/Control/Lens/Internal/Level.o )
+[11 of 83] Compiling Control.Lens.Internal.List ( src/Control/Lens/Internal/List.hs, dist/build/Control/Lens/Internal/List.o )
+[12 of 83] Compiling Control.Lens.Internal.Magma ( src/Control/Lens/Internal/Magma.hs, dist/build/Control/Lens/Internal/Magma.o )
+[13 of 83] Compiling Control.Lens.Internal.Prism ( src/Control/Lens/Internal/Prism.hs, dist/build/Control/Lens/Internal/Prism.o )
+[14 of 83] Compiling Control.Lens.Internal.Review ( src/Control/Lens/Internal/Review.hs, dist/build/Control/Lens/Internal/Review.o )
+[15 of 83] Compiling Control.Lens.Internal.Setter ( src/Control/Lens/Internal/Setter.hs, dist/build/Control/Lens/Internal/Setter.o )
+[16 of 83] Compiling Control.Lens.Internal.TH ( src/Control/Lens/Internal/TH.hs, dist/build/Control/Lens/Internal/TH.o )
+[17 of 83] Compiling Control.Lens.Internal.Zoom ( src/Control/Lens/Internal/Zoom.hs, dist/build/Control/Lens/Internal/Zoom.o )
+[18 of 83] Compiling Control.Lens.Internal ( src/Control/Lens/Internal.hs, dist/build/Control/Lens/Internal.o )
+[19 of 83] Compiling Control.Lens.Type ( src/Control/Lens/Type.hs, dist/build/Control/Lens/Type.o )
+[20 of 83] Compiling Control.Lens.Setter ( src/Control/Lens/Setter.hs, dist/build/Control/Lens/Setter.o )
+[21 of 83] Compiling Control.Lens.Lens ( src/Control/Lens/Lens.hs, dist/build/Control/Lens/Lens.o )
+[22 of 83] Compiling Control.Lens.Tuple ( src/Control/Lens/Tuple.hs, dist/build/Control/Lens/Tuple.o )
+[23 of 83] Compiling Control.Lens.Getter ( src/Control/Lens/Getter.hs, dist/build/Control/Lens/Getter.o )
+[24 of 83] Compiling Control.Lens.Review ( src/Control/Lens/Review.hs, dist/build/Control/Lens/Review.o )
+[25 of 83] Compiling Control.Lens.Prism ( src/Control/Lens/Prism.hs, dist/build/Control/Lens/Prism.o )
+[26 of 83] Compiling Control.Lens.Fold ( src/Control/Lens/Fold.hs, dist/build/Control/Lens/Fold.o )
+[27 of 83] Compiling Control.Lens.Traversal ( src/Control/Lens/Traversal.hs, dist/build/Control/Lens/Traversal.o )
+[28 of 83] Compiling Control.Lens.Level ( src/Control/Lens/Level.hs, dist/build/Control/Lens/Level.o )
+[29 of 83] Compiling Control.Lens.Reified ( src/Control/Lens/Reified.hs, dist/build/Control/Lens/Reified.o )
+[30 of 83] Compiling Control.Lens.Internal.Exception ( src/Control/Lens/Internal/Exception.hs, dist/build/Control/Lens/Internal/Exception.o )
+[31 of 83] Compiling Control.Lens.Indexed ( src/Control/Lens/Indexed.hs, dist/build/Control/Lens/Indexed.o )
+[32 of 83] Compiling Control.Lens.Internal.ByteString ( src/Control/Lens/Internal/ByteString.hs, dist/build/Control/Lens/Internal/ByteString.o )
+[33 of 83] Compiling Control.Lens.Equality ( src/Control/Lens/Equality.hs, dist/build/Control/Lens/Equality.o )
+[34 of 83] Compiling Control.Lens.Iso ( src/Control/Lens/Iso.hs, dist/build/Control/Lens/Iso.o )
+[35 of 83] Compiling Control.Lens.Empty ( src/Control/Lens/Empty.hs, dist/build/Control/Lens/Empty.o )
+[36 of 83] Compiling Control.Lens.Cons ( src/Control/Lens/Cons.hs, dist/build/Control/Lens/Cons.o )
+[37 of 83] Compiling Control.Lens.Internal.Deque ( src/Control/Lens/Internal/Deque.hs, dist/build/Control/Lens/Internal/Deque.o )
+[38 of 83] Compiling Control.Lens.Wrapped ( src/Control/Lens/Wrapped.hs, dist/build/Control/Lens/Wrapped.o )
+[39 of 83] Compiling Control.Lens.Zoom ( src/Control/Lens/Zoom.hs, dist/build/Control/Lens/Zoom.o )
+[40 of 83] Compiling Data.Data.Lens   ( src/Data/Data/Lens.hs, dist/build/Data/Data/Lens.o )
+[41 of 83] Compiling Control.Lens.Plated ( src/Control/Lens/Plated.hs, dist/build/Control/Lens/Plated.o )
+[42 of 83] Compiling Data.HashSet.Lens ( src/Data/HashSet/Lens.hs, dist/build/Data/HashSet/Lens.o )
+[43 of 83] Compiling Data.Map.Lens    ( src/Data/Map/Lens.hs, dist/build/Data/Map/Lens.o )
+[44 of 83] Compiling Data.Set.Lens    ( src/Data/Set/Lens.hs, dist/build/Data/Set/Lens.o )
+[45 of 83] Compiling Data.Text.Lazy.Lens ( src/Data/Text/Lazy/Lens.hs, dist/build/Data/Text/Lazy/Lens.o )
+[46 of 83] Compiling Data.Text.Strict.Lens ( src/Data/Text/Strict/Lens.hs, dist/build/Data/Text/Strict/Lens.o )
+[47 of 83] Compiling Data.Text.Lens   ( src/Data/Text/Lens.hs, dist/build/Data/Text/Lens.o )
+[48 of 83] Compiling Data.Vector.Generic.Lens ( src/Data/Vector/Generic/Lens.hs, dist/build/Data/Vector/Generic/Lens.o )
+[49 of 83] Compiling Control.Lens.Each ( src/Control/Lens/Each.hs, dist/build/Control/Lens/Each.o )
+[50 of 83] Compiling Control.Lens.At  ( src/Control/Lens/At.hs, dist/build/Control/Lens/At.o )
+[51 of 83] Compiling Language.Haskell.TH.Lens ( src/Language/Haskell/TH/Lens.hs, dist/build/Language/Haskell/TH/Lens.o )
+[52 of 83] Compiling Control.Lens.Internal.PrismTH ( src/Control/Lens/Internal/PrismTH.hs, dist/build/Control/Lens/Internal/PrismTH.o )
+[53 of 83] Compiling Control.Lens.Internal.FieldTH ( src/Control/Lens/Internal/FieldTH.hs, dist/build/Control/Lens/Internal/FieldTH.o )
+[54 of 83] Compiling Control.Lens.TH  ( src/Control/Lens/TH.hs, dist/build/Control/Lens/TH.o )
+[55 of 83] Compiling Control.Lens     ( src/Control/Lens.hs, dist/build/Control/Lens.o )
+[56 of 83] Compiling GHC.Generics.Lens ( src/GHC/Generics/Lens.hs, dist/build/GHC/Generics/Lens.o )
+[57 of 83] Compiling Data.Vector.Lens ( src/Data/Vector/Lens.hs, dist/build/Data/Vector/Lens.o )
+[58 of 83] Compiling Data.Typeable.Lens ( src/Data/Typeable/Lens.hs, dist/build/Data/Typeable/Lens.o )
+[59 of 83] Compiling Data.Tree.Lens   ( src/Data/Tree/Lens.hs, dist/build/Data/Tree/Lens.o )
+[60 of 83] Compiling Data.Sequence.Lens ( src/Data/Sequence/Lens.hs, dist/build/Data/Sequence/Lens.o )
+[61 of 83] Compiling Data.List.Lens   ( src/Data/List/Lens.hs, dist/build/Data/List/Lens.o )
+[62 of 83] Compiling Data.IntSet.Lens ( src/Data/IntSet/Lens.hs, dist/build/Data/IntSet/Lens.o )
+[63 of 83] Compiling Data.Complex.Lens ( src/Data/Complex/Lens.hs, dist/build/Data/Complex/Lens.o )
+[64 of 83] Compiling Data.ByteString.Strict.Lens ( src/Data/ByteString/Strict/Lens.hs, dist/build/Data/ByteString/Strict/Lens.o )
+[65 of 83] Compiling Data.ByteString.Lazy.Lens ( src/Data/ByteString/Lazy/Lens.hs, dist/build/Data/ByteString/Lazy/Lens.o )
+[66 of 83] Compiling Data.ByteString.Lens ( src/Data/ByteString/Lens.hs, dist/build/Data/ByteString/Lens.o )
+[67 of 83] Compiling Data.Bits.Lens   ( src/Data/Bits/Lens.hs, dist/build/Data/Bits/Lens.o )
+[68 of 83] Compiling Data.Array.Lens  ( src/Data/Array/Lens.hs, dist/build/Data/Array/Lens.o )
+[69 of 83] Compiling Control.Seq.Lens ( src/Control/Seq/Lens.hs, dist/build/Control/Seq/Lens.o )
+[70 of 83] Compiling Control.Parallel.Strategies.Lens ( src/Control/Parallel/Strategies/Lens.hs, dist/build/Control/Parallel/Strategies/Lens.o )
+[71 of 83] Compiling Control.Monad.Error.Lens ( src/Control/Monad/Error/Lens.hs, dist/build/Control/Monad/Error/Lens.o )
+[72 of 83] Compiling Control.Lens.Unsound ( src/Control/Lens/Unsound.hs, dist/build/Control/Lens/Unsound.o )
+[73 of 83] Compiling Control.Lens.Operators ( src/Control/Lens/Operators.hs, dist/build/Control/Lens/Operators.o )
+[74 of 83] Compiling Control.Lens.Extras ( src/Control/Lens/Extras.hs, dist/build/Control/Lens/Extras.o )
+[75 of 83] Compiling Control.Lens.Combinators ( src/Control/Lens/Combinators.hs, dist/build/Control/Lens/Combinators.o )
+[76 of 83] Compiling Control.Exception.Lens ( src/Control/Exception/Lens.hs, dist/build/Control/Exception/Lens.o )
+[77 of 83] Compiling Data.Dynamic.Lens ( src/Data/Dynamic/Lens.hs, dist/build/Data/Dynamic/Lens.o )
+[78 of 83] Compiling Numeric.Lens     ( src/Numeric/Lens.hs, dist/build/Numeric/Lens.o )
+[79 of 83] Compiling Numeric.Natural.Lens ( src/Numeric/Natural/Lens.hs, dist/build/Numeric/Natural/Lens.o )
+[80 of 83] Compiling Paths_lens       ( dist/build/autogen/Paths_lens.hs, dist/build/Paths_lens.o )
+[81 of 83] Compiling System.Exit.Lens ( src/System/Exit/Lens.hs, dist/build/System/Exit/Lens.o )
+[82 of 83] Compiling System.FilePath.Lens ( src/System/FilePath/Lens.hs, dist/build/System/FilePath/Lens.o )
+[83 of 83] Compiling System.IO.Error.Lens ( src/System/IO/Error/Lens.hs, dist/build/System/IO/Error/Lens.o )
+Preprocessing test suite 'templates' for lens-4.16..
+Building test suite 'templates' for lens-4.16..
+[1 of 1] Compiling Main             ( tests/templates.hs, dist/build/templates/templates-tmp/Main.dyn_o )
+Linking dist/build/templates/templates ...
+Preprocessing test suite 'properties' for lens-4.16..
+Building test suite 'properties' for lens-4.16..
+[1 of 2] Compiling Control.Lens.Properties ( lens-properties/src/Control/Lens/Properties.hs, dist/build/properties/properties-tmp/Control/Lens/Properties.dyn_o )
+[2 of 2] Compiling Main             ( tests/properties.hs, dist/build/properties/properties-tmp/Main.dyn_o )
+Linking dist/build/properties/properties ...
+Preprocessing test suite 'hunit' for lens-4.16..
+Building test suite 'hunit' for lens-4.16..
+[1 of 1] Compiling Main             ( tests/hunit.hs, dist/build/hunit/hunit-tmp/Main.dyn_o )
+Linking dist/build/hunit/hunit ...
+Preprocessing test suite 'doctests' for lens-4.16..
+Building test suite 'doctests' for lens-4.16..
 
-builder for ‘/nix/store/a79bhc5x4b1y20822kx6yrhb7jlhsblh-doctest-0.13.0.drv’ failed with exit code 1
-error: build of ‘/nix/store/a79bhc5x4b1y20822kx6yrhb7jlhsblh-doctest-0.13.0.drv’ failed
-/run/current-system/sw/bin/nix-shell: failed to build all dependencies
+<no location info>: warning: [-Wmissing-home-modules]
+    These modules are needed for compilation but not listed in your .cabal file's other-modules: Build_doctests
+[1 of 2] Compiling Build_doctests   ( dist/build/doctests/autogen/Build_doctests.hs, dist/build/doctests/doctests-tmp/Build_doctests.dyn_o )
+[2 of 2] Compiling Main             ( tests/doctests.hs, dist/build/doctests/doctests-tmp/Main.dyn_o )
+
+<no location info>: warning: [-Wmissing-home-modules]
+    These modules are needed for compilation but not listed in your .cabal file's other-modules: Build_doctests
+Linking dist/build/doctests/doctests ...
+running tests
+Running 4 test suites...
+Test suite templates: RUNNING...
+Test suite templates: PASS
+Test suite logged to: dist/test/lens-4.16-templates.log
+Test suite properties: RUNNING...
+Test suite properties: PASS
+Test suite logged to: dist/test/lens-4.16-properties.log
+Test suite hunit: RUNNING...
+Test suite hunit: PASS
+Test suite logged to: dist/test/lens-4.16-hunit.log
+Test suite doctests: RUNNING...
+Test suite doctests: PASS
+Test suite logged to: dist/test/lens-4.16-doctests.log
+4 of 4 test suites (4 of 4 test cases) passed.
+haddockPhase
+Running hscolour for lens-4.16...
+Preprocessing library for lens-4.16..
+Preprocessing test suite 'templates' for lens-4.16..
+Preprocessing test suite 'properties' for lens-4.16..
+Preprocessing test suite 'hunit' for lens-4.16..
+Preprocessing test suite 'doctests' for lens-4.16..
+Preprocessing library for lens-4.16..
+Running Haddock on library for lens-4.16..
+Warning: The documentation for the following packages are not installed. No
+links will be generated to these packages: fail-4.9.0.0
+Haddock coverage:
+ 100% (  4 /  4) in 'Control.Lens.Internal.CTypes'
+  67% (  2 /  3) in 'Control.Lens.Internal.Coerce'
+  Missing documentation for:
+    coerce' (src/Control/Lens/Internal/Coerce.hs:31)
+  50% (  2 /  4) in 'Control.Lens.Internal.Getter'
+  Missing documentation for:
+    AlongsideLeft (src/Control/Lens/Internal/Getter.hs:37)
+    AlongsideRight (src/Control/Lens/Internal/Getter.hs:78)
+  88% ( 15 / 17) in 'Control.Lens.Internal.Fold'
+  Missing documentation for:
+    ReifiedMonoid
+    NonEmptyDList (src/Control/Lens/Internal/Fold.hs:185)
+ 100% (  1 /  1) in 'Control.Lens.Internal.Instances'
+ 100% ( 15 / 15) in 'Control.Lens.Internal.Indexed'
+ 100% ( 11 / 11) in 'Control.Lens.Internal.Context'
+  91% ( 10 / 11) in 'Control.Lens.Internal.Bazaar'
+  Missing documentation for:
+    Bizarre1 (src/Control/Lens/Internal/Bazaar.hs:212)
+ 100% (  3 /  3) in 'Control.Lens.Internal.Iso'
+ 100% (  6 /  6) in 'Control.Lens.Internal.Level'
+ 100% (  2 /  2) in 'Control.Lens.Internal.List'
+ 100% ( 12 / 12) in 'Control.Lens.Internal.Magma'
+ 100% (  3 /  3) in 'Control.Lens.Internal.Prism'
+ 100% (  5 /  5) in 'Control.Lens.Internal.Review'
+ 100% (  3 /  3) in 'Control.Lens.Internal.Setter'
+  24% ( 10 / 42) in 'Control.Lens.Internal.TH'
+  Missing documentation for:
+    fromSet (src/Control/Lens/Internal/TH.hs:88)
+    lensPackageKey (src/Control/Lens/Internal/TH.hs:106)
+    mkLensName_tc (src/Control/Lens/Internal/TH.hs:113)
+    mkLensName_v (src/Control/Lens/Internal/TH.hs:116)
+    traversalTypeName (src/Control/Lens/Internal/TH.hs:119)
+    traversal'TypeName (src/Control/Lens/Internal/TH.hs:122)
+    lensTypeName (src/Control/Lens/Internal/TH.hs:125)
+    lens'TypeName (src/Control/Lens/Internal/TH.hs:128)
+    isoTypeName (src/Control/Lens/Internal/TH.hs:131)
+    iso'TypeName (src/Control/Lens/Internal/TH.hs:134)
+    getterTypeName (src/Control/Lens/Internal/TH.hs:137)
+    foldTypeName (src/Control/Lens/Internal/TH.hs:140)
+    prismTypeName (src/Control/Lens/Internal/TH.hs:143)
+    prism'TypeName (src/Control/Lens/Internal/TH.hs:146)
+    reviewTypeName (src/Control/Lens/Internal/TH.hs:149)
+    wrappedTypeName (src/Control/Lens/Internal/TH.hs:152)
+    unwrappedTypeName (src/Control/Lens/Internal/TH.hs:155)
+    rewrappedTypeName (src/Control/Lens/Internal/TH.hs:158)
+    _wrapped'ValName (src/Control/Lens/Internal/TH.hs:161)
+    isoValName (src/Control/Lens/Internal/TH.hs:164)
+    prismValName (src/Control/Lens/Internal/TH.hs:167)
+    untoValName (src/Control/Lens/Internal/TH.hs:170)
+    phantomValName (src/Control/Lens/Internal/TH.hs:173)
+    phantom2 (src/Control/Lens/Internal/TH.hs:176)
+    composeValName (src/Control/Lens/Internal/TH.hs:180)
+    idValName (src/Control/Lens/Internal/TH.hs:183)
+    fmapValName (src/Control/Lens/Internal/TH.hs:186)
+    pureValName (src/Control/Lens/Internal/TH.hs:190)
+    apValName (src/Control/Lens/Internal/TH.hs:193)
+    rightDataName (src/Control/Lens/Internal/TH.hs:203)
+    leftDataName (src/Control/Lens/Internal/TH.hs:206)
+    inlinePragma (src/Control/Lens/Internal/TH.hs:214)
+ 100% ( 15 / 15) in 'Control.Lens.Internal.Zoom'
+ 100% ( 13 / 13) in 'Control.Lens.Internal'
+  86% ( 51 / 59) in 'Control.Lens.Type'
+  Missing documentation for:
+    Traversal1 (src/Control/Lens/Type.hs:215)
+    Traversal1' (src/Control/Lens/Type.hs:216)
+    IndexedTraversal1 (src/Control/Lens/Type.hs:236)
+    IndexedTraversal1' (src/Control/Lens/Type.hs:237)
+    IndexedFold1 (src/Control/Lens/Type.hs:526)
+    IndexPreservingTraversal1 (src/Control/Lens/Type.hs:247)
+    IndexPreservingTraversal1' (src/Control/Lens/Type.hs:248)
+    IndexPreservingFold1 (src/Control/Lens/Type.hs:527)
+ 100% ( 85 / 85) in 'Control.Lens.Setter'
+ 100% (112 /112) in 'Control.Lens.Lens'
+ 100% ( 41 / 41) in 'Control.Lens.Tuple'
+ 100% ( 33 / 33) in 'Control.Lens.Getter'
+ 100% ( 15 / 15) in 'Control.Lens.Review'
+ 100% ( 29 / 29) in 'Control.Lens.Prism'
+  99% (131 /132) in 'Control.Lens.Fold'
+  Missing documentation for:
+    ifolding (src/Control/Lens/Fold.hs:225)
+  91% ( 89 / 98) in 'Control.Lens.Traversal'
+  Missing documentation for:
+    Traversal1 (src/Control/Lens/Type.hs:215)
+    Traversal1' (src/Control/Lens/Type.hs:216)
+    IndexedTraversal1 (src/Control/Lens/Type.hs:236)
+    IndexedTraversal1' (src/Control/Lens/Type.hs:237)
+    Traversing1 (src/Control/Lens/Traversal.hs:240)
+    Traversing1' (src/Control/Lens/Traversal.hs:246)
+    unsafePartsOf' (src/Control/Lens/Traversal.hs:594)
+    Traversable1
+    iunsafePartsOf' (src/Control/Lens/Traversal.hs:598)
+ 100% (  4 /  4) in 'Control.Lens.Level'
+  95% ( 20 / 21) in 'Control.Lens.Reified'
+  Missing documentation for:
+    ReifiedIndexedFold (src/Control/Lens/Reified.hs:433)
+ 100% (  3 /  3) in 'Control.Lens.Internal.Exception'
+  92% ( 47 / 51) in 'Control.Lens.Indexed'
+  Missing documentation for:
+    ifoldMapBy (src/Control/Lens/Indexed.hs:1028)
+    ifoldMapByOf (src/Control/Lens/Indexed.hs:1031)
+    itraverseBy (src/Control/Lens/Indexed.hs:1034)
+    itraverseByOf (src/Control/Lens/Indexed.hs:1037)
+ 100% (  9 /  9) in 'Control.Lens.Internal.ByteString'
+ 100% ( 15 / 15) in 'Control.Lens.Equality'
+  91% ( 49 / 54) in 'Control.Lens.Iso'
+  Missing documentation for:
+    Swapped (src/Control/Lens/Iso.hs:425)
+    Strict (src/Control/Lens/Iso.hs:419)
+    Lazy (src/Control/Lens/Iso.hs:422)
+    Reversed (src/Control/Lens/Iso.hs:428)
+    List (src/Control/Lens/Iso.hs:498)
+  33% (  1 /  3) in 'Control.Lens.Empty'
+  Missing documentation for:
+    AsEmpty (src/Control/Lens/Empty.hs:60)
+    Empty (src/Control/Lens/Empty.hs:71)
+  88% ( 15 / 17) in 'Control.Lens.Cons'
+  Missing documentation for:
+    :< (src/Control/Lens/Cons.hs:88)
+    :> (src/Control/Lens/Cons.hs:94)
+ 100% (  6 /  6) in 'Control.Lens.Internal.Deque'
+  73% ( 16 / 22) in 'Control.Lens.Wrapped'
+  Missing documentation for:
+    _Unwrapped' (src/Control/Lens/Wrapped.hs:225)
+    Rewrapped (src/Control/Lens/Wrapped.hs:220)
+    Rewrapping (src/Control/Lens/Wrapped.hs:222)
+    _Unwrapped (src/Control/Lens/Wrapped.hs:242)
+    Wrapped (src/Control/Lens/Wrapped.hs:211)
+    Unwrapped (src/Control/Lens/Wrapped.hs:214)
+ 100% (  5 /  5) in 'Control.Lens.Zoom'
+ 100% ( 13 / 13) in 'Data.Data.Lens'
+  98% ( 47 / 48) in 'Control.Lens.Plated'
+  Missing documentation for:
+    GPlated (src/Control/Lens/Plated.hs:738)
+ 100% (  3 /  3) in 'Data.HashSet.Lens'
+ 100% (  2 /  2) in 'Data.Map.Lens'
+ 100% (  3 /  3) in 'Data.Set.Lens'
+  88% (  7 /  8) in 'Data.Text.Lazy.Lens'
+  Missing documentation for:
+    Text (src/Data/Text/Lazy/Lens.hs:152)
+  88% (  7 /  8) in 'Data.Text.Strict.Lens'
+  Missing documentation for:
+    Text (src/Data/Text/Strict/Lens.hs:145)
+  80% (  4 /  5) in 'Data.Text.Lens'
+  Missing documentation for:
+    Text (src/Data/Text/Lens.hs:110)
+ 100% ( 15 / 15) in 'Data.Vector.Generic.Lens'
+ 100% (  3 /  3) in 'Control.Lens.Each'
+  93% ( 13 / 14) in 'Control.Lens.At'
+  Missing documentation for:
+    Index (src/Control/Lens/At.hs:89)
+  20% ( 57 /280) in 'Language.Haskell.TH.Lens'
+  Missing documentation for:
+    locFileName (src/Language/Haskell/TH/Lens.hs:640)
+    locPackage (src/Language/Haskell/TH/Lens.hs:644)
+    locModule (src/Language/Haskell/TH/Lens.hs:648)
+    locStart (src/Language/Haskell/TH/Lens.hs:652)
+    locEnd (src/Language/Haskell/TH/Lens.hs:656)
+    funDepInputs (src/Language/Haskell/TH/Lens.hs:660)
+    funDepOutputs (src/Language/Haskell/TH/Lens.hs:665)
+    matchPattern (src/Language/Haskell/TH/Lens.hs:682)
+    matchBody (src/Language/Haskell/TH/Lens.hs:687)
+    matchDeclarations (src/Language/Haskell/TH/Lens.hs:692)
+    fixityPrecedence (src/Language/Haskell/TH/Lens.hs:697)
+    fixityDirection (src/Language/Haskell/TH/Lens.hs:702)
+    clausePattern (src/Language/Haskell/TH/Lens.hs:707)
+    clauseBody (src/Language/Haskell/TH/Lens.hs:712)
+    clauseDecs (src/Language/Haskell/TH/Lens.hs:717)
+    fieldExpName (src/Language/Haskell/TH/Lens.hs:670)
+    fieldExpExpression (src/Language/Haskell/TH/Lens.hs:673)
+    fieldPatName (src/Language/Haskell/TH/Lens.hs:676)
+    fieldPatPattern (src/Language/Haskell/TH/Lens.hs:679)
+    tySynEqnPatterns (src/Language/Haskell/TH/Lens.hs:1716)
+    tySynEqnResult (src/Language/Haskell/TH/Lens.hs:1721)
+    injectivityAnnOutput (src/Language/Haskell/TH/Lens.hs:723)
+    injectivityAnnInputs (src/Language/Haskell/TH/Lens.hs:728)
+    typeFamilyHeadName (src/Language/Haskell/TH/Lens.hs:733)
+    typeFamilyHeadTyVarBndrs (src/Language/Haskell/TH/Lens.hs:738)
+    typeFamilyHeadResultSig (src/Language/Haskell/TH/Lens.hs:743)
+    typeFamilyHeadInjectivityAnn (src/Language/Haskell/TH/Lens.hs:748)
+    bangSourceUnpackedness (src/Language/Haskell/TH/Lens.hs:753)
+    bangSourceStrictness (src/Language/Haskell/TH/Lens.hs:758)
+    derivClauseStrategy (src/Language/Haskell/TH/Lens.hs:765)
+    derivClauseCxt (src/Language/Haskell/TH/Lens.hs:770)
+    _ClassI (src/Language/Haskell/TH/Lens.hs:777)
+    _ClassOpI (src/Language/Haskell/TH/Lens.hs:789)
+    _TyConI (src/Language/Haskell/TH/Lens.hs:810)
+    _FamilyI (src/Language/Haskell/TH/Lens.hs:819)
+    _PrimTyConI (src/Language/Haskell/TH/Lens.hs:831)
+    _DataConI (src/Language/Haskell/TH/Lens.hs:843)
+    _VarI (src/Language/Haskell/TH/Lens.hs:865)
+    _TyVarI (src/Language/Haskell/TH/Lens.hs:882)
+    _PatSynI (src/Language/Haskell/TH/Lens.hs:891)
+    _FunD (src/Language/Haskell/TH/Lens.hs:900)
+    _ValD (src/Language/Haskell/TH/Lens.hs:908)
+    _DataD (src/Language/Haskell/TH/Lens.hs:1093)
+    _NewtypeD (src/Language/Haskell/TH/Lens.hs:1101)
+    _TySynD (src/Language/Haskell/TH/Lens.hs:916)
+    _ClassD (src/Language/Haskell/TH/Lens.hs:924)
+    _InstanceD (src/Language/Haskell/TH/Lens.hs:933)
+    _SigD (src/Language/Haskell/TH/Lens.hs:979)
+    _ForeignD (src/Language/Haskell/TH/Lens.hs:987)
+    _InfixD (src/Language/Haskell/TH/Lens.hs:996)
+    _PragmaD (src/Language/Haskell/TH/Lens.hs:1005)
+    _DataInstD (src/Language/Haskell/TH/Lens.hs:1109)
+    _NewtypeInstD (src/Language/Haskell/TH/Lens.hs:1117)
+    _TySynInstD (src/Language/Haskell/TH/Lens.hs:1014)
+    _ClosedTypeFamilyD (src/Language/Haskell/TH/Lens.hs:1069)
+    _RoleAnnotD (src/Language/Haskell/TH/Lens.hs:1022)
+    _StandaloneDerivD (src/Language/Haskell/TH/Lens.hs:1041)
+    _DefaultSigD (src/Language/Haskell/TH/Lens.hs:1059)
+    _DataFamilyD (src/Language/Haskell/TH/Lens.hs:1125)
+    _OpenTypeFamilyD (src/Language/Haskell/TH/Lens.hs:1133)
+    _PatSynD (src/Language/Haskell/TH/Lens.hs:1183)
+    _PatSynSigD (src/Language/Haskell/TH/Lens.hs:1191)
+    _Unidir (src/Language/Haskell/TH/Lens.hs:1201)
+    _ImplBidir (src/Language/Haskell/TH/Lens.hs:1209)
+    _ExplBidir (src/Language/Haskell/TH/Lens.hs:1217)
+    _PrefixPatSyn (src/Language/Haskell/TH/Lens.hs:1225)
+    _InfixPatSyn (src/Language/Haskell/TH/Lens.hs:1233)
+    _RecordPatSyn (src/Language/Haskell/TH/Lens.hs:1241)
+    _NormalC (src/Language/Haskell/TH/Lens.hs:1250)
+    _RecC (src/Language/Haskell/TH/Lens.hs:1265)
+    _InfixC (src/Language/Haskell/TH/Lens.hs:1280)
+    _ForallC (src/Language/Haskell/TH/Lens.hs:1294)
+    _GadtC (src/Language/Haskell/TH/Lens.hs:1303)
+    _RecGadtC (src/Language/Haskell/TH/Lens.hs:1311)
+    _Overlappable (src/Language/Haskell/TH/Lens.hs:950)
+    _Overlapping (src/Language/Haskell/TH/Lens.hs:957)
+    _Overlaps (src/Language/Haskell/TH/Lens.hs:964)
+    _Incoherent (src/Language/Haskell/TH/Lens.hs:971)
+    _NoSourceUnpackedness (src/Language/Haskell/TH/Lens.hs:1321)
+    _SourceNoUnpack (src/Language/Haskell/TH/Lens.hs:1329)
+    _SourceUnpack (src/Language/Haskell/TH/Lens.hs:1337)
+    _NoSourceStrictness (src/Language/Haskell/TH/Lens.hs:1345)
+    _SourceLazy (src/Language/Haskell/TH/Lens.hs:1353)
+    _SourceStrict (src/Language/Haskell/TH/Lens.hs:1361)
+    _DecidedLazy (src/Language/Haskell/TH/Lens.hs:1369)
+    _DecidedStrict (src/Language/Haskell/TH/Lens.hs:1377)
+    _DecidedUnpack (src/Language/Haskell/TH/Lens.hs:1385)
+    _ImportF (src/Language/Haskell/TH/Lens.hs:1418)
+    _ExportF (src/Language/Haskell/TH/Lens.hs:1426)
+    _CCall (src/Language/Haskell/TH/Lens.hs:1434)
+    _StdCall (src/Language/Haskell/TH/Lens.hs:1442)
+    _CApi (src/Language/Haskell/TH/Lens.hs:1451)
+    _Prim (src/Language/Haskell/TH/Lens.hs:1459)
+    _JavaScript (src/Language/Haskell/TH/Lens.hs:1467)
+    _Unsafe (src/Language/Haskell/TH/Lens.hs:1476)
+    _Safe (src/Language/Haskell/TH/Lens.hs:1484)
+    _Interruptible (src/Language/Haskell/TH/Lens.hs:1492)
+    _InlineP (src/Language/Haskell/TH/Lens.hs:1501)
+    _SpecialiseP (src/Language/Haskell/TH/Lens.hs:1509)
+    _SpecialiseInstP (src/Language/Haskell/TH/Lens.hs:1537)
+    _RuleP (src/Language/Haskell/TH/Lens.hs:1545)
+    _AnnP (src/Language/Haskell/TH/Lens.hs:1554)
+    _LineP (src/Language/Haskell/TH/Lens.hs:1564)
+    _CompleteP (src/Language/Haskell/TH/Lens.hs:1574)
+    _NoInline (src/Language/Haskell/TH/Lens.hs:1583)
+    _Inline (src/Language/Haskell/TH/Lens.hs:1591)
+    _Inlinable (src/Language/Haskell/TH/Lens.hs:1599)
+    _ConLike (src/Language/Haskell/TH/Lens.hs:1607)
+    _FunLike (src/Language/Haskell/TH/Lens.hs:1615)
+    _AllPhases (src/Language/Haskell/TH/Lens.hs:1623)
+    _FromPhase (src/Language/Haskell/TH/Lens.hs:1631)
+    _BeforePhase (src/Language/Haskell/TH/Lens.hs:1639)
+    _RuleVar (src/Language/Haskell/TH/Lens.hs:1647)
+    _TypedRuleVar (src/Language/Haskell/TH/Lens.hs:1655)
+    _ModuleAnnotation (src/Language/Haskell/TH/Lens.hs:1665)
+    _TypeAnnotation (src/Language/Haskell/TH/Lens.hs:1673)
+    _ValueAnnotation (src/Language/Haskell/TH/Lens.hs:1681)
+    _FunDep (src/Language/Haskell/TH/Lens.hs:1690)
+    _InfixL (src/Language/Haskell/TH/Lens.hs:1727)
+    _InfixR (src/Language/Haskell/TH/Lens.hs:1735)
+    _InfixN (src/Language/Haskell/TH/Lens.hs:1743)
+    _VarE (src/Language/Haskell/TH/Lens.hs:1751)
+    _ConE (src/Language/Haskell/TH/Lens.hs:1759)
+    _LitE (src/Language/Haskell/TH/Lens.hs:1767)
+    _AppE (src/Language/Haskell/TH/Lens.hs:1775)
+    _AppTypeE (src/Language/Haskell/TH/Lens.hs:1784)
+    _InfixE (src/Language/Haskell/TH/Lens.hs:1793)
+    _UInfixE (src/Language/Haskell/TH/Lens.hs:1801)
+    _ParensE (src/Language/Haskell/TH/Lens.hs:1809)
+    _LamE (src/Language/Haskell/TH/Lens.hs:1817)
+    _LamCaseE (src/Language/Haskell/TH/Lens.hs:1826)
+    _TupE (src/Language/Haskell/TH/Lens.hs:1835)
+    _UnboxedTupE (src/Language/Haskell/TH/Lens.hs:1843)
+    _UnboxedSumE (src/Language/Haskell/TH/Lens.hs:1852)
+    _CondE (src/Language/Haskell/TH/Lens.hs:1861)
+    _MultiIfE (src/Language/Haskell/TH/Lens.hs:1870)
+    _LetE (src/Language/Haskell/TH/Lens.hs:1879)
+    _CaseE (src/Language/Haskell/TH/Lens.hs:1887)
+    _DoE (src/Language/Haskell/TH/Lens.hs:1895)
+    _CompE (src/Language/Haskell/TH/Lens.hs:1903)
+    _ArithSeqE (src/Language/Haskell/TH/Lens.hs:1911)
+    _ListE (src/Language/Haskell/TH/Lens.hs:1919)
+    _SigE (src/Language/Haskell/TH/Lens.hs:1927)
+    _RecConE (src/Language/Haskell/TH/Lens.hs:1935)
+    _RecUpdE (src/Language/Haskell/TH/Lens.hs:1943)
+    _StaticE (src/Language/Haskell/TH/Lens.hs:1952)
+    _UnboundVarE (src/Language/Haskell/TH/Lens.hs:1962)
+    _LabelE (src/Language/Haskell/TH/Lens.hs:1972)
+    _GuardedB (src/Language/Haskell/TH/Lens.hs:1981)
+    _NormalB (src/Language/Haskell/TH/Lens.hs:1989)
+    _NormalG (src/Language/Haskell/TH/Lens.hs:1997)
+    _PatG (src/Language/Haskell/TH/Lens.hs:2005)
+    _BindS (src/Language/Haskell/TH/Lens.hs:2013)
+    _LetS (src/Language/Haskell/TH/Lens.hs:2021)
+    _NoBindS (src/Language/Haskell/TH/Lens.hs:2029)
+    _ParS (src/Language/Haskell/TH/Lens.hs:2037)
+    _FromR (src/Language/Haskell/TH/Lens.hs:2045)
+    _FromThenR (src/Language/Haskell/TH/Lens.hs:2053)
+    _FromToR (src/Language/Haskell/TH/Lens.hs:2061)
+    _FromThenToR (src/Language/Haskell/TH/Lens.hs:2069)
+    _CharL (src/Language/Haskell/TH/Lens.hs:2077)
+    _StringL (src/Language/Haskell/TH/Lens.hs:2085)
+    _IntegerL (src/Language/Haskell/TH/Lens.hs:2093)
+    _RationalL (src/Language/Haskell/TH/Lens.hs:2101)
+    _IntPrimL (src/Language/Haskell/TH/Lens.hs:2109)
+    _WordPrimL (src/Language/Haskell/TH/Lens.hs:2117)
+    _FloatPrimL (src/Language/Haskell/TH/Lens.hs:2125)
+    _DoublePrimL (src/Language/Haskell/TH/Lens.hs:2133)
+    _StringPrimL (src/Language/Haskell/TH/Lens.hs:2142)
+    _CharPrimL (src/Language/Haskell/TH/Lens.hs:2160)
+    _LitP (src/Language/Haskell/TH/Lens.hs:2169)
+    _VarP (src/Language/Haskell/TH/Lens.hs:2177)
+    _TupP (src/Language/Haskell/TH/Lens.hs:2185)
+    _UnboxedTupP (src/Language/Haskell/TH/Lens.hs:2193)
+    _UnboxedSumP (src/Language/Haskell/TH/Lens.hs:2202)
+    _ConP (src/Language/Haskell/TH/Lens.hs:2211)
+    _InfixP (src/Language/Haskell/TH/Lens.hs:2219)
+    _UInfixP (src/Language/Haskell/TH/Lens.hs:2227)
+    _ParensP (src/Language/Haskell/TH/Lens.hs:2235)
+    _TildeP (src/Language/Haskell/TH/Lens.hs:2243)
+    _BangP (src/Language/Haskell/TH/Lens.hs:2251)
+    _AsP (src/Language/Haskell/TH/Lens.hs:2259)
+    _WildP (src/Language/Haskell/TH/Lens.hs:2267)
+    _RecP (src/Language/Haskell/TH/Lens.hs:2275)
+    _ListP (src/Language/Haskell/TH/Lens.hs:2283)
+    _SigP (src/Language/Haskell/TH/Lens.hs:2291)
+    _ViewP (src/Language/Haskell/TH/Lens.hs:2299)
+    _ForallT (src/Language/Haskell/TH/Lens.hs:2307)
+    _AppT (src/Language/Haskell/TH/Lens.hs:2315)
+    _SigT (src/Language/Haskell/TH/Lens.hs:2323)
+    _VarT (src/Language/Haskell/TH/Lens.hs:2331)
+    _ConT (src/Language/Haskell/TH/Lens.hs:2339)
+    _PromotedT (src/Language/Haskell/TH/Lens.hs:2348)
+    _TupleT (src/Language/Haskell/TH/Lens.hs:2357)
+    _UnboxedTupleT (src/Language/Haskell/TH/Lens.hs:2365)
+    _UnboxedSumT (src/Language/Haskell/TH/Lens.hs:2374)
+    _ArrowT (src/Language/Haskell/TH/Lens.hs:2383)
+    _EqualityT (src/Language/Haskell/TH/Lens.hs:2392)
+    _ListT (src/Language/Haskell/TH/Lens.hs:2401)
+    _PromotedTupleT (src/Language/Haskell/TH/Lens.hs:2410)
+    _PromotedNilT (src/Language/Haskell/TH/Lens.hs:2418)
+    _PromotedConsT (src/Language/Haskell/TH/Lens.hs:2426)
+    _StarT (src/Language/Haskell/TH/Lens.hs:2434)
+    _ConstraintT (src/Language/Haskell/TH/Lens.hs:2442)
+    _LitT (src/Language/Haskell/TH/Lens.hs:2450)
+    _InfixT (src/Language/Haskell/TH/Lens.hs:2460)
+    _UInfixT (src/Language/Haskell/TH/Lens.hs:2468)
+    _ParensT (src/Language/Haskell/TH/Lens.hs:2476)
+    _WildCardT (src/Language/Haskell/TH/Lens.hs:2484)
+    _PlainTV (src/Language/Haskell/TH/Lens.hs:2493)
+    _KindedTV (src/Language/Haskell/TH/Lens.hs:2501)
+    _NoSig (src/Language/Haskell/TH/Lens.hs:2510)
+    _KindSig (src/Language/Haskell/TH/Lens.hs:2518)
+    _TyVarSig (src/Language/Haskell/TH/Lens.hs:2526)
+    _NumTyLit (src/Language/Haskell/TH/Lens.hs:2536)
+    _StrTyLit (src/Language/Haskell/TH/Lens.hs:2544)
+    _NominalR (src/Language/Haskell/TH/Lens.hs:2572)
+    _RepresentationalR (src/Language/Haskell/TH/Lens.hs:2580)
+    _PhantomR (src/Language/Haskell/TH/Lens.hs:2588)
+    _InferR (src/Language/Haskell/TH/Lens.hs:2596)
+    _StockStrategy (src/Language/Haskell/TH/Lens.hs:2606)
+    _AnyclassStrategy (src/Language/Haskell/TH/Lens.hs:2614)
+    _NewtypeStrategy (src/Language/Haskell/TH/Lens.hs:2622)
+ 100% (  4 /  4) in 'Control.Lens.Internal.PrismTH'
+  78% (  7 /  9) in 'Control.Lens.Internal.FieldTH'
+  Missing documentation for:
+    makeFieldOpticsForDec (src/Control/Lens/Internal/FieldTH.hs:69)
+    makeFieldOpticsForDec' (src/Control/Lens/Internal/FieldTH.hs:72)
+  98% ( 60 / 61) in 'Control.Lens.TH'
+  Missing documentation for:
+    defaultFieldRules (src/Control/Lens/TH.hs:813)
+ 100% ( 23 / 23) in 'Control.Lens'
+  24% (  4 / 17) in 'GHC.Generics.Lens'
+  Missing documentation for:
+    _V1 (src/GHC/Generics/Lens.hs:78)
+    _U1 (src/GHC/Generics/Lens.hs:83)
+    _Par1 (src/GHC/Generics/Lens.hs:87)
+    _Rec1 (src/GHC/Generics/Lens.hs:91)
+    _K1 (src/GHC/Generics/Lens.hs:95)
+    _M1 (src/GHC/Generics/Lens.hs:99)
+    _L1 (src/GHC/Generics/Lens.hs:103)
+    _UAddr (src/GHC/Generics/Lens.hs:121)
+    _UChar (src/GHC/Generics/Lens.hs:128)
+    _UDouble (src/GHC/Generics/Lens.hs:135)
+    _UFloat (src/GHC/Generics/Lens.hs:142)
+    _UInt (src/GHC/Generics/Lens.hs:149)
+    _UWord (src/GHC/Generics/Lens.hs:156)
+ 100% (  9 /  9) in 'Data.Vector.Lens'
+ 100% (  3 /  3) in 'Data.Typeable.Lens'
+ 100% (  3 /  3) in 'Data.Tree.Lens'
+ 100% (  7 /  7) in 'Data.Sequence.Lens'
+  75% (  3 /  4) in 'Data.List.Lens'
+  Missing documentation for:
+    stripSuffix (src/Data/List/Lens.hs:151)
+ 100% (  4 /  4) in 'Data.IntSet.Lens'
+  67% (  8 / 12) in 'Data.Complex.Lens'
+  Missing documentation for:
+    Polar (src/Data/Complex/Lens.hs:92)
+    Real (src/Data/Complex/Lens.hs:95)
+    Imaginary (src/Data/Complex/Lens.hs:96)
+    Conjugate (src/Data/Complex/Lens.hs:152)
+  78% (  7 /  9) in 'Data.ByteString.Strict.Lens'
+  Missing documentation for:
+    Bytes (src/Data/ByteString/Strict/Lens.hs:141)
+    Chars (src/Data/ByteString/Strict/Lens.hs:144)
+  78% (  7 /  9) in 'Data.ByteString.Lazy.Lens'
+  Missing documentation for:
+    Bytes (src/Data/ByteString/Lazy/Lens.hs:143)
+    Chars (src/Data/ByteString/Lazy/Lens.hs:146)
+  67% (  4 /  6) in 'Data.ByteString.Lens'
+  Missing documentation for:
+    Bytes (src/Data/ByteString/Lens.hs:114)
+    Chars (src/Data/ByteString/Lens.hs:117)
+  76% ( 13 / 17) in 'Data.Bits.Lens'
+  Missing documentation for:
+    <<.|.~ (src/Data/Bits/Lens.hs:166)
+    <<.&.~ (src/Data/Bits/Lens.hs:162)
+    <<.|.= (src/Data/Bits/Lens.hs:174)
+    <<.&.= (src/Data/Bits/Lens.hs:170)
+ 100% (  3 /  3) in 'Data.Array.Lens'
+ 100% (  2 /  2) in 'Control.Seq.Lens'
+ 100% (  5 /  5) in 'Control.Parallel.Strategies.Lens'
+ 100% ( 16 / 16) in 'Control.Monad.Error.Lens'
+ 100% (  3 /  3) in 'Control.Lens.Unsound'
+ 100% (131 /131) in 'Control.Lens.Operators'
+ 100% (  3 /  3) in 'Control.Lens.Extras'
+  94% (596 /631) in 'Control.Lens.Combinators'
+  Missing documentation for:
+    Traversable1
+    IndexPreservingFold1 (src/Control/Lens/Type.hs:527)
+    IndexedFold1 (src/Control/Lens/Type.hs:526)
+    IndexPreservingTraversal1' (src/Control/Lens/Type.hs:248)
+    IndexPreservingTraversal1 (src/Control/Lens/Type.hs:247)
+    IndexedTraversal1' (src/Control/Lens/Type.hs:237)
+    IndexedTraversal1 (src/Control/Lens/Type.hs:236)
+    Traversal1' (src/Control/Lens/Type.hs:216)
+    Traversal1 (src/Control/Lens/Type.hs:215)
+    ifolding (src/Control/Lens/Fold.hs:225)
+    Traversing1' (src/Control/Lens/Traversal.hs:246)
+    Traversing1 (src/Control/Lens/Traversal.hs:240)
+    unsafePartsOf' (src/Control/Lens/Traversal.hs:594)
+    iunsafePartsOf' (src/Control/Lens/Traversal.hs:598)
+    ReifiedIndexedFold (src/Control/Lens/Reified.hs:433)
+    ifoldMapBy (src/Control/Lens/Indexed.hs:1028)
+    ifoldMapByOf (src/Control/Lens/Indexed.hs:1031)
+    itraverseBy (src/Control/Lens/Indexed.hs:1034)
+    itraverseByOf (src/Control/Lens/Indexed.hs:1037)
+    List (src/Control/Lens/Iso.hs:498)
+    Reversed (src/Control/Lens/Iso.hs:428)
+    Swapped (src/Control/Lens/Iso.hs:425)
+    Lazy (src/Control/Lens/Iso.hs:422)
+    Strict (src/Control/Lens/Iso.hs:419)
+    AsEmpty (src/Control/Lens/Empty.hs:60)
+    Empty (src/Control/Lens/Empty.hs:71)
+    Rewrapping (src/Control/Lens/Wrapped.hs:222)
+    Rewrapped (src/Control/Lens/Wrapped.hs:220)
+    Unwrapped (src/Control/Lens/Wrapped.hs:214)
+    Wrapped (src/Control/Lens/Wrapped.hs:211)
+    _Unwrapped' (src/Control/Lens/Wrapped.hs:225)
+    _Unwrapped (src/Control/Lens/Wrapped.hs:242)
+    GPlated (src/Control/Lens/Plated.hs:738)
+    Index (src/Control/Lens/At.hs:89)
+    defaultFieldRules (src/Control/Lens/TH.hs:813)
+  69% ( 72 /105) in 'Control.Exception.Lens'
+  Missing documentation for:
+    Exception (src/Control/Exception/Lens.hs:229)
+    IOException_ (src/Control/Exception/Lens.hs:489)
+    ArithException_ (src/Control/Exception/Lens.hs:504)
+    Overflow_ (src/Control/Exception/Lens.hs:533)
+    Underflow_ (src/Control/Exception/Lens.hs:554)
+    LossOfPrecision_ (src/Control/Exception/Lens.hs:575)
+    DivideByZero_ (src/Control/Exception/Lens.hs:596)
+    Denormal_ (src/Control/Exception/Lens.hs:617)
+    RatioZeroDenominator_ (src/Control/Exception/Lens.hs:641)
+    ArrayException_ (src/Control/Exception/Lens.hs:670)
+    IndexOutOfBounds_ (src/Control/Exception/Lens.hs:691)
+    UndefinedElement_ (src/Control/Exception/Lens.hs:712)
+    AssertionFailed_ (src/Control/Exception/Lens.hs:742)
+    AsyncException_ (src/Control/Exception/Lens.hs:769)
+    StackOverflow_ (src/Control/Exception/Lens.hs:788)
+    HeapOverflow_ (src/Control/Exception/Lens.hs:812)
+    ThreadKilled_ (src/Control/Exception/Lens.hs:831)
+    UserInterrupt_ (src/Control/Exception/Lens.hs:850)
+    NonTermination_ (src/Control/Exception/Lens.hs:879)
+    NestedAtomically_ (src/Control/Exception/Lens.hs:907)
+    BlockedIndefinitelyOnMVar_ (src/Control/Exception/Lens.hs:936)
+    BlockedIndefinitelyOnSTM_ (src/Control/Exception/Lens.hs:965)
+    Deadlock_ (src/Control/Exception/Lens.hs:993)
+    NoMethodError_ (src/Control/Exception/Lens.hs:1021)
+    PatternMatchFail_ (src/Control/Exception/Lens.hs:1048)
+    RecConError_ (src/Control/Exception/Lens.hs:1076)
+    RecSelError_ (src/Control/Exception/Lens.hs:1100)
+    RecUpdError_ (src/Control/Exception/Lens.hs:1124)
+    ErrorCall_ (src/Control/Exception/Lens.hs:1151)
+    AllocationLimitExceeded_ (src/Control/Exception/Lens.hs:1179)
+    TypeError_ (src/Control/Exception/Lens.hs:1207)
+    CompactionFailed_ (src/Control/Exception/Lens.hs:1235)
+    HandlingException_ (src/Control/Exception/Lens.hs:1263)
+  67% (  2 /  3) in 'Data.Dynamic.Lens'
+  Missing documentation for:
+    Dynamic (src/Data/Dynamic/Lens.hs:54)
+  94% ( 15 / 16) in 'Numeric.Lens'
+  Missing documentation for:
+    Integral (src/Numeric/Lens.hs:60)
+ 100% (  7 /  7) in 'Numeric.Natural.Lens'
+  67% (  4 /  6) in 'System.Exit.Lens'
+  Missing documentation for:
+    ExitFailure_ (src/System/Exit/Lens.hs:85)
+    ExitSuccess_ (src/System/Exit/Lens.hs:82)
+  84% ( 16 / 19) in 'System.FilePath.Lens'
+  Missing documentation for:
+    <<</>~ (src/System/FilePath/Lens.hs:111)
+    <<</>= (src/System/FilePath/Lens.hs:115)
+    <<<.>= (src/System/FilePath/Lens.hs:182)
+  27% (  7 / 26) in 'System.IO.Error.Lens'
+  Missing documentation for:
+    _AlreadyExists (src/System/IO/Error/Lens.hs:63)
+    _NoSuchThing (src/System/IO/Error/Lens.hs:66)
+    _ResourceBusy (src/System/IO/Error/Lens.hs:69)
+    _ResourceExhausted (src/System/IO/Error/Lens.hs:72)
+    _EOF (src/System/IO/Error/Lens.hs:75)
+    _IllegalOperation (src/System/IO/Error/Lens.hs:78)
+    _PermissionDenied (src/System/IO/Error/Lens.hs:81)
+    _UserError (src/System/IO/Error/Lens.hs:84)
+    _UnsatisfiedConstraints (src/System/IO/Error/Lens.hs:87)
+    _SystemError (src/System/IO/Error/Lens.hs:90)
+    _ProtocolError (src/System/IO/Error/Lens.hs:93)
+    _OtherError (src/System/IO/Error/Lens.hs:96)
+    _InvalidArgument (src/System/IO/Error/Lens.hs:99)
+    _InappropriateType (src/System/IO/Error/Lens.hs:102)
+    _HardwareFault (src/System/IO/Error/Lens.hs:105)
+    _UnsupportedOperation (src/System/IO/Error/Lens.hs:108)
+    _TimeExpired (src/System/IO/Error/Lens.hs:111)
+    _ResourceVanished (src/System/IO/Error/Lens.hs:114)
+    _Interrupted (src/System/IO/Error/Lens.hs:117)
+Warning: Control.Lens.Internal.CTypes: could not find link destinations for:
+    numElements unsafeArray unsafeAt unsafeReplace unsafeAccum unsafeAccumArray getNumElements unsafeNewArray_ unsafeRead unsafeWrite D:R:UReckPtrp0
+Warning: Control.Lens.Internal.Indexed: could not find link destinations for:
+    ~
+Warning: Control.Lens.Internal.Context: could not find link destinations for:
+    ~
+Warning: Control.Lens.Internal.Bazaar: could not find link destinations for:
+    ~
+Warning: Control.Lens.Internal.Magma: could not find link destinations for:
+    ~
+Warning: Control.Lens.Setter: could not find link destinations for:
+    unsafeIndex unsafeRangeSize ~
+Warning: Control.Lens.Lens: could not find link destinations for:
+    ~
+Warning: Control.Lens.Tuple: could not find link destinations for:
+    GIxed N0 N1 N2 N3 N4 N5 N6 N7 N8 N9 N10 N11 N12 N13 N14 N15 N16 N17 N18
+Warning: Control.Lens.Getter: could not find link destinations for:
+    unsafeIndex unsafeRangeSize ~
+Warning: Control.Lens.Fold: could not find link destinations for:
+    ifoldr
+Warning: Control.Lens.Traversal: could not find link destinations for:
+    ~
+Warning: Control.Lens.Reified: could not find link destinations for:
+    ~
+Warning: Control.Lens.Indexed: could not find link destinations for:
+    ~
+Warning: Control.Lens.Equality: could not find link destinations for:
+    ~
+Warning: Control.Lens.Wrapped: could not find link destinations for:
+    ~ GUnwrapped
+Warning: Control.Lens.Zoom: could not find link destinations for:
+    ~
+Warning: Control.Lens.Plated: could not find link destinations for:
+    gplate'
+Warning: Control.Lens.Each: could not find link destinations for:
+    ~
+Warning: Control.Lens.At: could not find link destinations for:
+    ~
+Warning: Language.Haskell.TH.Lens: could not find link destinations for:
+    DataPrism'
+Warning: Control.Lens.Internal.FieldTH: could not find link destinations for:
+    OpticStab quantifyType
+Warning: Control.Lens.Combinators: could not find link destinations for:
+    unsafeIndex unsafeRangeSize ~ GIxed N18 N17 N16 N15 N14 N13 N12 N11 N10 N9 N8 N7 N6 N5 N4 N3 N2 N1 N0 ifoldr GUnwrapped gplate'
+Warning: Numeric.Lens: could not find link destinations for:
+    digitToInt'
+Documentation created: dist/doc/html/lens/index.html,
+dist/doc/html/lens/lens.txt
+Preprocessing test suite 'templates' for lens-4.16..
+Preprocessing test suite 'properties' for lens-4.16..
+Preprocessing test suite 'hunit' for lens-4.16..
+Preprocessing test suite 'doctests' for lens-4.16..
+installing
+Installing library in /nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16/lib/ghc-8.4.0.20180204/lens-4.16
+post-installation fixup
+shrinking RPATHs of ELF executables and libraries in /nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16
+shrinking /nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204/libHSlens-4.16-2YvRxcKFNN0998Yf4TxD1j-ghc8.4.0.20180204.so
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+stripping (with command strip and flags -S) in /nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16/lib 
+patching script interpreter paths in /nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16
+checking for references to /tmp/nix-build-lens-4.16.drv-0 in /nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16...
+shrinking RPATHs of ELF executables and libraries in /nix/store/8rgqjaf8977c983nqnams2as6y69j0lc-lens-4.16-doc
+strip is /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+patching script interpreter paths in /nix/store/8rgqjaf8977c983nqnams2as6y69j0lc-lens-4.16-doc
+checking for references to /tmp/nix-build-lens-4.16.drv-0 in /nix/store/8rgqjaf8977c983nqnams2as6y69j0lc-lens-4.16-doc...
+/nix/store/wcl6zgpsymdlw9hw2zkv3pl2lfzm1x1y-lens-4.16

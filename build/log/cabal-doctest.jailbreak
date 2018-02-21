@@ -1,5 +1,5 @@
 these derivations will be built:
-  /nix/store/b4696l6s6ccbx497rnn66cjihf2lqv4j-cabal-doctest-1.0.6.drv
+  /nix/store/m32545myz9dhdfvjnq53a26yhhvzq57r-cabal-doctest-1.0.6.drv
 building path(s) ‘/nix/store/czs6lv46wixcd95vs8ysvwx162palq8y-cabal-doctest-1.0.6-doc’, ‘/nix/store/jfbbjygb1jaw5r3isz0hh57ysiyrpkr4-cabal-doctest-1.0.6’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
@@ -27,5 +27,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 Cabal >=1.10 && <2.1, base >=4.3 && <4.11
 
-builder for ‘/nix/store/b4696l6s6ccbx497rnn66cjihf2lqv4j-cabal-doctest-1.0.6.drv’ failed with exit code 1
-error: build of ‘/nix/store/b4696l6s6ccbx497rnn66cjihf2lqv4j-cabal-doctest-1.0.6.drv’ failed
+builder for ‘/nix/store/m32545myz9dhdfvjnq53a26yhhvzq57r-cabal-doctest-1.0.6.drv’ failed with exit code 1
+error: build of ‘/nix/store/m32545myz9dhdfvjnq53a26yhhvzq57r-cabal-doctest-1.0.6.drv’ failed

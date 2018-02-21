@@ -1,5 +1,5 @@
 these derivations will be built:
-  /nix/store/lfarznzhqyybgr0w0wywyv3m7hkfm24k-bindings-GLFW-3.1.2.3.drv
+  /nix/store/wwzq8f0dhyhmh1s459xdiqwpndp7sfrn-bindings-GLFW-3.1.2.3.drv
 building path(s) ‘/nix/store/grql8kirjbyaa14kl2k0bx621rbqwgh9-bindings-GLFW-3.1.2.3’, ‘/nix/store/rhgwwmf0x3zpydcn2il7n0dzk22wh2j1-bindings-GLFW-3.1.2.3-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
@@ -27,5 +27,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 template-haskell >=2.10 && <2.13
 
-builder for ‘/nix/store/lfarznzhqyybgr0w0wywyv3m7hkfm24k-bindings-GLFW-3.1.2.3.drv’ failed with exit code 1
-error: build of ‘/nix/store/lfarznzhqyybgr0w0wywyv3m7hkfm24k-bindings-GLFW-3.1.2.3.drv’ failed
+builder for ‘/nix/store/wwzq8f0dhyhmh1s459xdiqwpndp7sfrn-bindings-GLFW-3.1.2.3.drv’ failed with exit code 1
+error: build of ‘/nix/store/wwzq8f0dhyhmh1s459xdiqwpndp7sfrn-bindings-GLFW-3.1.2.3.drv’ failed
