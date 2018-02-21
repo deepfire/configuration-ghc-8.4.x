@@ -1,6 +1,6 @@
 these derivations will be built:
-  /nix/store/1r4b84hmlwrvr8mskm2gg7z7970rip5g-reflex-0.4.0.1.drv
-building path(s) ‘/nix/store/a2cwwpkbn3sk40ccki4n4x4inj2q5pka-reflex-0.4.0.1’, ‘/nix/store/fzs57w4f6mj8xcx16ixbxi4fhbjaxz25-reflex-0.4.0.1-doc’
+  /nix/store/fr7r2naqbxmfblsb3qqf8ysjbgllp3br-reflex-0.4.0.1.drv
+building path(s) ‘/nix/store/a5ldiwdmm5jpgap6rrwc48f1js4phgir-reflex-0.4.0.1’, ‘/nix/store/iqx4m8ifi5nl8pg72rqcqpxb7lfxj9y6-reflex-0.4.0.1-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
@@ -13,7 +13,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-reflex-0.4.0.1.drv-0/package.conf.
 [1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-reflex-0.4.0.1.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/a2cwwpkbn3sk40ccki4n4x4inj2q5pka-reflex-0.4.0.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/fzs57w4f6mj8xcx16ixbxi4fhbjaxz25-reflex-0.4.0.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-reflex-0.4.0.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/a2cwwpkbn3sk40ccki4n4x4inj2q5pka-reflex-0.4.0.1/lib/ghc-8.4.0.20180204/reflex-0.4.0.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/a5ldiwdmm5jpgap6rrwc48f1js4phgir-reflex-0.4.0.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/iqx4m8ifi5nl8pg72rqcqpxb7lfxj9y6-reflex-0.4.0.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-reflex-0.4.0.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/a5ldiwdmm5jpgap6rrwc48f1js4phgir-reflex-0.4.0.1/lib/ghc-8.4.0.20180204/reflex-0.4.0.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring reflex-0.5...
 Flags chosen: debug-trace-events=False,
@@ -61,16 +61,16 @@ Source component graph:
     component test:rootCleanup dependency lib
     component test:semantics dependency lib
 Configured component graph:
-    component reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
+    component reflex-0.5-FqbX65lM4Qb31umKJrDb9X
         include MemoTrie-0.6.9-2SUc0pXC2cKIsPKUNlvnbK
         include base-4.11.0.0
-        include bifunctors-5.5.2-JmVwqHZaUG9BxzkzTlCaly
-        include comonad-5.0.3-ExNKBl5TkJNAu3dJXaqq6A
+        include bifunctors-5.5.2-EY2ijuyOymQ92wwqixxBaq
+        include comonad-5.0.3-KkpoliJkLceJV72FznlQDT
         include containers-0.5.11.0
         include data-default-0.7.1.1-CDuzuufDGXfJKB21uZBAZ2
         include dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
         include exception-transformers-0.4.0.5-GxWd2OVMvbQbgz1jpnhX5
-        include lens-4.16-22upqpjlOx4cVIhjDAw51
+        include lens-4.16-JSaOBKb1jLF3UfPXo91E5I
         include monad-control-1.0.2.2-8plXeWaQGBpKmrpS8CoD8I
         include mtl-2.2.2
         include prim-uniq-0.1.0.1-CUqFGkdaQC5Fj7hude0CI3
@@ -78,11 +78,11 @@ Configured component graph:
         include random-1.1-Bzf9YW9nFUS5UwW0OIfLBC
         include ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
         include reflection-2.1.3-9TcVVentlk8CP2sdqM4bnM
-        include semigroupoids-5.2.2-K4ADSgqeCXh17JuWVZKLCd
+        include semigroupoids-5.2.2-IKDMFCBOirECcxf2tDIykf
         include semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
         include stm-2.4.5.0
         include syb-0.7-12Yx8C7qfUAKpojD8I0eSI
-        include these-0.7.4-7vFJDG7qajRHgKhIHJ7okD
+        include these-0.7.4-19JERnKF60b4Fvk5XQMNvI
         include time-1.8.0.2
         include transformers-0.5.5.0
         include transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
@@ -91,66 +91,66 @@ Configured component graph:
         include haskell-src-exts-1.20.1-KcOEVjHmUjpGTWuqy6Mtfy
         include haskell-src-meta-0.8.0.2-DUTsfEjjZXk5yVWolriIZ3
         include template-haskell-2.13.0.0
-    component reflex-0.5-7i1X2aNaki2LdHabCbfYNT-CrossImpl
+    component reflex-0.5-F5MtKBPL7NPGedLrEstvry-CrossImpl
         include base-4.11.0.0
         include containers-0.5.11.0
         include dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
         include mtl-2.2.2
         include ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
-        include reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
-    component reflex-0.5-FFTxfbmvN2SFnhQSSOiRSL-EventWriterT
+        include reflex-0.5-FqbX65lM4Qb31umKJrDb9X
+    component reflex-0.5-4utplTOC31jKgHf5LVnG9y-EventWriterT
         include base-4.11.0.0
         include dependent-sum-0.4-4EoTeNCBlP53r5IlLn321o
-        include lens-4.16-22upqpjlOx4cVIhjDAw51
-        include these-0.7.4-7vFJDG7qajRHgKhIHJ7okD
+        include lens-4.16-JSaOBKb1jLF3UfPXo91E5I
+        include these-0.7.4-19JERnKF60b4Fvk5XQMNvI
         include transformers-0.5.5.0
-        include reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
+        include reflex-0.5-FqbX65lM4Qb31umKJrDb9X
         include ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
-    component reflex-0.5-CjlUJSZzZRY2hkIXZfMcTe-GC-Semantics
+    component reflex-0.5-Furg6cmfT7NHxDMKC7DDgD-GC-Semantics
         include base-4.11.0.0
         include dependent-sum-0.4-4EoTeNCBlP53r5IlLn321o
         include dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
-        include these-0.7.4-7vFJDG7qajRHgKhIHJ7okD
+        include these-0.7.4-19JERnKF60b4Fvk5XQMNvI
         include transformers-0.5.5.0
-        include reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
+        include reflex-0.5-FqbX65lM4Qb31umKJrDb9X
         include ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
-    component reflex-0.5-343dEnrtECIImin6qbyYY8-QueryT
+    component reflex-0.5-D6NpDu9cuYAGSr81jg5Ie7-QueryT
         include base-4.11.0.0
         include containers-0.5.11.0
         include dependent-sum-0.4-4EoTeNCBlP53r5IlLn321o
         include dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
-        include lens-4.16-22upqpjlOx4cVIhjDAw51
-        include these-0.7.4-7vFJDG7qajRHgKhIHJ7okD
+        include lens-4.16-JSaOBKb1jLF3UfPXo91E5I
+        include these-0.7.4-19JERnKF60b4Fvk5XQMNvI
         include transformers-0.5.5.0
         include semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
-        include reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
+        include reflex-0.5-FqbX65lM4Qb31umKJrDb9X
         include ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
-    component reflex-0.5-4vvtuj6CP4f693D1uYfCJt-rootCleanup
+    component reflex-0.5-GKfeXAm5e0JJQ7Sj12IJ9y-rootCleanup
         include base-4.11.0.0
-        include reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
-    component reflex-0.5-8P47FOnEEQG3723JS17S2q-semantics
+        include reflex-0.5-FqbX65lM4Qb31umKJrDb9X
+    component reflex-0.5-78mFRwZsVd71jFxp649lg-semantics
         include base-4.11.0.0
-        include bifunctors-5.5.2-JmVwqHZaUG9BxzkzTlCaly
+        include bifunctors-5.5.2-EY2ijuyOymQ92wwqixxBaq
         include containers-0.5.11.0
         include deepseq-1.4.3.0
         include dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
         include dependent-sum-0.4-4EoTeNCBlP53r5IlLn321o
         include mtl-2.2.2
         include ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
-        include reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
+        include reflex-0.5-FqbX65lM4Qb31umKJrDb9X
         include split-0.2.3.3-HZE8cUj7G4KKJWkJkBKmDp
         include transformers-0.5.5.0
 Linked component graph:
-    unit reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
+    unit reflex-0.5-FqbX65lM4Qb31umKJrDb9X
         include MemoTrie-0.6.9-2SUc0pXC2cKIsPKUNlvnbK
         include base-4.11.0.0
-        include bifunctors-5.5.2-JmVwqHZaUG9BxzkzTlCaly
-        include comonad-5.0.3-ExNKBl5TkJNAu3dJXaqq6A
+        include bifunctors-5.5.2-EY2ijuyOymQ92wwqixxBaq
+        include comonad-5.0.3-KkpoliJkLceJV72FznlQDT
         include containers-0.5.11.0
         include data-default-0.7.1.1-CDuzuufDGXfJKB21uZBAZ2
         include dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
         include exception-transformers-0.4.0.5-GxWd2OVMvbQbgz1jpnhX5
-        include lens-4.16-22upqpjlOx4cVIhjDAw51
+        include lens-4.16-JSaOBKb1jLF3UfPXo91E5I
         include monad-control-1.0.2.2-8plXeWaQGBpKmrpS8CoD8I
         include mtl-2.2.2
         include prim-uniq-0.1.0.1-CUqFGkdaQC5Fj7hude0CI3
@@ -158,11 +158,11 @@ Linked component graph:
         include random-1.1-Bzf9YW9nFUS5UwW0OIfLBC
         include ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
         include reflection-2.1.3-9TcVVentlk8CP2sdqM4bnM
-        include semigroupoids-5.2.2-K4ADSgqeCXh17JuWVZKLCd
+        include semigroupoids-5.2.2-IKDMFCBOirECcxf2tDIykf
         include semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
         include stm-2.4.5.0
         include syb-0.7-12Yx8C7qfUAKpojD8I0eSI
-        include these-0.7.4-7vFJDG7qajRHgKhIHJ7okD
+        include these-0.7.4-19JERnKF60b4Fvk5XQMNvI
         include time-1.8.0.2
         include transformers-0.5.5.0
         include transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
@@ -171,67 +171,67 @@ Linked component graph:
         include haskell-src-exts-1.20.1-KcOEVjHmUjpGTWuqy6Mtfy
         include haskell-src-meta-0.8.0.2-DUTsfEjjZXk5yVWolriIZ3
         include template-haskell-2.13.0.0
-        Data.AppendMap=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Data.AppendMap,Data.FastMutableIntMap=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Data.FastMutableIntMap,Data.FastWeakBag=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Data.FastWeakBag,Data.Functor.Misc=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Data.Functor.Misc,Data.Map.Misc=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Data.Map.Misc,Data.WeakBag=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Data.WeakBag,Reflex=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex,Reflex.Class=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Class,Reflex.Collection=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Collection,Reflex.Dynamic=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Dynamic,Reflex.Dynamic.TH=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Dynamic.TH,Reflex.Dynamic.Uniq=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Dynamic.Uniq,Reflex.DynamicWriter=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.DynamicWriter,Reflex.EventWriter=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.EventWriter,Reflex.FastWeak=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.FastWeak,Reflex.FunctorMaybe=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.FunctorMaybe,Reflex.Host.Class=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Host.Class,Reflex.Network=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Network,Reflex.NotReady.Class=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.NotReady.Class,Reflex.Patch=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Patch,Reflex.Patch.Class=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Patch.Class,Reflex.Patch.DMap=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Patch.DMap,Reflex.Patch.DMapWithMove=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Patch.DMapWithMove,Reflex.Patch.IntMap=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Patch.IntMap,Reflex.Patch.Map=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Patch.Map,Reflex.Patch.MapWithMove=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Patch.MapWithMove,Reflex.PerformEvent.Base=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.PerformEvent.Base,Reflex.PerformEvent.Class=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.PerformEvent.Class,Reflex.PostBuild.Base=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.PostBuild.Base,Reflex.PostBuild.Class=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.PostBuild.Class,Reflex.Profiled=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Profiled,Reflex.Pure=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Pure,Reflex.Query.Base=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Query.Base,Reflex.Query.Class=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Query.Class,Reflex.Requester.Base=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Requester.Base,Reflex.Requester.Class=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Requester.Class,Reflex.Spider=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Spider,Reflex.Spider.Internal=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Spider.Internal,Reflex.Time=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Time,Reflex.TriggerEvent.Base=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.TriggerEvent.Base,Reflex.TriggerEvent.Class=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.TriggerEvent.Class,Reflex.Widget.Basic=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Widget.Basic,Reflex.Workflow=reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM:Reflex.Workflow
-    unit reflex-0.5-7i1X2aNaki2LdHabCbfYNT-CrossImpl
+        Data.AppendMap=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Data.AppendMap,Data.FastMutableIntMap=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Data.FastMutableIntMap,Data.FastWeakBag=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Data.FastWeakBag,Data.Functor.Misc=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Data.Functor.Misc,Data.Map.Misc=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Data.Map.Misc,Data.WeakBag=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Data.WeakBag,Reflex=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex,Reflex.Class=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Class,Reflex.Collection=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Collection,Reflex.Dynamic=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Dynamic,Reflex.Dynamic.TH=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Dynamic.TH,Reflex.Dynamic.Uniq=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Dynamic.Uniq,Reflex.DynamicWriter=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.DynamicWriter,Reflex.EventWriter=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.EventWriter,Reflex.FastWeak=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.FastWeak,Reflex.FunctorMaybe=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.FunctorMaybe,Reflex.Host.Class=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Host.Class,Reflex.Network=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Network,Reflex.NotReady.Class=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.NotReady.Class,Reflex.Patch=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Patch,Reflex.Patch.Class=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Patch.Class,Reflex.Patch.DMap=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Patch.DMap,Reflex.Patch.DMapWithMove=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Patch.DMapWithMove,Reflex.Patch.IntMap=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Patch.IntMap,Reflex.Patch.Map=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Patch.Map,Reflex.Patch.MapWithMove=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Patch.MapWithMove,Reflex.PerformEvent.Base=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.PerformEvent.Base,Reflex.PerformEvent.Class=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.PerformEvent.Class,Reflex.PostBuild.Base=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.PostBuild.Base,Reflex.PostBuild.Class=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.PostBuild.Class,Reflex.Profiled=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Profiled,Reflex.Pure=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Pure,Reflex.Query.Base=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Query.Base,Reflex.Query.Class=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Query.Class,Reflex.Requester.Base=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Requester.Base,Reflex.Requester.Class=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Requester.Class,Reflex.Spider=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Spider,Reflex.Spider.Internal=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Spider.Internal,Reflex.Time=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Time,Reflex.TriggerEvent.Base=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.TriggerEvent.Base,Reflex.TriggerEvent.Class=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.TriggerEvent.Class,Reflex.Widget.Basic=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Widget.Basic,Reflex.Workflow=reflex-0.5-FqbX65lM4Qb31umKJrDb9X:Reflex.Workflow
+    unit reflex-0.5-F5MtKBPL7NPGedLrEstvry-CrossImpl
         include base-4.11.0.0
         include containers-0.5.11.0
         include dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
         include mtl-2.2.2
         include ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
-        include reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
-    unit reflex-0.5-FFTxfbmvN2SFnhQSSOiRSL-EventWriterT
+        include reflex-0.5-FqbX65lM4Qb31umKJrDb9X
+    unit reflex-0.5-4utplTOC31jKgHf5LVnG9y-EventWriterT
         include base-4.11.0.0
         include dependent-sum-0.4-4EoTeNCBlP53r5IlLn321o
-        include lens-4.16-22upqpjlOx4cVIhjDAw51
-        include these-0.7.4-7vFJDG7qajRHgKhIHJ7okD
+        include lens-4.16-JSaOBKb1jLF3UfPXo91E5I
+        include these-0.7.4-19JERnKF60b4Fvk5XQMNvI
         include transformers-0.5.5.0
-        include reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
+        include reflex-0.5-FqbX65lM4Qb31umKJrDb9X
         include ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
-    unit reflex-0.5-CjlUJSZzZRY2hkIXZfMcTe-GC-Semantics
+    unit reflex-0.5-Furg6cmfT7NHxDMKC7DDgD-GC-Semantics
         include base-4.11.0.0
         include dependent-sum-0.4-4EoTeNCBlP53r5IlLn321o
         include dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
-        include these-0.7.4-7vFJDG7qajRHgKhIHJ7okD
+        include these-0.7.4-19JERnKF60b4Fvk5XQMNvI
         include transformers-0.5.5.0
-        include reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
+        include reflex-0.5-FqbX65lM4Qb31umKJrDb9X
         include ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
-    unit reflex-0.5-343dEnrtECIImin6qbyYY8-QueryT
+    unit reflex-0.5-D6NpDu9cuYAGSr81jg5Ie7-QueryT
         include base-4.11.0.0
         include containers-0.5.11.0
         include dependent-sum-0.4-4EoTeNCBlP53r5IlLn321o
         include dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
-        include lens-4.16-22upqpjlOx4cVIhjDAw51
-        include these-0.7.4-7vFJDG7qajRHgKhIHJ7okD
+        include lens-4.16-JSaOBKb1jLF3UfPXo91E5I
+        include these-0.7.4-19JERnKF60b4Fvk5XQMNvI
         include transformers-0.5.5.0
         include semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
-        include reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
+        include reflex-0.5-FqbX65lM4Qb31umKJrDb9X
         include ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
-    unit reflex-0.5-4vvtuj6CP4f693D1uYfCJt-rootCleanup
+    unit reflex-0.5-GKfeXAm5e0JJQ7Sj12IJ9y-rootCleanup
         include base-4.11.0.0
-        include reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
-    unit reflex-0.5-8P47FOnEEQG3723JS17S2q-semantics
+        include reflex-0.5-FqbX65lM4Qb31umKJrDb9X
+    unit reflex-0.5-78mFRwZsVd71jFxp649lg-semantics
         include base-4.11.0.0
-        include bifunctors-5.5.2-JmVwqHZaUG9BxzkzTlCaly
+        include bifunctors-5.5.2-EY2ijuyOymQ92wwqixxBaq
         include containers-0.5.11.0
         include deepseq-1.4.3.0
         include dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
         include dependent-sum-0.4-4EoTeNCBlP53r5IlLn321o
         include mtl-2.2.2
         include ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
-        include reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
+        include reflex-0.5-FqbX65lM4Qb31umKJrDb9X
         include split-0.2.3.3-HZE8cUj7G4KKJWkJkBKmDp
         include transformers-0.5.5.0
 Ready component graph:
-    definite reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
+    definite reflex-0.5-FqbX65lM4Qb31umKJrDb9X
         depends MemoTrie-0.6.9-2SUc0pXC2cKIsPKUNlvnbK
         depends base-4.11.0.0
-        depends bifunctors-5.5.2-JmVwqHZaUG9BxzkzTlCaly
-        depends comonad-5.0.3-ExNKBl5TkJNAu3dJXaqq6A
+        depends bifunctors-5.5.2-EY2ijuyOymQ92wwqixxBaq
+        depends comonad-5.0.3-KkpoliJkLceJV72FznlQDT
         depends containers-0.5.11.0
         depends data-default-0.7.1.1-CDuzuufDGXfJKB21uZBAZ2
         depends dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
         depends exception-transformers-0.4.0.5-GxWd2OVMvbQbgz1jpnhX5
-        depends lens-4.16-22upqpjlOx4cVIhjDAw51
+        depends lens-4.16-JSaOBKb1jLF3UfPXo91E5I
         depends monad-control-1.0.2.2-8plXeWaQGBpKmrpS8CoD8I
         depends mtl-2.2.2
         depends prim-uniq-0.1.0.1-CUqFGkdaQC5Fj7hude0CI3
@@ -239,11 +239,11 @@ Ready component graph:
         depends random-1.1-Bzf9YW9nFUS5UwW0OIfLBC
         depends ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
         depends reflection-2.1.3-9TcVVentlk8CP2sdqM4bnM
-        depends semigroupoids-5.2.2-K4ADSgqeCXh17JuWVZKLCd
+        depends semigroupoids-5.2.2-IKDMFCBOirECcxf2tDIykf
         depends semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
         depends stm-2.4.5.0
         depends syb-0.7-12Yx8C7qfUAKpojD8I0eSI
-        depends these-0.7.4-7vFJDG7qajRHgKhIHJ7okD
+        depends these-0.7.4-19JERnKF60b4Fvk5XQMNvI
         depends time-1.8.0.2
         depends transformers-0.5.5.0
         depends transformers-compat-0.5.1.4-285AGyq7jlo9FmXi0hjULW
@@ -252,73 +252,73 @@ Ready component graph:
         depends haskell-src-exts-1.20.1-KcOEVjHmUjpGTWuqy6Mtfy
         depends haskell-src-meta-0.8.0.2-DUTsfEjjZXk5yVWolriIZ3
         depends template-haskell-2.13.0.0
-    definite reflex-0.5-CjlUJSZzZRY2hkIXZfMcTe-GC-Semantics
+    definite reflex-0.5-Furg6cmfT7NHxDMKC7DDgD-GC-Semantics
         depends base-4.11.0.0
         depends dependent-sum-0.4-4EoTeNCBlP53r5IlLn321o
         depends dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
-        depends these-0.7.4-7vFJDG7qajRHgKhIHJ7okD
+        depends these-0.7.4-19JERnKF60b4Fvk5XQMNvI
         depends transformers-0.5.5.0
-        depends reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
+        depends reflex-0.5-FqbX65lM4Qb31umKJrDb9X
         depends ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
-    definite reflex-0.5-FFTxfbmvN2SFnhQSSOiRSL-EventWriterT
+    definite reflex-0.5-GKfeXAm5e0JJQ7Sj12IJ9y-rootCleanup
         depends base-4.11.0.0
+        depends reflex-0.5-FqbX65lM4Qb31umKJrDb9X
+    definite reflex-0.5-F5MtKBPL7NPGedLrEstvry-CrossImpl
+        depends base-4.11.0.0
+        depends containers-0.5.11.0
+        depends dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
+        depends mtl-2.2.2
+        depends ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
+        depends reflex-0.5-FqbX65lM4Qb31umKJrDb9X
+    definite reflex-0.5-D6NpDu9cuYAGSr81jg5Ie7-QueryT
+        depends base-4.11.0.0
+        depends containers-0.5.11.0
         depends dependent-sum-0.4-4EoTeNCBlP53r5IlLn321o
-        depends lens-4.16-22upqpjlOx4cVIhjDAw51
-        depends these-0.7.4-7vFJDG7qajRHgKhIHJ7okD
+        depends dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
+        depends lens-4.16-JSaOBKb1jLF3UfPXo91E5I
+        depends these-0.7.4-19JERnKF60b4Fvk5XQMNvI
         depends transformers-0.5.5.0
-        depends reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
+        depends semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
+        depends reflex-0.5-FqbX65lM4Qb31umKJrDb9X
         depends ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
-    definite reflex-0.5-8P47FOnEEQG3723JS17S2q-semantics
+    definite reflex-0.5-78mFRwZsVd71jFxp649lg-semantics
         depends base-4.11.0.0
-        depends bifunctors-5.5.2-JmVwqHZaUG9BxzkzTlCaly
+        depends bifunctors-5.5.2-EY2ijuyOymQ92wwqixxBaq
         depends containers-0.5.11.0
         depends deepseq-1.4.3.0
         depends dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
         depends dependent-sum-0.4-4EoTeNCBlP53r5IlLn321o
         depends mtl-2.2.2
         depends ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
-        depends reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
+        depends reflex-0.5-FqbX65lM4Qb31umKJrDb9X
         depends split-0.2.3.3-HZE8cUj7G4KKJWkJkBKmDp
         depends transformers-0.5.5.0
-    definite reflex-0.5-7i1X2aNaki2LdHabCbfYNT-CrossImpl
+    definite reflex-0.5-4utplTOC31jKgHf5LVnG9y-EventWriterT
         depends base-4.11.0.0
-        depends containers-0.5.11.0
-        depends dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
-        depends mtl-2.2.2
-        depends ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
-        depends reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
-    definite reflex-0.5-4vvtuj6CP4f693D1uYfCJt-rootCleanup
-        depends base-4.11.0.0
-        depends reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
-    definite reflex-0.5-343dEnrtECIImin6qbyYY8-QueryT
-        depends base-4.11.0.0
-        depends containers-0.5.11.0
         depends dependent-sum-0.4-4EoTeNCBlP53r5IlLn321o
-        depends dependent-map-0.2.4.0-6JPOJA8iPmtBtnlyd68AGE
-        depends lens-4.16-22upqpjlOx4cVIhjDAw51
-        depends these-0.7.4-7vFJDG7qajRHgKhIHJ7okD
+        depends lens-4.16-JSaOBKb1jLF3UfPXo91E5I
+        depends these-0.7.4-19JERnKF60b4Fvk5XQMNvI
         depends transformers-0.5.5.0
-        depends semigroups-0.18.4-38OPGmMfh928ND3Gy7Pzxr
-        depends reflex-0.5-8ofsqQ1hVo0GmYgNk3ciuM
+        depends reflex-0.5-FqbX65lM4Qb31umKJrDb9X
         depends ref-tf-0.4.0.1-CwBYFTQyZt15mphI2AUU3H
 Using Cabal-2.1.0.0 compiled by ghc-8.4
 Using compiler: ghc-8.4.0.20180204
 Using install prefix:
-/nix/store/a2cwwpkbn3sk40ccki4n4x4inj2q5pka-reflex-0.4.0.1
+/nix/store/a5ldiwdmm5jpgap6rrwc48f1js4phgir-reflex-0.4.0.1
 Executables installed in:
-/nix/store/a2cwwpkbn3sk40ccki4n4x4inj2q5pka-reflex-0.4.0.1/bin
+/nix/store/a5ldiwdmm5jpgap6rrwc48f1js4phgir-reflex-0.4.0.1/bin
 Libraries installed in:
-/nix/store/a2cwwpkbn3sk40ccki4n4x4inj2q5pka-reflex-0.4.0.1/lib/ghc-8.4.0.20180204/reflex-0.5
+/nix/store/a5ldiwdmm5jpgap6rrwc48f1js4phgir-reflex-0.4.0.1/lib/ghc-8.4.0.20180204/reflex-0.5
 Dynamic Libraries installed in:
-/nix/store/a2cwwpkbn3sk40ccki4n4x4inj2q5pka-reflex-0.4.0.1/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+/nix/store/a5ldiwdmm5jpgap6rrwc48f1js4phgir-reflex-0.4.0.1/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
 Private executables installed in:
-/nix/store/a2cwwpkbn3sk40ccki4n4x4inj2q5pka-reflex-0.4.0.1/libexec/x86_64-linux-ghc-8.4.0.20180204/reflex-0.5
+/nix/store/a5ldiwdmm5jpgap6rrwc48f1js4phgir-reflex-0.4.0.1/libexec/x86_64-linux-ghc-8.4.0.20180204/reflex-0.5
 Data files installed in:
-/nix/store/a2cwwpkbn3sk40ccki4n4x4inj2q5pka-reflex-0.4.0.1/share/x86_64-linux-ghc-8.4.0.20180204/reflex-0.5
+/nix/store/a5ldiwdmm5jpgap6rrwc48f1js4phgir-reflex-0.4.0.1/share/x86_64-linux-ghc-8.4.0.20180204/reflex-0.5
 Documentation installed in:
-/nix/store/fzs57w4f6mj8xcx16ixbxi4fhbjaxz25-reflex-0.4.0.1-doc/share/doc
+/nix/store/iqx4m8ifi5nl8pg72rqcqpxb7lfxj9y6-reflex-0.4.0.1-doc/share/doc
 Configuration files installed in:
-/nix/store/a2cwwpkbn3sk40ccki4n4x4inj2q5pka-reflex-0.4.0.1/etc
+/nix/store/a5ldiwdmm5jpgap6rrwc48f1js4phgir-reflex-0.4.0.1/etc
 No alex found
 Using ar found on system at:
 /nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
@@ -504,50 +504,10 @@ Preprocessing test suite 'GC-Semantics' for reflex-0.5..
 Building test suite 'GC-Semantics' for reflex-0.5..
 [1 of 1] Compiling Main             ( test/GC.hs, dist/build/GC-Semantics/GC-Semantics-tmp/Main.dyn_o )
 Linking dist/build/GC-Semantics/GC-Semantics ...
-Preprocessing test suite 'EventWriterT' for reflex-0.5..
-Building test suite 'EventWriterT' for reflex-0.5..
-
-<no location info>: warning: [-Wmissing-home-modules]
-    These modules are needed for compilation but not listed in your .cabal file's other-modules: Test.Run
-[1 of 2] Compiling Test.Run         ( test/Test/Run.hs, dist/build/EventWriterT/EventWriterT-tmp/Test/Run.dyn_o )
-[2 of 2] Compiling Main             ( test/EventWriterT.hs, dist/build/EventWriterT/EventWriterT-tmp/Main.dyn_o )
-
-<no location info>: warning: [-Wmissing-home-modules]
-    These modules are needed for compilation but not listed in your .cabal file's other-modules: Test.Run
-Linking dist/build/EventWriterT/EventWriterT ...
-Preprocessing test suite 'semantics' for reflex-0.5..
-Building test suite 'semantics' for reflex-0.5..
-
-<no location info>: warning: [-Wmissing-home-modules]
-    These modules are needed for compilation but not listed in your .cabal file's other-modules: Reflex.Bench.Focused
-                                                                                                 Reflex.Plan.Pure
-                                                                                                 Reflex.Plan.Reflex
-                                                                                                 Reflex.Test
-                                                                                                 Reflex.Test.Micro
-                                                                                                 Reflex.TestPlan
-[1 of 7] Compiling Reflex.TestPlan  ( test/Reflex/TestPlan.hs, dist/build/semantics/semantics-tmp/Reflex/TestPlan.dyn_o )
-[2 of 7] Compiling Reflex.Test.Micro ( test/Reflex/Test/Micro.hs, dist/build/semantics/semantics-tmp/Reflex/Test/Micro.dyn_o )
-[3 of 7] Compiling Reflex.Plan.Reflex ( test/Reflex/Plan/Reflex.hs, dist/build/semantics/semantics-tmp/Reflex/Plan/Reflex.dyn_o )
-[4 of 7] Compiling Reflex.Plan.Pure ( test/Reflex/Plan/Pure.hs, dist/build/semantics/semantics-tmp/Reflex/Plan/Pure.dyn_o )
-[5 of 7] Compiling Reflex.Test      ( test/Reflex/Test.hs, dist/build/semantics/semantics-tmp/Reflex/Test.dyn_o )
-[6 of 7] Compiling Reflex.Bench.Focused ( test/Reflex/Bench/Focused.hs, dist/build/semantics/semantics-tmp/Reflex/Bench/Focused.dyn_o )
-
-test/Reflex/Bench/Focused.hs:187:58: warning: [-Wdeprecations]
-    In the use of ‘foldWithKey’ (imported from Data.Map):
-    Deprecated: "As of version 0.4, replaced by 'foldrWithKey'."
-    |
-187 | holdMapDyn (UpdatedMap initial changes) = foldDyn (flip (Map.foldWithKey modify)) initial changes
-    |                                                          ^^^^^^^^^^^^^^^
-[7 of 7] Compiling Main             ( test/semantics.hs, dist/build/semantics/semantics-tmp/Main.dyn_o )
-
-<no location info>: warning: [-Wmissing-home-modules]
-    These modules are needed for compilation but not listed in your .cabal file's other-modules: Reflex.Bench.Focused
-                                                                                                 Reflex.Plan.Pure
-                                                                                                 Reflex.Plan.Reflex
-                                                                                                 Reflex.Test
-                                                                                                 Reflex.Test.Micro
-                                                                                                 Reflex.TestPlan
-Linking dist/build/semantics/semantics ...
+Preprocessing test suite 'rootCleanup' for reflex-0.5..
+Building test suite 'rootCleanup' for reflex-0.5..
+[1 of 1] Compiling Main             ( test/rootCleanup.hs, dist/build/rootCleanup/rootCleanup-tmp/Main.dyn_o )
+Linking dist/build/rootCleanup/rootCleanup ...
 Preprocessing test suite 'CrossImpl' for reflex-0.5..
 Building test suite 'CrossImpl' for reflex-0.5..
 [1 of 1] Compiling Reflex.Test.CrossImpl ( test/Reflex/Test/CrossImpl.hs, dist/build/CrossImpl/CrossImpl-tmp/Reflex/Test/CrossImpl.dyn_o )
@@ -590,10 +550,6 @@ test/Reflex/Test/CrossImpl.hs:34:1: warning: [-Wunused-imports]
 34 | import Data.Functor.Misc
    | ^^^^^^^^^^^^^^^^^^^^^^^^
 Linking dist/build/CrossImpl/CrossImpl ...
-Preprocessing test suite 'rootCleanup' for reflex-0.5..
-Building test suite 'rootCleanup' for reflex-0.5..
-[1 of 1] Compiling Main             ( test/rootCleanup.hs, dist/build/rootCleanup/rootCleanup-tmp/Main.dyn_o )
-Linking dist/build/rootCleanup/rootCleanup ...
 Preprocessing test suite 'QueryT' for reflex-0.5..
 Building test suite 'QueryT' for reflex-0.5..
 
@@ -605,36 +561,80 @@ Building test suite 'QueryT' for reflex-0.5..
 <no location info>: warning: [-Wmissing-home-modules]
     These modules are needed for compilation but not listed in your .cabal file's other-modules: Test.Run
 Linking dist/build/QueryT/QueryT ...
+Preprocessing test suite 'semantics' for reflex-0.5..
+Building test suite 'semantics' for reflex-0.5..
+
+<no location info>: warning: [-Wmissing-home-modules]
+    These modules are needed for compilation but not listed in your .cabal file's other-modules: Reflex.Bench.Focused
+                                                                                                 Reflex.Plan.Pure
+                                                                                                 Reflex.Plan.Reflex
+                                                                                                 Reflex.Test
+                                                                                                 Reflex.Test.Micro
+                                                                                                 Reflex.TestPlan
+[1 of 7] Compiling Reflex.TestPlan  ( test/Reflex/TestPlan.hs, dist/build/semantics/semantics-tmp/Reflex/TestPlan.dyn_o )
+[2 of 7] Compiling Reflex.Test.Micro ( test/Reflex/Test/Micro.hs, dist/build/semantics/semantics-tmp/Reflex/Test/Micro.dyn_o )
+[3 of 7] Compiling Reflex.Plan.Reflex ( test/Reflex/Plan/Reflex.hs, dist/build/semantics/semantics-tmp/Reflex/Plan/Reflex.dyn_o )
+[4 of 7] Compiling Reflex.Plan.Pure ( test/Reflex/Plan/Pure.hs, dist/build/semantics/semantics-tmp/Reflex/Plan/Pure.dyn_o )
+[5 of 7] Compiling Reflex.Test      ( test/Reflex/Test.hs, dist/build/semantics/semantics-tmp/Reflex/Test.dyn_o )
+[6 of 7] Compiling Reflex.Bench.Focused ( test/Reflex/Bench/Focused.hs, dist/build/semantics/semantics-tmp/Reflex/Bench/Focused.dyn_o )
+
+test/Reflex/Bench/Focused.hs:187:58: warning: [-Wdeprecations]
+    In the use of ‘foldWithKey’ (imported from Data.Map):
+    Deprecated: "As of version 0.4, replaced by 'foldrWithKey'."
+    |
+187 | holdMapDyn (UpdatedMap initial changes) = foldDyn (flip (Map.foldWithKey modify)) initial changes
+    |                                                          ^^^^^^^^^^^^^^^
+[7 of 7] Compiling Main             ( test/semantics.hs, dist/build/semantics/semantics-tmp/Main.dyn_o )
+
+<no location info>: warning: [-Wmissing-home-modules]
+    These modules are needed for compilation but not listed in your .cabal file's other-modules: Reflex.Bench.Focused
+                                                                                                 Reflex.Plan.Pure
+                                                                                                 Reflex.Plan.Reflex
+                                                                                                 Reflex.Test
+                                                                                                 Reflex.Test.Micro
+                                                                                                 Reflex.TestPlan
+Linking dist/build/semantics/semantics ...
+Preprocessing test suite 'EventWriterT' for reflex-0.5..
+Building test suite 'EventWriterT' for reflex-0.5..
+
+<no location info>: warning: [-Wmissing-home-modules]
+    These modules are needed for compilation but not listed in your .cabal file's other-modules: Test.Run
+[1 of 2] Compiling Test.Run         ( test/Test/Run.hs, dist/build/EventWriterT/EventWriterT-tmp/Test/Run.dyn_o )
+[2 of 2] Compiling Main             ( test/EventWriterT.hs, dist/build/EventWriterT/EventWriterT-tmp/Main.dyn_o )
+
+<no location info>: warning: [-Wmissing-home-modules]
+    These modules are needed for compilation but not listed in your .cabal file's other-modules: Test.Run
+Linking dist/build/EventWriterT/EventWriterT ...
 running tests
 Running 6 test suites...
 Test suite GC-Semantics: RUNNING...
 Test suite GC-Semantics: PASS
 Test suite logged to: dist/test/reflex-0.5-GC-Semantics.log
-Test suite EventWriterT: RUNNING...
-Test suite EventWriterT: PASS
-Test suite logged to: dist/test/reflex-0.5-EventWriterT.log
-Test suite semantics: RUNNING...
-Test suite semantics: PASS
-Test suite logged to: dist/test/reflex-0.5-semantics.log
-Test suite CrossImpl: RUNNING...
-Test suite CrossImpl: PASS
-Test suite logged to: dist/test/reflex-0.5-CrossImpl.log
 Test suite rootCleanup: RUNNING...
 Test suite rootCleanup: PASS
 Test suite logged to: dist/test/reflex-0.5-rootCleanup.log
+Test suite CrossImpl: RUNNING...
+Test suite CrossImpl: PASS
+Test suite logged to: dist/test/reflex-0.5-CrossImpl.log
 Test suite QueryT: RUNNING...
 Test suite QueryT: PASS
 Test suite logged to: dist/test/reflex-0.5-QueryT.log
+Test suite semantics: RUNNING...
+Test suite semantics: PASS
+Test suite logged to: dist/test/reflex-0.5-semantics.log
+Test suite EventWriterT: RUNNING...
+Test suite EventWriterT: PASS
+Test suite logged to: dist/test/reflex-0.5-EventWriterT.log
 6 of 6 test suites (6 of 6 test cases) passed.
 haddockPhase
 Running hscolour for reflex-0.5...
 Preprocessing library for reflex-0.5..
 Preprocessing test suite 'GC-Semantics' for reflex-0.5..
-Preprocessing test suite 'EventWriterT' for reflex-0.5..
-Preprocessing test suite 'semantics' for reflex-0.5..
-Preprocessing test suite 'CrossImpl' for reflex-0.5..
 Preprocessing test suite 'rootCleanup' for reflex-0.5..
+Preprocessing test suite 'CrossImpl' for reflex-0.5..
 Preprocessing test suite 'QueryT' for reflex-0.5..
+Preprocessing test suite 'semantics' for reflex-0.5..
+Preprocessing test suite 'EventWriterT' for reflex-0.5..
 Preprocessing library for reflex-0.5..
 Running Haddock on library for reflex-0.5..
 Warning: The documentation for the following packages are not installed. No
@@ -1065,5 +1065,5 @@ src/Reflex/DynamicWriter.hs:39:1: warning: [-Wunused-imports]
 haddock: internal error: internal: extractDecl (ClsInstD)
 CallStack (from HasCallStack):
   error, called at utils/haddock/haddock-api/src/Haddock/Interface/Create.hs:1058:16 in main:Haddock.Interface.Create
-builder for ‘/nix/store/1r4b84hmlwrvr8mskm2gg7z7970rip5g-reflex-0.4.0.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/1r4b84hmlwrvr8mskm2gg7z7970rip5g-reflex-0.4.0.1.drv’ failed
+builder for ‘/nix/store/fr7r2naqbxmfblsb3qqf8ysjbgllp3br-reflex-0.4.0.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/fr7r2naqbxmfblsb3qqf8ysjbgllp3br-reflex-0.4.0.1.drv’ failed

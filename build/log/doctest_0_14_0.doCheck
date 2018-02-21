@@ -1,0 +1,923 @@
+these derivations will be built:
+  /nix/store/8wrd3lz3s8wqy1l2i7abl7ay3zwdxwlq-doctest-0.14.0.drv
+building path(s) ‘/nix/store/80zb7xhfr3yfp0lslxbnhdr5dnms9pl1-doctest-0.14.0’, ‘/nix/store/v7llr3452vafsgp5g7yxb09facgl07lw-doctest-0.14.0-doc’
+setupCompilerEnvironmentPhase
+Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
+unpacking sources
+unpacking source archive /nix/store/p3s6c9294fjhny7x73kcb98gfgpj9291-doctest-0.14.0.tar.gz
+source root is doctest-0.14.0
+setting SOURCE_DATE_EPOCH to timestamp 1518426808 of file doctest-0.14.0/test/UtilSpec.hs
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-doctest-0.14.0.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-doctest-0.14.0.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/80zb7xhfr3yfp0lslxbnhdr5dnms9pl1-doctest-0.14.0 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/v7llr3452vafsgp5g7yxb09facgl07lw-doctest-0.14.0-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-doctest-0.14.0.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/80zb7xhfr3yfp0lslxbnhdr5dnms9pl1-doctest-0.14.0/lib/ghc-8.4.0.20180204/doctest-0.14.0 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring doctest-0.14.0...
+Dependency HUnit -any: using HUnit-1.6.0.0
+Dependency QuickCheck >=2.11.3: using QuickCheck-2.11.3
+Dependency base ==4.*: using base-4.11.0.0
+Dependency base-compat >=0.7.0: using base-compat-0.9.3
+Dependency code-page >=0.1: using code-page-0.1.3
+Dependency deepseq -any: using deepseq-1.4.3.0
+Dependency directory -any: using directory-1.3.1.5
+Dependency doctest -any: using doctest-0.14.0
+Dependency filepath -any: using filepath-1.4.2
+Dependency ghc >=7.0 && <8.6: using ghc-8.4.0.20180204
+Dependency ghc-paths >=0.1.0.9: using ghc-paths-0.1.0.9
+Dependency hspec >=1.5.1: using hspec-2.4.8
+Dependency mockery -any: using mockery-0.3.5
+Dependency process -any: using process-1.6.3.0
+Dependency setenv -any: using setenv-0.1.1.3
+Dependency silently >=1.2.4: using silently-1.2.5
+Dependency stringbuilder >=0.4: using stringbuilder-0.5.1
+Dependency syb >=0.3: using syb-0.7
+Dependency transformers -any: using transformers-0.5.5.0
+Dependency with-location -any: using with-location-0.1.0
+Source component graph:
+    component test:spec
+    component lib
+    component exe:doctest dependency lib
+    component test:doctests dependency lib
+Configured component graph:
+    component doctest-0.14.0-IiXk1di3HO7GqC04FVqaQP-spec
+        include HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
+        include base-4.11.0.0
+        include base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        include code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        include deepseq-1.4.3.0
+        include directory-1.3.1.5
+        include filepath-1.4.2
+        include ghc-8.4.0.20180204
+        include ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        include hspec-2.4.8-2Pp5gFe4ARPGKESSdyASO5
+        include mockery-0.3.5-LdaD8C7VP2wDgMdcw3VsLQ
+        include process-1.6.3.0
+        include setenv-0.1.1.3-IPksFZ0IC0wJamvRuEzvc2
+        include silently-1.2.5-9DyIkFqZQCmGSLW7Vmlxcz
+        include stringbuilder-0.5.1-F6Oyc6X9PnQeq1wXIF6y3
+        include syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        include transformers-0.5.5.0
+        include with-location-0.1.0-1z4gHUYVlAVLKMzXTkPQtb
+    component doctest-0.14.0-2Djz6gvSDOhK6AF3SNU0hr
+        include base-4.11.0.0
+        include base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        include code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        include deepseq-1.4.3.0
+        include directory-1.3.1.5
+        include filepath-1.4.2
+        include ghc-8.4.0.20180204
+        include ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        include process-1.6.3.0
+        include syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        include transformers-0.5.5.0
+    component doctest-0.14.0-ChdykQNPulbLsMbteef13p-doctest
+        include base-4.11.0.0
+        include base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        include code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        include deepseq-1.4.3.0
+        include directory-1.3.1.5
+        include doctest-0.14.0-2Djz6gvSDOhK6AF3SNU0hr
+        include filepath-1.4.2
+        include ghc-8.4.0.20180204
+        include ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        include process-1.6.3.0
+        include syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        include transformers-0.5.5.0
+    component doctest-0.14.0-DXWwj8iDZ5iEAkRinXCNj5-doctests
+        include base-4.11.0.0
+        include base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        include code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        include deepseq-1.4.3.0
+        include directory-1.3.1.5
+        include doctest-0.14.0-2Djz6gvSDOhK6AF3SNU0hr
+        include filepath-1.4.2
+        include ghc-8.4.0.20180204
+        include ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        include process-1.6.3.0
+        include syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        include transformers-0.5.5.0
+Linked component graph:
+    unit doctest-0.14.0-IiXk1di3HO7GqC04FVqaQP-spec
+        include HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
+        include QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
+        include base-4.11.0.0
+        include base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        include code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        include deepseq-1.4.3.0
+        include directory-1.3.1.5
+        include filepath-1.4.2
+        include ghc-8.4.0.20180204
+        include ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        include hspec-2.4.8-2Pp5gFe4ARPGKESSdyASO5
+        include mockery-0.3.5-LdaD8C7VP2wDgMdcw3VsLQ
+        include process-1.6.3.0
+        include setenv-0.1.1.3-IPksFZ0IC0wJamvRuEzvc2
+        include silently-1.2.5-9DyIkFqZQCmGSLW7Vmlxcz
+        include stringbuilder-0.5.1-F6Oyc6X9PnQeq1wXIF6y3
+        include syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        include transformers-0.5.5.0
+        include with-location-0.1.0-1z4gHUYVlAVLKMzXTkPQtb
+    unit doctest-0.14.0-2Djz6gvSDOhK6AF3SNU0hr
+        include base-4.11.0.0
+        include base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        include code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        include deepseq-1.4.3.0
+        include directory-1.3.1.5
+        include filepath-1.4.2
+        include ghc-8.4.0.20180204
+        include ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        include process-1.6.3.0
+        include syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        include transformers-0.5.5.0
+        Test.DocTest=doctest-0.14.0-2Djz6gvSDOhK6AF3SNU0hr:Test.DocTest
+    unit doctest-0.14.0-ChdykQNPulbLsMbteef13p-doctest
+        include base-4.11.0.0
+        include base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        include code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        include deepseq-1.4.3.0
+        include directory-1.3.1.5
+        include doctest-0.14.0-2Djz6gvSDOhK6AF3SNU0hr
+        include filepath-1.4.2
+        include ghc-8.4.0.20180204
+        include ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        include process-1.6.3.0
+        include syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        include transformers-0.5.5.0
+    unit doctest-0.14.0-DXWwj8iDZ5iEAkRinXCNj5-doctests
+        include base-4.11.0.0
+        include base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        include code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        include deepseq-1.4.3.0
+        include directory-1.3.1.5
+        include doctest-0.14.0-2Djz6gvSDOhK6AF3SNU0hr
+        include filepath-1.4.2
+        include ghc-8.4.0.20180204
+        include ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        include process-1.6.3.0
+        include syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        include transformers-0.5.5.0
+Ready component graph:
+    definite doctest-0.14.0-IiXk1di3HO7GqC04FVqaQP-spec
+        depends HUnit-1.6.0.0-2dbZShrzfIZ4KZMoG8XrWD
+        depends QuickCheck-2.11.3-D8IGkGDs8vDJQsocpYsyNz
+        depends base-4.11.0.0
+        depends base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        depends code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        depends deepseq-1.4.3.0
+        depends directory-1.3.1.5
+        depends filepath-1.4.2
+        depends ghc-8.4.0.20180204
+        depends ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        depends hspec-2.4.8-2Pp5gFe4ARPGKESSdyASO5
+        depends mockery-0.3.5-LdaD8C7VP2wDgMdcw3VsLQ
+        depends process-1.6.3.0
+        depends setenv-0.1.1.3-IPksFZ0IC0wJamvRuEzvc2
+        depends silently-1.2.5-9DyIkFqZQCmGSLW7Vmlxcz
+        depends stringbuilder-0.5.1-F6Oyc6X9PnQeq1wXIF6y3
+        depends syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        depends transformers-0.5.5.0
+        depends with-location-0.1.0-1z4gHUYVlAVLKMzXTkPQtb
+    definite doctest-0.14.0-2Djz6gvSDOhK6AF3SNU0hr
+        depends base-4.11.0.0
+        depends base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        depends code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        depends deepseq-1.4.3.0
+        depends directory-1.3.1.5
+        depends filepath-1.4.2
+        depends ghc-8.4.0.20180204
+        depends ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        depends process-1.6.3.0
+        depends syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        depends transformers-0.5.5.0
+    definite doctest-0.14.0-ChdykQNPulbLsMbteef13p-doctest
+        depends base-4.11.0.0
+        depends base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        depends code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        depends deepseq-1.4.3.0
+        depends directory-1.3.1.5
+        depends doctest-0.14.0-2Djz6gvSDOhK6AF3SNU0hr
+        depends filepath-1.4.2
+        depends ghc-8.4.0.20180204
+        depends ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        depends process-1.6.3.0
+        depends syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        depends transformers-0.5.5.0
+    definite doctest-0.14.0-DXWwj8iDZ5iEAkRinXCNj5-doctests
+        depends base-4.11.0.0
+        depends base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        depends code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        depends deepseq-1.4.3.0
+        depends directory-1.3.1.5
+        depends doctest-0.14.0-2Djz6gvSDOhK6AF3SNU0hr
+        depends filepath-1.4.2
+        depends ghc-8.4.0.20180204
+        depends ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        depends process-1.6.3.0
+        depends syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        depends transformers-0.5.5.0
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.0.20180204
+Using install prefix:
+/nix/store/80zb7xhfr3yfp0lslxbnhdr5dnms9pl1-doctest-0.14.0
+Executables installed in:
+/nix/store/80zb7xhfr3yfp0lslxbnhdr5dnms9pl1-doctest-0.14.0/bin
+Libraries installed in:
+/nix/store/80zb7xhfr3yfp0lslxbnhdr5dnms9pl1-doctest-0.14.0/lib/ghc-8.4.0.20180204/doctest-0.14.0
+Dynamic Libraries installed in:
+/nix/store/80zb7xhfr3yfp0lslxbnhdr5dnms9pl1-doctest-0.14.0/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+Private executables installed in:
+/nix/store/80zb7xhfr3yfp0lslxbnhdr5dnms9pl1-doctest-0.14.0/libexec/x86_64-linux-ghc-8.4.0.20180204/doctest-0.14.0
+Data files installed in:
+/nix/store/80zb7xhfr3yfp0lslxbnhdr5dnms9pl1-doctest-0.14.0/share/x86_64-linux-ghc-8.4.0.20180204/doctest-0.14.0
+Documentation installed in:
+/nix/store/v7llr3452vafsgp5g7yxb09facgl07lw-doctest-0.14.0-doc/share/doc
+Configuration files installed in:
+/nix/store/80zb7xhfr3yfp0lslxbnhdr5dnms9pl1-doctest-0.14.0/etc
+No alex found
+Using ar found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 6.4.0 given by user at:
+/nix/store/nj7mw0lyx80g7lrxcxy5v9vmnpif5950-gcc-wrapper-6.4.0/bin/gcc
+Using ghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc
+Using ghc-pkg version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.19.0 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/626h2ym9fhl5lgnqlqrh5s4b73m5kgy8-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/qhqxgkb2zki59dy4lx6krmgjsnhpjrc9-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.0.20180204 found on system at:
+/nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/adidfx4pa7vmvby0gjqqmiwg2x49yr27-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/2waj1y5v572sbigjhqbmhx178vfak1l0-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing test suite 'spec' for doctest-0.14.0..
+Building test suite 'spec' for doctest-0.14.0..
+[ 1 of 31] Compiling GhcUtil          ( src/GhcUtil.hs, dist/build/spec/spec-tmp/GhcUtil.dyn_o )
+[ 2 of 31] Compiling Language.Haskell.GhciWrapper ( ghci-wrapper/src/Language/Haskell/GhciWrapper.hs, dist/build/spec/spec-tmp/Language/Haskell/GhciWrapper.dyn_o )
+[ 3 of 31] Compiling Interpreter      ( src/Interpreter.hs, dist/build/spec/spec-tmp/Interpreter.dyn_o )
+[ 4 of 31] Compiling InterpreterSpec  ( test/InterpreterSpec.hs, dist/build/spec/spec-tmp/InterpreterSpec.dyn_o )
+[ 5 of 31] Compiling Location         ( src/Location.hs, dist/build/spec/spec-tmp/Location.dyn_o )
+[ 6 of 31] Compiling LocationSpec     ( test/LocationSpec.hs, dist/build/spec/spec-tmp/LocationSpec.dyn_o )
+[ 7 of 31] Compiling Paths_doctest    ( dist/build/spec/autogen/Paths_doctest.hs, dist/build/spec/spec-tmp/Paths_doctest.dyn_o )
+[ 8 of 31] Compiling Options          ( src/Options.hs, dist/build/spec/spec-tmp/Options.dyn_o )
+[ 9 of 31] Compiling OptionsSpec      ( test/OptionsSpec.hs, dist/build/spec/spec-tmp/OptionsSpec.dyn_o )
+[10 of 31] Compiling Sandbox          ( src/Sandbox.hs, dist/build/spec/spec-tmp/Sandbox.dyn_o )
+[11 of 31] Compiling PackageDBs       ( src/PackageDBs.hs, dist/build/spec/spec-tmp/PackageDBs.dyn_o )
+[12 of 31] Compiling PackageDBsSpec   ( test/PackageDBsSpec.hs, dist/build/spec/spec-tmp/PackageDBsSpec.dyn_o )
+[13 of 31] Compiling SandboxSpec      ( test/SandboxSpec.hs, dist/build/spec/spec-tmp/SandboxSpec.dyn_o )
+[14 of 31] Compiling Util             ( src/Util.hs, dist/build/spec/spec-tmp/Util.dyn_o )
+[15 of 31] Compiling Extract          ( src/Extract.hs, dist/build/spec/spec-tmp/Extract.dyn_o )
+[16 of 31] Compiling Parse            ( src/Parse.hs, dist/build/spec/spec-tmp/Parse.dyn_o )
+[17 of 31] Compiling Runner.Example   ( src/Runner/Example.hs, dist/build/spec/spec-tmp/Runner/Example.dyn_o )
+[18 of 31] Compiling Runner.ExampleSpec ( test/Runner/ExampleSpec.hs, dist/build/spec/spec-tmp/Runner/ExampleSpec.dyn_o )
+[19 of 31] Compiling Property         ( src/Property.hs, dist/build/spec/spec-tmp/Property.dyn_o )
+[20 of 31] Compiling Runner           ( src/Runner.hs, dist/build/spec/spec-tmp/Runner.dyn_o )
+[21 of 31] Compiling RunnerSpec       ( test/RunnerSpec.hs, dist/build/spec/spec-tmp/RunnerSpec.dyn_o )
+[22 of 31] Compiling Run              ( src/Run.hs, dist/build/spec/spec-tmp/Run.dyn_o )
+[23 of 31] Compiling Test.DocTest     ( src/Test/DocTest.hs, dist/build/spec/spec-tmp/Test/DocTest.dyn_o )
+[24 of 31] Compiling RunSpec          ( test/RunSpec.hs, dist/build/spec/spec-tmp/RunSpec.dyn_o )
+[25 of 31] Compiling MainSpec         ( test/MainSpec.hs, dist/build/spec/spec-tmp/MainSpec.dyn_o )
+[26 of 31] Compiling PropertySpec     ( test/PropertySpec.hs, dist/build/spec/spec-tmp/PropertySpec.dyn_o )
+[27 of 31] Compiling Orphans          ( test/Orphans.hs, dist/build/spec/spec-tmp/Orphans.dyn_o )
+[28 of 31] Compiling ParseSpec        ( test/ParseSpec.hs, dist/build/spec/spec-tmp/ParseSpec.dyn_o )
+[29 of 31] Compiling ExtractSpec      ( test/ExtractSpec.hs, dist/build/spec/spec-tmp/ExtractSpec.dyn_o )
+[30 of 31] Compiling UtilSpec         ( test/UtilSpec.hs, dist/build/spec/spec-tmp/UtilSpec.dyn_o )
+[31 of 31] Compiling Main             ( test/Spec.hs, dist/build/spec/spec-tmp/Main.dyn_o )
+Linking dist/build/spec/spec ...
+Preprocessing library for doctest-0.14.0..
+Building library for doctest-0.14.0..
+[ 1 of 16] Compiling GhcUtil          ( src/GhcUtil.hs, dist/build/GhcUtil.o )
+[ 2 of 16] Compiling Language.Haskell.GhciWrapper ( ghci-wrapper/src/Language/Haskell/GhciWrapper.hs, dist/build/Language/Haskell/GhciWrapper.o )
+[ 3 of 16] Compiling Interpreter      ( src/Interpreter.hs, dist/build/Interpreter.o )
+[ 4 of 16] Compiling Location         ( src/Location.hs, dist/build/Location.o )
+[ 5 of 16] Compiling Paths_doctest    ( dist/build/autogen/Paths_doctest.hs, dist/build/Paths_doctest.o )
+[ 6 of 16] Compiling Options          ( src/Options.hs, dist/build/Options.o )
+[ 7 of 16] Compiling Sandbox          ( src/Sandbox.hs, dist/build/Sandbox.o )
+[ 8 of 16] Compiling PackageDBs       ( src/PackageDBs.hs, dist/build/PackageDBs.o )
+[ 9 of 16] Compiling Util             ( src/Util.hs, dist/build/Util.o )
+[10 of 16] Compiling Extract          ( src/Extract.hs, dist/build/Extract.o )
+[11 of 16] Compiling Parse            ( src/Parse.hs, dist/build/Parse.o )
+[12 of 16] Compiling Runner.Example   ( src/Runner/Example.hs, dist/build/Runner/Example.o )
+[13 of 16] Compiling Property         ( src/Property.hs, dist/build/Property.o )
+[14 of 16] Compiling Runner           ( src/Runner.hs, dist/build/Runner.o )
+[15 of 16] Compiling Run              ( src/Run.hs, dist/build/Run.o )
+[16 of 16] Compiling Test.DocTest     ( src/Test/DocTest.hs, dist/build/Test/DocTest.o )
+Preprocessing executable 'doctest' for doctest-0.14.0..
+Building executable 'doctest' for doctest-0.14.0..
+[1 of 2] Compiling Main             ( driver/Main.hs, dist/build/doctest/doctest-tmp/Main.dyn_o )
+[2 of 2] Compiling Paths_doctest    ( dist/build/doctest/autogen/Paths_doctest.hs, dist/build/doctest/doctest-tmp/Paths_doctest.dyn_o )
+Linking dist/build/doctest/doctest ...
+Preprocessing test suite 'doctests' for doctest-0.14.0..
+Building test suite 'doctests' for doctest-0.14.0..
+[1 of 1] Compiling Main             ( test/doctests.hs, dist/build/doctests/doctests-tmp/Main.dyn_o )
+Linking dist/build/doctests/doctests ...
+running tests
+Running 2 test suites...
+Test suite spec: RUNNING...
+
+<no location info>: error:
+    can't find file: test/extract/declaration/Foo.hs
+
+<no location info>: error:
+    can't find file: test/extract/argument-list/Foo.hs
+
+<no location info>: error:
+    can't find file: test/extract/type-class/Foo.hs
+
+<no location info>: error:
+    can't find file: test/extract/type-class-args/Foo.hs
+
+<no location info>: error:
+    can't find file: test/extract/module-header/Foo.hs
+
+<no location info>: error:
+    can't find file: test/extract/imported-module/Bar.hs
+
+<no location info>: error:
+    can't find file: test/extract/export-list/Foo.hs
+
+<no location info>: error:
+    can't find file: test/extract/named-chunks/Foo.hs
+
+<no location info>: error:
+    can't find file: test/extract/comment-order/Foo.hs
+
+<no location info>: error:
+    can't find file: test/extract/setup/Foo.hs
+
+<no location info>: error:
+    can't find file: test/extract/regression/Fixity.hs
+
+<no location info>: error:
+    can't find file: test/extract/regression/ParallelListComp.hs
+
+<no location info>: error:
+    can't find file: test/extract/regression/ParallelListCompClass.hs
+
+<no location info>: error:
+    can't find file: test/extract/regression/ForeignImport.hs
+
+<no location info>: error:
+    can't find file: test/extract/regression/RewriteRules.hs
+
+<no location info>: error:
+    can't find file: test/extract/regression/RewriteRulesWithSigs.hs
+
+<no location info>: error:
+    can't find file: test/extract/dos-line-endings/Foo.hs
+
+<no location info>: error: can't find file: test/extract/th/Foo.hs
+
+<no location info>: error:
+    can't find file: test/extract/type-families/Foo.hs
+
+<no location info>: error:
+    can't find file: test/parse/property/Fib.hs
+
+<no location info>: error:
+    can't find file: test/parse/simple/Fib.hs
+
+<no location info>: error:
+    can't find file: test/parse/non-exported/Fib.hs
+
+<no location info>: error:
+    can't find file: test/parse/multiple-examples/Foo.hs
+
+<no location info>: error:
+    can't find file: test/parse/no-examples/Fib.hs
+
+<no location info>: error:
+    can't find file: test/parse/setup-empty/Foo.hs
+
+<no location info>: error:
+    can't find file: test/parse/setup-only/Foo.hs
+
+Extract
+  extract
+    extracts documentation for a top-level declaration FAILED [1]
+    extracts documentation from argument list FAILED [2]
+    extracts documentation for a type class function FAILED [3]
+    extracts documentation from the argument list of a type class function FAILED [4]
+    extracts documentation from the module header FAILED [5]
+    extracts documentation from imported modules FAILED [6]
+    extracts documentation from export list FAILED [7]
+    extracts documentation from named chunks FAILED [8]
+    returns docstrings in the same order they appear in the source FAILED [9]
+    extracts $setup code FAILED [10]
+    fails on invalid flags
+  extract (regression tests)
+    works with infix operators FAILED [11]
+    works with parallel list comprehensions FAILED [12]
+    works with list comprehensions in instance definitions FAILED [13]
+    works with foreign imports FAILED [14]
+    works for rewrite rules FAILED [15]
+    works for rewrite rules with type signatures FAILED [16]
+    strips CR from dos line endings FAILED [17]
+    works with a module that splices in an expression from an other module FAILED [18]
+    works for type families and GHC 7.6.1 FAILED [19]
+Interpreter
+  interpreterSupported
+    indicates whether GHCi is supported on current platform
+  ghcInfo
+    includes "Have interpreter"
+  safeEval
+    evaluates an expression
+    returns Left on unterminated multiline command
+Location
+  toLocation
+    works for a regular SrcSpan
+    works for a single-line SrcSpan
+    works for a SrcSpan that corresponds to single point
+    works for a bad SrcSpan
+    works for a SrcLoc with bad locations
+  enumerate
+    replicates UnhelpfulLocation
+    enumerates Location
+Main
+  doctest
+    testSimple FAILED [20]
+    it-variable FAILED [21]
+    it-variable in $setup FAILED [22]
+    failing FAILED [23]
+    skips subsequent examples from the same group if an example fails FAILED [24]
+    testImport FAILED [25]
+    testCommentLocation FAILED [26]
+    testPutStr FAILED [27]
+    fails on multi-line expressions, introduced with :{ FAILED [28]
+    testBlankline FAILED [29]
+    examples from the same Haddock comment share the same scope FAILED [30]
+    testDocumentationForArguments FAILED [31]
+    template-haskell FAILED [32]
+    handles source files with CRLF line endings FAILED [33]
+    runs $setup before each test group FAILED [34]
+    skips subsequent tests from a module, if $setup fails FAILED [35]
+    works with additional object files FAILED [36]
+    ignores trailing whitespace when matching test output FAILED [37]
+  doctest as a runner for QuickCheck properties
+    runs a boolean property FAILED [38]
+    runs an explicitly quantified property FAILED [39]
+    runs an implicitly quantified property FAILED [40]
+    reports a failing property FAILED [41]
+    runs a boolean property with an explicit type signature FAILED [42]
+    runs $setup before each property FAILED [43]
+  doctest (regression tests)
+    bugfixWorkingDirectory FAILED [44]
+    bugfixOutputToStdErr FAILED [45]
+    bugfixImportHierarchical FAILED [46]
+    bugfixMultipleModules FAILED [47]
+    testCPP FAILED [48]
+    template-haskell-bugfix FAILED [49]
+Options
+  parseOptions
+    strips --optghc
+    strips --optghc=
+    --no-magic
+      without --no-magic
+        enables magic mode
+      with --no-magic
+        disables magic mode
+    --fast
+      without --fast
+        disables fast mode
+      with --fast
+        enabled fast mode
+    --preserve-it
+      without --preserve-it
+        does not preserve the `it` variable
+      with --preserve-it
+        preserves the `it` variable
+    with --help
+      outputs usage information
+    with --version
+      outputs version information
+    with --info
+      outputs machine readable version information
+PackageDBs
+  getPackageDBsFromEnv
+    without a cabal sandbox present
+      uses global and user when no env or sandboxing used
+      respects GHC_PACKAGE_PATH
+      HASKELL_PACKAGE_SANDBOXES trumps GHC_PACKAGE_PATH
+      HASKELL_PACKAGE_SANDBOX trumps GHC_PACKAGE_PATH
+    with a cabal sandbox present
+      respects cabal sandboxes FAILED [50]
+      GHC_PACKAGE_PATH takes precedence FAILED [51]
+Parse
+  getDocTests
+    extracts properties from a module FAILED [52]
+    extracts examples from a module FAILED [53]
+    extracts examples from documentation for non-exported names FAILED [54]
+    extracts multiple examples from a module FAILED [55]
+    returns an empty list, if documentation contains no examples FAILED [56]
+    sets setup code to Nothing, if it does not contain any tests FAILED [57]
+    keeps modules that only contain setup code FAILED [58]
+  parseInteractions (an internal function)
+    parses an interaction
+    drops whitespace as appropriate
+    parses an interaction without a result
+    works with a complex example
+    attaches location information to parsed interactions
+    basic multiline
+    multiline align output
+    multiline align output with >>>
+    parses wild cards lines
+    parses wild card chunks
+   parseProperties (an internal function)
+    parses a property
+  mkLineChunks (an internal function)
+    replaces ellipsis with WildCardChunks
+    doesn't replace fewer than 3 consecutive dots
+    handles leading and trailing dots
+    handles leading and trailing ellipsis
+Property
+  runProperty
+    reports a failing property
+    runs a Bool property
+    runs a Bool property with an explicit type signature
+    runs an implicitly quantified property
+    runs an implicitly quantified property even with GHC 7.4
+    runs an explicitly quantified property
+    allows to mix implicit and explicit quantification
+    reports the value for which a property fails
+    reports the values for which a property that takes multiple arguments fails
+    defaults ambiguous type variables to Integer
+  freeVariables
+    finds a free variables in a term
+    ignores duplicates
+    works for terms with multiple names
+    works for names that contain a prime
+    works for names that are similar to other names that are in scope
+  parseNotInScope
+    when error message was produced by GHC 7.4.1
+      extracts a variable name of variable that is not in scope from an error message
+      ignores duplicates
+      works for variable names that contain a prime
+      works for error messages with suggestions
+    when error message was produced by GHC 8.0.1
+      extracts a variable name of variable that is not in scope from an error message
+      ignores duplicates
+      works for variable names that contain a prime
+      works for error messages with suggestions
+Runner.Example
+  mkResult
+    returns Equal when output matches
+    ignores trailing whitespace
+    with WildCardLine
+      matches zero lines
+      matches an arbitrary number of lines
+      matches an arbitrary number of lines (quickcheck)
+    with WildCardChunk
+      matches an arbitrary line chunk
+    when output does not match
+      constructs failure message
+      constructs failure message for multi-line output
+      when any output line contains "unsafe" characters
+        uses show to format output lines
+Runner
+  report
+    when mode is interactive
+      writes to stderr
+      overwrites any intermediate output
+      blank out intermediate output if necessary
+    when mode is non-interactive
+      writes to stderr
+  report_
+    when mode is interactive
+      writes intermediate output to stderr
+      overwrites any intermediate output
+      blank out intermediate output if necessary
+    when mode is non-interactive
+      is ignored
+      does not influence a subsequent call to `report`
+      does not require `report` to blank out any intermediate output
+Run
+  doctest
+    exits with ExitFailure if at least one test case fails
+    prints help on --help
+    prints version on --version
+    accepts arbitrary GHC options FAILED [59]
+    accepts GHC options with --optghc FAILED [60]
+    prints a deprecation message for --optghc FAILED [61]
+    prints error message on invalid option
+    respects HASKELL_PACKAGE_SANDBOX FAILED [62]
+  doctestWithOptions
+    on parse error
+      aborts with (ExitFailure 1) FAILED [63]
+      prints a useful error message FAILED [64]
+  expandDirs
+    expands a directory
+    ignores files
+    ignores random things
+Sandbox
+  getPackageDbDir
+    parses a config file and extracts package db FAILED [65]
+    throws an error if a config file is broken
+Util
+  convertDosLineEndings
+    converts CRLF to LF
+    strips a trailing CR
+  takeWhileEnd
+    returns the longest suffix of elements that satisfy a given predicate
+
+Failures:
+
+  test/ExtractSpec.hs:29: 
+  1) Extract.extract extracts documentation for a top-level declaration
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:32: 
+  2) Extract.extract extracts documentation from argument list
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:35: 
+  3) Extract.extract extracts documentation for a type class function
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:38: 
+  4) Extract.extract extracts documentation from the argument list of a type class function
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:41: 
+  5) Extract.extract extracts documentation from the module header
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:44: 
+  6) Extract.extract extracts documentation from imported modules
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:47: 
+  7) Extract.extract extracts documentation from export list
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:50: 
+  8) Extract.extract extracts documentation from named chunks
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:53: 
+  9) Extract.extract returns docstrings in the same order they appear in the source
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:56: 
+  10) Extract.extract extracts $setup code
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:63: 
+  11) Extract, extract (regression tests), works with infix operators
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:66: 
+  12) Extract, extract (regression tests), works with parallel list comprehensions
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:69: 
+  13) Extract, extract (regression tests), works with list comprehensions in instance definitions
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:72: 
+  14) Extract, extract (regression tests), works with foreign imports
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:75: 
+  15) Extract, extract (regression tests), works for rewrite rules
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:78: 
+  16) Extract, extract (regression tests), works for rewrite rules with type signatures
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:81: 
+  17) Extract, extract (regression tests), strips CR from dos line endings
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:84: 
+  18) Extract, extract (regression tests), works with a module that splices in an expression from an other module
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ExtractSpec.hs:87: 
+  19) Extract, extract (regression tests), works for type families and GHC 7.6.1
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/MainSpec.hs:43: 
+  20) Main.doctest testSimple
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/MainSpec.hs:47: 
+  21) Main.doctest it-variable
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/MainSpec.hs:51: 
+  22) Main.doctest it-variable in $setup
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/MainSpec.hs:55: 
+  23) Main.doctest failing
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/MainSpec.hs:59: 
+  24) Main.doctest skips subsequent examples from the same group if an example fails
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/MainSpec.hs:63: 
+  25) Main.doctest testImport
+       uncaught exception: IOException of type NoSuchThing (test/integration/testImport: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:69: 
+  26) Main.doctest testCommentLocation
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/MainSpec.hs:73: 
+  27) Main.doctest testPutStr
+       uncaught exception: IOException of type NoSuchThing (test/integration/testPutStr: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:77: 
+  28) Main.doctest fails on multi-line expressions, introduced with :{
+       uncaught exception: IOException of type NoSuchThing (test/integration/testFailOnMultiline: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:81: 
+  29) Main.doctest testBlankline
+       uncaught exception: IOException of type NoSuchThing (test/integration/testBlankline: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:85: 
+  30) Main.doctest examples from the same Haddock comment share the same scope
+       uncaught exception: IOException of type NoSuchThing (test/integration/testCombinedExample: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:89: 
+  31) Main.doctest testDocumentationForArguments
+       uncaught exception: IOException of type NoSuchThing (test/integration/testDocumentationForArguments: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:93: 
+  32) Main.doctest template-haskell
+       uncaught exception: IOException of type NoSuchThing (test/integration/template-haskell: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:97: 
+  33) Main.doctest handles source files with CRLF line endings
+       uncaught exception: IOException of type NoSuchThing (test/integration/dos-line-endings: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:101: 
+  34) Main.doctest runs $setup before each test group
+       uncaught exception: IOException of type NoSuchThing (test/integration/setup: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:105: 
+  35) Main.doctest skips subsequent tests from a module, if $setup fails
+       uncaught exception: IOException of type NoSuchThing (test/integration/setup-skip-on-failure: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:109: 
+  36) Main.doctest works with additional object files
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/MainSpec.hs:113: 
+  37) Main.doctest ignores trailing whitespace when matching test output
+       uncaught exception: IOException of type NoSuchThing (test/integration/trailing-whitespace: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:118: 
+  38) Main, doctest as a runner for QuickCheck properties, runs a boolean property
+       uncaught exception: IOException of type NoSuchThing (test/integration/property-bool: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:122: 
+  39) Main, doctest as a runner for QuickCheck properties, runs an explicitly quantified property
+       uncaught exception: IOException of type NoSuchThing (test/integration/property-quantified: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:126: 
+  40) Main, doctest as a runner for QuickCheck properties, runs an implicitly quantified property
+       uncaught exception: IOException of type NoSuchThing (test/integration/property-implicitly-quantified: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:130: 
+  41) Main, doctest as a runner for QuickCheck properties, reports a failing property
+       uncaught exception: IOException of type NoSuchThing (test/integration/property-failing: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:134: 
+  42) Main, doctest as a runner for QuickCheck properties, runs a boolean property with an explicit type signature
+       uncaught exception: IOException of type NoSuchThing (test/integration/property-bool-with-type-signature: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:138: 
+  43) Main, doctest as a runner for QuickCheck properties, runs $setup before each property
+       uncaught exception: IOException of type NoSuchThing (test/integration/property-setup: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:143: 
+  44) Main, doctest (regression tests), bugfixWorkingDirectory
+       uncaught exception: IOException of type NoSuchThing (test/integration/bugfixWorkingDirectory: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:149: 
+  45) Main, doctest (regression tests), bugfixOutputToStdErr
+       uncaught exception: IOException of type NoSuchThing (test/integration/bugfixOutputToStdErr: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:153: 
+  46) Main, doctest (regression tests), bugfixImportHierarchical
+       uncaught exception: IOException of type NoSuchThing (test/integration/bugfixImportHierarchical: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:157: 
+  47) Main, doctest (regression tests), bugfixMultipleModules
+       uncaught exception: IOException of type NoSuchThing (test/integration/bugfixMultipleModules: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:161: 
+  48) Main, doctest (regression tests), testCPP
+       uncaught exception: IOException of type NoSuchThing (test/integration/testCPP: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/MainSpec.hs:167: 
+  49) Main, doctest (regression tests), template-haskell-bugfix
+       uncaught exception: IOException of type NoSuchThing (test/integration/template-haskell-bugfix: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/PackageDBsSpec.hs:66: 
+  50) PackageDBs.getPackageDBsFromEnv, with a cabal sandbox present, respects cabal sandboxes
+       uncaught exception: IOException of type NoSuchThing (test/sandbox: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/PackageDBsSpec.hs:70: 
+  51) PackageDBs.getPackageDBsFromEnv, with a cabal sandbox present, GHC_PACKAGE_PATH takes precedence
+       uncaught exception: IOException of type NoSuchThing (test/sandbox: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/ParseSpec.hs:35: 
+  52) Parse.getDocTests extracts properties from a module
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ParseSpec.hs:43: 
+  53) Parse.getDocTests extracts examples from a module
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ParseSpec.hs:54: 
+  54) Parse.getDocTests extracts examples from documentation for non-exported names
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ParseSpec.hs:65: 
+  55) Parse.getDocTests extracts multiple examples from a module
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ParseSpec.hs:75: 
+  56) Parse.getDocTests returns an empty list, if documentation contains no examples
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ParseSpec.hs:78: 
+  57) Parse.getDocTests sets setup code to Nothing, if it does not contain any tests
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/ParseSpec.hs:85: 
+  58) Parse.getDocTests keeps modules that only contain setup code
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/RunSpec.hs:63: 
+  59) Run.doctest accepts arbitrary GHC options
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/RunSpec.hs:66: 
+  60) Run.doctest accepts GHC options with --optghc
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/RunSpec.hs:69: 
+  61) Run.doctest prints a deprecation message for --optghc
+       uncaught exception: ExitCode (ExitFailure 1)
+
+  test/RunSpec.hs:84: 
+  62) Run.doctest respects HASKELL_PACKAGE_SANDBOX
+       uncaught exception: IOException of type NoSuchThing (test/integration/custom-package-conf/foo: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/RunSpec.hs:104: 
+  63) Run.doctestWithOptions, on parse error, aborts with (ExitFailure 1)
+       uncaught exception: IOException of type NoSuchThing (test/integration/parse-error: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/RunSpec.hs:107: 
+  64) Run.doctestWithOptions, on parse error, prints a useful error message
+       uncaught exception: IOException of type NoSuchThing (test/integration/parse-error: changeWorkingDirectory: does not exist (No such file or directory))
+
+  test/SandboxSpec.hs:13: 
+  65) Sandbox.getPackageDbDir parses a config file and extracts package db
+       uncaught exception: IOException of type NoSuchThing (test/sandbox/cabal.sandbox.config: openFile: does not exist (No such file or directory))
+
+Randomized with seed 769859550
+
+Finished in 7.7801 seconds
+160 examples, 65 failures
+Test suite spec: FAIL
+Test suite logged to: dist/test/doctest-0.14.0-spec.log
+Test suite doctests: RUNNING...
+Test suite doctests: PASS
+Test suite logged to: dist/test/doctest-0.14.0-doctests.log
+1 of 2 test suites (1 of 2 test cases) passed.
+builder for ‘/nix/store/8wrd3lz3s8wqy1l2i7abl7ay3zwdxwlq-doctest-0.14.0.drv’ failed with exit code 1
+error: build of ‘/nix/store/8wrd3lz3s8wqy1l2i7abl7ay3zwdxwlq-doctest-0.14.0.drv’ failed

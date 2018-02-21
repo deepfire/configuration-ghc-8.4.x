@@ -1,6 +1,6 @@
 these derivations will be built:
-  /nix/store/wvc0aym67sx1azwaiknjji9c38r30x0d-bifunctors-5.5.2.drv
-building path(s) ‘/nix/store/akwx6prz944cyasnm3jic6n11q6p793m-bifunctors-5.5.2’, ‘/nix/store/p71iz1cgawnn0iqm156kambrmwwvhhf7-bifunctors-5.5.2-doc’
+  /nix/store/9yw2z5pq9n406w8pxfjw9fgjn3ksdhk3-bifunctors-5.5.2.drv
+building path(s) ‘/nix/store/ni7snqw248f1m2gxbznirc67zcvq603w-bifunctors-5.5.2-doc’, ‘/nix/store/p8bmvhhf3df3s85j49hs39sfrjhn8212-bifunctors-5.5.2’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
@@ -13,7 +13,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-bifunctors-5.5.2.drv-0/package.con
 [1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-bifunctors-5.5.2.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/akwx6prz944cyasnm3jic6n11q6p793m-bifunctors-5.5.2 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/p71iz1cgawnn0iqm156kambrmwwvhhf7-bifunctors-5.5.2-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-bifunctors-5.5.2.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/akwx6prz944cyasnm3jic6n11q6p793m-bifunctors-5.5.2/lib/ghc-8.4.0.20180204/bifunctors-5.5.2 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/p8bmvhhf3df3s85j49hs39sfrjhn8212-bifunctors-5.5.2 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/ni7snqw248f1m2gxbznirc67zcvq603w-bifunctors-5.5.2-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-bifunctors-5.5.2.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/p8bmvhhf3df3s85j49hs39sfrjhn8212-bifunctors-5.5.2/lib/ghc-8.4.0.20180204/bifunctors-5.5.2 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring bifunctors-5.5.2...
 CallStack (from HasCallStack):
@@ -27,5 +27,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 template-haskell >=2.4 && <2.13
 
-builder for ‘/nix/store/wvc0aym67sx1azwaiknjji9c38r30x0d-bifunctors-5.5.2.drv’ failed with exit code 1
-error: build of ‘/nix/store/wvc0aym67sx1azwaiknjji9c38r30x0d-bifunctors-5.5.2.drv’ failed
+builder for ‘/nix/store/9yw2z5pq9n406w8pxfjw9fgjn3ksdhk3-bifunctors-5.5.2.drv’ failed with exit code 1
+error: build of ‘/nix/store/9yw2z5pq9n406w8pxfjw9fgjn3ksdhk3-bifunctors-5.5.2.drv’ failed

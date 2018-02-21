@@ -1,6 +1,6 @@
 these derivations will be built:
-  /nix/store/2ia2m3gck62xhc1jzkva2jvsqaqfyxy7-semigroupoids-5.2.1.drv
-building path(s) ‘/nix/store/574ha0q5024f8xr44yij2vpmhrf5yggv-semigroupoids-5.2.1-doc’, ‘/nix/store/rgnjgpzjgmlwmg5brsnm9svf4l4cfqjz-semigroupoids-5.2.1’
+  /nix/store/nvi7cdnki13s7h597y9w9v32a2gz6kjk-semigroupoids-5.2.1.drv
+building path(s) ‘/nix/store/fkqhvnys61l9xgbpfv597drsh2vbyp9b-semigroupoids-5.2.1’, ‘/nix/store/w0caxqn67dmsgs39k71i3rzhppb1hc2n-semigroupoids-5.2.1-doc’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
@@ -14,7 +14,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-semigroupoids-5.2.1.drv-0/package.
 [1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-semigroupoids-5.2.1.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/rgnjgpzjgmlwmg5brsnm9svf4l4cfqjz-semigroupoids-5.2.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/574ha0q5024f8xr44yij2vpmhrf5yggv-semigroupoids-5.2.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-semigroupoids-5.2.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/rgnjgpzjgmlwmg5brsnm9svf4l4cfqjz-semigroupoids-5.2.1/lib/ghc-8.4.0.20180204/semigroupoids-5.2.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/fkqhvnys61l9xgbpfv597drsh2vbyp9b-semigroupoids-5.2.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/w0caxqn67dmsgs39k71i3rzhppb1hc2n-semigroupoids-5.2.1-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-semigroupoids-5.2.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/fkqhvnys61l9xgbpfv597drsh2vbyp9b-semigroupoids-5.2.1/lib/ghc-8.4.0.20180204/semigroupoids-5.2.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring semigroupoids-5.2.1...
 CallStack (from HasCallStack):
@@ -29,5 +29,5 @@ CallStack (from HasCallStack):
 Setup: Encountered missing dependencies:
 doctest >=0.11.1 && <0.14
 
-builder for ‘/nix/store/2ia2m3gck62xhc1jzkva2jvsqaqfyxy7-semigroupoids-5.2.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/2ia2m3gck62xhc1jzkva2jvsqaqfyxy7-semigroupoids-5.2.1.drv’ failed
+builder for ‘/nix/store/nvi7cdnki13s7h597y9w9v32a2gz6kjk-semigroupoids-5.2.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/nvi7cdnki13s7h597y9w9v32a2gz6kjk-semigroupoids-5.2.1.drv’ failed

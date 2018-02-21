@@ -1,1 +1,2 @@
-    • Variable not in scope: mappend :: Seq a -> Seq a -> Seq a
+Setup: Encountered missing dependencies:
+doctest >=0.11.1 && <0.14

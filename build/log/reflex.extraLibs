@@ -1,6 +1,6 @@
 these derivations will be built:
-  /nix/store/wzq0bci79z8q2mgdhsbf5pz7i17ia6ir-reflex-0.4.0.1.drv
-building path(s) ‘/nix/store/bw87nnx2kjjxdakifla377w8phqc1fl7-reflex-0.4.0.1’
+  /nix/store/k677680npzryyygzy9grdigp8bllwnn7-reflex-0.4.0.1.drv
+building path(s) ‘/nix/store/867xa2r9flw2nxaygc59wnkc72qydyyi-reflex-0.4.0.1’
 setupCompilerEnvironmentPhase
 Build with /nix/store/r0jc1krra9xpcfzjgws90v51sxi99bvq-ghc-8.4.0.20180204.
 unpacking sources
@@ -13,7 +13,7 @@ setupCompileFlags: -package-db=/tmp/nix-build-reflex-0.4.0.1.drv-0/package.conf.
 [1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-reflex-0.4.0.1.drv-0/Main.o )
 Linking Setup ...
 configuring
-configureFlags: --verbose --prefix=/nix/store/bw87nnx2kjjxdakifla377w8phqc1fl7-reflex-0.4.0.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --with-gcc=gcc --package-db=/tmp/nix-build-reflex-0.4.0.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/bw87nnx2kjjxdakifla377w8phqc1fl7-reflex-0.4.0.1/lib/ghc-8.4.0.20180204/reflex-0.4.0.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
+configureFlags: --verbose --prefix=/nix/store/867xa2r9flw2nxaygc59wnkc72qydyyi-reflex-0.4.0.1 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --with-gcc=gcc --package-db=/tmp/nix-build-reflex-0.4.0.1.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/867xa2r9flw2nxaygc59wnkc72qydyyi-reflex-0.4.0.1/lib/ghc-8.4.0.20180204/reflex-0.4.0.1 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/7vvk71748c7s1xh13n7imiswkika7k18-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/rhvl7q3fszy8j7a3zs73lr7n70pwmvhv-ncurses-6.0-20171125/lib
 Using Parsec parser
 Configuring reflex-0.5...
 CallStack (from HasCallStack):
@@ -32,5 +32,5 @@ prim-uniq -any,
 reflection -any,
 unbounded-delays -any
 
-builder for ‘/nix/store/wzq0bci79z8q2mgdhsbf5pz7i17ia6ir-reflex-0.4.0.1.drv’ failed with exit code 1
-error: build of ‘/nix/store/wzq0bci79z8q2mgdhsbf5pz7i17ia6ir-reflex-0.4.0.1.drv’ failed
+builder for ‘/nix/store/k677680npzryyygzy9grdigp8bllwnn7-reflex-0.4.0.1.drv’ failed with exit code 1
+error: build of ‘/nix/store/k677680npzryyygzy9grdigp8bllwnn7-reflex-0.4.0.1.drv’ failed

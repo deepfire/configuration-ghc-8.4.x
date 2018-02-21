@@ -5,63 +5,81 @@ with haskellLib; with self; {
   ## Shadowed:
 
   ## Needs bump to a versioned attribute
-  ## 
+  ##
   ##     • Could not deduce (Semigroup (Dict a))
   ##         arising from the superclasses of an instance declaration
   ##       from the context: a
   constraints = super.constraints_0_10;
 
+  doctest = overrideCabal super.doctest_0_14_0 (drv: {
+    ## Needs bump to a versioned attribute
+    ##
+    ## Setup: Encountered missing dependencies:
+    ## ghc >=7.0 && <8.4
+    ##        uncaught exception: IOException of type NoSuchThing (test/integration/testImport: changeWorkingDirectory: does not exist (No such file or directory))
+    doCheck         = false;
+  });
+
   ## Needs bump to a versioned attribute
-  ## 
+  ##
   ##     • Could not deduce (Semigroup (IterT m a))
   ##         arising from the superclasses of an instance declaration
   ##       from the context: (Monad m, Monoid a)
   free = super.free_5;
 
-  funcmp = overrideCabal super.funcmp_1_9 (drv: {
+  ## Needs bump to a versioned attribute
+  ##
+  ## Needed for (<>) in prelude
+  funcmp = super.funcmp_1_9;
+
+  hspec = overrideCabal super.hspec_2_4_8 (drv: {
     ## Needs bump to a versioned attribute
-    ## 
-    ## Needed for (<>) in prelude
-    jailbreak       = true;
+    ##
+    doCheck         = false;
+    doHaddock       = false;
   });
 
   hspec-core = overrideCabal super.hspec-core_2_4_8 (drv: {
     ## Needs bump to a versioned attribute
-    ## 
+    ##
     doCheck         = false;
   });
 
   ## Needs bump to a versioned attribute
-  ## 
+  ##
   ## breaks hspec:
   ## Setup: Encountered missing dependencies:
   ## hspec-discover ==2.4.7
   hspec-discover = super.hspec-discover_2_4_8;
 
-  language-c = overrideCabal super.language-c_0_7_2 (drv: {
-    ## Needs bump to a versioned attribute
-    ## 
-    doCheck         = false;
-  });
-
-  lens = overrideCabal super.lens_4_16 (drv: {
-    ## Needs bump to a versioned attribute
-    ## 
-    doCheck         = false;
-  });
-
-  semigroupoids = overrideCabal super.semigroupoids_5_2_2 (drv: {
-    ## Needs bump to a versioned attribute
-    ## 
-    doCheck         = false;
-  });
+  ## Needs bump to a versioned attribute
+  ##
+  language-c = super.language-c_0_7_2;
 
   ## Needs bump to a versioned attribute
-  ## 
+  ##
+  lens = super.lens_4_16;
+
+  ## Needs bump to a versioned attribute
+  ##
+  QuickCheck = super.QuickCheck_2_11_3;
+
+  ## Needs bump to a versioned attribute
+  ##
+  semigroupoids = super.semigroupoids_5_2_2;
+
+  ## Needs bump to a versioned attribute
+  ##
   stringbuilder = super.stringbuilder_0_5_1;
 
+  test-framework = overrideCabal super.test-framework_0_8_2_0 (drv: {
+    ## Needs bump to a versioned attribute
+    ##
+    doCheck         = false;
+  });
+
   ## Needs bump to a versioned attribute
-  ## 
+  ##
   unordered-containers = super.unordered-containers_0_2_9_0;
 
 
@@ -69,7 +87,7 @@ with haskellLib; with self; {
 
   tasty = overrideCabal super.tasty (drv: {
     ## On Hackage, awaiting for import
-    ## 
+    ##
     version         = "1.0.0.1";
     sha256          = "0ggqffw9kbb6nlq1pplk131qzxndqqzqyf4s2p7576nljx11a7qf";
   });
@@ -79,7 +97,7 @@ with haskellLib; with self; {
 
   haskell-gi = overrideCabal super.haskell-gi (drv: {
     ## Upstreamed, awaiting a Hackage release
-    ## 
+    ##
     ## Setup: Encountered missing dependencies:
     ## haskell-gi-base ==0.20.*
     src = pkgs.fetchFromGitHub {
@@ -88,15 +106,14 @@ with haskellLib; with self; {
       rev    = "30d2e6415c5b57760f8754cd3003eb07483d60e6";
       sha256 = "1l3qm97gcjih695hhj80rbpnd72prnc81lg5y373yj8jk9f6ypbr";
     };
-    doCheck         = false;
   });
 
   haskell-gi-base = overrideCabal super.haskell-gi-base (drv: {
     ## Upstreamed, awaiting a Hackage release
-    ## 
+    ##
     ## Setup: Encountered missing dependencies:
     ## haskell-gi-base ==0.21.*
-    ## cannot build derivation ‘/nix/store/dpljlrgk8lsx0xs2azhgjpjif87fz0sl-gi-cairo-1.0.14.drv’: 1 dependencies couldn't be built
+    ## cannot build derivation ‘/nix/store/qvnrni6j2sz8z26kmjz1hgxfxvggkvjl-gi-cairo-1.0.14.drv’: 1 dependencies couldn't be built
     src = pkgs.fetchFromGitHub {
       owner  = "haskell-gi";
       repo   = "haskell-gi";
@@ -108,7 +125,7 @@ with haskellLib; with self; {
 
   haskell-src-exts = overrideCabal super.haskell-src-exts (drv: {
     ## Upstreamed, awaiting a Hackage release
-    ## 
+    ##
     ##     • Could not deduce (Semigroup (ParseResult m))
     ##         arising from the superclasses of an instance declaration
     ##       from the context: Monoid m
@@ -122,7 +139,7 @@ with haskellLib; with self; {
 
   lambdacube-compiler = overrideCabal super.lambdacube-compiler (drv: {
     ## Upstreamed, awaiting a Hackage release
-    ## 
+    ##
     src = pkgs.fetchFromGitHub {
       owner  = "lambdacube3d";
       repo   = "lambdacube-compiler";
@@ -133,7 +150,7 @@ with haskellLib; with self; {
 
   lambdacube-ir = overrideCabal super.lambdacube-ir (drv: {
     ## Upstreamed, awaiting a Hackage release
-    ## 
+    ##
     src = pkgs.fetchFromGitHub {
       owner  = "lambdacube3d";
       repo   = "lambdacube-ir";
@@ -145,7 +162,7 @@ with haskellLib; with self; {
 
   simple-reflect = overrideCabal super.simple-reflect (drv: {
     ## Upstreamed, awaiting a Hackage release
-    ## 
+    ##
     src = pkgs.fetchFromGitHub {
       owner  = "twanvl";
       repo   = "simple-reflect";
@@ -156,7 +173,7 @@ with haskellLib; with self; {
 
   singletons = overrideCabal super.singletons (drv: {
     ## Upstreamed, awaiting a Hackage release
-    ## 
+    ##
     src = pkgs.fetchFromGitHub {
       owner  = "goldfirere";
       repo   = "singletons";
@@ -167,7 +184,7 @@ with haskellLib; with self; {
 
   th-desugar = overrideCabal super.th-desugar (drv: {
     ## Upstreamed, awaiting a Hackage release
-    ## 
+    ##
     src = pkgs.fetchFromGitHub {
       owner  = "goldfirere";
       repo   = "th-desugar";
@@ -178,7 +195,7 @@ with haskellLib; with self; {
 
   websockets = overrideCabal super.websockets (drv: {
     ## Upstreamed, awaiting a Hackage release
-    ## 
+    ##
     src = pkgs.fetchFromGitHub {
       owner  = "jaspervdj";
       repo   = "websockets";
@@ -192,7 +209,7 @@ with haskellLib; with self; {
 
   blaze-builder = overrideCabal super.blaze-builder (drv: {
     ## Unmerged.  PR: https://github.com/lpsmith/blaze-builder/pull/10
-    ## 
+    ##
     ##     • No instance for (Semigroup Poke)
     ##         arising from the superclasses of an instance declaration
     ##     • In the instance declaration for ‘Monoid Poke’
@@ -206,7 +223,7 @@ with haskellLib; with self; {
 
   bytestring-trie = overrideCabal super.bytestring-trie (drv: {
     ## Unmerged.  PR: https://github.com/wrengr/bytestring-trie/pull/3
-    ## 
+    ##
     ##     • Could not deduce (Semigroup (Trie a))
     ##         arising from the superclasses of an instance declaration
     ##       from the context: Monoid a
@@ -229,7 +246,7 @@ with haskellLib; with self; {
 
   gtk2hs-buildtools = overrideCabal super.gtk2hs-buildtools (drv: {
     ## Unmerged.  PR: https://github.com/gtk2hs/gtk2hs/pull/233
-    ## 
+    ##
     ## Setup: Encountered missing dependencies:
     ## Cabal >=1.24.0.0 && <2.1
     src = pkgs.fetchFromGitHub {
@@ -243,7 +260,7 @@ with haskellLib; with self; {
 
   hashtables = overrideCabal super.hashtables (drv: {
     ## Unmerged.  PR: https://github.com/gregorycollins/hashtables/pull/46
-    ## 
+    ##
     ##     • No instance for (Semigroup Slot)
     ##         arising from the superclasses of an instance declaration
     ##     • In the instance declaration for ‘Monoid Slot’
@@ -257,7 +274,7 @@ with haskellLib; with self; {
 
   monadplus = overrideCabal super.monadplus (drv: {
     ## Unmerged.  PR: https://github.com/hanshoglund/monadplus/pull/3
-    ## 
+    ##
     src = pkgs.fetchFromGitHub {
       owner  = "asr";
       repo   = "monadplus";
@@ -268,7 +285,7 @@ with haskellLib; with self; {
 
   reflex = overrideCabal super.reflex (drv: {
     ## Unmerged.  PR: https://github.com/reflex-frp/reflex/pull/158
-    ## 
+    ##
     src = pkgs.fetchFromGitHub {
       owner  = "deepfire";
       repo   = "reflex";
@@ -282,7 +299,7 @@ with haskellLib; with self; {
 
   regex-tdfa = overrideCabal super.regex-tdfa (drv: {
     ## Unmerged.  PR: https://github.com/ChrisKuklewicz/regex-tdfa/pull/13
-    ## 
+    ##
     src = pkgs.fetchFromGitHub {
       owner  = "bgamari";
       repo   = "regex-tdfa";
@@ -293,7 +310,7 @@ with haskellLib; with self; {
 
   securemem = overrideCabal super.securemem (drv: {
     ## Unmerged.  PR: https://github.com/vincenthz/hs-securemem/pull/12
-    ## 
+    ##
     src = pkgs.fetchFromGitHub {
       owner  = "shlevy";
       repo   = "hs-securemem";
@@ -304,7 +321,7 @@ with haskellLib; with self; {
 
   text-format = overrideCabal super.text-format (drv: {
     ## Unmerged.  PR: https://github.com/bos/text-format/pull/21
-    ## 
+    ##
     src = pkgs.fetchFromGitHub {
       owner  = "deepfire";
       repo   = "text-format";
@@ -315,7 +332,7 @@ with haskellLib; with self; {
 
   wl-pprint-text = overrideCabal super.wl-pprint-text (drv: {
     ## Unmerged.  PR: https://github.com/ivan-m/wl-pprint-text/pull/17
-    ## 
+    ##
     src = pkgs.fetchFromGitHub {
       owner  = "deepfire";
       repo   = "wl-pprint-text";
@@ -351,10 +368,6 @@ with haskellLib; with self; {
     jailbreak       = true;
   });
 
-  bytes = overrideCabal super.bytes (drv: {
-    doCheck         = false;
-  });
-
   cabal-doctest = overrideCabal super.cabal-doctest (drv: {
     ## Setup: Encountered missing dependencies:
     ## Cabal >=1.10 && <2.1, base >=4.3 && <4.11
@@ -367,16 +380,13 @@ with haskellLib; with self; {
     jailbreak       = true;
   });
 
-  comonad = overrideCabal super.comonad (drv: {
-    doCheck         = false;
-  });
-
   deepseq-generics = overrideCabal super.deepseq-generics (drv: {
     ## https://github.com/haskell-hvr/deepseq-generics/pull/4
     jailbreak       = true;
   });
 
-  distributive = overrideCabal super.distributive (drv: {
+  doctest_0_14_0 = overrideCabal super.doctest_0_14_0 (drv: {
+    ##        uncaught exception: IOException of type NoSuchThing (test/integration/testImport: changeWorkingDirectory: does not exist (No such file or directory))
     doCheck         = false;
   });
 
@@ -418,16 +428,16 @@ with haskellLib; with self; {
     jailbreak       = true;
   });
 
-  linear = overrideCabal super.linear (drv: {
-    doCheck         = false;
-  });
-
   megaparsec = overrideCabal super.megaparsec (drv: {
     doCheck         = false;
   });
 
   newtype-generics = overrideCabal super.newtype-generics (drv: {
     jailbreak       = true;
+  });
+
+  optparse-applicative = overrideCabal super.optparse-applicative (drv: {
+    doCheck         = false;
   });
 
   quickcheck-instances = overrideCabal super.quickcheck-instances (drv: {
@@ -450,6 +460,10 @@ with haskellLib; with self; {
     jailbreak       = true;
   });
 
+  test-framework-quickcheck2 = overrideCabal super.test-framework-quickcheck2 (drv: {
+    jailbreak       = true;
+  });
+
   text-lens = overrideCabal super.text-lens (drv: {
     jailbreak       = true;
   });
@@ -460,10 +474,6 @@ with haskellLib; with self; {
 
   these = overrideCabal super.these (drv: {
     jailbreak       = true;
-  });
-
-  trifecta = overrideCabal super.trifecta (drv: {
-    doCheck         = false;
   });
 
   unliftio-core = overrideCabal super.unliftio-core (drv: {
