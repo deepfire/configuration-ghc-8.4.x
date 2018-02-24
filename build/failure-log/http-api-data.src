@@ -1,0 +1,3 @@
+    • No instance for (Semigroup Form)
+        arising from the 'deriving' clause of a data type declaration
+      Possible fix:

@@ -1,0 +1,32 @@
+these derivations will be built:
+  /nix/store/07c7rdn1lk1q13lyfvhz33wx7djqwvhi-hnix-0.3.4.drv
+building path(s) ‘/nix/store/nvcg21jdwnbvy0f8inmvzs02g2q86kg2-hnix-0.3.4’, ‘/nix/store/yv5qms5d3jnlyb9wvs6gps9q5sb8s09q-hnix-0.3.4-doc’
+setupCompilerEnvironmentPhase
+Build with /nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204.
+unpacking sources
+unpacking source archive /nix/store/a73cjxnh4yv2mhy81qxqby2jv7knr794-hnix-0.3.4.tar.gz
+source root is hnix-0.3.4
+setting SOURCE_DATE_EPOCH to timestamp 1477005925 of file hnix-0.3.4/tests/ParserTests.hs
+patching sources
+Replace Cabal file with edited version from http://hackage.haskell.org/package/hnix-0.3.4/revision/1.cabal.
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-hnix-0.3.4.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-hnix-0.3.4.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/nvcg21jdwnbvy0f8inmvzs02g2q86kg2-hnix-0.3.4 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/yv5qms5d3jnlyb9wvs6gps9q5sb8s09q-hnix-0.3.4-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-hnix-0.3.4.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/nvcg21jdwnbvy0f8inmvzs02g2q86kg2-hnix-0.3.4/lib/ghc-8.4.0.20180204/hnix-0.3.4 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/069g827lh3hrhp4vkcq3rsh5jh65pm3l-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/8qfd8gx0j3yzamkrbrfz5kc00h4cqd1q-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/069g827lh3hrhp4vkcq3rsh5jh65pm3l-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring hnix-0.3.4...
+CallStack (from HasCallStack):
+  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
+  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
+  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:114:27 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMain, called at Setup.hs:2:8 in main:Main
+Setup: Encountered missing dependencies:
+deriving-compat ==0.3.*
+
+builder for ‘/nix/store/07c7rdn1lk1q13lyfvhz33wx7djqwvhi-hnix-0.3.4.drv’ failed with exit code 1
+error: build of ‘/nix/store/07c7rdn1lk1q13lyfvhz33wx7djqwvhi-hnix-0.3.4.drv’ failed

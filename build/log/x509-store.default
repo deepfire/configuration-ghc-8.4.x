@@ -1,0 +1,200 @@
+these derivations will be built:
+  /nix/store/k1xk9jahbw1p0k33zkhrlkvmz16wyxij-x509-store-1.6.5.drv
+building path(s) ‘/nix/store/5qixzgl1i8z38hq7fzpw7553l2xykjcy-x509-store-1.6.5’, ‘/nix/store/whpp4q06s8n6qg8bd3lcp1824crpnllh-x509-store-1.6.5-doc’
+setupCompilerEnvironmentPhase
+Build with /nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204.
+unpacking sources
+unpacking source archive /nix/store/j2lh9pgjkkg2p5b14k1zpbjg48zzzk6a-x509-store-1.6.5.tar.gz
+source root is x509-store-1.6.5
+setting SOURCE_DATE_EPOCH to timestamp 1501659911 of file x509-store-1.6.5/x509-store.cabal
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-x509-store-1.6.5.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-x509-store-1.6.5.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/5qixzgl1i8z38hq7fzpw7553l2xykjcy-x509-store-1.6.5 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/whpp4q06s8n6qg8bd3lcp1824crpnllh-x509-store-1.6.5-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-x509-store-1.6.5.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/5qixzgl1i8z38hq7fzpw7553l2xykjcy-x509-store-1.6.5/lib/ghc-8.4.0.20180204/x509-store-1.6.5 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/069g827lh3hrhp4vkcq3rsh5jh65pm3l-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/8qfd8gx0j3yzamkrbrfz5kc00h4cqd1q-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/069g827lh3hrhp4vkcq3rsh5jh65pm3l-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring x509-store-1.6.5...
+Dependency asn1-encoding ==0.9.*: using asn1-encoding-0.9.5
+Dependency asn1-types ==0.3.*: using asn1-types-0.3.2
+Dependency base >=3 && <5: using base-4.11.0.0
+Dependency bytestring -any: using bytestring-0.10.8.2
+Dependency containers -any: using containers-0.5.11.0
+Dependency cryptonite -any: using cryptonite-0.24
+Dependency directory -any: using directory-1.3.1.5
+Dependency filepath -any: using filepath-1.4.2
+Dependency mtl -any: using mtl-2.2.2
+Dependency pem >=0.1 && <0.3: using pem-0.2.2
+Dependency tasty -any: using tasty-1.0.0.1
+Dependency tasty-hunit -any: using tasty-hunit-0.9.2
+Dependency x509 >=1.7.2: using x509-1.7.2
+Dependency x509-store -any: using x509-store-1.6.5
+Source component graph:
+    component lib
+    component test:test-x509-store dependency lib
+Configured component graph:
+    component x509-store-1.6.5-JCDXYQ2RTd6HPpQecMYCn9
+        include base-4.11.0.0
+        include bytestring-0.10.8.2
+        include mtl-2.2.2
+        include containers-0.5.11.0
+        include directory-1.3.1.5
+        include filepath-1.4.2
+        include pem-0.2.2-6WiLJe2E3Jw9GZTlvrfYRW
+        include asn1-types-0.3.2-EhiGWvWsty6mkK8hkZ65e
+        include asn1-encoding-0.9.5-FGiTbwePOSHHcFEK598c2V
+        include cryptonite-0.24-HaWjTbhclUjF8GPYq1fSek
+        include x509-1.7.2-Fxvryq3irjzGfQcLnnrIUY
+    component x509-store-1.6.5-EYz4ROAwxIe56fcnjmXfXA-test-x509-store
+        include base-4.11.0.0
+        include bytestring-0.10.8.2
+        include tasty-1.0.0.1-HVCAWo6eYs6FzqYpnN28Ma
+        include tasty-hunit-0.9.2-7MFEOHQrXTy39foKKEukms
+        include x509-1.7.2-Fxvryq3irjzGfQcLnnrIUY
+        include x509-store-1.6.5-JCDXYQ2RTd6HPpQecMYCn9
+Linked component graph:
+    unit x509-store-1.6.5-JCDXYQ2RTd6HPpQecMYCn9
+        include base-4.11.0.0
+        include bytestring-0.10.8.2
+        include mtl-2.2.2
+        include containers-0.5.11.0
+        include directory-1.3.1.5
+        include filepath-1.4.2
+        include pem-0.2.2-6WiLJe2E3Jw9GZTlvrfYRW
+        include asn1-types-0.3.2-EhiGWvWsty6mkK8hkZ65e
+        include asn1-encoding-0.9.5-FGiTbwePOSHHcFEK598c2V
+        include cryptonite-0.24-HaWjTbhclUjF8GPYq1fSek
+        include x509-1.7.2-Fxvryq3irjzGfQcLnnrIUY
+        Data.X509.CertificateStore=x509-store-1.6.5-JCDXYQ2RTd6HPpQecMYCn9:Data.X509.CertificateStore,Data.X509.File=x509-store-1.6.5-JCDXYQ2RTd6HPpQecMYCn9:Data.X509.File,Data.X509.Memory=x509-store-1.6.5-JCDXYQ2RTd6HPpQecMYCn9:Data.X509.Memory
+    unit x509-store-1.6.5-EYz4ROAwxIe56fcnjmXfXA-test-x509-store
+        include base-4.11.0.0
+        include bytestring-0.10.8.2
+        include tasty-1.0.0.1-HVCAWo6eYs6FzqYpnN28Ma
+        include tasty-hunit-0.9.2-7MFEOHQrXTy39foKKEukms
+        include x509-1.7.2-Fxvryq3irjzGfQcLnnrIUY
+        include x509-store-1.6.5-JCDXYQ2RTd6HPpQecMYCn9
+Ready component graph:
+    definite x509-store-1.6.5-JCDXYQ2RTd6HPpQecMYCn9
+        depends base-4.11.0.0
+        depends bytestring-0.10.8.2
+        depends mtl-2.2.2
+        depends containers-0.5.11.0
+        depends directory-1.3.1.5
+        depends filepath-1.4.2
+        depends pem-0.2.2-6WiLJe2E3Jw9GZTlvrfYRW
+        depends asn1-types-0.3.2-EhiGWvWsty6mkK8hkZ65e
+        depends asn1-encoding-0.9.5-FGiTbwePOSHHcFEK598c2V
+        depends cryptonite-0.24-HaWjTbhclUjF8GPYq1fSek
+        depends x509-1.7.2-Fxvryq3irjzGfQcLnnrIUY
+    definite x509-store-1.6.5-EYz4ROAwxIe56fcnjmXfXA-test-x509-store
+        depends base-4.11.0.0
+        depends bytestring-0.10.8.2
+        depends tasty-1.0.0.1-HVCAWo6eYs6FzqYpnN28Ma
+        depends tasty-hunit-0.9.2-7MFEOHQrXTy39foKKEukms
+        depends x509-1.7.2-Fxvryq3irjzGfQcLnnrIUY
+        depends x509-store-1.6.5-JCDXYQ2RTd6HPpQecMYCn9
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.0.20180204
+Using install prefix:
+/nix/store/5qixzgl1i8z38hq7fzpw7553l2xykjcy-x509-store-1.6.5
+Executables installed in:
+/nix/store/5qixzgl1i8z38hq7fzpw7553l2xykjcy-x509-store-1.6.5/bin
+Libraries installed in:
+/nix/store/5qixzgl1i8z38hq7fzpw7553l2xykjcy-x509-store-1.6.5/lib/ghc-8.4.0.20180204/x509-store-1.6.5
+Dynamic Libraries installed in:
+/nix/store/5qixzgl1i8z38hq7fzpw7553l2xykjcy-x509-store-1.6.5/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+Private executables installed in:
+/nix/store/5qixzgl1i8z38hq7fzpw7553l2xykjcy-x509-store-1.6.5/libexec/x86_64-linux-ghc-8.4.0.20180204/x509-store-1.6.5
+Data files installed in:
+/nix/store/5qixzgl1i8z38hq7fzpw7553l2xykjcy-x509-store-1.6.5/share/x86_64-linux-ghc-8.4.0.20180204/x509-store-1.6.5
+Documentation installed in:
+/nix/store/whpp4q06s8n6qg8bd3lcp1824crpnllh-x509-store-1.6.5-doc/share/doc
+Configuration files installed in:
+/nix/store/5qixzgl1i8z38hq7fzpw7553l2xykjcy-x509-store-1.6.5/etc
+No alex found
+Using ar found on system at:
+/nix/store/b0zlxla7dmy1iwc3g459rjznx59797xy-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 7.3.0 given by user at:
+/nix/store/gqg2vrcq7krqi9rrl6pphvsg81sb8pjw-gcc-wrapper-7.3.0/bin/gcc
+Using ghc version 8.4.0.20180204 found on system at:
+/nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204/bin/ghc
+Using ghc-pkg version 8.4.0.20180204 found on system at:
+/nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.19.0 found on system at:
+/nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/5zcm5x0pi1s4igjwa39jd55jwp470k8r-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/cmxaqb5cbzy4jk26na842n6hy1s4yn19-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.0.20180204 found on system at:
+/nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/b0zlxla7dmy1iwc3g459rjznx59797xy-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/2p00w952ljb1172nsf3jm7nsjgsw5qpw-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing library for x509-store-1.6.5..
+Building library for x509-store-1.6.5..
+[1 of 3] Compiling Data.X509.CertificateStore ( Data/X509/CertificateStore.hs, dist/build/Data/X509/CertificateStore.o )
+
+Data/X509/CertificateStore.hs:29:10: error:
+    • No instance for (Semigroup CertificateStore)
+        arising from the superclasses of an instance declaration
+    • In the instance declaration for ‘Monoid CertificateStore’
+   |
+29 | instance Monoid CertificateStore where
+   |          ^^^^^^^^^^^^^^^^^^^^^^^
+[2 of 3] Compiling Data.X509.Memory ( Data/X509/Memory.hs, dist/build/Data/X509/Memory.o )
+[3 of 3] Compiling Data.X509.File   ( Data/X509/File.hs, dist/build/Data/X509/File.o )
+
+Data/X509/File.hs:6:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+  |
+6 | import Control.Applicative
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/X509/File.hs:8:1: warning: [-Wunused-imports]
+    The import of ‘Data.ASN1.BinaryEncoding’ is redundant
+      except perhaps to import instances from ‘Data.ASN1.BinaryEncoding’
+    To import instances alone, use: import Data.ASN1.BinaryEncoding()
+  |
+8 | import Data.ASN1.BinaryEncoding
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/X509/File.hs:9:1: warning: [-Wunused-imports]
+    The import of ‘Data.ASN1.Encoding’ is redundant
+      except perhaps to import instances from ‘Data.ASN1.Encoding’
+    To import instances alone, use: import Data.ASN1.Encoding()
+  |
+9 | import Data.ASN1.Encoding
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/X509/File.hs:13:1: warning: [-Wunused-imports]
+    The import of ‘PEM(pemName)’ from module ‘Data.PEM’ is redundant
+   |
+13 | import Data.PEM (pemParseLBS, pemContent, pemName, PEM)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+builder for ‘/nix/store/k1xk9jahbw1p0k33zkhrlkvmz16wyxij-x509-store-1.6.5.drv’ failed with exit code 1
+error: build of ‘/nix/store/k1xk9jahbw1p0k33zkhrlkvmz16wyxij-x509-store-1.6.5.drv’ failed

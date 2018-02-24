@@ -1,0 +1,31 @@
+these derivations will be built:
+  /nix/store/mh3nykh1bnz8yv7i15pfdlczpsklca4z-uri-bytestring-0.3.1.0.drv
+building path(s) ‘/nix/store/l021fc1xfyzbnz4qk0698jqc0hmhr6qb-uri-bytestring-0.3.1.0’, ‘/nix/store/qk9n3jw1cax3h81r3z1fwvvrhw923bzg-uri-bytestring-0.3.1.0-doc’
+setupCompilerEnvironmentPhase
+Build with /nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204.
+unpacking sources
+unpacking source archive /nix/store/1bwpfyh38p59q49mnjpp275310749h1h-uri-bytestring-0.3.1.0.tar.gz
+source root is uri-bytestring-0.3.1.0
+setting SOURCE_DATE_EPOCH to timestamp 1514228122 of file uri-bytestring-0.3.1.0/uri-bytestring.cabal
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-uri-bytestring-0.3.1.0.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.hs, /tmp/nix-build-uri-bytestring-0.3.1.0.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/l021fc1xfyzbnz4qk0698jqc0hmhr6qb-uri-bytestring-0.3.1.0 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/qk9n3jw1cax3h81r3z1fwvvrhw923bzg-uri-bytestring-0.3.1.0-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-uri-bytestring-0.3.1.0.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/l021fc1xfyzbnz4qk0698jqc0hmhr6qb-uri-bytestring-0.3.1.0/lib/ghc-8.4.0.20180204/uri-bytestring-0.3.1.0 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --enable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/069g827lh3hrhp4vkcq3rsh5jh65pm3l-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/8qfd8gx0j3yzamkrbrfz5kc00h4cqd1q-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/069g827lh3hrhp4vkcq3rsh5jh65pm3l-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring uri-bytestring-0.3.1.0...
+CallStack (from HasCallStack):
+  die', called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:953:20 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configureFinalizedPackage, called at libraries/Cabal/Cabal/Distribution/Simple/Configure.hs:458:12 in Cabal-2.1.0.0:Distribution.Simple.Configure
+  configure, called at libraries/Cabal/Cabal/Distribution/Simple.hs:571:20 in Cabal-2.1.0.0:Distribution.Simple
+  confHook, called at libraries/Cabal/Cabal/Distribution/Simple/UserHooks.hs:67:5 in Cabal-2.1.0.0:Distribution.Simple.UserHooks
+  configureAction, called at libraries/Cabal/Cabal/Distribution/Simple.hs:177:19 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMainHelper, called at libraries/Cabal/Cabal/Distribution/Simple.hs:114:27 in Cabal-2.1.0.0:Distribution.Simple
+  defaultMain, called at Setup.hs:2:8 in main:Main
+Setup: Encountered missing dependencies:
+template-haskell >=2.9 && <2.13
+
+builder for ‘/nix/store/mh3nykh1bnz8yv7i15pfdlczpsklca4z-uri-bytestring-0.3.1.0.drv’ failed with exit code 1
+error: build of ‘/nix/store/mh3nykh1bnz8yv7i15pfdlczpsklca4z-uri-bytestring-0.3.1.0.drv’ failed

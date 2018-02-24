@@ -1,1 +1,1 @@
-[ self.data-default self.haskell-src-exts self.lens self.monad-control self.prim-uniq self.reflection self.split self.template-haskell self.unbounded-delays ]
+data-default haskell-src-exts lens monad-control prim-uniq reflection split template-haskell unbounded-delays

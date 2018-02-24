@@ -1,0 +1,244 @@
+these derivations will be built:
+  /nix/store/106wyvzw1czhv356li5ihwsycgx2j7k7-doctest-0.14.0.drv
+  /nix/store/j2pi6ryzw1swckfpp0ng314ds0v0svrq-distributive-0.5.3.drv
+  /nix/store/vadfpsv75wm3jlfpq1krpixw6zxkqv75-comonad-5.0.3.drv
+  /nix/store/0s0clix576kz8w91m4wpipyh537731b2-bifunctors-5.5.2.drv
+  /nix/store/59i7k6zv1gasldj2gyhmsm2h24jdgfg7-semigroupoids-5.2.2.drv
+  /nix/store/mrnsh5ii7n8x2bf7v682ya183s45i6kp-profunctors-5.2.2.drv
+  /nix/store/mb3ylwp3ja6qbzmwc2mm0zzxinv4vgaa-free-5.drv
+building path(s) ‘/nix/store/35q01zqzhvrqzvk2mi6iq62ywvi4nb12-doctest-0.14.0-doc’, ‘/nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0’
+setupCompilerEnvironmentPhase
+Build with /nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204.
+unpacking sources
+unpacking source archive /nix/store/p3s6c9294fjhny7x73kcb98gfgpj9291-doctest-0.14.0.tar.gz
+source root is doctest-0.14.0
+setting SOURCE_DATE_EPOCH to timestamp 1518426808 of file doctest-0.14.0/test/UtilSpec.hs
+patching sources
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-doctest-0.14.0.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-doctest-0.14.0.drv-0/Main.o )
+Linking Setup ...
+configuring
+configureFlags: --verbose --prefix=/nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0 --libdir=$prefix/lib/$compiler --libsubdir=$pkgid --docdir=/nix/store/35q01zqzhvrqzvk2mi6iq62ywvi4nb12-doctest-0.14.0-doc/share/doc --with-gcc=gcc --package-db=/tmp/nix-build-doctest-0.14.0.drv-0/package.conf.d --ghc-option=-optl=-Wl,-rpath=/nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0/lib/ghc-8.4.0.20180204/doctest-0.14.0 --ghc-option=-j8 --disable-split-objs --disable-library-profiling --disable-profiling --enable-shared --disable-coverage --enable-library-vanilla --enable-executable-dynamic --disable-tests --ghc-option=-split-sections --extra-lib-dirs=/nix/store/069g827lh3hrhp4vkcq3rsh5jh65pm3l-ncurses-6.0-20171125/lib --extra-lib-dirs=/nix/store/8qfd8gx0j3yzamkrbrfz5kc00h4cqd1q-gmp-6.1.2/lib --extra-lib-dirs=/nix/store/069g827lh3hrhp4vkcq3rsh5jh65pm3l-ncurses-6.0-20171125/lib
+Using Parsec parser
+Configuring doctest-0.14.0...
+Dependency base ==4.*: using base-4.11.0.0
+Dependency base-compat >=0.7.0: using base-compat-0.9.3
+Dependency code-page >=0.1: using code-page-0.1.3
+Dependency deepseq -any: using deepseq-1.4.3.0
+Dependency directory -any: using directory-1.3.1.5
+Dependency doctest -any: using doctest-0.14.0
+Dependency filepath -any: using filepath-1.4.2
+Dependency ghc >=7.0 && <8.6: using ghc-8.4.0.20180204
+Dependency ghc-paths >=0.1.0.9: using ghc-paths-0.1.0.9
+Dependency process -any: using process-1.6.3.0
+Dependency syb >=0.3: using syb-0.7
+Dependency transformers -any: using transformers-0.5.5.0
+Source component graph:
+    component lib
+    component exe:doctest dependency lib
+Configured component graph:
+    component doctest-0.14.0-BRwXWiEtLpEE8emrLBWSRd
+        include base-4.11.0.0
+        include base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        include code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        include deepseq-1.4.3.0
+        include directory-1.3.1.5
+        include filepath-1.4.2
+        include ghc-8.4.0.20180204
+        include ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        include process-1.6.3.0
+        include syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        include transformers-0.5.5.0
+    component doctest-0.14.0-IVj8JKuNbA38cdNPA0MsWb-doctest
+        include base-4.11.0.0
+        include base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        include code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        include deepseq-1.4.3.0
+        include directory-1.3.1.5
+        include doctest-0.14.0-BRwXWiEtLpEE8emrLBWSRd
+        include filepath-1.4.2
+        include ghc-8.4.0.20180204
+        include ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        include process-1.6.3.0
+        include syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        include transformers-0.5.5.0
+Linked component graph:
+    unit doctest-0.14.0-BRwXWiEtLpEE8emrLBWSRd
+        include base-4.11.0.0
+        include base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        include code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        include deepseq-1.4.3.0
+        include directory-1.3.1.5
+        include filepath-1.4.2
+        include ghc-8.4.0.20180204
+        include ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        include process-1.6.3.0
+        include syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        include transformers-0.5.5.0
+        Test.DocTest=doctest-0.14.0-BRwXWiEtLpEE8emrLBWSRd:Test.DocTest
+    unit doctest-0.14.0-IVj8JKuNbA38cdNPA0MsWb-doctest
+        include base-4.11.0.0
+        include base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        include code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        include deepseq-1.4.3.0
+        include directory-1.3.1.5
+        include doctest-0.14.0-BRwXWiEtLpEE8emrLBWSRd
+        include filepath-1.4.2
+        include ghc-8.4.0.20180204
+        include ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        include process-1.6.3.0
+        include syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        include transformers-0.5.5.0
+Ready component graph:
+    definite doctest-0.14.0-BRwXWiEtLpEE8emrLBWSRd
+        depends base-4.11.0.0
+        depends base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        depends code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        depends deepseq-1.4.3.0
+        depends directory-1.3.1.5
+        depends filepath-1.4.2
+        depends ghc-8.4.0.20180204
+        depends ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        depends process-1.6.3.0
+        depends syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        depends transformers-0.5.5.0
+    definite doctest-0.14.0-IVj8JKuNbA38cdNPA0MsWb-doctest
+        depends base-4.11.0.0
+        depends base-compat-0.9.3-Bvqg5hVperwARH3YyuY03W
+        depends code-page-0.1.3-63wYzzhgx7T60iPBYKKIve
+        depends deepseq-1.4.3.0
+        depends directory-1.3.1.5
+        depends doctest-0.14.0-BRwXWiEtLpEE8emrLBWSRd
+        depends filepath-1.4.2
+        depends ghc-8.4.0.20180204
+        depends ghc-paths-0.1.0.9-DxsRF19psfECRM2jcub7yu
+        depends process-1.6.3.0
+        depends syb-0.7-12Yx8C7qfUAKpojD8I0eSI
+        depends transformers-0.5.5.0
+Using Cabal-2.1.0.0 compiled by ghc-8.4
+Using compiler: ghc-8.4.0.20180204
+Using install prefix:
+/nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0
+Executables installed in:
+/nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0/bin
+Libraries installed in:
+/nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0/lib/ghc-8.4.0.20180204/doctest-0.14.0
+Dynamic Libraries installed in:
+/nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204
+Private executables installed in:
+/nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0/libexec/x86_64-linux-ghc-8.4.0.20180204/doctest-0.14.0
+Data files installed in:
+/nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0/share/x86_64-linux-ghc-8.4.0.20180204/doctest-0.14.0
+Documentation installed in:
+/nix/store/35q01zqzhvrqzvk2mi6iq62ywvi4nb12-doctest-0.14.0-doc/share/doc
+Configuration files installed in:
+/nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0/etc
+No alex found
+Using ar found on system at:
+/nix/store/b0zlxla7dmy1iwc3g459rjznx59797xy-binutils-2.28.1/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 7.3.0 given by user at:
+/nix/store/gqg2vrcq7krqi9rrl6pphvsg81sb8pjw-gcc-wrapper-7.3.0/bin/gcc
+Using ghc version 8.4.0.20180204 found on system at:
+/nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204/bin/ghc
+Using ghc-pkg version 8.4.0.20180204 found on system at:
+/nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.19.0 found on system at:
+/nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204/bin/hsc2hs
+Using hscolour version 1.24 found on system at:
+/nix/store/5zcm5x0pi1s4igjwa39jd55jwp470k8r-hscolour-1.24.2/bin/HsColour
+No jhc found
+Using ld found on system at:
+/nix/store/cmxaqb5cbzy4jk26na842n6hy1s4yn19-binutils-wrapper-2.28.1/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.0.20180204 found on system at:
+/nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204/bin/runghc
+Using strip version 2.28 found on system at:
+/nix/store/b0zlxla7dmy1iwc3g459rjznx59797xy-binutils-2.28.1/bin/strip
+Using tar found on system at:
+/nix/store/2p00w952ljb1172nsf3jm7nsjgsw5qpw-gnutar-1.30/bin/tar
+No uhc found
+building
+Preprocessing library for doctest-0.14.0..
+Building library for doctest-0.14.0..
+[ 1 of 16] Compiling GhcUtil          ( src/GhcUtil.hs, dist/build/GhcUtil.o )
+[ 2 of 16] Compiling Language.Haskell.GhciWrapper ( ghci-wrapper/src/Language/Haskell/GhciWrapper.hs, dist/build/Language/Haskell/GhciWrapper.o )
+[ 3 of 16] Compiling Interpreter      ( src/Interpreter.hs, dist/build/Interpreter.o )
+[ 4 of 16] Compiling Location         ( src/Location.hs, dist/build/Location.o )
+[ 5 of 16] Compiling Paths_doctest    ( dist/build/autogen/Paths_doctest.hs, dist/build/Paths_doctest.o )
+[ 6 of 16] Compiling Options          ( src/Options.hs, dist/build/Options.o )
+[ 7 of 16] Compiling Sandbox          ( src/Sandbox.hs, dist/build/Sandbox.o )
+[ 8 of 16] Compiling PackageDBs       ( src/PackageDBs.hs, dist/build/PackageDBs.o )
+[ 9 of 16] Compiling Util             ( src/Util.hs, dist/build/Util.o )
+[10 of 16] Compiling Extract          ( src/Extract.hs, dist/build/Extract.o )
+[11 of 16] Compiling Parse            ( src/Parse.hs, dist/build/Parse.o )
+[12 of 16] Compiling Runner.Example   ( src/Runner/Example.hs, dist/build/Runner/Example.o )
+[13 of 16] Compiling Property         ( src/Property.hs, dist/build/Property.o )
+[14 of 16] Compiling Runner           ( src/Runner.hs, dist/build/Runner.o )
+[15 of 16] Compiling Run              ( src/Run.hs, dist/build/Run.o )
+[16 of 16] Compiling Test.DocTest     ( src/Test/DocTest.hs, dist/build/Test/DocTest.o )
+Preprocessing executable 'doctest' for doctest-0.14.0..
+Building executable 'doctest' for doctest-0.14.0..
+[1 of 2] Compiling Main             ( driver/Main.hs, dist/build/doctest/doctest-tmp/Main.dyn_o )
+[2 of 2] Compiling Paths_doctest    ( dist/build/doctest/autogen/Paths_doctest.hs, dist/build/doctest/doctest-tmp/Paths_doctest.dyn_o )
+Linking dist/build/doctest/doctest ...
+haddockPhase
+Running hscolour for doctest-0.14.0...
+Preprocessing library for doctest-0.14.0..
+Preprocessing executable 'doctest' for doctest-0.14.0..
+Preprocessing library for doctest-0.14.0..
+Running Haddock on library for doctest-0.14.0..
+Haddock coverage:
+  50% (  1 /  2) in 'Test.DocTest'
+  Missing documentation for:
+    Module header
+Documentation created: dist/doc/html/doctest/index.html,
+dist/doc/html/doctest/doctest.txt
+Preprocessing executable 'doctest' for doctest-0.14.0..
+installing
+Installing library in /nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0/lib/ghc-8.4.0.20180204/doctest-0.14.0
+Installing executable doctest in /nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0/bin
+Warning: The directory
+/nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0/bin is not in the
+system search path.
+post-installation fixup
+shrinking RPATHs of ELF executables and libraries in /nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0
+shrinking /nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0/lib/ghc-8.4.0.20180204/x86_64-linux-ghc-8.4.0.20180204/libHSdoctest-0.14.0-BRwXWiEtLpEE8emrLBWSRd-ghc8.4.0.20180204.so
+shrinking /nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0/bin/doctest
+strip is /nix/store/b0zlxla7dmy1iwc3g459rjznx59797xy-binutils-2.28.1/bin/strip
+stripping (with command strip and flags -S) in /nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0/lib  /nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0/bin 
+patching script interpreter paths in /nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0
+checking for references to /tmp/nix-build-doctest-0.14.0.drv-0 in /nix/store/hkgcgyld5dd9dkppq61n1kc32721plm4-doctest-0.14.0...
+shrinking RPATHs of ELF executables and libraries in /nix/store/35q01zqzhvrqzvk2mi6iq62ywvi4nb12-doctest-0.14.0-doc
+strip is /nix/store/b0zlxla7dmy1iwc3g459rjznx59797xy-binutils-2.28.1/bin/strip
+patching script interpreter paths in /nix/store/35q01zqzhvrqzvk2mi6iq62ywvi4nb12-doctest-0.14.0-doc
+checking for references to /tmp/nix-build-doctest-0.14.0.drv-0 in /nix/store/35q01zqzhvrqzvk2mi6iq62ywvi4nb12-doctest-0.14.0-doc...
+building path(s) ‘/nix/store/mv6v23qy46y59nan93vwapn27nyzy5zq-distributive-0.5.3-doc’, ‘/nix/store/wym3fk2093z9s19m73pci70m0vc1q1ns-distributive-0.5.3’
+setupCompilerEnvironmentPhase
+Build with /nix/store/ajlm15xw9v5ad954k7i3icl8si088z7w-ghc-8.4.0.20180204.
+unpacking sources
+unpacking source archive /nix/store/gdp22vlxb63nnvzljada3smqn1rmigzb-distributive-0.5.3.tar.gz
+source root is distributive-0.5.3
+setting SOURCE_DATE_EPOCH to timestamp 1501288672 of file distributive-0.5.3/Warning.hs
+patching sources
+Replace Cabal file with edited version from http://hackage.haskell.org/package/distributive-0.5.3/revision/4.cabal.
+compileBuildDriverPhase
+setupCompileFlags: -package-db=/tmp/nix-build-distributive-0.5.3.drv-0/package.conf.d -j8 -threaded
+[1 of 1] Compiling Main             ( Setup.lhs, /tmp/nix-build-distributive-0.5.3.drv-0/Main.o )
+Linking Setup ...
