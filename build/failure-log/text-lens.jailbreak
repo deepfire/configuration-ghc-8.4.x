@@ -1,5 +1,0 @@
-Setup: Encountered missing dependencies:
-base >=4.9.0.0 && <4.10,
-extra >=1.4.10 && <1.5,
-hspec >=2.2.4 && <2.3,
-lens ==4.14.*

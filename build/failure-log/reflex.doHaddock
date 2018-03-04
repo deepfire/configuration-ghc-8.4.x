@@ -1,3 +1,0 @@
-haddock: internal error: internal: extractDecl (ClsInstD)
-CallStack (from HasCallStack):
-  error, called at utils/haddock/haddock-api/src/Haddock/Interface/Create.hs:1058:16 in main:Haddock.Interface.Create

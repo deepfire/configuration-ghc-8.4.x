@@ -1,3 +1,0 @@
-error: while evaluating the attribute ‘buildInputs’ of the derivation ‘hspec-2.4.8’ at /home/deepfire/src/nixpkgs/pkgs/stdenv/generic/make-derivation.nix:148:11:
-while evaluating the attribute ‘buildInputs’ of the derivation ‘stringbuilder-0.5.1’ at /home/deepfire/src/nixpkgs/pkgs/stdenv/generic/make-derivation.nix:148:11:
-infinite recursion encountered, at undefined position

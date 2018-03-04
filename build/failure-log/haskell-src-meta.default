@@ -1,2 +1,0 @@
-Setup: Encountered missing dependencies:
-base >=4.6 && <4.11, template-haskell >=2.8 && <2.13

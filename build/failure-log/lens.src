@@ -1,2 +1,0 @@
-Setup: Encountered missing dependencies:
-free ==4.*, template-haskell >=2.4 && <2.13

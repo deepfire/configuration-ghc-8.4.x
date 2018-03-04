@@ -1,3 +1,0 @@
-    • Could not deduce (MonadIO (DsM q))
-        arising from the 'deriving' clause of a data type declaration
-      from the context: Quasi q

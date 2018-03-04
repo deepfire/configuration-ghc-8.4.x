@@ -1,6 +1,0 @@
-error: while evaluating the attribute ‘buildInputs’ of the derivation ‘hspec-core-2.4.8’ at /home/deepfire/src/nixpkgs/pkgs/stdenv/generic/make-derivation.nix:148:11:
-while evaluating the attribute ‘buildInputs’ of the derivation ‘silently-1.2.5’ at /home/deepfire/src/nixpkgs/pkgs/stdenv/generic/make-derivation.nix:148:11:
-while evaluating the attribute ‘buildInputs’ of the derivation ‘temporary-1.2.1.1’ at /home/deepfire/src/nixpkgs/pkgs/stdenv/generic/make-derivation.nix:148:11:
-while evaluating the attribute ‘buildInputs’ of the derivation ‘base-compat-0.9.3’ at /home/deepfire/src/nixpkgs/pkgs/stdenv/generic/make-derivation.nix:148:11:
-while evaluating the attribute ‘propagatedBuildInputs’ of the derivation ‘hspec-2.4.8’ at /home/deepfire/src/nixpkgs/pkgs/stdenv/generic/make-derivation.nix:148:11:
-infinite recursion encountered, at undefined position

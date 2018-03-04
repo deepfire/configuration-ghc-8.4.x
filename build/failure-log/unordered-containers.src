@@ -1,3 +1,0 @@
-    Module ‘Data.Semigroup’ does not export ‘Monoid(..)’
-   |
-80 | import Data.Semigroup (Semigroup(..), Monoid(..))

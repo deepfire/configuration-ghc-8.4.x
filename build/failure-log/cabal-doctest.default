@@ -1,2 +1,0 @@
-Setup: Encountered missing dependencies:
-Cabal >=1.10 && <2.1, base >=4.3 && <4.11

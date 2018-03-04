@@ -1,2 +1,0 @@
-Setup: Encountered missing dependencies:
-aeson >=0.9 && <0.12, base >=4.8 && <4.10, vector ==0.11.*
