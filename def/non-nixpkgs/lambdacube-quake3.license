@@ -1,0 +1,1 @@
+stdenv.lib.licenses.bsd3

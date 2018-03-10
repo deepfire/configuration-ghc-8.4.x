@@ -1,0 +1,1 @@
+attoparsec base containers nix-derivation optparse-applicative pretty-show prettyprinter prettyprinter-ansi-terminal protolude system-filepath text vector

@@ -1,0 +1,1 @@
+aeson base binary bytestring containers data-binary-ieee754 deepseq digest directory filepath hashable JuicyPixels lambdacube-compiler lambdacube-gl lambdacube-ir megaparsec mersenne-random-pure64 microlens-platform MonadRandom mtl pretty-show process time transformers unordered-containers vect vector zlib

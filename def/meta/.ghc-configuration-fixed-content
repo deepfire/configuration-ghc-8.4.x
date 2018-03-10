@@ -35,13 +35,3 @@
   transformers = null;
   unix = null;
   xhtml = null;
-
-  # Undo the override in `configuration-common.nix`: GHC 8.4 bumps Cabal to 2.1:
-  # Distribution/Simple/CCompiler.hs:64:10: error:
-  #  • No instance for (Semigroup CDialect)
-  #      arising from the superclasses of an instance declaration
-  #  • In the instance declaration for ‘Monoid CDialect’
-  #     |
-  #  64 | instance Monoid CDialect where
-  #     |          ^^^^^^^^^^^^^^^
-  jailbreak-cabal = super.jailbreak-cabal.override { Cabal = self.Cabal; }; #pkgs.haskell.packages.ghc822.jailbreak-cabal;

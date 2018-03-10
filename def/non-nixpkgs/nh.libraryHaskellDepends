@@ -1,0 +1,1 @@
+aeson ansi-wl-pprint base base-unicode-symbols Cabal cabal2nix containers data-default-class directory distribution-nixpkgs filepath hnix hourglass language-nix lens optparse-applicative parsers pretty req semigroups temporary text text-format trifecta
