@@ -1,3 +1,0 @@
-breaks hspec:
-Setup: Encountered missing dependencies:
-hspec-discover ==2.4.7
