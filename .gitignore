@@ -1,5 +1,6 @@
 /build
 /cache
-/configuration-ghc-*
 /current.*
+/configuration-ghc-*.nix
+/overrides.nix
 /*.log
